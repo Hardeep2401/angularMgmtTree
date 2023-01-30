@@ -8,7 +8,6 @@
                 <div class="col-md-2">
                     Filter by :
                 </div>
-
             </div>
             <div class="row">
                 <div class="col-md-6">
@@ -25,6 +24,7 @@
                             <th>
                                 <button class="btn btn-primary">Show Image</button>
                             </th>
+                            <th>Sr.No</th>
                             <th>Product</th>
                             <th>Code</th>
                             <th>Available</th>
@@ -33,8 +33,9 @@
                         </tr>
                     </thead>
                     <tbody>
-                        <tr *ngFor='let product of products'>
+                        <tr *ngFor='let product of products; index as i'>
                             <td><img src="{{product.productImage}}" alt="" class="productImg"></td>
+                            <td>{{i+1}}</td>
                             <td>{{product.productName}}</td>
                             <td>{{product.productCode}}</td>
                             <td>{{product.releaseDate}}</td>
@@ -45,7 +46,5 @@
                 </table>
             </div>
         </div>
-
-
     </div>
 </div>
