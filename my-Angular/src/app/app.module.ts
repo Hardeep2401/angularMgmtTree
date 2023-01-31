@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-
+import { FormsModule } from '@angular/forms';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { AccountComponent } from './account/account.component';
@@ -22,6 +22,8 @@ import { UserComponent } from './user/user.component';
 import { AdminComponent } from './user/admin/admin.component';
 import { UserAdminComponent } from './user/user-admin/user-admin.component';
 import { ProductsComponent } from './products/products.component';
+
+
 
 @NgModule({
   declarations: [
@@ -45,11 +47,12 @@ import { ProductsComponent } from './products/products.component';
     AdminComponent,
     UserAdminComponent,
     ProductsComponent
-  
+
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
