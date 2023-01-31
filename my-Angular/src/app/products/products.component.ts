@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { IProduct } from './product';
 
 @Component({
   selector: 'app-products',
@@ -11,7 +12,7 @@ export class ProductsComponent {
   imageMargin: number = 2;
   showImage: boolean = false;
   listFilter: string = 'cart';
-  products: any[] = [
+  products: IProduct[] = [
     {
       "productImage": 'https://images.unsplash.com/photo-1530893609608-32a9af3aa95c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=764&q=80',
       "productId": 1,
@@ -19,7 +20,7 @@ export class ProductsComponent {
       "productCode": "GDN-0012",
       "releaseDate": "March 10,2023",
       "description": "Laptop",
-      "price": ' 1100.00',
+      "price": 1100.00,
       "starRating": 4.5
     },
     {
@@ -29,7 +30,7 @@ export class ProductsComponent {
       "productCode": "GDN-0012",
       "releaseDate": "March 10,2023",
       "description": "Watch",
-      "price": ' 700.00',
+      "price": 700.00,
       "starRating": 4.1
     },
     {
@@ -39,7 +40,7 @@ export class ProductsComponent {
       "productCode": "GDN-0012",
       "releaseDate": "March 10,2023",
       "description": "Mobile Product",
-      "price": ' 455.00',
+      "price": 455.00,
       "starRating": 4.7
     }
   ]
