@@ -40,7 +40,7 @@
                             </td>
                             <td>{{i+1}}</td>
                             <td>{{product.productName}}</td>
-                            <td>{{product.productCode}}</td>
+                            <td>{{product.productCode | lowercase }}</td>
                             <td>{{product.releaseDate}}</td>
                             <td>{{product.price | currency:'INR'}}</td>
                             <td>{{product.starRating}}</td>
