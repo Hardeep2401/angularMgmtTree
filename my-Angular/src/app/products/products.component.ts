@@ -11,7 +11,19 @@ export class ProductsComponent implements OnInit {
   imageWidth: number = 50;
   imageMargin: number = 2;
   showImage: boolean = false;
-  listFilter: string = 'cart';
+  // listFilter: string = 'cart';
+  private _listFilter: string = '';
+
+  get listFilter(): string {
+    return this._listFilter;
+  }
+
+  set listFilter(value: string) {
+    this._listFilter = value;
+    console.log('In setter : ', value);
+    this.filteredProducts = this.performFilter(value);
+  }
+  filteredProducts: IProduct[] = [];
   products: IProduct[] = [
     {
       "productImage": 'https://images.unsplash.com/photo-1530893609608-32a9af3aa95c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=764&q=80',
@@ -25,7 +37,7 @@ export class ProductsComponent implements OnInit {
     },
     {
       "productImage": 'https://images.unsplash.com/photo-1610230099906-7ad016cf5cf9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80',
-      "productId": 1,
+      "productId": 2,
       "productName": "Apple Watch",
       "productCode": "GDN-0012",
       "releaseDate": "March 10,2023",
@@ -34,8 +46,18 @@ export class ProductsComponent implements OnInit {
       "starRating": 4.1
     },
     {
+      "productImage": 'https://images.unsplash.com/photo-1610230099906-7ad016cf5cf9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80',
+      "productId": 3,
+      "productName": "Samsung Mobile",
+      "productCode": "GDN-0012",
+      "releaseDate": "March 10,2023",
+      "description": "Watch",
+      "price": 700.00,
+      "starRating": 4.1
+    },
+    {
       "productImage": 'https://images.unsplash.com/photo-1609692814858-f7cd2f0afa4f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80',
-      "productId": 1,
+      "productId": 4,
       "productName": "Iphone Apple",
       "productCode": "GDN-0012",
       "releaseDate": "March 10,2023",
@@ -43,7 +65,15 @@ export class ProductsComponent implements OnInit {
       "price": 455.00,
       "starRating": 4.7
     }
+
   ]
+  performFilter(filterBy: string): IProduct[] {
+    filterBy = filterBy.toLocaleLowerCase();
+    return this.products.filter((product: IProduct) =>
+      product.productName.toLocaleLowerCase().includes(filterBy));
+
+  }
+
   toggleImage(): void {
     this.showImage = !this.showImage;
   }
@@ -52,7 +82,7 @@ export class ProductsComponent implements OnInit {
   }
 
   ngOnInit(): void {
-    console.log('In onInit .....');
+    this._listFilter = 'cart';
   }
 
 }
