@@ -225,7 +225,8 @@
                                     <div class="form-check gap-2 applicantOne input-group-sm">
                                         <input class="form-check-input" type="radio" name="applicant"
                                             id="applicationOneApplicant">
-                                        <label class="form-check-label mb-0 fw-semibold" for="applicationOneApplicant">
+                                        <label class="form-check-label mb-0 fw-semibold col-form-label"
+                                            for="applicationOneApplicant">
                                             Applicant #
                                         </label>
                                         <input type="text" class="form-control" />
@@ -235,7 +236,8 @@
                                     <div class="form-check mx-auto gap-2 applicantOne input-group-sm">
                                         <input class="form-check-input" type="radio" name="applicant"
                                             id="applicationOneApplicants">
-                                        <label class="form-check-label mb-0 fw-semibold" for="applicationOneApplicants">
+                                        <label class="form-check-label mb-0 fw-semibold col-form-label"
+                                            for="applicationOneApplicants">
                                             Applicant #
                                         </label>
                                         <input type="text" class="form-control" />
@@ -309,9 +311,10 @@
                                 <div class="col-12 d-flex align-items-center gap-2">
                                     <!--title-->
                                     <div class="form-check gap-2 applicantOne input-group-sm">
-                                        <input class="form-check-input" type="radio" name="applicantOneForm"
-                                            id="applicationOneApplicant">
-                                        <label class="form-check-label mb-0 fw-semibold" for="applicationOneApplicant">
+                                        <input class="form-check-input" type="radio" name="applicantOneFormHash"
+                                            id="applicantOneFormHash">
+                                        <label class="form-check-label mb-0 fw-semibold col-form-label"
+                                            for="applicantOneFormHash">
                                             Applicant #
                                         </label>
                                         <input type="text" class="form-control" />
@@ -319,9 +322,10 @@
                                     <!--/title-->
                                     <!--title-->
                                     <div class="form-check mx-auto gap-2 applicantOne input-group-sm">
-                                        <input class="form-check-input" type="radio" name="applicantOneForm"
-                                            id="applicationOneApplicants">
-                                        <label class="form-check-label mb-0 fw-semibold" for="applicationOneApplicants">
+                                        <input class="form-check-input" type="radio" name="applicantOneFormHash"
+                                            id="applicationOneApplicantsHash">
+                                        <label class="form-check-label mb-0 fw-semibold col-form-label"
+                                            for="applicationOneApplicantsHash">
                                             Applicant #
                                         </label>
                                         <input type="text" class="form-control" />
@@ -329,8 +333,170 @@
                                     </div>
                                     <!--/title-->
                                 </div>
+                                <div class="col-12 d-flex align-items-center gap-2">
+                                    <!--title-->
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="radio" name="applicationOneToBeInput"
+                                            id="applicationOneToInput">
+                                        <label class="form-check-label mb-0 fw-semibold" for="applicationOneToInput">
+                                            Applicant to be input (updated once selected)
+                                        </label>
+                                    </div>
+                                    <!--/title-->
+                                    <!--title-->
+                                    <div class="form-check mx-auto">
+                                        <input class="form-check-input" type="radio" name="applicationOneToBeInput"
+                                            id="applicationOneToBeInput">
+                                        <label class="form-check-label mb-0 fw-semibold" for="applicationOneToBeInput">
+                                            Applicant to be input (updated once selected)
+                                        </label>
+                                    </div>
+                                    <!--/title-->
+                                </div>
                             </div>
                             <!-- /Marital status checkbox -->
+                            <!-- Residential status  -->
+                            <div class="row mt-2">
+                                <div class="col-12">
+                                    <label class="form-label fw-bold">Residential status:: <span
+                                            class="text-danger">*</span></label>
+                                </div>
+                                <div class="col-12 d-flex align-items-center gap-5">
+                                    <!--title-->
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="radio"
+                                            name="applicationOneAustralianCitizen" id="applicationOneAustralianCitizen">
+                                        <label class="form-check-label mb-0 fw-semibold"
+                                            for="applicationOneAustralianCitizen">
+                                            Australian citizen
+                                        </label>
+                                    </div>
+                                    <!--/title-->
+                                    <!--title-->
+                                    <div class="form-check mx-auto">
+                                        <input class="form-check-input" type="radio"
+                                            name="applicationOneAustralianCitizen" id="applicationOnePermanentResident">
+                                        <label class="form-check-label mb-0 fw-semibold"
+                                            for="applicationOnePermanentResident">
+                                            Permanent resident
+                                        </label>
+                                    </div>
+                                    <!--/title-->
+                                </div>
+                                <!-- temporary resident -->
+                                <div class="col-12 d-flex align-items-center gap-5">
+                                    <!--title-->
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="radio"
+                                            name="applicationOneTemporaryResident" id="applicationOneTemporaryResident">
+                                        <label class="form-check-label mb-0 fw-semibold"
+                                            for="applicationOneTemporaryResident">
+                                            Temporary resident
+                                        </label>
+                                    </div>
+                                    <!-- /temporary resident -->
+                                    <!-- non resident -->
+                                    <div class="form-check mx-auto">
+                                        <input class="form-check-input" type="radio"
+                                            name="applicationOneTemporaryResident"
+                                            id="applicationOneNonTemporaryResident">
+                                        <label class="form-check-label mb-0 fw-semibold"
+                                            for="applicationOneNonTemporaryResident">
+                                            Non resident
+                                        </label>
+                                    </div>
+                                </div>
+                                <!-- non resident -->
+                                <!--  Expatriate -->
+                                <div class="col-12 d-flex align-items-center gap-5">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="radio" name="applicationOneExpatriate"
+                                            id="applicationOneExpatriate">
+                                        <label class="form-check-label mb-0 fw-semibold" for="applicationOneExpatriate">
+                                            Expatriate
+                                        </label>
+                                    </div>
+                                </div>
+                                <!-- / Expatriate -->
+                                <!-- skilled migrant visa -->
+                                <div class="col-12 d-flex">
+                                    <div class="form-check d-flex">
+                                        <input class="form-check-input SkilledInput" type="radio"
+                                            name="applicationOneSkilledMigrant" id="applicationOneSkilledMigrant">
+                                        <label for="applicationOneSkilledMigrant"
+                                            class="col-form-label mx-2 fw-semibold mt-0">Skilled migrant visa
+                                            subclass reference number:</label>
+                                        <div>
+                                            <input type="text" class="form-control" name="applicationOneSkilledMigrant"
+                                                id="applicationOneSkilledMigrantVisa">
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- /skilled migrant visa  -->
+                                <!-- FIRB approved -->
+                                <div class="col-12 ">
+                                    <div class="form-check d-flex">
+                                        <label class="form-check-label mb-0 fw-semibold" for="applicationOneExpatriate">
+                                            Expatriate
+                                        </label>
+                                        <div class="mx-auto">
+                                            <input class="form-check-input" type="radio" name="applicationOneExpatriate"
+                                                id="applicationOneExpatriate">
+                                            <label class="form-check-label mb-0 fw-semibold"
+                                                for="applicationOneExpatriate"> Yes</label>
+                                        </div>
+                                        <div>
+                                            <input class="form-check-input" type="radio" name="applicationOneExpatriate"
+                                                id="applicationOneExpatriate">
+                                            <label class="form-check-label mb-0 fw-semibold"
+                                                for="applicationOneExpatriate"> Yes</label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- FIRB approved -->
+                                <!-- date and place birth -->
+                                <div class="col-12 ">
+                                    <div class="form-check d-flex">
+                                        <label class="form-check-label mb-0 fw-semibold col-form-label"
+                                            for="applicationOneExpatriate">
+                                            Date & place of birth:
+                                        </label>
+                                        <div class="mx-auto">
+                                            <input type="text" class="form-control" name="applicationOneSkilledMigrant"
+                                                id="applicationOneSkilledMigrantVisa">
+                                        </div>
+                                        <div>
+                                            <input type="text" class="form-control" name="applicationOneSkilledMigrant"
+                                                id="applicationOneSkilledMigrantVisa">
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- date and place birth -->
+                                <!-- drivers licence number -->
+                                <div class="col-12 gap-5">
+                                    <div class="form-check d-flex">
+                                        <label class="form-check-label mb-0 fw-semibold col-form-label"
+                                            for="applicationOneExpatriate">
+                                            Drivers licence number:
+                                        </label>
+                                        <div class="mx-auto">
+                                            <input type="text" class="form-control" name="applicationOneSkilledMigrant"
+                                                id="applicationOneSkilledMigrantVisa">
+                                        </div>
+                                        <label class="form-check-label mb-0 fw-semibold col-form-label"
+                                            for="applicationOneExpatriate">
+                                            expiry date
+                                        </label>
+                                        <div>
+
+                                            <input type="text" class="form-control" name="applicationOneSkilledMigrant"
+                                                id="applicationOneSkilledMigrantVisa">
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- drivers licence number -->
+                            </div>
+                            <!-- Residential status  -->
                         </div>
                         <!--/applicant-->
 
