@@ -22,6 +22,11 @@ import { UserComponent } from './user/user.component';
 import { AdminComponent } from './user/admin/admin.component';
 import { UserAdminComponent } from './user/user-admin/user-admin.component';
 import { ProductsComponent } from './products/products.component';
+import { ServerComponent } from './server/server.component';
+import { NavCardComponent } from './nav-card/nav-card.component';
+import { NavBarComponent } from './nav-card/nav-bar/nav-bar.component';
+import { CardComponent } from './nav-card/card/card.component';
+import { ApplicationFormComponent } from './application-form/application-form.component';
 
 
 
@@ -46,7 +51,12 @@ import { ProductsComponent } from './products/products.component';
     UserComponent,
     AdminComponent,
     UserAdminComponent,
-    ProductsComponent
+    ProductsComponent,
+    ServerComponent,
+    NavCardComponent,
+    NavBarComponent,
+    CardComponent,
+    ApplicationFormComponent
 
   ],
   imports: [

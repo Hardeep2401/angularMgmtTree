@@ -82,7 +82,7 @@ export class ProductsComponent implements OnInit {
   }
 
   ngOnInit(): void {
-    this._listFilter = 'cart';
+    this._listFilter = ' ';
   }
 
 }
