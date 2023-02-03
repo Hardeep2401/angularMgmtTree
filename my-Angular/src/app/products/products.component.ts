@@ -67,6 +67,15 @@ export class ProductsComponent implements OnInit {
     }
 
   ]
+  displayVal: string = '';
+  getValue(val: string) {
+    console.log(val);
+    this.displayVal = val;
+  }
+  addValue(val: string) {
+    this.displayVal = val;
+  }
+
   performFilter(filterBy: string): IProduct[] {
     filterBy = filterBy.toLocaleLowerCase();
     return this.products.filter((product: IProduct) =>
