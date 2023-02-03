@@ -7,10 +7,10 @@ import { Component, OnChanges } from '@angular/core';
 })
 
 export class ServerComponent implements OnChanges {
-  rating: number = 4;
-  cropWidth: number = 75;
+  rating: number = 5;
+  cropWidth: number = 110;
 
   ngOnChanges(): void {
-    this.cropWidth = this.rating * 75 / 5;
+    this.cropWidth = this.rating * 110 / 5;
   }
 }
