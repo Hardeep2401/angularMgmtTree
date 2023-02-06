@@ -28,6 +28,7 @@ import { NavBarComponent } from './nav-card/nav-bar/nav-bar.component';
 import { CardComponent } from './nav-card/card/card.component';
 import { ApplicationFormComponent } from './application-form/application-form.component';
 import { ApplicationContinuedComponent } from './application-continued/application-continued.component';
+import { CurrentMortgagesComponent } from './current-mortgages/current-mortgages.component';
 
 
 
@@ -58,7 +59,8 @@ import { ApplicationContinuedComponent } from './application-continued/applicati
     NavBarComponent,
     CardComponent,
     ApplicationFormComponent,
-    ApplicationContinuedComponent
+    ApplicationContinuedComponent,
+    CurrentMortgagesComponent
 
   ],
   imports: [
