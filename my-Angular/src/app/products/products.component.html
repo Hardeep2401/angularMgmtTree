@@ -1,7 +1,7 @@
 <div class="container">
     <div class="card mt-5">
         <div class="card-header bg-primary text-light ">
-            <h2> {{title}}</h2>
+            <h2> {{pageTitle}}</h2>
         </div>
         <div class="card-body">
             <div class="row">
@@ -43,7 +43,10 @@
                             <td>{{product.productCode | lowercase }}</td>
                             <td>{{product.releaseDate}}</td>
                             <td>{{product.price | currency:'INR'}}</td>
-                            <td><app-server></app-server></td>
+                            <td>
+                                <app-server [rating]='product.starRating' (ratingClicked)='onRatingClicked($event)'>
+                                </app-server>
+                            </td>
                         </tr>
                     </tbody>
                 </table>
