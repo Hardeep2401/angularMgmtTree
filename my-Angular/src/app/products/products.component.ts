@@ -69,7 +69,6 @@ export class ProductsComponent implements OnInit {
   ]
   displayVal: string = '';
   getValue(val: string) {
-    console.log(val);
     this.displayVal = val;
   }
   addValue(val: string) {

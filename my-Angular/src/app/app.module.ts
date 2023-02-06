@@ -27,6 +27,7 @@ import { NavCardComponent } from './nav-card/nav-card.component';
 import { NavBarComponent } from './nav-card/nav-bar/nav-bar.component';
 import { CardComponent } from './nav-card/card/card.component';
 import { ApplicationFormComponent } from './application-form/application-form.component';
+import { ApplicationContinuedComponent } from './application-continued/application-continued.component';
 
 
 
@@ -56,7 +57,8 @@ import { ApplicationFormComponent } from './application-form/application-form.co
     NavCardComponent,
     NavBarComponent,
     CardComponent,
-    ApplicationFormComponent
+    ApplicationFormComponent,
+    ApplicationContinuedComponent
 
   ],
   imports: [
