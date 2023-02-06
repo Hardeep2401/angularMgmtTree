@@ -1,8 +1,27 @@
+<!-- navbar -->
+<nav class="navbar navbar-expand-lg shadow-lg ">
+    <div class="container-fluid">
+        <a class="navbar-brand fw-bold text-uppercase text-light" href="#">Submission Pack</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end fw-semibold" id="navbarNavAltMarkup">
+            <div class="navbar-nav ">
+                <a class="nav-link active text-light" aria-current="page" routerLink="home">Home</a>
+                <a class="nav-link text-light" routerLink="about">About</a>
+                <a class="nav-link text-light" routerLink="services">Services</a>
+                <a class="nav-link text-light" routerLink="contact">Contact</a>
+            </div>
+        </div>
+    </div>
+</nav>
+<!-- /navbar -->
+<!-- application continued -->
 <div class="container-fluid py-4">
     <div class="row">
         <div class="col-12">
             <h1 class="text-center fw-bold p-3 text-success">Application continued</h1>
-
             <div class="card p-4 shadow-sm">
                 <form class="row">
                     <!--applicant-->
@@ -208,8 +227,11 @@
                                             Applicant #
                                         </label>
                                     </div>
-                                    <input class="form-control" type="text" placeholder="Applicant Name"
-                                        aria-label="name">
+                                    <div>
+                                        <input class="form-control" type="text" placeholder="Applicant Name"
+                                            aria-label="name">
+                                    </div>
+
                                 </div>
                             </div>
                             <div class="col-6">
@@ -383,7 +405,7 @@
                                 </div>
                             </div>
                             <div class="col-6">
-                                <div class="d-flex align-items-center gap-3">
+                                <div class="gap-3">
                                     <input class="form-control" id="applicantThreeSkilledMigrantVisa" type="text"
                                         placeholder="Skilled Migrant Visa" aria-label="name">
                                 </div>
@@ -423,14 +445,14 @@
                                     <span class="text-danger">*</span></label>
                             </div>
                             <div class="col-6">
-                                <div class="d-flex align-items-center gap-3">
+                                <div class="gap-3">
                                     <input class="form-control" name="applicantThreeDateBirth"
                                         id="applicantThreeDateBirth" type="text" placeholder="Date of Birth"
                                         aria-label="name">
                                 </div>
                             </div>
                             <div class="col-6">
-                                <div class="d-flex align-items-center gap-3">
+                                <div class="gap-3">
                                     <input class="form-control" name="applicantThreeBirthPlace"
                                         id="applicantThreeBirthPlace" type="text" placeholder="Birth Place"
                                         aria-label="name">
@@ -445,14 +467,14 @@
                                     <span class="text-danger">*</span></label>
                             </div>
                             <div class="col-6">
-                                <div class="d-flex align-items-center gap-3 ">
+                                <div class="gap-3 ">
                                     <label class="form-label fw-bold mb-0" for="applicantThreeDrivingExpiryDate">Expiry
                                         Date: <span class="text-danger">*</span>
                                     </label>
                                 </div>
                             </div>
                             <div class="col-6">
-                                <div class="d-flex align-items-center gap-3">
+                                <div class="gap-3">
                                     <input class="form-control" name="applicantThreeDrivingLicence"
                                         id="applicantThreeDrivingLicence" type="text" placeholder="Driviers Licence"
                                         aria-label="name">
@@ -1188,7 +1210,7 @@
                                 </div>
                             </div>
                             <div class="col-6">
-                                <div class="d-flex align-items-center gap-3">
+                                <div class="gap-3">
                                     <input class="form-control" id="applicantFourSkilledMigrantVisa" type="text"
                                         placeholder="Skilled Migrant Visa" aria-label="name">
                                 </div>
@@ -1230,14 +1252,14 @@
                                 </label>
                             </div>
                             <div class="col-6">
-                                <div class="d-flex align-items-center gap-3">
+                                <div class="gap-3">
                                     <input class="form-control" name="applicantFourDateBirth"
                                         id="applicantFourDatePlace" type="text" placeholder="Date of Birth"
                                         aria-label="name">
                                 </div>
                             </div>
                             <div class="col-6">
-                                <div class="d-flex align-items-center gap-3">
+                                <div class="gap-3">
                                     <label for="applicantFourBirthPlace"></label>
                                     <input class="form-control" name="applicantFourDateBirthPlace"
                                         id="applicantFourBirthPlace" type="text" placeholder="Birth Place"
@@ -1253,7 +1275,7 @@
                                     <span class="text-danger">*</span></label>
                             </div>
                             <div class="col-6">
-                                <div class="d-flex align-items-center gap-3 ">
+                                <div class="gap-3 ">
                                     <label class="form-label fw-bold mb-0"
                                         for="applicantFourDrivingLicenceExpiry">Expiry
                                         Date: <span class="text-danger">*</span>
@@ -1261,14 +1283,14 @@
                                 </div>
                             </div>
                             <div class="col-6">
-                                <div class="d-flex align-items-center gap-3">
+                                <div class="gap-3">
                                     <input class="form-control" name="applicantFourDrivingLicence"
                                         id="applicantFourDrivingLicenceNo" type="text" placeholder="Driviers Licence"
                                         aria-label="name">
                                 </div>
                             </div>
                             <div class="col-6">
-                                <div class="d-flex align-items-center gap-3">
+                                <div class="gap-3">
                                     <input class="form-control" name="applicantFourDrivingLicence"
                                         id="applicantFourDrivingLicenceExpiry" type="text" placeholder="Expiry Date"
                                         aria-label="name">
@@ -1281,14 +1303,14 @@
                                     <span class="text-danger">*</span></label>
                             </div>
                             <div class="col-6">
-                                <div class="d-flex align-items-center gap-3">
+                                <div class="gap-3">
                                     <label class="form-label fw-bold mb-0" for="applicantFourLicenceIssudedCard">Card
                                         Number <span class="text-danger">*</span>
                                     </label>
                                 </div>
                             </div>
                             <div class="col-6">
-                                <div class="d-flex align-items-center gap-3">
+                                <div class="gap-3">
                                     <input class="form-control" name="applicantFourLicenceIssuded"
                                         id="applicantFourLicenceIssuded" type="text" placeholder="Licence issued"
                                         aria-label="name">
@@ -1296,7 +1318,7 @@
                             </div>
 
                             <div class="col-6">
-                                <div class="d-flex align-items-center gap-3">
+                                <div class="gap-3">
                                     <input class="form-control" name="applicantFourLicenceIssuded"
                                         id="applicantFourLicenceIssudedCard" type="text" placeholder="Card Number"
                                         aria-label="name">
@@ -1311,14 +1333,14 @@
                                     <span class="text-danger">*</span></label>
                             </div>
                             <div class="col-6">
-                                <div class="d-flex align-items-center gap-3">
+                                <div class="gap-3">
                                     <label class="form-label fw-bold mb-0"
                                         for="applicantFourLicenceVerificationNumber">DDL:
                                     </label>
                                 </div>
                             </div>
                             <div class="col-6">
-                                <div class="d-flex align-items-center gap-3">
+                                <div class="gap-3">
                                     <input class="form-control" name="applicantFourLicenceVerificationNumber"
                                         id="applicantFourLicenceVerificationNumber" type="text"
                                         placeholder="Licence verification number" aria-label="name">
@@ -1336,7 +1358,7 @@
                             </div>
                             <div class="col-3">
                                 <div class="form-check">
-                                    <input class=" form-check-input" type="radio" name="applicantFourLicenceDdlYes"
+                                    <input class="form-check-input" type="radio" name="applicantFourLicenceDdlYes"
                                         id="applicantFourLicenceDdlNo">
                                     <label class="form-check-label fw-semibold mb-0" for="applicantFourLicenceDdlNo">
                                         No
@@ -1355,14 +1377,14 @@
                                     <span class="text-danger">*</span></label>
                             </div>
                             <div class="col-6">
-                                <div class="d-flex align-items-center gap-3">
+                                <div class="gap-3">
                                     <input class="form-control" name="applicantFourPassport"
                                         id="applicantFourPassportExpiring" type="text" placeholder="Passport"
                                         aria-label="name">
                                 </div>
                             </div>
                             <div class="col-6">
-                                <div class="d-flex align-items-center gap-3">
+                                <div class="gap-3">
                                     <input class="form-control" name="applicantFourPassport"
                                         id="applicantFourPassportExpiringDate" type="text" placeholder=" Expiring"
                                         aria-label="name">
@@ -1375,14 +1397,14 @@
                                     <span class="text-danger">*</span></label>
                             </div>
                             <div class="col-3">
-                                <div class="d-flex align-items-center gap-3">
+                                <div class="gap-3">
                                     <input class="form-control" name="applicantFourPassportIssued"
                                         id="applicantFourPassportIssued" type="text" placeholder="Passport issued"
                                         aria-label="name">
                                 </div>
                             </div>
                             <div class="col-3">
-                                <div class="d-flex align-items-center gap-3">
+                                <div class="gap-3">
                                     <input class="form-control" name="applicantFourPassportIssued"
                                         id="applicantFourPassportIssuedDate" type="text" placeholder="Passport issued"
                                         aria-label="name">
@@ -1399,14 +1421,14 @@
                                     <span class="text-danger">*</span></label>
                             </div>
                             <div class="col-6">
-                                <div class="d-flex align-items-center gap-3">
+                                <div class="gap-3">
                                     <input class="form-control" name="applicantFourMedicareCard"
                                         id="applicantFourMedicarCard" type="text" placeholder="Medicare card ref number"
                                         aria-label="name">
                                 </div>
                             </div>
                             <div class="col-6">
-                                <div class="d-flex align-items-center gap-3">
+                                <div class="gap-3">
                                     <input class="form-control" name="applicantFourMedicareCard"
                                         id="applicantFourMedicarRefNumber" type="text"
                                         placeholder="Medicare card ref number" aria-label="name">
@@ -1417,20 +1439,20 @@
                                     <span class="text-danger">*</span></label>
                             </div>
                             <div class="col-6">
-                                <div class="d-flex align-items-center gap-3">
+                                <div class="gap-3">
                                     <label class="form-label fw-bold mb-0" for="applicantFourCardValid">Valid to:
                                     </label>
                                 </div>
                             </div>
                             <div class="col-6">
-                                <div class="d-flex align-items-center gap-3">
+                                <div class="gap-3">
                                     <input class="form-control" name="applicantFourCardValid"
                                         id="applicantFourCardColor" type="text" placeholder="Medicare card ref number"
                                         aria-label="name">
                                 </div>
                             </div>
                             <div class="col-6">
-                                <div class="d-flex align-items-center gap-3">
+                                <div class="gap-3">
                                     <input class="form-control" name="applicantFourCardValid"
                                         id="applicantFourCardValid" type="text" placeholder="Medicare card ref number"
                                         aria-label="name">
@@ -1443,7 +1465,7 @@
                                 </label>
                             </div>
                             <div class="col-6">
-                                <div class="d-flex align-items-center gap-3">
+                                <div class="gap-3">
                                     <input class="form-control" name="applicantFourFirstNameKids"
                                         id="applicantFourFirstKidName" type="text" placeholder="Name of children"
                                         aria-label="name">
@@ -1458,7 +1480,7 @@
                             </div>
                             <div class="col-3">
                                 <div class="form-check">
-                                    <input class=" form-check-input" type="radio"
+                                    <input class="form-check-input" type="radio"
                                         name="applicantFourFinanciallyIndependent"
                                         id="applicantFourFinanciallyIndependentYes">
                                     <label class="form-check-label fw-semibold mb-0"
@@ -1483,7 +1505,7 @@
                                 </label>
                             </div>
                             <div class="col-6">
-                                <div class="d-flex align-items-center gap-3">
+                                <div class="gap-3">
                                     <input class="form-control" name="applicantFourFirstNameKids"
                                         id="applicantFourFirstNameKids" type="text" placeholder="Date of birth"
                                         aria-label="name">
@@ -1498,7 +1520,7 @@
                                 </label>
                             </div>
                             <div class="col-6">
-                                <div class="d-flex align-items-center gap-3">
+                                <div class="gap-3">
                                     <input class="form-control" name="applicantFourSecondNameKids"
                                         id="applicantFourSecondNameKids" type="text" placeholder="Name of children"
                                         aria-label="name">
@@ -1522,7 +1544,7 @@
                             </div>
                             <div class="col-3">
                                 <div class="form-check">
-                                    <input class=" form-check-input" type="radio" name="applicantFourSecondNameKidsYes"
+                                    <input class="form-check-input" type="radio" name="applicantFourSecondNameKidsYes"
                                         id="applicantFourSecondNameKidsNo">
                                     <label class="form-check-label fw-semibold mb-0"
                                         for="applicantFourSecondNameKidsNo">
@@ -1535,7 +1557,7 @@
                                 </label>
                             </div>
                             <div class="col-6">
-                                <div class="d-flex align-items-center gap-3">
+                                <div class="gap-3">
                                     <input class="form-control" name="applicantFourSecondKids"
                                         id="applicantFourSecondKids" type="text" placeholder="Date of birth"
                                         aria-label="name">
@@ -1550,7 +1572,7 @@
                                 </label>
                             </div>
                             <div class="col-6">
-                                <div class="d-flex align-items-center gap-3">
+                                <div class="gap-3">
                                     <input class="form-control" name="applicantFourThirdNameKids"
                                         id="applicantFourThirdNameKids" type="text" placeholder="Name of children"
                                         aria-label="name">
@@ -1592,7 +1614,7 @@
                                 </label>
                             </div>
                             <div class="col-6">
-                                <div class="d-flex align-items-center gap-3">
+                                <div class="gap-3">
                                     <input class="form-control" name="applicantFourFourthNameKids"
                                         id="applicantFourFourthNameKids" type="text" placeholder="Name of children"
                                         aria-label="name">
@@ -1649,7 +1671,7 @@
                             </div>
                         </div>
                         <div class="col-5">
-                            <div class="d-flex align-items-center gap-3">
+                            <div class="gap-3">
                                 <input class="form-control" name="applicantOneContactInfo" id="applicantOneContact"
                                     type="text" placeholder="Contact number" aria-label="name">
                             </div>
@@ -1661,7 +1683,7 @@
                                 <span class="text-danger">*</span></label>
                         </div>
                         <div class="col-5">
-                            <div class="d-flex align-items-center gap-3">
+                            <div class="gap-3">
                                 <input class="form-control" name="applicantOneMobileNumber"
                                     id="applicantOneMobileNumber" type="text" placeholder="Mobile number"
                                     aria-label="name">
@@ -1681,14 +1703,14 @@
                                 <span class="text-danger">*</span></label>
                         </div>
                         <div class="col-5">
-                            <div class="d-flex align-items-center gap-3">
+                            <div class="gap-3">
                                 <input class="form-control" name="applicantOneInternationalNumber"
                                     id="applicantOneInternationalNumber" type="text" placeholder="International number"
                                     aria-label="name">
                             </div>
                         </div>
                         <div class="col-5">
-                            <div class="d-flex align-items-center gap-3">
+                            <div class="gap-3">
                                 <input class="form-control" name="applicantOneInternationalNumber"
                                     id="applicantOneInternationalCntact" type="text" placeholder="International number"
                                     aria-label="name">
@@ -1709,7 +1731,7 @@
                             </div>
                         </div>
                         <div class="col-5">
-                            <div class="d-flex align-items-center gap-3">
+                            <div class="gap-3">
                                 <input class="form-control" name="applicantOnePersonalEmail"
                                     id="applicantOnePersonalEmailInfo" type="text" placeholder="Personal email"
                                     aria-label="name">
@@ -1723,14 +1745,14 @@
                                 <span class="text-danger">*</span></label>
                         </div>
                         <div class="col-5">
-                            <div class="d-flex align-items-center gap-3">
+                            <div class=" gap-3">
                                 <input class="form-control" name="applicantOneBusinessEmail"
                                     id="applicantOneBusinessEmail" type="text" placeholder="Business email"
                                     aria-label="name">
                             </div>
                         </div>
                         <div class="col-5">
-                            <div class="d-flex align-items-center gap-3">
+                            <div class=" gap-3">
                                 <input class="form-control" name="applicantOneBusinessEmail"
                                     id="applicantOneBusinessEmailInfo" type="text" placeholder="Business email"
                                     aria-label="name">
@@ -1743,13 +1765,13 @@
                                 <span class="text-danger">*</span></label>
                         </div>
                         <div class="col-5">
-                            <div class="d-flex align-items-center gap-3">
+                            <div class=" gap-3">
                                 <input class="form-control" name="applicantOneLinkedin" id="applicantOneLinkedin"
                                     type="text" placeholder="LinkedIn" aria-label="name">
                             </div>
                         </div>
                         <div class="col-5">
-                            <div class="d-flex align-items-center gap-3">
+                            <div class=" gap-3">
                                 <input class="form-control" name="applicantOneLinkedin" id="applicantOneLinkedinInfo"
                                     type="text" placeholder="LinkedIn" aria-label="name">
                             </div>
@@ -1761,13 +1783,13 @@
                                 <span class="text-danger">*</span></label>
                         </div>
                         <div class="col-5">
-                            <div class="d-flex align-items-center gap-3">
+                            <div class="gap-3">
                                 <input class="form-control" name="applicantOneFacebook" id="applicantOneFacebook"
                                     type="text" placeholder="Facebook" aria-label="name">
                             </div>
                         </div>
                         <div class="col-5">
-                            <div class="d-flex align-items-center gap-3">
+                            <div class="gap-3">
                                 <input class="form-control" name="applicantOneFacebook" id="applicantOneFacebookInfo"
                                     type="text" placeholder="Facebook" aria-label="name">
                             </div>
@@ -1781,3 +1803,4 @@
         </div>
     </div>
 </div>
+<!-- /application continued -->

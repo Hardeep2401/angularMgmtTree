@@ -1,0 +1,25 @@
+.mainApplicationForm {
+    background-color: #9781f2;
+}
+
+.applicant {
+    background-color: #6B6695;
+    border-radius: 10px;
+}
+
+.applicantOne {
+    display: -webkit-inline-box;
+}
+
+.maritalD {
+    margin-left: 34%;
+}
+
+.SkilledInput {
+    margin-top: 4%;
+}
+
+.navbar {
+    background-color: #2C3E50;
+}
+ 
