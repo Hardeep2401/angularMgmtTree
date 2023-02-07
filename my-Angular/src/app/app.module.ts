@@ -30,6 +30,7 @@ import { ApplicationFormComponent } from './application-form/application-form.co
 import { ApplicationContinuedComponent } from './application-continued/application-continued.component';
 import { CurrentMortgagesComponent } from './current-mortgages/current-mortgages.component';
 import { CurrentMortgagesSecondComponent } from './current-mortgages-second/current-mortgages-second.component';
+import { UnencumberedRealEstateAssetsComponent } from './unencumbered-real-estate-assets/unencumbered-real-estate-assets.component';
 
 
 
@@ -62,7 +63,8 @@ import { CurrentMortgagesSecondComponent } from './current-mortgages-second/curr
     ApplicationFormComponent,
     ApplicationContinuedComponent,
     CurrentMortgagesComponent,
-    CurrentMortgagesSecondComponent
+    CurrentMortgagesSecondComponent,
+    UnencumberedRealEstateAssetsComponent
 
   ],
   imports: [

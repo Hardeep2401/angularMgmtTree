@@ -5,6 +5,7 @@ import { CurrentMortgagesSecondComponent } from './current-mortgages-second/curr
 import { CurrentMortgagesComponent } from './current-mortgages/current-mortgages.component';
 import { CardComponent } from './nav-card/card/card.component';
 import { NavCardComponent } from './nav-card/nav-card.component';
+import { UnencumberedRealEstateAssetsComponent } from './unencumbered-real-estate-assets/unencumbered-real-estate-assets.component';
 
 
 const routes: Routes = [
@@ -12,7 +13,8 @@ const routes: Routes = [
   { path: 'home', component: CardComponent },
   { path: 'about', component: ApplicationContinuedComponent },
   { path: 'services', component: CurrentMortgagesComponent },
-  { path: 'services1', component: CurrentMortgagesSecondComponent }
+  { path: 'services1', component: CurrentMortgagesSecondComponent },
+  { path: 'section2b', component: UnencumberedRealEstateAssetsComponent }
 ];
 
 @NgModule({
