@@ -1,49 +1,104 @@
-<!-- Current mortgages  -->
-<div class="container-fluid py-4">
+<aside class="bg-white shadow-sm fixed-top" id="aside">
+    <!-- logo -->
+    <!-- row -->
+    <div class="row p-4">
+        <!-- col -->
+        <div class="col-12 d-flex justify-content-center flex-column align-items-center border-bottom pb-3">
+            <img src="https://play-lh.googleusercontent.com/ahJtMe0vfOlAu1XJVQ6rcaGrQBgtrEZQefHy7SXB7jpijKhu1Kkox90XDuH8RmcBOXNn=w480-h960-rw"
+                alt="Logo" width="60" height="60" class="rounded-circle shadow-sm">
+            <div class="text-success mt-2 fw-bold">Applocation Form</div>
+            <small class="text-center">Current Mortgages</small>
+        </div>
+        <!-- /col -->
+    </div>
+    <!-- /row -->
+    <!-- row -->
     <div class="row">
+        <!-- col -->
         <div class="col-12">
-            <!-- Current mortgages title -->
-            <h1 class="text-center fw-bold p-3 text-success">Current Mortgages - Out Side SMSF</h1>
-            <div class="card p-4 shadow-sm">
-                <form class="row">
-                    <div class="row g-3">
-                        <!-- property -->
-                        <div class="col-3">
-                            <div class="gap-3">
-                                <label class="form-label fw-bold mb-0 text-center" for="currentMortgagesPropertyOne">
-                                    (Property 1)
-                                </label>
+            <!-- ul -->
+            <ul class="nav flex-column">
+                <li class="nav-item mx-3 mb-2">
+                    <a class="nav-link text-success" href="#"><i class="fa-solid fa-gauge"></i><span class="ms-3"
+                            routerLink="home">Home</span></a>
+                </li>
+                <li class="nav-item mx-3 mb-2">
+                    <a class="nav-link text-success" href="#"><i class="fa-brands fa-wpforms"></i><span class="ms-3"
+                            routerLink="about">About</span></a>
+                </li>
+                <li class="nav-item mx-3 mb-2">
+                    <a class="nav-link text-success" href="#"><i class="fa-solid fa-gauge"></i><span class="ms-3"
+                            routerLink="services">
+                            Services</span></a>
+                </li>
+                <li class="nav-item mx-3 mb-2">
+                    <a class="nav-link text-success" href="#"><i class="fa-solid fa-gauge"></i><span
+                            class="ms-3">Services 1</span></a>
+                </li>
+                <li class="nav-item mx-3 mb-2">
+                    <a class="nav-link text-success" href="#"><i class="fa-solid fa-gauge"></i><span
+                            class="ms-3">Contact</span></a>
+                </li>
+            </ul>
+            <!-- /ul -->
+        </div>
+        <!-- /col -->
+    </div>
+    <!-- /row -->
+    <!-- /logo -->
+</aside>
+<!-- Current mortgages  -->
+<main>
+    <div class="container-fluid py-4">
+        <div class="row">
+            <div class="col-12">
+                <!-- Current mortgages title -->
+                <h1 class="text-center fw-bold p-3 text-success">Current Mortgages - Out Side SMSF</h1>
+                <div class="card p-4 shadow-sm">
+                    <form class="row">
+                        <div class="row g-3">
+                            <!-- property -->
+                            <div class="col-3">
+                                <div class="gap-3">
+                                    <label class="form-label fw-bold mb-0 text-center"
+                                        for="currentMortgagesPropertyOne">
+                                        (Property 1)
+                                    </label>
+                                </div>
                             </div>
-                        </div>
-                        <div class="col-3">
-                            <div class=" gap-3">
-                                <label class="form-label fw-bold mb-0 text-center" for="currentMortgagesPropertyOne">
-                                    (Property 1)
-                                </label>
+                            <div class="col-3">
+                                <div class=" gap-3">
+                                    <label class="form-label fw-bold mb-0 text-center"
+                                        for="currentMortgagesPropertyOne">
+                                        (Property 1)
+                                    </label>
+                                </div>
                             </div>
-                        </div>
-                        <div class="col-3">
-                            <div class=" gap-3">
-                                <label class="form-label fw-bold mb-0 text-center" for="currentMortgagesPropertyOne">
-                                    (Property 1)
-                                </label>
+                            <div class="col-3">
+                                <div class=" gap-3">
+                                    <label class="form-label fw-bold mb-0 text-center"
+                                        for="currentMortgagesPropertyOne">
+                                        (Property 1)
+                                    </label>
+                                </div>
                             </div>
-                        </div>
-                        <div class="col-3">
-                            <div class=" gap-3">
-                                <label class="form-label fw-bold mb-0 text-center" for="currentMortgagesPropertyOne">
-                                    (Property 1)
-                                </label>
+                            <div class="col-3">
+                                <div class=" gap-3">
+                                    <label class="form-label fw-bold mb-0 text-center"
+                                        for="currentMortgagesPropertyOne">
+                                        (Property 1)
+                                    </label>
+                                </div>
                             </div>
-                        </div>
-                        <!-- /property -->
-                        <!-- Name of Financial Institution -->
-                        <div class="col-12">
-                            <label class="form-label fw-bold mb-0" for="currentMortgagesFinancialInstitution">Name of
-                                Financial Institution
-                                <span class="text-danger"> *</span></label>
-                        </div>
-                        <!-- <div class="col-3">
+                            <!-- /property -->
+                            <!-- Name of Financial Institution -->
+                            <div class="col-12">
+                                <label class="form-label fw-bold mb-0" for="currentMortgagesFinancialInstitution">Name
+                                    of
+                                    Financial Institution
+                                    <span class="text-danger"> *</span></label>
+                            </div>
+                            <!-- <div class="col-3">
                             <label class="form-label fw-bold mb-0" for="currentMortgagesFinancialInstitution">Name of
                                 Financial Institution
                                 <span class="text-danger"> *</span></label>
@@ -58,539 +113,586 @@
                                 Financial Institution
                                 <span class="text-danger"> *</span></label>
                         </div> -->
-                        <div class="col-3">
-                            <div class="gap-3">
-                                <input class="form-control" name="currentMortgagesFinancialInstitution"
-                                    id="currentMortgagesFinancialInstitution" type="text"
-                                    placeholder="Name Financial Institution" aria-label="name">
-                            </div>
-                        </div>
-                        <div class="col-3">
-                            <div class="gap-3">
-                                <input class="form-control" name="currentMortgagesFinancialInstitution"
-                                    id="currentMortgagesFinancialInstitution" type="text"
-                                    placeholder="Name Financial Institution" aria-label="name">
-                            </div>
-                        </div>
-                        <div class="col-3">
-                            <div class="gap-3">
-                                <input class="form-control" name="currentMortgagesFinancialInstitution"
-                                    id="currentMortgagesFinancialInstitution" type="text"
-                                    placeholder="Name Financial Institution" aria-label="name">
-                            </div>
-                        </div>
-                        <div class="col-3">
-                            <div class="gap-3">
-                                <input class="form-control" name="currentMortgagesFinancialInstitution"
-                                    id="currentMortgagesFinancialInstitution" type="text"
-                                    placeholder="Name Financial Institution" aria-label="name">
-                            </div>
-                        </div>
-                        <!-- /Name of Financial Institution -->
-                        <!-- Number & Street Name  -->
-                        <div class="col-12">
-                            <label class="form-label fw-bold mb-0" for="currentMortgagesStreetName">Number &
-                                Street Name
-                                <span class="text-danger"> *</span></label>
-                        </div>
-                        <div class="col-3">
-                            <div class="gap-3">
-                                <input class="form-control" name="currentMortgagesStreetName"
-                                    id="currentMortgagesStreetName" type="text" placeholder="Number Street Name"
-                                    aria-label="name">
-                            </div>
-                        </div>
-                        <div class="col-3">
-                            <div class="gap-3">
-                                <input class="form-control" name="currentMortgagesStreetNameTwo"
-                                    id="currentMortgagesStreetNameTwo" type="text" placeholder="Number Street Name"
-                                    aria-label="name">
-                            </div>
-                        </div>
-                        <div class="col-3">
-                            <div class="gap-3">
-                                <input class="form-control" name="currentMortgagesStreetNameThree"
-                                    id="currentMortgagesStreetNameThree" type="text" placeholder="Number Street Name"
-                                    aria-label="name">
-                            </div>
-                        </div>
-                        <div class="col-3">
-                            <div class="gap-3">
-                                <input class="form-control" name="currentMortgagesStreetNameFour"
-                                    id="currentMortgagesStreetNameFour" type="text" placeholder="Number Street Name"
-                                    aria-label="name">
-                            </div>
-                        </div>
-                        <!-- /number & street name -->
-                        <!-- account number -->
-                        <div class="col-12">
-                            <label class="form-label fw-bold mb-0" for="currentMortgagesAccountNumber">Account Number 1
-                                <span class="text-danger"> *</span></label>
-                        </div>
-                        <div class="col-3">
-                            <div class="gap-3">
-                                <input class="form-control" name="currentMortgagesAccountNumber"
-                                    id="currentMortgagesAccountNumber" type="text" placeholder="Account Number"
-                                    aria-label="name">
-                            </div>
-                        </div>
-                        <div class="col-3">
-                            <div class="gap-3">
-                                <input class="form-control" name="currentMortgagesAccountNumber"
-                                    id="currentMortgagesAccountNumberTwo" type="text" placeholder="Account Number"
-                                    aria-label="name">
-                            </div>
-                        </div>
-                        <div class="col-3">
-                            <div class="gap-3">
-                                <input class="form-control" name="currentMortgagesAccountNumber"
-                                    id="currentMortgagesAccountNumberThree" type="text" placeholder="Account Number"
-                                    aria-label="name">
-                            </div>
-                        </div>
-                        <div class="col-3">
-                            <div class="gap-3">
-                                <input class="form-control" name="currentMortgagesAccountNumber"
-                                    id="currentMortgagesAccountNumberFour" type="text" placeholder="Account Number"
-                                    aria-label="name">
-                            </div>
-                        </div>
-                        <!-- /account number -->
-                        <!-- facility limit -->
-                        <div class="col-12">
-                            <label class="form-label fw-bold mb-0" for="currentMortgagesFacilityLimit">Facility Limit 1
-                                <span class="text-danger"> *</span></label>
-                        </div>
-                        <div class="col-3">
-                            <div class="gap-3">
-                                <input class="form-control" name="currentMortgagesFacilityLimit"
-                                    id="currentMortgagesFacilityLimit" type="text" placeholder="Account Number"
-                                    aria-label="name">
-                            </div>
-                        </div>
-                        <div class="col-3">
-                            <div class="gap-3">
-                                <input class="form-control" name="currentMortgagesFacilityLimit"
-                                    id="currentMortgagesFacilityLimitTwo" type="text" placeholder="Account Number"
-                                    aria-label="name">
-                            </div>
-                        </div>
-                        <div class="col-3">
-                            <div class="gap-3">
-                                <input class="form-control" name="currentMortgagesFacilityLimit"
-                                    id="currentMortgagesFacilityLimitThree" type="text" placeholder="Account Number"
-                                    aria-label="name">
-                            </div>
-                        </div>
-                        <div class="col-3">
-                            <div class="gap-3">
-                                <input class="form-control" name="currentMortgagesFacilityLimit"
-                                    id="currentMortgagesFacilityLimitFour" type="text" placeholder="Account Number"
-                                    aria-label="name">
-                            </div>
-                        </div>
-                        <!-- /facility limit -->
-                        <!-- balance outstanding -->
-                        <div class="col-12">
-                            <label class="form-label fw-bold mb-0" for="currentMortgagesBalanceOutstanding">Balance
-                                Outstanding 1
-                                <span class="text-danger"> *</span></label>
-                        </div>
-                        <div class="col-3">
-                            <div class="gap-3">
-                                <input class="form-control" name="currentMortgagesBalanceOutstanding"
-                                    id="currentMortgagesBalanceOutstanding" type="text"
-                                    placeholder="Balance Outstanding" aria-label="name">
-                            </div>
-                        </div>
-                        <div class="col-3">
-                            <div class="gap-3">
-                                <input class="form-control" name="currentMortgagesBalanceOutstanding"
-                                    id="currentMortgagesBalanceOutstandingTwo" type="text"
-                                    placeholder="Balance Outstanding" aria-label="name">
-                            </div>
-                        </div>
-                        <div class="col-3">
-                            <div class="gap-3">
-                                <input class="form-control" name="currentMortgagesBalanceOutstanding"
-                                    id="currentMortgagesBalanceOutstandingThree" type="text"
-                                    placeholder="Balance Outstanding" aria-label="name">
-                            </div>
-                        </div>
-                        <div class="col-3">
-                            <div class="gap-3">
-                                <input class="form-control" name="currentMortgagesBalanceOutstanding"
-                                    id="currentMortgagesBalanceOutstandingFour" type="text"
-                                    placeholder="Balance Outstanding" aria-label="name">
-                            </div>
-                        </div>
-                        <!-- /balance outstanding -->
-                        <!-- available redraw -->
-                        <div class="col-12">
-                            <label class="form-label fw-bold mb-0" for="currentMortgagesAvailableRedraw">Available
-                                Redraw 1
-                                <span class="text-danger"> *</span></label>
-                        </div>
-                        <div class="col-3">
-                            <div class="gap-3">
-                                <input class="form-control" name="currentMortgagesAvailableRedraw"
-                                    id="currentMortgagesAvailableRedraw" type="text" placeholder="Available Redraw"
-                                    aria-label="name">
-                            </div>
-                        </div>
-                        <div class="col-3">
-                            <div class="gap-3">
-                                <input class="form-control" name="currentMortgagesAvailableRedraw"
-                                    id="currentMortgagesAvailableRedrawTwo" type="text" placeholder="Available Redraw"
-                                    aria-label="name">
-                            </div>
-                        </div>
-                        <div class="col-3">
-                            <div class="gap-3">
-                                <input class="form-control" name="currentMortgagesAvailableRedraw"
-                                    id="currentMortgagesAvailableRedrawThree" type="text" placeholder="Available Redraw"
-                                    aria-label="name">
-                            </div>
-                        </div>
-                        <div class="col-3">
-                            <div class="gap-3">
-                                <input class="form-control" name="currentMortgagesAvailableRedraw"
-                                    id="currentMortgagesAvailableRedrawFour" type="text" placeholder="Available Redraw"
-                                    aria-label="name">
-                            </div>
-                        </div>
-                        <!-- /available redraw -->
-                        <!-- initial loan term-->
-                        <div class="col-12">
-                            <label class="form-label fw-bold mb-0" for="currentMortgagesLoanTerm">Initial Loan Term 1
-                                <span class="text-danger"> *</span>
-                            </label>
-                        </div>
-                        <div class="col-3">
-                            <div class="align-items-center row">
-                                <div class="input-group mb-3">
-                                    <input type="text" class="form-control" placeholder="Initial Loan Term"
-                                        aria-label="Recipient's username" aria-describedby="basic-addon2">
-                                    <span class="input-group-text fw-semibold" id="basic-addon2">Years</span>
+                            <div class="col-3">
+                                <div class="gap-3">
+                                    <input class="form-control" name="currentMortgagesFinancialInstitution"
+                                        id="currentMortgagesFinancialInstitution" type="text"
+                                        placeholder="Name Financial Institution" aria-label="name">
                                 </div>
                             </div>
-                        </div>
-                        <div class="col-3">
-                            <div class="align-items-center row">
-                                <div class="input-group mb-3">
-                                    <input type="text" class="form-control" placeholder="Initial Loan Term"
-                                        aria-label="Recipient's username" aria-describedby="basic-addon2">
-                                    <span class="input-group-text fw-semibold" id="basic-addon2">Years</span>
+                            <div class="col-3">
+                                <div class="gap-3">
+                                    <input class="form-control" name="currentMortgagesFinancialInstitution"
+                                        id="currentMortgagesFinancialInstitution" type="text"
+                                        placeholder="Name Financial Institution" aria-label="name">
                                 </div>
                             </div>
-                        </div>
-                        <div class="col-3">
-                            <div class="align-items-center row">
-                                <div class="input-group mb-3">
-                                    <input type="text" class="form-control" placeholder="Initial Loan Term"
-                                        aria-label="Recipient's username" aria-describedby="basic-addon2">
-                                    <span class="input-group-text fw-semibold" id="basic-addon2">Years</span>
+                            <div class="col-3">
+                                <div class="gap-3">
+                                    <input class="form-control" name="currentMortgagesFinancialInstitution"
+                                        id="currentMortgagesFinancialInstitution" type="text"
+                                        placeholder="Name Financial Institution" aria-label="name">
                                 </div>
                             </div>
-                        </div>
-                        <div class="col-3">
-                            <div class="align-items-center row">
-                                <div class="input-group mb-3">
-                                    <input type="text" class="form-control" placeholder="Initial Loan Term"
-                                        aria-label="Recipient's username" aria-describedby="basic-addon2">
-                                    <span class="input-group-text fw-semibold" id="basic-addon2">Years</span>
+                            <div class="col-3">
+                                <div class="gap-3">
+                                    <input class="form-control" name="currentMortgagesFinancialInstitution"
+                                        id="currentMortgagesFinancialInstitution" type="text"
+                                        placeholder="Name Financial Institution" aria-label="name">
                                 </div>
                             </div>
-                        </div>
-                        <!-- /initial loan term -->
-                        <!-- Current interest rate Variable -->
-                        <div class="col-12">
-                            <label class="form-label fw-bold mb-0" for="currentMortgagesCurrentInterestRate">Current
-                                Interest Rate
-                                1
-                                <span class="text-danger"> *</span>
-                            </label>
-                        </div>
-                        <div class="col-3">
-                            <div class="align-items-center row">
-                                <div class="input-group mb-3">
-                                    <input type="text" class="form-control" placeholder="Current Interest Rate"
-                                        aria-label="Recipient's username" aria-describedby="basic-addon2">
-                                    <span class="input-group-text fw-semibold" id="basic-addon2">% Variable</span>
+                            <!-- /Name of Financial Institution -->
+                            <!-- Number & Street Name  -->
+                            <div class="col-12">
+                                <label class="form-label fw-bold mb-0" for="currentMortgagesStreetName">Number &
+                                    Street Name
+                                    <span class="text-danger"> *</span></label>
+                            </div>
+                            <div class="col-3">
+                                <div class="gap-3">
+                                    <input class="form-control" name="currentMortgagesStreetName"
+                                        id="currentMortgagesStreetName" type="text" placeholder="Number Street Name"
+                                        aria-label="name">
                                 </div>
                             </div>
-                        </div>
-                        <div class="col-3">
-                            <div class="align-items-center row">
-                                <div class="input-group mb-3">
-                                    <input type="text" class="form-control" placeholder="Current Interest Rate"
-                                        aria-label="Recipient's username" aria-describedby="basic-addon2">
-                                    <span class="input-group-text fw-semibold" id="basic-addon2">% Variable</span>
+                            <div class="col-3">
+                                <div class="gap-3">
+                                    <input class="form-control" name="currentMortgagesStreetNameTwo"
+                                        id="currentMortgagesStreetNameTwo" type="text" placeholder="Number Street Name"
+                                        aria-label="name">
                                 </div>
                             </div>
-                        </div>
-                        <div class="col-3">
-                            <div class="align-items-center row">
-                                <div class="input-group mb-3">
-                                    <input type="text" class="form-control" placeholder="Current Interest Rate"
-                                        aria-label="Recipient's username" aria-describedby="basic-addon2">
-                                    <span class="input-group-text fw-semibold" id="basic-addon2">% Variable</span>
+                            <div class="col-3">
+                                <div class="gap-3">
+                                    <input class="form-control" name="currentMortgagesStreetNameThree"
+                                        id="currentMortgagesStreetNameThree" type="text"
+                                        placeholder="Number Street Name" aria-label="name">
                                 </div>
                             </div>
-                        </div>
-                        <div class="col-3">
-                            <div class="align-items-center row">
-                                <div class="input-group mb-3">
-                                    <input type="text" class="form-control" placeholder="Current Interest Rate"
-                                        aria-label="Recipient's username" aria-describedby="basic-addon2">
-                                    <span class="input-group-text fw-semibold" id="basic-addon2">% Variable</span>
+                            <div class="col-3">
+                                <div class="gap-3">
+                                    <input class="form-control" name="currentMortgagesStreetNameFour"
+                                        id="currentMortgagesStreetNameFour" type="text" placeholder="Number Street Name"
+                                        aria-label="name">
                                 </div>
                             </div>
-                        </div>
-                        <!-- /current interest rate Variable -->
-                        <!-- current interest rate fixed -->
-                        <div class="col-12">
-                            <label class="form-label fw-bold mb-0" for="currentMortgagesOrInterestRate">OR
-                            </label>
-                        </div>
-                        <div class="col-3">
-                            <div class="align-items-center row">
-                                <div class="input-group mb-3">
-                                    <input type="text" class="form-control" placeholder="Current Interest Rate"
-                                        aria-label="Recipient's username" aria-describedby="basic-addon2">
-                                    <span class="input-group-text fw-semibold" id="basic-addon2">% Fixed</span>
+                            <!-- /number & street name -->
+                            <!-- account number -->
+                            <div class="col-12">
+                                <label class="form-label fw-bold mb-0" for="currentMortgagesAccountNumber">Account
+                                    Number 1
+                                    <span class="text-danger"> *</span></label>
+                            </div>
+                            <div class="col-3">
+                                <div class="gap-3">
+                                    <input class="form-control" name="currentMortgagesAccountNumber"
+                                        id="currentMortgagesAccountNumber" type="text" placeholder="Account Number"
+                                        aria-label="name">
                                 </div>
                             </div>
-                        </div>
-                        <div class="col-3">
-                            <div class="align-items-center row">
-                                <div class="input-group mb-3">
-                                    <input type="text" class="form-control" placeholder="Current Interest Rate"
-                                        aria-label="Recipient's username" aria-describedby="basic-addon2">
-                                    <span class="input-group-text fw-semibold" id="basic-addon2">% Fixed</span>
+                            <div class="col-3">
+                                <div class="gap-3">
+                                    <input class="form-control" name="currentMortgagesAccountNumber"
+                                        id="currentMortgagesAccountNumberTwo" type="text" placeholder="Account Number"
+                                        aria-label="name">
                                 </div>
                             </div>
-                        </div>
-                        <div class="col-3">
-                            <div class="align-items-center row">
-                                <div class="input-group mb-3">
-                                    <input type="text" class="form-control" placeholder="Current Interest Rate"
-                                        aria-label="Recipient's username" aria-describedby="basic-addon2">
-                                    <span class="input-group-text fw-semibold" id="basic-addon2">% Fixed</span>
+                            <div class="col-3">
+                                <div class="gap-3">
+                                    <input class="form-control" name="currentMortgagesAccountNumber"
+                                        id="currentMortgagesAccountNumberThree" type="text" placeholder="Account Number"
+                                        aria-label="name">
                                 </div>
                             </div>
-                        </div>
-                        <div class="col-3">
-                            <div class="align-items-center row">
-                                <div class="input-group mb-3">
-                                    <input type="text" class="form-control" placeholder="Current Interest Rate"
-                                        aria-label="Recipient's username" aria-describedby="basic-addon2">
-                                    <span class="input-group-text fw-semibold" id="basic-addon2">% Fixed</span>
+                            <div class="col-3">
+                                <div class="gap-3">
+                                    <input class="form-control" name="currentMortgagesAccountNumber"
+                                        id="currentMortgagesAccountNumberFour" type="text" placeholder="Account Number"
+                                        aria-label="name">
                                 </div>
                             </div>
-                        </div>
-                        <!-- /Current interest rate fixed -->
-                        <!-- Remaining fixed term -->
-                        <div class="col-12">
-                            <label class="form-label fw-bold mb-0" for="currentMortgagesRemainingFixedTerm">Remaining
-                                Fixed
-                                Term 1 <span class="text-danger"> *</span>
-                            </label>
-                        </div>
-                        <div class="col-3">
-                            <div class="align-items-center row">
-                                <div class="input-group mb-3">
-                                    <input type="text" class="form-control" placeholder="Remaining Fixed Term"
-                                        aria-label="Recipient's username" aria-describedby="basic-addon2">
-                                    <span class="input-group-text fw-semibold" id="basic-addon2">Months</span>
+                            <!-- /account number -->
+                            <!-- facility limit -->
+                            <div class="col-12">
+                                <label class="form-label fw-bold mb-0" for="currentMortgagesFacilityLimit">Facility
+                                    Limit 1
+                                    <span class="text-danger"> *</span></label>
+                            </div>
+                            <div class="col-3">
+                                <div class="gap-3">
+                                    <input class="form-control" name="currentMortgagesFacilityLimit"
+                                        id="currentMortgagesFacilityLimit" type="text" placeholder="Account Number"
+                                        aria-label="name">
                                 </div>
                             </div>
-                        </div>
-                        <div class="col-3">
-                            <div class="align-items-center row">
-                                <div class="input-group mb-3">
-                                    <input type="text" class="form-control" placeholder="Remaining Fixed Term"
-                                        aria-label="Recipient's username" aria-describedby="basic-addon2">
-                                    <span class="input-group-text fw-semibold" id="basic-addon2">Months</span>
+                            <div class="col-3">
+                                <div class="gap-3">
+                                    <input class="form-control" name="currentMortgagesFacilityLimit"
+                                        id="currentMortgagesFacilityLimitTwo" type="text" placeholder="Account Number"
+                                        aria-label="name">
                                 </div>
                             </div>
-                        </div>
-                        <div class="col-3">
-                            <div class="align-items-center row">
-                                <div class="input-group mb-3">
-                                    <input type="text" class="form-control" placeholder="Remaining Fixed Term"
-                                        aria-label="Recipient's username" aria-describedby="basic-addon2">
-                                    <span class="input-group-text fw-semibold" id="basic-addon2">Months</span>
+                            <div class="col-3">
+                                <div class="gap-3">
+                                    <input class="form-control" name="currentMortgagesFacilityLimit"
+                                        id="currentMortgagesFacilityLimitThree" type="text" placeholder="Account Number"
+                                        aria-label="name">
                                 </div>
                             </div>
-                        </div>
-                        <div class="col-3">
-                            <div class="align-items-center row">
-                                <div class="input-group mb-3">
-                                    <input type="text" class="form-control" placeholder="Remaining Fixed Term"
-                                        aria-label="Recipient's username" aria-describedby="basic-addon2">
-                                    <span class="input-group-text fw-semibold" id="basic-addon2">Months</span>
+                            <div class="col-3">
+                                <div class="gap-3">
+                                    <input class="form-control" name="currentMortgagesFacilityLimit"
+                                        id="currentMortgagesFacilityLimitFour" type="text" placeholder="Account Number"
+                                        aria-label="name">
                                 </div>
                             </div>
-                        </div>
-                        <!-- /Remaining fixed term -->
-                        <!-- to be refinanced -->
-                        <div class="col-12">
-                            <label class="form-label fw-bold mb-0" for="currentMortgagesToRefinanced">To Be
-                                Refinanced? <span class="text-danger"> *</span>
-                            </label>
-                        </div>
+                            <!-- /facility limit -->
+                            <!-- balance outstanding -->
+                            <div class="col-12">
+                                <label class="form-label fw-bold mb-0" for="currentMortgagesBalanceOutstanding">Balance
+                                    Outstanding 1
+                                    <span class="text-danger"> *</span></label>
+                            </div>
+                            <div class="col-3">
+                                <div class="gap-3">
+                                    <input class="form-control" name="currentMortgagesBalanceOutstanding"
+                                        id="currentMortgagesBalanceOutstanding" type="text"
+                                        placeholder="Balance Outstanding" aria-label="name">
+                                </div>
+                            </div>
+                            <div class="col-3">
+                                <div class="gap-3">
+                                    <input class="form-control" name="currentMortgagesBalanceOutstanding"
+                                        id="currentMortgagesBalanceOutstandingTwo" type="text"
+                                        placeholder="Balance Outstanding" aria-label="name">
+                                </div>
+                            </div>
+                            <div class="col-3">
+                                <div class="gap-3">
+                                    <input class="form-control" name="currentMortgagesBalanceOutstanding"
+                                        id="currentMortgagesBalanceOutstandingThree" type="text"
+                                        placeholder="Balance Outstanding" aria-label="name">
+                                </div>
+                            </div>
+                            <div class="col-3">
+                                <div class="gap-3">
+                                    <input class="form-control" name="currentMortgagesBalanceOutstanding"
+                                        id="currentMortgagesBalanceOutstandingFour" type="text"
+                                        placeholder="Balance Outstanding" aria-label="name">
+                                </div>
+                            </div>
+                            <!-- /balance outstanding -->
+                            <!-- available redraw -->
+                            <div class="col-12">
+                                <label class="form-label fw-bold mb-0" for="currentMortgagesAvailableRedraw">Available
+                                    Redraw 1
+                                    <span class="text-danger"> *</span></label>
+                            </div>
+                            <div class="col-3">
+                                <div class="gap-3">
+                                    <input class="form-control" name="currentMortgagesAvailableRedraw"
+                                        id="currentMortgagesAvailableRedraw" type="text" placeholder="Available Redraw"
+                                        aria-label="name">
+                                </div>
+                            </div>
+                            <div class="col-3">
+                                <div class="gap-3">
+                                    <input class="form-control" name="currentMortgagesAvailableRedraw"
+                                        id="currentMortgagesAvailableRedrawTwo" type="text"
+                                        placeholder="Available Redraw" aria-label="name">
+                                </div>
+                            </div>
+                            <div class="col-3">
+                                <div class="gap-3">
+                                    <input class="form-control" name="currentMortgagesAvailableRedraw"
+                                        id="currentMortgagesAvailableRedrawThree" type="text"
+                                        placeholder="Available Redraw" aria-label="name">
+                                </div>
+                            </div>
+                            <div class="col-3">
+                                <div class="gap-3">
+                                    <input class="form-control" name="currentMortgagesAvailableRedraw"
+                                        id="currentMortgagesAvailableRedrawFour" type="text"
+                                        placeholder="Available Redraw" aria-label="name">
+                                </div>
+                            </div>
+                            <!-- /available redraw -->
+                            <!-- initial loan term-->
+                            <div class="col-12">
+                                <label class="form-label fw-bold mb-0" for="currentMortgagesLoanTerm">Initial Loan Term
+                                    1
+                                    <span class="text-danger"> *</span>
+                                </label>
+                            </div>
+                            <div class="col-3">
+                                <div class="align-items-center row">
+                                    <div class="input-group mb-3">
+                                        <input type="text" class="form-control" placeholder="Initial Loan Term"
+                                            name="currentMortgagesLoanTerm" id="currentMortgagesLoanTerm"
+                                            aria-label="Recipient's username" aria-describedby="basic-addon2">
+                                        <span class="input-group-text fw-semibold" id="basic-addon2">Years</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-3">
+                                <div class="align-items-center row">
+                                    <div class="input-group mb-3">
+                                        <input type="text" class="form-control" placeholder="Initial Loan Term"
+                                            name="currentMortgagesLoanTerm" id="currentMortgagesLoanTermTwo"
+                                            aria-label="Recipient's username" aria-describedby="basic-addon2">
+                                        <span class="input-group-text fw-semibold" id="basic-addon2">Years</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-3">
+                                <div class="align-items-center row">
+                                    <div class="input-group mb-3">
+                                        <input type="text" class="form-control" placeholder="Initial Loan Term"
+                                            name="currentMortgagesLoanTerm" id="currentMortgagesLoanTermThree"
+                                            aria-label="Recipient's username" aria-describedby="basic-addon2">
+                                        <span class="input-group-text fw-semibold" id="basic-addon2">Years</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-3">
+                                <div class="align-items-center row">
+                                    <div class="input-group mb-3">
+                                        <input type="text" class="form-control" placeholder="Initial Loan Term"
+                                            name="currentMortgagesLoanTerm" id="currentMortgagesLoanTermFour"
+                                            aria-label="Recipient's username" aria-describedby="basic-addon2">
+                                        <span class="input-group-text fw-semibold" id="basic-addon2">Years</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- /initial loan term -->
+                            <!-- Current interest rate Variable -->
+                            <div class="col-12">
+                                <label class="form-label fw-bold mb-0" for="currentMortgagesCurrentInterestRate">Current
+                                    Interest Rate
+                                    1
+                                    <span class="text-danger"> *</span>
+                                </label>
+                            </div>
+                            <div class="col-3">
+                                <div class="align-items-center row">
+                                    <div class="input-group mb-3">
+                                        <input type="text" class="form-control" placeholder="Current Interest Rate"
+                                            name="currentMortgagesCurrentInterestRate"
+                                            id="currentMortgagesCurrentInterestRate" aria-label="Recipient's username"
+                                            aria-describedby="basic-addon2">
+                                        <span class="input-group-text fw-semibold" id="basic-addon2">% Variable</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-3">
+                                <div class="align-items-center row">
+                                    <div class="input-group mb-3">
+                                        <input type="text" class="form-control" placeholder="Current Interest Rate"
+                                            name="currentMortgagesCurrentInterestRate"
+                                            id="currentMortgagesCurrentInterestRateTwo"
+                                            aria-label="Recipient's username" aria-describedby="basic-addon2">
+                                        <span class="input-group-text fw-semibold" id="basic-addon2">% Variable</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-3">
+                                <div class="align-items-center row">
+                                    <div class="input-group mb-3">
+                                        <input type="text" class="form-control" placeholder="Current Interest Rate"
+                                            name="currentMortgagesCurrentInterestRate"
+                                            id="currentMortgagesCurrentInterestRateThree"
+                                            aria-label="Recipient's username" aria-describedby="basic-addon2">
+                                        <span class="input-group-text fw-semibold" id="basic-addon2">% Variable</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-3">
+                                <div class="align-items-center row">
+                                    <div class="input-group mb-3">
+                                        <input type="text" class="form-control" placeholder="Current Interest Rate"
+                                            name="currentMortgagesCurrentInterestRate"
+                                            id="currentMortgagesCurrentInterestRateFour"
+                                            aria-label="Recipient's username" aria-describedby="basic-addon2">
+                                        <span class="input-group-text fw-semibold" id="basic-addon2">% Variable</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- /current interest rate Variable -->
+                            <!-- current interest rate fixed -->
+                            <div class="col-12">
+                                <label class="form-label fw-bold mb-0" for="currentMortgagesOrInterestRate">OR
+                                </label>
+                            </div>
+                            <div class="col-3">
+                                <div class="align-items-center row">
+                                    <div class="input-group mb-3">
+                                        <input type="text" class="form-control" placeholder="Current Interest Rate"
+                                            name="currentMortgagesOrInterestRate" id="currentMortgagesOrInterestRate"
+                                            aria-label="Recipient's username" aria-describedby="basic-addon2">
+                                        <span class="input-group-text fw-semibold" id="basic-addon2">% Fixed</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-3">
+                                <div class="align-items-center row">
+                                    <div class="input-group mb-3">
+                                        <input type="text" class="form-control" placeholder="Current Interest Rate"
+                                            name="currentMortgagesOrInterestRate" id="currentMortgagesOrInterestRateTwo"
+                                            aria-label="Recipient's username" aria-describedby="basic-addon2">
+                                        <span class="input-group-text fw-semibold" id="basic-addon2">% Fixed</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-3">
+                                <div class="align-items-center row">
+                                    <div class="input-group mb-3">
+                                        <input type="text" class="form-control" placeholder="Current Interest Rate"
+                                            name="currentMortgagesOrInterestRate"
+                                            id="currentMortgagesOrInterestRateThree" aria-label="Recipient's username"
+                                            aria-describedby="basic-addon2">
+                                        <span class="input-group-text fw-semibold" id="basic-addon2">% Fixed</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-3">
+                                <div class="align-items-center row">
+                                    <div class="input-group mb-3">
+                                        <input type="text" class="form-control" placeholder="Current Interest Rate"
+                                            name="currentMortgagesOrInterestRate"
+                                            id="currentMortgagesOrInterestRateFour" aria-label="Recipient's username"
+                                            aria-describedby="basic-addon2">
+                                        <span class="input-group-text fw-semibold" id="basic-addon2">% Fixed</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- /Current interest rate fixed -->
+                            <!-- Remaining fixed term -->
+                            <div class="col-12">
+                                <label class="form-label fw-bold mb-0"
+                                    for="currentMortgagesRemainingFixedTerm">Remaining
+                                    Fixed
+                                    Term 1 <span class="text-danger"> *</span>
+                                </label>
+                            </div>
+                            <div class="col-3">
+                                <div class="align-items-center row">
+                                    <div class="input-group mb-3">
+                                        <input type="text" class="form-control" placeholder="Remaining Fixed Term"
+                                            name="currentMortgagesRemainingFixedTerm"
+                                            id="currentMortgagesRemainingFixedTerm" aria-label="Recipient's username"
+                                            aria-describedby="basic-addon2">
+                                        <span class="input-group-text fw-semibold" id="basic-addon2">Months</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-3">
+                                <div class="align-items-center row">
+                                    <div class="input-group mb-3">
+                                        <input type="text" class="form-control" placeholder="Remaining Fixed Term"
+                                            name="currentMortgagesRemainingFixedTerm"
+                                            id="currentMortgagesRemainingFixedTermTwo" aria-label="Recipient's username"
+                                            aria-describedby="basic-addon2">
+                                        <span class="input-group-text fw-semibold" id="basic-addon2">Months</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-3">
+                                <div class="align-items-center row">
+                                    <div class="input-group mb-3">
+                                        <input type="text" class="form-control" placeholder="Remaining Fixed Term"
+                                            name="currentMortgagesRemainingFixedTerm"
+                                            id="currentMortgagesRemainingFixedTermThree"
+                                            aria-label="Recipient's username" aria-describedby="basic-addon2">
+                                        <span class="input-group-text fw-semibold" id="basic-addon2">Months</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-3">
+                                <div class="align-items-center row">
+                                    <div class="input-group mb-3">
+                                        <input type="text" class="form-control" placeholder="Remaining Fixed Term"
+                                            name="currentMortgagesRemainingFixedTerm"
+                                            id="currentMortgagesRemainingFixedTermFour"
+                                            aria-label="Recipient's username" aria-describedby="basic-addon2">
+                                        <span class="input-group-text fw-semibold" id="basic-addon2">Months</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- /Remaining fixed term -->
+                            <!-- to be refinanced -->
+                            <div class="col-12">
+                                <label class="form-label fw-bold mb-0" for="currentMortgagesToRefinanced">To Be
+                                    Refinanced? <span class="text-danger"> *</span>
+                                </label>
+                            </div>
 
-                        <div class="col-3">
-                            <div class="form-check form-check-inline">
-                                <input class="form-check-input" type="radio" name="currentMortgagesToRefinanced"
-                                    id="currentMortgagesToRefinancedYes" value="option1">
-                                <label class="form-check-label fw-semibold"
-                                    for="currentMortgagesToRefinancedYes">Yes</label>
-                            </div>
-                            <div class="form-check form-check-inline">
-                                <input class="form-check-input" type="radio" name="currentMortgagesToRefinanced"
-                                    id="currentMortgagesToRefinancedNo" value="option2">
-                                <label class="form-check-label fw-semibold"
-                                    for="currentMortgagesToRefinancedNo">No</label>
-                            </div>
-                        </div>
-                        <div class="col-3">
-                            <div class="form-check form-check-inline">
-                                <input class="form-check-input" type="radio" name="currentMortgagesToRefinancedTwo"
-                                    id="currentMortgagesToRefinancedYesTwo" value="option1">
-                                <label class="form-check-label fw-semibold"
-                                    for="currentMortgagesToRefinancedYesTwo">Yes</label>
-                            </div>
-                            <div class="form-check form-check-inline">
-                                <input class="form-check-input" type="radio" name="currentMortgagesToRefinancedTwo"
-                                    id="currentMortgagesToRefinancedNoTwo" value="option2">
-                                <label class="form-check-label fw-semibold"
-                                    for="currentMortgagesToRefinancedNoTwo">No</label>
-                            </div>
-                        </div>
-                        <div class="col-3">
-                            <div class="form-check form-check-inline">
-                                <input class="form-check-input" type="radio" name="currentMortgagesToRefinancedThree"
-                                    id="currentMortgagesToRefinancedYesThree" value="option1">
-                                <label class="form-check-label fw-semibold"
-                                    for="currentMortgagesToRefinancedYesThree">Yes</label>
-                            </div>
-                            <div class="form-check form-check-inline">
-                                <input class="form-check-input" type="radio" name="currentMortgagesToRefinancedThree"
-                                    id="currentMortgagesToRefinancedNoThree" value="option2">
-                                <label class="form-check-label fw-semibold"
-                                    for="currentMortgagesToRefinancedNoThree">No</label>
-                            </div>
-                        </div>
-                        <div class="col-3">
-                            <div class="form-check form-check-inline">
-                                <input class="form-check-input" type="radio" name="currentMortgagesToRefinancedFour"
-                                    id="currentMortgagesToRefinancedYesFour" value="option1">
-                                <label class="form-check-label fw-semibold"
-                                    for="currentMortgagesToRefinancedYesFour">Yes</label>
-                            </div>
-                            <div class="form-check form-check-inline">
-                                <input class="form-check-input" type="radio" name="currentMortgagesToRefinancedFour"
-                                    id="currentMortgagesToRefinancedNoFour" value="option2">
-                                <label class="form-check-label fw-semibold"
-                                    for="currentMortgagesToRefinancedNoFour">No</label>
-                            </div>
-                        </div>
-                        <!-- /to be refinanced -->
-                        <!-- reverting (from fixed to variable) rate -->
-                        <div class="col-12">
-                            <label class="form-label fw-bold mb-0" for="currentMortgagesRevertingRate">Reverting
-                                (from fixed to variable) rate 1
-                                <span class="text-danger"> *</span>
-                            </label>
-                        </div>
-                        <div class="col-3">
-                            <div class="align-items-center row">
-                                <div class="input-group mb-3">
-                                    <input type="text" class="form-control" placeholder="Remaining Fixed Term"
-                                        aria-label="Recipient's username" aria-describedby="basic-addon2">
-                                    <span class="input-group-text fw-semibold" id="basic-addon2">% Variable</span>
+                            <div class="col-3">
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="currentMortgagesToRefinanced"
+                                        id="currentMortgagesToRefinancedYes" value="option1">
+                                    <label class="form-check-label fw-semibold"
+                                        for="currentMortgagesToRefinancedYes">Yes</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="currentMortgagesToRefinanced"
+                                        id="currentMortgagesToRefinancedNo" value="option2">
+                                    <label class="form-check-label fw-semibold"
+                                        for="currentMortgagesToRefinancedNo">No</label>
                                 </div>
                             </div>
-                        </div>
-                        <div class="col-3">
-                            <div class="align-items-center row">
-                                <div class="input-group mb-3">
-                                    <input type="text" class="form-control" placeholder="Remaining Fixed Term"
-                                        aria-label="Recipient's username" aria-describedby="basic-addon2">
-                                    <span class="input-group-text fw-semibold" id="basic-addon2">% Variable</span>
+                            <div class="col-3">
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="currentMortgagesToRefinancedTwo"
+                                        id="currentMortgagesToRefinancedYesTwo" value="option1">
+                                    <label class="form-check-label fw-semibold"
+                                        for="currentMortgagesToRefinancedYesTwo">Yes</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="currentMortgagesToRefinancedTwo"
+                                        id="currentMortgagesToRefinancedNoTwo" value="option2">
+                                    <label class="form-check-label fw-semibold"
+                                        for="currentMortgagesToRefinancedNoTwo">No</label>
                                 </div>
                             </div>
-                        </div>
-                        <div class="col-3">
-                            <div class="align-items-center row">
-                                <div class="input-group mb-3">
-                                    <input type="text" class="form-control" placeholder="Remaining Fixed Term"
-                                        aria-label="Recipient's username" aria-describedby="basic-addon2">
-                                    <span class="input-group-text fw-semibold" id="basic-addon2">% Variable</span>
+                            <div class="col-3">
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio"
+                                        name="currentMortgagesToRefinancedThree"
+                                        id="currentMortgagesToRefinancedYesThree" value="option1">
+                                    <label class="form-check-label fw-semibold"
+                                        for="currentMortgagesToRefinancedYesThree">Yes</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio"
+                                        name="currentMortgagesToRefinancedThree"
+                                        id="currentMortgagesToRefinancedNoThree" value="option2">
+                                    <label class="form-check-label fw-semibold"
+                                        for="currentMortgagesToRefinancedNoThree">No</label>
                                 </div>
                             </div>
-                        </div>
-                        <div class="col-3">
-                            <div class="align-items-center row">
-                                <div class="input-group mb-3">
-                                    <input type="text" class="form-control" placeholder="Remaining Fixed Term"
-                                        aria-label="Recipient's username" aria-describedby="basic-addon2">
-                                    <span class="input-group-text fw-semibold" id="basic-addon2">% Variable</span>
+                            <div class="col-3">
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="currentMortgagesToRefinancedFour"
+                                        id="currentMortgagesToRefinancedYesFour" value="option1">
+                                    <label class="form-check-label fw-semibold"
+                                        for="currentMortgagesToRefinancedYesFour">Yes</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="currentMortgagesToRefinancedFour"
+                                        id="currentMortgagesToRefinancedNoFour" value="option2">
+                                    <label class="form-check-label fw-semibold"
+                                        for="currentMortgagesToRefinancedNoFour">No</label>
                                 </div>
                             </div>
-                        </div>
-                        <!-- /reverting (from fixed to variable) rate -->
-                        <!-- reverting (from IO to P&I) rate -->
-                        <div class="col-12">
-                            <label class="form-label fw-bold mb-0" for="currentMortgagesRevertingRate">Reverting (From
-                                IO to P&I) Rate 1
-                                <span class="text-danger"> *</span>
-                            </label>
-                        </div>
-                        <div class="col-3">
-                            <div class="align-items-center row">
-                                <div class="input-group mb-3">
-                                    <input type="text" class="form-control" placeholder="Remaining IO to P&I Rate"
-                                        aria-label="Recipient's username" aria-describedby="basic-addon2">
-                                    <span class="input-group-text fw-semibold" id="basic-addon2">% Variable</span>
+                            <!-- /to be refinanced -->
+                            <!-- reverting (from fixed to variable) rate -->
+                            <div class="col-12">
+                                <label class="form-label fw-bold mb-0" for="currentMortgagesRevertingRate">Reverting
+                                    (from fixed to variable) rate 1
+                                    <span class="text-danger"> *</span>
+                                </label>
+                            </div>
+                            <div class="col-3">
+                                <div class="align-items-center row">
+                                    <div class="input-group mb-3">
+                                        <input type="text" class="form-control" placeholder="Remaining Fixed Term"
+                                            name="currentMortgagesRevertingRate" id="currentMortgagesRevertingRate"
+                                            aria-label="Recipient's username" aria-describedby="basic-addon2">
+                                        <span class="input-group-text fw-semibold" id="basic-addon2">% Variable</span>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="col-3">
-                            <div class="align-items-center row">
-                                <div class="input-group mb-3">
-                                    <input type="text" class="form-control" placeholder="Remaining IO to P&I Rate"
-                                        aria-label="Recipient's username" aria-describedby="basic-addon2">
-                                    <span class="input-group-text fw-semibold" id="basic-addon2">% Variable</span>
+                            <div class="col-3">
+                                <div class="align-items-center row">
+                                    <div class="input-group mb-3">
+                                        <input type="text" class="form-control" placeholder="Remaining Fixed Term"
+                                            name="currentMortgagesRevertingRate" id="currentMortgagesRevertingRateTwo"
+                                            aria-label="Recipient's username" aria-describedby="basic-addon2">
+                                        <span class="input-group-text fw-semibold" id="basic-addon2">% Variable</span>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="col-3">
-                            <div class="align-items-center row">
-                                <div class="input-group mb-3">
-                                    <input type="text" class="form-control" placeholder="Remaining IO to P&I Rate"
-                                        aria-label="Recipient's username" aria-describedby="basic-addon2">
-                                    <span class="input-group-text fw-semibold" id="basic-addon2">% Variable</span>
+                            <div class="col-3">
+                                <div class="align-items-center row">
+                                    <div class="input-group mb-3">
+                                        <input type="text" class="form-control" placeholder="Remaining Fixed Term"
+                                            name="currentMortgagesRevertingRate" id="currentMortgagesRevertingRateThree"
+                                            aria-label="Recipient's username" aria-describedby="basic-addon2">
+                                        <span class="input-group-text fw-semibold" id="basic-addon2">% Variable</span>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="col-3">
-                            <div class="align-items-center row">
-                                <div class="input-group mb-3">
-                                    <input type="text" class="form-control" placeholder="Remaining IO to P&I Rate"
-                                        aria-label="Recipient's username" aria-describedby="basic-addon2">
-                                    <span class="input-group-text fw-semibold" id="basic-addon2">% Variable</span>
+                            <div class="col-3">
+                                <div class="align-items-center row">
+                                    <div class="input-group mb-3">
+                                        <input type="text" class="form-control" placeholder="Remaining Fixed Term"
+                                            name="currentMortgagesRevertingRate" id="currentMortgagesRevertingRateFour"
+                                            aria-label="Recipient's username" aria-describedby="basic-addon2">
+                                        <span class="input-group-text fw-semibold" id="basic-addon2">% Variable</span>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
+                            <!-- /reverting (from fixed to variable) rate -->
+                            <!-- reverting (from IO to P&I) rate -->
+                            <div class="col-12">
+                                <label class="form-label fw-bold mb-0" for="currentMortgagesRevertingIoPI">Reverting
+                                    (From
+                                    IO to P&I) Rate 1
+                                    <span class="text-danger"> *</span>
+                                </label>
+                            </div>
+                            <div class="col-3">
+                                <div class="align-items-center row">
+                                    <div class="input-group mb-3">
+                                        <input type="text" name="currentMortgagesRevertingIoPI"
+                                            id="currentMortgagesRevertingIoPI" class="form-control"
+                                            placeholder="Remaining IO to P&I Rate" aria-label="Recipient's username"
+                                            aria-describedby="basic-addon2">
+                                        <span class="input-group-text fw-semibold" id="basic-addon2">% Variable</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-3">
+                                <div class="align-items-center row">
+                                    <div class="input-group mb-3">
+                                        <input type="text" name="currentMortgagesRevertingIoPITwo"
+                                            id="currentMortgagesRevertingIoPITwo" class="form-control"
+                                            placeholder="Remaining IO to P&I Rate" aria-label="Recipient's username"
+                                            aria-describedby="basic-addon2">
+                                        <span class="input-group-text fw-semibold" id="basic-addon2">% Variable</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-3">
+                                <div class="align-items-center row">
+                                    <div class="input-group mb-3">
+                                        <input type="text" class="form-control"
+                                            name="currentMortgagesRevertingIoPIThree"
+                                            id="currentMortgagesRevertingIoPIThree"
+                                            placeholder="Remaining IO to P&I Rate" aria-label="Recipient's username"
+                                            aria-describedby="basic-addon2">
+                                        <span class="input-group-text fw-semibold" id="basic-addon2">% Variable</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-3">
+                                <div class="align-items-center row">
+                                    <div class="input-group mb-3">
+                                        <input type="text" class="form-control" placeholder="Remaining IO to P&I Rate"
+                                            name="currentMortgagesRevertingIoPIFour"
+                                            id="currentMortgagesRevertingIoPIFour" aria-label="Recipient's username"
+                                            aria-describedby="basic-addon2">
+                                        <span class="input-group-text fw-semibold" id="basic-addon2">% Variable</span>
+                                    </div>
+                                </div>
+                            </div>
 
-                        <!-- /reverting (from IO to P&I) rate -->
-                    </div>
-                </form>
+                            <!-- /reverting (from IO to P&I) rate -->
+                        </div>
+                    </form>
+                </div>
             </div>
         </div>
     </div>
-</div>
-<!-- /Current mortgages  -->
+    <!-- /Current mortgages  -->
+</main>
