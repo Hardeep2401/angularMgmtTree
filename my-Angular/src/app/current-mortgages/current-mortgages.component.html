@@ -12,15 +12,15 @@
         <div class="col-12">
             <ul class="nav flex-column">
                 <li class="nav-item mx-3 mb-2">
-                    <a class="nav-link text-white" routerLink="Home"><i class="fa-solid fa-house-user"></i><span
+                    <a class="nav-link text-white" routerLink="/home"><i class="fa-solid fa-house-user"></i><span
                             class="ms-3">Home</span></a>
                 </li>
                 <li class="nav-item mx-3 mb-2">
-                    <a class="nav-link text-white" routerLink="About"><i class="fa-solid fa-address-card"></i><span
+                    <a class="nav-link text-white" routerLink="/about"><i class="fa-solid fa-address-card"></i><span
                             class="ms-3">About</span></a>
                 </li>
                 <li class="nav-item mx-3 mb-2">
-                    <a class="nav-link text-white" routerLink="Services"><i class="fa-solid fa-grip-vertical"></i><span
+                    <a class="nav-link text-white" routerLink="/services"><i class="fa-solid fa-grip-vertical"></i><span
                             class="ms-3">
                             Services</span></a>
                 </li>
@@ -45,7 +45,8 @@
         <div class="row">
             <div class="col-12">
                 <!-- Current mortgages title -->
-                <h1 class="text-center fw-bold p-3 text-success">SECTION 2: Current Mortgages - Out Side SMSF</h1>
+                <h1 class="fw-bold mb-3 p-2 text-success sectionBorder">SECTION 2 : Current Mortgages - Out Side SMSF
+                </h1>
                 <div class="card p-4 shadow-sm">
                     <form class="row">
                         <div class="row g-3">
@@ -84,33 +85,32 @@
                             </div>
                             <!-- /property -->
                             <!-- Name of Financial Institution -->
-                            <div class="col-12">
+                            <div class="col-3">
                                 <label class="form-label fw-bold mb-0" for="currentMortgagesFinancialInstitution">Name
                                     of
                                     Financial Institution
                                     <span class="text-danger"> *</span></label>
                             </div>
-                            <!-- <div class="col-3">
-                            <label class="form-label fw-bold mb-0" for="currentMortgagesFinancialInstitution">Name of
-                                Financial Institution
-                                <span class="text-danger"> *</span></label>
-                        </div>
-                        <div class="col-3">
-                            <label class="form-label fw-bold mb-0" for="currentMortgagesFinancialInstitution">Name of
-                                Financial Institution
-                                <span class="text-danger"> *</span></label>
-                        </div>
-                        <div class="col-3">
-                            <label class="form-label fw-bold mb-0" for="currentMortgagesFinancialInstitution">Name of
-                                Financial Institution
-                                <span class="text-danger"> *</span></label>
-                        </div> -->
                             <div class="col-3">
-                                <div>
-                                    <input class="form-control" name="currentMortgagesFinancialInstitution"
-                                        id="currentMortgagesFinancialInstitution" type="text"
-                                        placeholder="Name Financial Institution" aria-label="name">
-                                </div>
+                                <label class="form-label fw-bold mb-0"
+                                    for="currentMortgagesFinancialInstitutionTwo">Name
+                                    of
+                                    Financial Institution
+                                </label>
+                            </div>
+                            <div class="col-3">
+                                <label class="form-label fw-bold mb-0"
+                                    for="currentMortgagesFinancialInstitutionThree">Name
+                                    of
+                                    Financial Institution
+                                </label>
+                            </div>
+                            <div class="col-3">
+                                <label class="form-label fw-bold mb-0"
+                                    for="currentMortgagesFinancialInstitutionFour">Name
+                                    of
+                                    Financial Institution
+                                </label>
                             </div>
                             <div class="col-3">
                                 <div>
@@ -122,23 +122,45 @@
                             <div class="col-3">
                                 <div>
                                     <input class="form-control" name="currentMortgagesFinancialInstitution"
-                                        id="currentMortgagesFinancialInstitution" type="text"
+                                        id="currentMortgagesFinancialInstitutionTwo" type="text"
                                         placeholder="Name Financial Institution" aria-label="name">
                                 </div>
                             </div>
                             <div class="col-3">
                                 <div>
                                     <input class="form-control" name="currentMortgagesFinancialInstitution"
-                                        id="currentMortgagesFinancialInstitution" type="text"
+                                        id="currentMortgagesFinancialInstitutionThree" type="text"
+                                        placeholder="Name Financial Institution" aria-label="name">
+                                </div>
+                            </div>
+                            <div class="col-3">
+                                <div>
+                                    <input class="form-control" name="currentMortgagesFinancialInstitution"
+                                        id="currentMortgagesFinancialInstitutionFour" type="text"
                                         placeholder="Name Financial Institution" aria-label="name">
                                 </div>
                             </div>
                             <!-- /Name of Financial Institution -->
                             <!-- Number & Street Name  -->
-                            <div class="col-12">
+                            <div class="col-3">
                                 <label class="form-label fw-bold mb-0" for="currentMortgagesStreetName">Number &
                                     Street Name
                                     <span class="text-danger"> *</span></label>
+                            </div>
+                            <div class="col-3">
+                                <label class="form-label fw-bold mb-0" for="currentMortgagesStreetNameTwo">Number &
+                                    Street Name
+                                </label>
+                            </div>
+                            <div class="col-3">
+                                <label class="form-label fw-bold mb-0" for="currentMortgagesStreetNameThree">Number &
+                                    Street Name
+                                </label>
+                            </div>
+                            <div class="col-3">
+                                <label class="form-label fw-bold mb-0" for="currentMortgagesStreetNameFour">Number &
+                                    Street Name
+                                </label>
                             </div>
                             <div class="col-3">
                                 <div>
@@ -170,10 +192,25 @@
                             </div>
                             <!-- /number & street name -->
                             <!-- account number -->
-                            <div class="col-12">
+                            <div class="col-3">
                                 <label class="form-label fw-bold mb-0" for="currentMortgagesAccountNumber">Account
                                     Number 1
                                     <span class="text-danger"> *</span></label>
+                            </div>
+                            <div class="col-3">
+                                <label class="form-label fw-bold mb-0" for="currentMortgagesAccountNumberTwo">Account
+                                    Number 1
+                                </label>
+                            </div>
+                            <div class="col-3">
+                                <label class="form-label fw-bold mb-0" for="currentMortgagesAccountNumberThree">Account
+                                    Number 1
+                                </label>
+                            </div>
+                            <div class="col-3">
+                                <label class="form-label fw-bold mb-0" for="currentMortgagesAccountNumberFour">Account
+                                    Number 1
+                                </label>
                             </div>
                             <div class="col-3">
                                 <div>
@@ -205,10 +242,25 @@
                             </div>
                             <!-- /account number -->
                             <!-- facility limit -->
-                            <div class="col-12">
+                            <div class="col-3">
                                 <label class="form-label fw-bold mb-0" for="currentMortgagesFacilityLimit">Facility
                                     Limit 1
                                     <span class="text-danger"> *</span></label>
+                            </div>
+                            <div class="col-3">
+                                <label class="form-label fw-bold mb-0" for="currentMortgagesFacilityLimitTwo">Facility
+                                    Limit 1
+                                </label>
+                            </div>
+                            <div class="col-3">
+                                <label class="form-label fw-bold mb-0" for="currentMortgagesFacilityLimitThree">Facility
+                                    Limit 1
+                                </label>
+                            </div>
+                            <div class="col-3">
+                                <label class="form-label fw-bold mb-0" for="currentMortgagesFacilityLimitFour">Facility
+                                    Limit 1
+                                </label>
                             </div>
                             <div class="col-3">
                                 <div>
@@ -240,10 +292,28 @@
                             </div>
                             <!-- /facility limit -->
                             <!-- balance outstanding -->
-                            <div class="col-12">
+                            <div class="col-3">
                                 <label class="form-label fw-bold mb-0" for="currentMortgagesBalanceOutstanding">Balance
                                     Outstanding 1
                                     <span class="text-danger"> *</span></label>
+                            </div>
+                            <div class="col-3">
+                                <label class="form-label fw-bold mb-0"
+                                    for="currentMortgagesBalanceOutstandingTwo">Balance
+                                    Outstanding 1
+                                </label>
+                            </div>
+                            <div class="col-3">
+                                <label class="form-label fw-bold mb-0"
+                                    for="currentMortgagesBalanceOutstandingThree">Balance
+                                    Outstanding 1
+                                </label>
+                            </div>
+                            <div class="col-3">
+                                <label class="form-label fw-bold mb-0"
+                                    for="currentMortgagesBalanceOutstandingFour">Balance
+                                    Outstanding 1
+                                </label>
                             </div>
                             <div class="col-3">
                                 <div>
@@ -275,10 +345,28 @@
                             </div>
                             <!-- /balance outstanding -->
                             <!-- available redraw -->
-                            <div class="col-12">
+                            <div class="col-3">
                                 <label class="form-label fw-bold mb-0" for="currentMortgagesAvailableRedraw">Available
                                     Redraw 1
                                     <span class="text-danger"> *</span></label>
+                            </div>
+                            <div class="col-3">
+                                <label class="form-label fw-bold mb-0"
+                                    for="currentMortgagesAvailableRedrawTwo">Available
+                                    Redraw 1
+                                </label>
+                            </div>
+                            <div class="col-3">
+                                <label class="form-label fw-bold mb-0"
+                                    for="currentMortgagesAvailableRedrawThree">Available
+                                    Redraw 1
+                                </label>
+                            </div>
+                            <div class="col-3">
+                                <label class="form-label fw-bold mb-0"
+                                    for="currentMortgagesAvailableRedrawFour">Available
+                                    Redraw 1
+                                </label>
                             </div>
                             <div class="col-3">
                                 <div>
@@ -310,14 +398,32 @@
                             </div>
                             <!-- /available redraw -->
                             <!-- initial loan term-->
-                            <div class="col-12">
+                            <div class="col-3">
                                 <label class="form-label fw-bold mb-0" for="currentMortgagesLoanTerm">Initial Loan Term
                                     1
                                     <span class="text-danger"> *</span>
                                 </label>
                             </div>
                             <div class="col-3">
-                                <div class="input-group mb-3">
+                                <label class="form-label fw-bold mb-0" for="currentMortgagesLoanTermTow">Initial Loan
+                                    Term
+                                    1
+                                </label>
+                            </div>
+                            <div class="col-3">
+                                <label class="form-label fw-bold mb-0" for="currentMortgagesLoanTermThree">Initial Loan
+                                    Term
+                                    1
+                                </label>
+                            </div>
+                            <div class="col-3">
+                                <label class="form-label fw-bold mb-0" for="currentMortgagesLoanTermFour">Initial Loan
+                                    Term
+                                    1
+                                </label>
+                            </div>
+                            <div class="col-3">
+                                <div class="input-group">
                                     <input type="text" class="form-control" placeholder="Initial Loan Term"
                                         name="currentMortgagesLoanTerm" id="currentMortgagesLoanTerm"
                                         aria-label="Recipient's username" aria-describedby="basic-addon2">
@@ -325,15 +431,15 @@
                                 </div>
                             </div>
                             <div class="col-3">
-                                <div class="input-group mb-3">
+                                <div class="input-group">
                                     <input type="text" class="form-control" placeholder="Initial Loan Term"
-                                        name="currentMortgagesLoanTerm" id="currentMortgagesLoanTermTwo"
+                                        name="currentMortgagesLoanTerm" id="currentMortgagesLoanTermTow"
                                         aria-label="Recipient's username" aria-describedby="basic-addon2">
                                     <span class="input-group-text fw-semibold" id="basic-addon2">Years</span>
                                 </div>
                             </div>
                             <div class="col-3">
-                                <div class="input-group mb-3">
+                                <div class="input-group">
                                     <input type="text" class="form-control" placeholder="Initial Loan Term"
                                         name="currentMortgagesLoanTerm" id="currentMortgagesLoanTermThree"
                                         aria-label="Recipient's username" aria-describedby="basic-addon2">
@@ -341,7 +447,7 @@
                                 </div>
                             </div>
                             <div class="col-3">
-                                <div class="input-group mb-3">
+                                <div class="input-group">
                                     <input type="text" class="form-control" placeholder="Initial Loan Term"
                                         name="currentMortgagesLoanTerm" id="currentMortgagesLoanTermFour"
                                         aria-label="Recipient's username" aria-describedby="basic-addon2">
@@ -350,7 +456,7 @@
                             </div>
                             <!-- /initial loan term -->
                             <!-- Current interest rate Variable -->
-                            <div class="col-12">
+                            <div class="col-3">
                                 <label class="form-label fw-bold mb-0" for="currentMortgagesCurrentInterestRate">Current
                                     Interest Rate
                                     1
@@ -358,7 +464,25 @@
                                 </label>
                             </div>
                             <div class="col-3">
-                                <div class="input-group mb-3">
+                                <label class="form-label fw-bold mb-0"
+                                    for="currentMortgagesCurrentInterestRateTwo">Current
+                                    Interest Rate 1
+                                </label>
+                            </div>
+                            <div class="col-3">
+                                <label class="form-label fw-bold mb-0"
+                                    for="currentMortgagesCurrentInterestRateThree">Current
+                                    Interest Rate 1
+                                </label>
+                            </div>
+                            <div class="col-3">
+                                <label class="form-label fw-bold mb-0"
+                                    for="currentMortgagesCurrentInterestRateFour">Current
+                                    Interest Rate 1
+                                </label>
+                            </div>
+                            <div class="col-3">
+                                <div class="input-group">
                                     <input type="text" class="form-control" placeholder="Current Interest Rate"
                                         name="currentMortgagesCurrentInterestRate"
                                         id="currentMortgagesCurrentInterestRate" aria-label="Recipient's username"
@@ -367,7 +491,7 @@
                                 </div>
                             </div>
                             <div class="col-3">
-                                <div class="input-group mb-3">
+                                <div class="input-group">
                                     <input type="text" class="form-control" placeholder="Current Interest Rate"
                                         name="currentMortgagesCurrentInterestRate"
                                         id="currentMortgagesCurrentInterestRateTwo" aria-label="Recipient's username"
@@ -376,7 +500,7 @@
                                 </div>
                             </div>
                             <div class="col-3">
-                                <div class="input-group mb-3">
+                                <div class="input-group">
                                     <input type="text" class="form-control" placeholder="Current Interest Rate"
                                         name="currentMortgagesCurrentInterestRate"
                                         id="currentMortgagesCurrentInterestRateThree" aria-label="Recipient's username"
@@ -385,7 +509,7 @@
                                 </div>
                             </div>
                             <div class="col-3">
-                                <div class="input-group mb-3">
+                                <div class="input-group">
                                     <input type="text" class="form-control" placeholder="Current Interest Rate"
                                         name="currentMortgagesCurrentInterestRate"
                                         id="currentMortgagesCurrentInterestRateFour" aria-label="Recipient's username"
@@ -395,12 +519,25 @@
                             </div>
                             <!-- /current interest rate Variable -->
                             <!-- current interest rate fixed -->
-                            <div class="col-12">
+                            <div class="col-3">
                                 <label class="form-label fw-bold mb-0" for="currentMortgagesOrInterestRate">OR
+                                    <span class="text-danger"> *</span>
                                 </label>
                             </div>
                             <div class="col-3">
-                                <div class="input-group mb-3">
+                                <label class="form-label fw-bold mb-0" for="currentMortgagesOrInterestRateTwo">OR
+                                </label>
+                            </div>
+                            <div class="col-3">
+                                <label class="form-label fw-bold mb-0" for="currentMortgagesOrInterestRateThree">OR
+                                </label>
+                            </div>
+                            <div class="col-3">
+                                <label class="form-label fw-bold mb-0" for="currentMortgagesOrInterestRateFour">OR
+                                </label>
+                            </div>
+                            <div class="col-3">
+                                <div class="input-group">
                                     <input type="text" class="form-control" placeholder="Current Interest Rate"
                                         name="currentMortgagesOrInterestRate" id="currentMortgagesOrInterestRate"
                                         aria-label="Recipient's username" aria-describedby="basic-addon2">
@@ -408,7 +545,7 @@
                                 </div>
                             </div>
                             <div class="col-3">
-                                <div class="input-group mb-3">
+                                <div class="input-group">
                                     <input type="text" class="form-control" placeholder="Current Interest Rate"
                                         name="currentMortgagesOrInterestRate" id="currentMortgagesOrInterestRateTwo"
                                         aria-label="Recipient's username" aria-describedby="basic-addon2">
@@ -416,7 +553,7 @@
                                 </div>
                             </div>
                             <div class="col-3">
-                                <div class="input-group mb-3">
+                                <div class="input-group">
                                     <input type="text" class="form-control" placeholder="Current Interest Rate"
                                         name="currentMortgagesOrInterestRate" id="currentMortgagesOrInterestRateThree"
                                         aria-label="Recipient's username" aria-describedby="basic-addon2">
@@ -424,7 +561,7 @@
                                 </div>
                             </div>
                             <div class="col-3">
-                                <div class="input-group mb-3">
+                                <div class="input-group">
                                     <input type="text" class="form-control" placeholder="Current Interest Rate"
                                         name="currentMortgagesOrInterestRate" id="currentMortgagesOrInterestRateFour"
                                         aria-label="Recipient's username" aria-describedby="basic-addon2">
@@ -433,7 +570,7 @@
                             </div>
                             <!-- /Current interest rate fixed -->
                             <!-- Remaining fixed term -->
-                            <div class="col-12">
+                            <div class="col-3">
                                 <label class="form-label fw-bold mb-0"
                                     for="currentMortgagesRemainingFixedTerm">Remaining
                                     Fixed
@@ -441,7 +578,25 @@
                                 </label>
                             </div>
                             <div class="col-3">
-                                <div class="input-group mb-3">
+                                <label class="form-label fw-bold mb-0"
+                                    for="currentMortgagesRemainingFixedTermTwo">Remaining
+                                    Fixed Term 1
+                                </label>
+                            </div>
+                            <div class="col-3">
+                                <label class="form-label fw-bold mb-0"
+                                    for="currentMortgagesRemainingFixedTermThree">Remaining
+                                    Fixed Term 1
+                                </label>
+                            </div>
+                            <div class="col-3">
+                                <label class="form-label fw-bold mb-0"
+                                    for="currentMortgagesRemainingFixedTermFour">Remaining
+                                    Fixed Term 1
+                                </label>
+                            </div>
+                            <div class="col-3">
+                                <div class="input-group">
                                     <input type="text" class="form-control" placeholder="Remaining Fixed Term"
                                         name="currentMortgagesRemainingFixedTerm"
                                         id="currentMortgagesRemainingFixedTerm" aria-label="Recipient's username"
@@ -450,7 +605,7 @@
                                 </div>
                             </div>
                             <div class="col-3">
-                                <div class="input-group mb-3">
+                                <div class="input-group">
                                     <input type="text" class="form-control" placeholder="Remaining Fixed Term"
                                         name="currentMortgagesRemainingFixedTerm"
                                         id="currentMortgagesRemainingFixedTermTwo" aria-label="Recipient's username"
@@ -459,7 +614,7 @@
                                 </div>
                             </div>
                             <div class="col-3">
-                                <div class="input-group mb-3">
+                                <div class="input-group">
                                     <input type="text" class="form-control" placeholder="Remaining Fixed Term"
                                         name="currentMortgagesRemainingFixedTerm"
                                         id="currentMortgagesRemainingFixedTermThree" aria-label="Recipient's username"
@@ -468,7 +623,7 @@
                                 </div>
                             </div>
                             <div class="col-3">
-                                <div class="input-group mb-3">
+                                <div class="input-group">
                                     <input type="text" class="form-control" placeholder="Remaining Fixed Term"
                                         name="currentMortgagesRemainingFixedTerm"
                                         id="currentMortgagesRemainingFixedTermFour" aria-label="Recipient's username"
@@ -478,9 +633,24 @@
                             </div>
                             <!-- /Remaining fixed term -->
                             <!-- to be refinanced -->
-                            <div class="col-12">
+                            <div class="col-3">
                                 <label class="form-label fw-bold mb-0" for="currentMortgagesToRefinanced">To Be
                                     Refinanced? <span class="text-danger"> *</span>
+                                </label>
+                            </div>
+                            <div class="col-3">
+                                <label class="form-label fw-bold mb-0" for="currentMortgagesToRefinancedTwo">To Be
+                                    Refinanced?
+                                </label>
+                            </div>
+                            <div class="col-3">
+                                <label class="form-label fw-bold mb-0" for="currentMortgagesToRefinancedThree">To Be
+                                    Refinanced?
+                                </label>
+                            </div>
+                            <div class="col-3">
+                                <label class="form-label fw-bold mb-0" for="currentMortgagesToRefinancedFour">To Be
+                                    Refinanced?
                                 </label>
                             </div>
                             <div class="col-3">
@@ -543,14 +713,30 @@
                             </div>
                             <!-- /to be refinanced -->
                             <!-- reverting (from fixed to variable) rate -->
-                            <div class="col-12">
+                            <div class="col-3">
                                 <label class="form-label fw-bold mb-0" for="currentMortgagesRevertingRate">Reverting
-                                    (from fixed to variable) rate 1
+                                    (from fixed to variable) Rate 1
                                     <span class="text-danger"> *</span>
                                 </label>
                             </div>
                             <div class="col-3">
-                                <div class="input-group mb-3">
+                                <label class="form-label fw-bold mb-0" for="currentMortgagesRevertingRateTwo">Reverting
+                                    (from fixed to variable) Rate 1
+                                </label>
+                            </div>
+                            <div class="col-3">
+                                <label class="form-label fw-bold mb-0"
+                                    for="currentMortgagesRevertingRateThree">Reverting
+                                    (from fixed to variable) Rate 1
+                                </label>
+                            </div>
+                            <div class="col-3">
+                                <label class="form-label fw-bold mb-0" for="currentMortgagesRevertingRateFour">Reverting
+                                    (from fixed to variable) Rate 1
+                                </label>
+                            </div>
+                            <div class="col-3">
+                                <div class="input-group">
                                     <input type="text" class="form-control" placeholder="Remaining Fixed Term"
                                         name="currentMortgagesRevertingRate" id="currentMortgagesRevertingRate"
                                         aria-label="Recipient's username" aria-describedby="basic-addon2">
@@ -558,7 +744,7 @@
                                 </div>
                             </div>
                             <div class="col-3">
-                                <div class="input-group mb-3">
+                                <div class="input-group">
                                     <input type="text" class="form-control" placeholder="Remaining Fixed Term"
                                         name="currentMortgagesRevertingRate" id="currentMortgagesRevertingRateTwo"
                                         aria-label="Recipient's username" aria-describedby="basic-addon2">
@@ -566,7 +752,7 @@
                                 </div>
                             </div>
                             <div class="col-3">
-                                <div class="input-group mb-3">
+                                <div class="input-group">
                                     <input type="text" class="form-control" placeholder="Remaining Fixed Term"
                                         name="currentMortgagesRevertingRate" id="currentMortgagesRevertingRateThree"
                                         aria-label="Recipient's username" aria-describedby="basic-addon2">
@@ -574,7 +760,7 @@
                                 </div>
                             </div>
                             <div class="col-3">
-                                <div class="input-group mb-3">
+                                <div class="input-group">
                                     <input type="text" class="form-control" placeholder="Remaining Fixed Term"
                                         name="currentMortgagesRevertingRate" id="currentMortgagesRevertingRateFour"
                                         aria-label="Recipient's username" aria-describedby="basic-addon2">
@@ -583,7 +769,7 @@
                             </div>
                             <!-- /reverting (from fixed to variable) rate -->
                             <!-- reverting (from IO to P&I) rate -->
-                            <div class="col-12">
+                            <div class="col-3">
                                 <label class="form-label fw-bold mb-0" for="currentMortgagesRevertingIoPI">Reverting
                                     (From
                                     IO to P&I) Rate 1
@@ -591,7 +777,26 @@
                                 </label>
                             </div>
                             <div class="col-3">
-                                <div class="input-group mb-3">
+                                <label class="form-label fw-bold mb-0" for="currentMortgagesRevertingIoPITwo">Reverting
+                                    (From
+                                    IO to P&I) Rate 1
+                                </label>
+                            </div>
+                            <div class="col-3">
+                                <label class="form-label fw-bold mb-0"
+                                    for="currentMortgagesRevertingIoPIThree">Reverting
+                                    (From
+                                    IO to P&I) Rate 1
+                                </label>
+                            </div>
+                            <div class="col-3">
+                                <label class="form-label fw-bold mb-0" for="currentMortgagesRevertingIoPIFour">Reverting
+                                    (From
+                                    IO to P&I) Rate 1
+                                </label>
+                            </div>
+                            <div class="col-3">
+                                <div class="input-group">
                                     <input type="text" name="currentMortgagesRevertingIoPI"
                                         id="currentMortgagesRevertingIoPI" class="form-control"
                                         placeholder="Remaining IO to P&I Rate" aria-label="Recipient's username"
@@ -600,7 +805,7 @@
                                 </div>
                             </div>
                             <div class="col-3">
-                                <div class="input-group mb-3">
+                                <div class="input-group">
                                     <input type="text" name="currentMortgagesRevertingIoPITwo"
                                         id="currentMortgagesRevertingIoPITwo" class="form-control"
                                         placeholder="Remaining IO to P&I Rate" aria-label="Recipient's username"
@@ -609,7 +814,7 @@
                                 </div>
                             </div>
                             <div class="col-3">
-                                <div class="input-group mb-3">
+                                <div class="input-group">
                                     <input type="text" class="form-control" name="currentMortgagesRevertingIoPIThree"
                                         id="currentMortgagesRevertingIoPIThree" placeholder="Remaining IO to P&I Rate"
                                         aria-label="Recipient's username" aria-describedby="basic-addon2">
@@ -617,7 +822,7 @@
                                 </div>
                             </div>
                             <div class="col-3">
-                                <div class="input-group mb-3">
+                                <div class="input-group">
                                     <input type="text" class="form-control" placeholder="Remaining IO to P&I Rate"
                                         name="currentMortgagesRevertingIoPIFour" id="currentMortgagesRevertingIoPIFour"
                                         aria-label="Recipient's username" aria-describedby="basic-addon2">
@@ -626,9 +831,24 @@
                             </div>
                             <!-- /reverting (from IO to P&I) rate -->
                             <!-- repayment type one -->
-                            <div class="col-12">
-                                <label class="form-label fw-bold mb-0" for="currentMortgagesIoRepayment">Repayment type
+                            <div class="col-3">
+                                <label class="form-label fw-bold mb-0" for="currentMortgagesIoRepayment">Repayment Type
                                     1 <span class="text-danger"> *</span>
+                                </label>
+                            </div>
+                            <div class="col-3">
+                                <label class="form-label fw-bold mb-0" for="currentMortgagesIoRepayment">Repayment Type
+                                    1
+                                </label>
+                            </div>
+                            <div class="col-3">
+                                <label class="form-label fw-bold mb-0" for="currentMortgagesIoRepayment">Repayment Type
+                                    1
+                                </label>
+                            </div>
+                            <div class="col-3">
+                                <label class="form-label fw-bold mb-0" for="currentMortgagesIoRepayment">Repayment Type
+                                    1
                                 </label>
                             </div>
                             <div class="col-3">
@@ -691,15 +911,33 @@
                             </div>
                             <!-- /Repayment type one -->
                             <!-- remaining p&i period -->
-                            <div class="col-12">
+                            <div class="col-3">
                                 <label class="form-label fw-bold mb-0" for="currentMortgagesRemainingPeriod">Remaining
                                     P&I
-                                    period if IO
+                                    Period if IO
                                     <span class="text-danger"> *</span>
                                 </label>
                             </div>
                             <div class="col-3">
-                                <div class="input-group mb-3">
+                                <label class="form-label fw-bold mb-0"
+                                    for="currentMortgagesRemainingPeriodTwo">Remaining
+                                    P&I Period if IO
+                                </label>
+                            </div>
+                            <div class="col-3">
+                                <label class="form-label fw-bold mb-0"
+                                    for="currentMortgagesRemainingPeriodThree">Remaining
+                                    P&I Period if IO
+                                </label>
+                            </div>
+                            <div class="col-3">
+                                <label class="form-label fw-bold mb-0"
+                                    for="currentMortgagesRemainingPeriodFour">Remaining
+                                    P&I Period if IO
+                                </label>
+                            </div>
+                            <div class="col-3">
+                                <div class="input-group">
                                     <input type="text" class="form-control" placeholder="Remaining P&I Period"
                                         name="currentMortgagesRemainingPeriod" id="currentMortgagesRemainingPeriod"
                                         aria-label="Recipient's username" aria-describedby="basic-addon2">
@@ -707,7 +945,7 @@
                                 </div>
                             </div>
                             <div class="col-3">
-                                <div class="input-group mb-3">
+                                <div class="input-group">
                                     <input type="text" class="form-control" placeholder="Remaining P&I Period"
                                         name="currentMortgagesRemainingPeriodTwo"
                                         id="currentMortgagesRemainingPeriodTwo" aria-label="Recipient's username"
@@ -716,7 +954,7 @@
                                 </div>
                             </div>
                             <div class="col-3">
-                                <div class="input-group mb-3">
+                                <div class="input-group">
                                     <input type="text" class="form-control" placeholder="Remaining P&I Period"
                                         name="currentMortgagesRemainingPeriodThree"
                                         id="currentMortgagesRemainingPeriodThree" aria-label="Recipient's username"
@@ -725,7 +963,7 @@
                                 </div>
                             </div>
                             <div class="col-3">
-                                <div class="input-group mb-3">
+                                <div class="input-group">
                                     <input type="text" class="form-control" placeholder="Remaining P&I Period"
                                         name="currentMortgagesRemainingPeriodFour"
                                         id="currentMortgagesRemainingPeriodFour" aria-label="Recipient's username"
@@ -735,10 +973,22 @@
                             </div>
                             <!-- /remaining p&i period -->
                             <!-- deductible payment -->
-                            <div class="col-12">
+                            <div class="col-3">
                                 <label class="form-label fw-bold mb-0" for="currentMortgagesDeductible">Deductible
-                                    interest? <span class="text-danger"> *</span>
+                                    Interest <span class="text-danger"> *</span>
                                 </label>
+                            </div>
+                            <div class="col-3">
+                                <label class="form-label fw-bold mb-0" for="currentMortgagesDeductibleTwo">Deductible
+                                    Interest</label>
+                            </div>
+                            <div class="col-3">
+                                <label class="form-label fw-bold mb-0" for="currentMortgagesDeductibleThree">Deductible
+                                    Interest </label>
+                            </div>
+                            <div class="col-3">
+                                <label class="form-label fw-bold mb-0" for="currentMortgagesDeductibleFour">Deductible
+                                    Interest </label>
                             </div>
                             <div class="col-3">
                                 <div class="form-check form-check-inline">
@@ -801,10 +1051,24 @@
                             <!-- /deductible interest -->
                             <!--  -->
                             <!-- account number two -->
-                            <div class="col-12">
+                            <div class="col-3">
                                 <label class="form-label fw-bold mb-0" for="currentMortgagesSecondAccountNumber">Account
-                                    Number 2
-                                    <span class="text-danger"> *</span></label>
+                                    Number 2</label>
+                            </div>
+                            <div class="col-3">
+                                <label class="form-label fw-bold mb-0"
+                                    for="currentMortgagesSecondAccountNumberTwo">Account
+                                    Number 2</label>
+                            </div>
+                            <div class="col-3">
+                                <label class="form-label fw-bold mb-0"
+                                    for="currentMortgagesSecondAccountNumberThree">Account
+                                    Number 2</label>
+                            </div>
+                            <div class="col-3">
+                                <label class="form-label fw-bold mb-0"
+                                    for="currentMortgagesSecondAccountNumberFour">Account
+                                    Number 2</label>
                             </div>
                             <div class="col-3">
                                 <div>
@@ -836,11 +1100,26 @@
                             </div>
                             <!-- /account number two -->
                             <!-- facility limit two -->
-                            <div class="col-12">
+                            <div class="col-3">
                                 <label class="form-label fw-bold mb-0"
                                     for="currentMortgagesSecondFacilityLimit">Facility
                                     Limit 2
                                     <span class="text-danger"> *</span></label>
+                            </div>
+                            <div class="col-3">
+                                <label class="form-label fw-bold mb-0"
+                                    for="currentMortgagesSecondFacilityLimitTwo">Facility
+                                    Limit 2</label>
+                            </div>
+                            <div class="col-3">
+                                <label class="form-label fw-bold mb-0"
+                                    for="currentMortgagesSecondFacilityLimitThree">Facility
+                                    Limit 2</label>
+                            </div>
+                            <div class="col-3">
+                                <label class="form-label fw-bold mb-0"
+                                    for="currentMortgagesSecondFacilityLimitFour">Facility
+                                    Limit 2</label>
                             </div>
                             <div class="col-3">
                                 <div>
@@ -852,15 +1131,15 @@
                             <div class="col-3">
                                 <div>
                                     <input class="form-control" name="currentMortgagesFacilityLimit"
-                                        id="currentMortgagesFacilityLimitTwo" type="text" placeholder="Account Number"
-                                        aria-label="name">
+                                        id="currentMortgagesSecondFacilityLimitTwo" type="text"
+                                        placeholder="Account Number" aria-label="name">
                                 </div>
                             </div>
                             <div class="col-3">
                                 <div>
                                     <input class="form-control" name="currentMortgagesFacilityLimit"
-                                        id="currentMortgagesFacilityLimitThree" type="text" placeholder="Account Number"
-                                        aria-label="name">
+                                        id="currentMortgagesSecondFacilityLimitThree" type="text"
+                                        placeholder="Account Number" aria-label="name">
                                 </div>
                             </div>
                             <div class="col-3">
@@ -872,11 +1151,26 @@
                             </div>
                             <!-- /facility limit -->
                             <!-- balance outstanding two-->
-                            <div class="col-12">
+                            <div class="col-3">
                                 <label class="form-label fw-bold mb-0"
                                     for="currentMortgagesSecondBalanceOutstanding">Balance
                                     Outstanding 2
                                     <span class="text-danger"> *</span></label>
+                            </div>
+                            <div class="col-3">
+                                <label class="form-label fw-bold mb-0"
+                                    for="currentMortgagesSecondBalanceOutstandingTwo">Balance
+                                    Outstanding 2</label>
+                            </div>
+                            <div class="col-3">
+                                <label class="form-label fw-bold mb-0"
+                                    for="currentMortgagesSecondBalanceOutstandingThree">Balance
+                                    Outstanding 2</label>
+                            </div>
+                            <div class="col-3">
+                                <label class="form-label fw-bold mb-0"
+                                    for="currentMortgagesSecondBalanceOutstandingFour">Balance
+                                    Outstanding 2</label>
                             </div>
                             <div class="col-3">
                                 <div>
@@ -907,12 +1201,27 @@
                                 </div>
                             </div>
                             <!-- /balance outstanding -->
+
                             <!-- available redraw second -->
-                            <div class="col-12">
+                            <div class="col-3">
                                 <label class="form-label fw-bold mb-0"
                                     for="currentMortgagesSecondAvailableRedraw">Available
-                                    Redraw 2
-                                    <span class="text-danger"> *</span></label>
+                                    Redraw 2 <span class="text-danger"> *</span></label>
+                            </div>
+                            <div class="col-3">
+                                <label class="form-label fw-bold mb-0"
+                                    for="currentMortgagesSecondAvailableRedrawTwo">Available
+                                    Redraw 2</label>
+                            </div>
+                            <div class="col-3">
+                                <label class="form-label fw-bold mb-0"
+                                    for="currentMortgagesSecondAvailableRedrawThree">Available
+                                    Redraw 2</label>
+                            </div>
+                            <div class="col-3">
+                                <label class="form-label fw-bold mb-0"
+                                    for="currentMortgagesSecondAvailableRedrawFour">Available
+                                    Redraw 2</label>
                             </div>
                             <div class="col-3">
                                 <div>
@@ -942,16 +1251,31 @@
                                         placeholder="Available Redraw" aria-label="name">
                                 </div>
                             </div>
-                            <!-- /available redraw -->
+                            <!-- /available redraw second -->
                             <!-- initial loan term second -->
-                            <div class="col-12">
+                            <div class="col-3">
                                 <label class="form-label fw-bold mb-0" for="currentMortgagesSecondLoanTerm">Initial Loan
                                     Term 2
                                     <span class="text-danger"> *</span>
                                 </label>
                             </div>
                             <div class="col-3">
-                                <div class="input-group mb-3">
+                                <label class="form-label fw-bold mb-0" for="currentMortgagesSecondLoanTermTwo">Initial
+                                    Loan
+                                    Term 2</label>
+                            </div>
+                            <div class="col-3">
+                                <label class="form-label fw-bold mb-0" for="currentMortgagesSecondLoanTermThree">Initial
+                                    Loan
+                                    Term 2</label>
+                            </div>
+                            <div class="col-3">
+                                <label class="form-label fw-bold mb-0" for="currentMortgagesSecondLoanTermFour">Initial
+                                    Loan
+                                    Term 2</label>
+                            </div>
+                            <div class="col-3">
+                                <div class="input-group">
                                     <input type="text" class="form-control" placeholder="Initial Loan Term"
                                         name="currentMortgagesSecondLoanTerm" id="currentMortgagesSecondLoanTerm"
                                         aria-label="Recipient's username" aria-describedby="basic-addon2">
@@ -959,7 +1283,7 @@
                                 </div>
                             </div>
                             <div class="col-3">
-                                <div class="input-group mb-3">
+                                <div class="input-group">
                                     <input type="text" class="form-control" placeholder="Initial Loan Term"
                                         name="currentMortgagesSecondLoanTerm" id="currentMortgagesSecondLoanTermTwo"
                                         aria-label="Recipient's username" aria-describedby="basic-addon2">
@@ -967,7 +1291,7 @@
                                 </div>
                             </div>
                             <div class="col-3">
-                                <div class="input-group mb-3">
+                                <div class="input-group">
                                     <input type="text" class="form-control" placeholder="Initial Loan Term"
                                         name="currentMortgagesSecondLoanTerm" id="currentMortgagesSecondLoanTermThree"
                                         aria-label="Recipient's username" aria-describedby="basic-addon2">
@@ -975,465 +1299,791 @@
                                 </div>
                             </div>
                             <div class="col-3">
-                                <div class="input-group mb-3">
+                                <div class="input-group">
                                     <input type="text" class="form-control" placeholder="Initial Loan Term"
                                         name="currentMortgagesSecondLoanTerm" id="currentMortgagesSecondLoanTermFour"
                                         aria-label="Recipient's username" aria-describedby="basic-addon2">
                                     <span class="input-group-text fw-semibold" id="basic-addon2">Years</span>
                                 </div>
                             </div>
-                            <!-- /initial loan term -->
-                            <!-- Current interest rate Variable -->
-                            <div class="col-12">
-                                <label class="form-label fw-bold mb-0" for="currentMortgagesCurrentInterestRate">Current
+                            <!-- /initial loan term second -->
+                            <!-- Current interest rate Variable second -->
+                            <div class="col-3">
+                                <label class="form-label fw-bold mb-0"
+                                    for="currentMortgagesSecondCurrentInterestRate">Current
                                     Interest Rate 2
                                     <span class="text-danger"> *</span>
                                 </label>
                             </div>
                             <div class="col-3">
-                                <div class="input-group mb-3">
-                                    <input type="text" class="form-control" placeholder="Current Interest Rate"
-                                        name="currentMortgagesCurrentInterestRate"
-                                        id="currentMortgagesCurrentInterestRate" aria-label="Recipient's username"
-                                        aria-describedby="basic-addon2">
-                                    <span class="input-group-text fw-semibold" id="basic-addon2">% Variable</span>
-                                </div>
-                            </div>
-                            <div class="col-3">
-                                <div class="input-group mb-3">
-                                    <input type="text" class="form-control" placeholder="Current Interest Rate"
-                                        name="currentMortgagesCurrentInterestRate"
-                                        id="currentMortgagesCurrentInterestRateTwo" aria-label="Recipient's username"
-                                        aria-describedby="basic-addon2">
-                                    <span class="input-group-text fw-semibold" id="basic-addon2">% Variable</span>
-                                </div>
-                            </div>
-                            <div class="col-3">
-                                <div class="input-group mb-3">
-                                    <input type="text" class="form-control" placeholder="Current Interest Rate"
-                                        name="currentMortgagesCurrentInterestRate"
-                                        id="currentMortgagesCurrentInterestRateThree" aria-label="Recipient's username"
-                                        aria-describedby="basic-addon2">
-                                    <span class="input-group-text fw-semibold" id="basic-addon2">% Variable</span>
-                                </div>
-                            </div>
-                            <div class="col-3">
-                                <div class="input-group mb-3">
-                                    <input type="text" class="form-control" placeholder="Current Interest Rate"
-                                        name="currentMortgagesCurrentInterestRate"
-                                        id="currentMortgagesCurrentInterestRateFour" aria-label="Recipient's username"
-                                        aria-describedby="basic-addon2">
-                                    <span class="input-group-text fw-semibold" id="basic-addon2">% Variable</span>
-                                </div>
-                            </div>
-                            <!-- /current interest rate Variable -->
-                            <!-- current interest rate fixed -->
-                            <div class="col-12">
-                                <label class="form-label fw-bold mb-0" for="currentMortgagesOrInterestRate">OR
-                                </label>
-                            </div>
-                            <div class="col-3">
-                                <div class="input-group mb-3">
-                                    <input type="text" class="form-control" placeholder="Current Interest Rate"
-                                        name="currentMortgagesOrInterestRate" id="currentMortgagesOrInterestRate"
-                                        aria-label="Recipient's username" aria-describedby="basic-addon2">
-                                    <span class="input-group-text fw-semibold" id="basic-addon2">% Fixed</span>
-                                </div>
-                            </div>
-                            <div class="col-3">
-                                <div class="input-group mb-3">
-                                    <input type="text" class="form-control" placeholder="Current Interest Rate"
-                                        name="currentMortgagesOrInterestRate" id="currentMortgagesOrInterestRateTwo"
-                                        aria-label="Recipient's username" aria-describedby="basic-addon2">
-                                    <span class="input-group-text fw-semibold" id="basic-addon2">% Fixed</span>
-                                </div>
-                            </div>
-                            <div class="col-3">
-                                <div class="input-group mb-3">
-                                    <input type="text" class="form-control" placeholder="Current Interest Rate"
-                                        name="currentMortgagesOrInterestRate" id="currentMortgagesOrInterestRateThree"
-                                        aria-label="Recipient's username" aria-describedby="basic-addon2">
-                                    <span class="input-group-text fw-semibold" id="basic-addon2">% Fixed</span>
-                                </div>
-                            </div>
-                            <div class="col-3">
-                                <div class="input-group mb-3">
-                                    <input type="text" class="form-control" placeholder="Current Interest Rate"
-                                        name="currentMortgagesOrInterestRate" id="currentMortgagesOrInterestRateFour"
-                                        aria-label="Recipient's username" aria-describedby="basic-addon2">
-                                    <span class="input-group-text fw-semibold" id="basic-addon2">% Fixed</span>
-                                </div>
-                            </div>
-                            <!-- /Current interest rate fixed -->
-                            <!-- Remaining fixed term -->
-                            <div class="col-12">
                                 <label class="form-label fw-bold mb-0"
-                                    for="currentMortgagesRemainingFixedTerm">Remaining
+                                    for="currentMortgagesSecondCurrentInterestRateTwo">Current
+                                    Interest Rate 2</label>
+                            </div>
+                            <div class="col-3">
+                                <label class="form-label fw-bold mb-0"
+                                    for="currentMortgagesSecondCurrentInterestRateThree">Current
+                                    Interest Rate 2</label>
+                            </div>
+                            <div class="col-3">
+                                <label class="form-label fw-bold mb-0"
+                                    for="currentMortgagesSecondCurrentInterestRateFour">Current
+                                    Interest Rate 2</label>
+                            </div>
+
+                            <div class="col-3">
+                                <div class="input-group">
+                                    <input type="text" class="form-control" placeholder="Current Interest Rate"
+                                        name="currentMortgagesSecondCurrentInterestRate"
+                                        id="currentMortgagesSecondCurrentInterestRate" aria-label="Recipient's username"
+                                        aria-describedby="basic-addon2">
+                                    <span class="input-group-text fw-semibold" id="basic-addon2">% Variable</span>
+                                </div>
+                            </div>
+                            <div class="col-3">
+                                <div class="input-group">
+                                    <input type="text" class="form-control" placeholder="Current Interest Rate"
+                                        name="currentMortgagesSecondCurrentInterestRate"
+                                        id="currentMortgagesSecondCurrentInterestRateTwo"
+                                        aria-label="Recipient's username" aria-describedby="basic-addon2">
+                                    <span class="input-group-text fw-semibold" id="basic-addon2">% Variable</span>
+                                </div>
+                            </div>
+                            <div class="col-3">
+                                <div class="input-group">
+                                    <input type="text" class="form-control" placeholder="Current Interest Rate"
+                                        name="currentMortgagesSecondCurrentInterestRate"
+                                        id="currentMortgagesSecondCurrentInterestRateThree"
+                                        aria-label="Recipient's username" aria-describedby="basic-addon2">
+                                    <span class="input-group-text fw-semibold" id="basic-addon2">% Variable</span>
+                                </div>
+                            </div>
+                            <div class="col-3">
+                                <div class="input-group">
+                                    <input type="text" class="form-control" placeholder="Current Interest Rate"
+                                        name="currentMortgagesSecondCurrentInterestRate"
+                                        id="currentMortgagesSecondCurrentInterestRateFour"
+                                        aria-label="Recipient's username" aria-describedby="basic-addon2">
+                                    <span class="input-group-text fw-semibold" id="basic-addon2">% Variable</span>
+                                </div>
+                            </div>
+                            <!-- /current interest rate Variable second -->
+                            <!-- current interest rate fixed second -->
+                            <div class="col-3">
+                                <label class="form-label fw-bold mb-0" for="currentMortgagesSecondOrInterestRate">
+                                    OR<span class="text-danger"> *</span></label>
+                            </div>
+                            <div class="col-3">
+                                <label class="form-label fw-bold mb-0"
+                                    for="currentMortgagesSecondOrInterestRateTwo">OR</label>
+                            </div>
+                            <div class="col-3">
+                                <label class="form-label fw-bold mb-0"
+                                    for="currentMortgagesSecondOrInterestRateThree">OR</label>
+                            </div>
+                            <div class="col-3">
+                                <label class="form-label fw-bold mb-0"
+                                    for="currentMortgagesSecondOrInterestRateFour">OR</label>
+                            </div>
+                            <div class="col-3">
+                                <div class="input-group">
+                                    <input type="text" class="form-control" placeholder="Current Interest Rate"
+                                        name="currentMortgagesSecondOrInterestRate"
+                                        id="currentMortgagesSecondOrInterestRate" aria-label="Recipient's username"
+                                        aria-describedby="basic-addon2">
+                                    <span class="input-group-text fw-semibold" id="basic-addon2">% Fixed</span>
+                                </div>
+                            </div>
+                            <div class="col-3">
+                                <div class="input-group">
+                                    <input type="text" class="form-control" placeholder="Current Interest Rate"
+                                        name="currentMortgagesSecondOrInterestRate"
+                                        id="currentMortgagesSecondOrInterestRateTwo" aria-label="Recipient's username"
+                                        aria-describedby="basic-addon2">
+                                    <span class="input-group-text fw-semibold" id="basic-addon2">% Fixed</span>
+                                </div>
+                            </div>
+                            <div class="col-3">
+                                <div class="input-group">
+                                    <input type="text" class="form-control" placeholder="Current Interest Rate"
+                                        name="currentMortgagesSecondOrInterestRate"
+                                        id="currentMortgagesSecondOrInterestRateThree" aria-label="Recipient's username"
+                                        aria-describedby="basic-addon2">
+                                    <span class="input-group-text fw-semibold" id="basic-addon2">% Fixed</span>
+                                </div>
+                            </div>
+                            <div class="col-3">
+                                <div class="input-group">
+                                    <input type="text" class="form-control" placeholder="Current Interest Rate"
+                                        name="currentMortgagesSecondOrInterestRate"
+                                        id="currentMortgagesSecondOrInterestRateFour" aria-label="Recipient's username"
+                                        aria-describedby="basic-addon2">
+                                    <span class="input-group-text fw-semibold" id="basic-addon2">% Fixed</span>
+                                </div>
+                            </div>
+                            <!-- /Current interest rate fixed second -->
+                            <!-- Remaining fixed term second -->
+                            <div class="col-3">
+                                <label class="form-label fw-bold mb-0"
+                                    for="currentMortgagesSecondRemainingFixedTerm">Remaining
                                     Fixed
-                                    Term 1 <span class="text-danger"> *</span>
+                                    Term 2 <span class="text-danger"> *</span>
                                 </label>
                             </div>
                             <div class="col-3">
-                                <div class="input-group mb-3">
+                                <label class="form-label fw-bold mb-0"
+                                    for="currentMortgagesSecondRemainingFixedTermTwo">Remaining
+                                    Fixed
+                                    Term 2</label>
+                            </div>
+                            <div class="col-3">
+                                <label class="form-label fw-bold mb-0"
+                                    for="currentMortgagesSecondRemainingFixedTermThree">Remaining
+                                    Fixed
+                                    Term 2</label>
+                            </div>
+                            <div class="col-3">
+                                <label class="form-label fw-bold mb-0"
+                                    for="currentMortgagesSecondRemainingFixedTermFour">Remaining
+                                    Fixed
+                                    Term 2</label>
+                            </div>
+                            <div class="col-3">
+                                <div class="input-group">
                                     <input type="text" class="form-control" placeholder="Remaining Fixed Term"
-                                        name="currentMortgagesRemainingFixedTerm"
-                                        id="currentMortgagesRemainingFixedTerm" aria-label="Recipient's username"
+                                        name="currentMortgagesSecondRemainingFixedTerm"
+                                        id="currentMortgagesSecondRemainingFixedTerm" aria-label="Recipient's username"
                                         aria-describedby="basic-addon2">
                                     <span class="input-group-text fw-semibold" id="basic-addon2">Months</span>
                                 </div>
                             </div>
                             <div class="col-3">
-                                <div class="input-group mb-3">
+                                <div class="input-group">
                                     <input type="text" class="form-control" placeholder="Remaining Fixed Term"
-                                        name="currentMortgagesRemainingFixedTerm"
-                                        id="currentMortgagesRemainingFixedTermTwo" aria-label="Recipient's username"
-                                        aria-describedby="basic-addon2">
+                                        name="currentMortgagesSecondRemainingFixedTerm"
+                                        id="currentMortgagesSecondRemainingFixedTermTwo"
+                                        aria-label="Recipient's username" aria-describedby="basic-addon2">
                                     <span class="input-group-text fw-semibold" id="basic-addon2">Months</span>
                                 </div>
                             </div>
                             <div class="col-3">
 
-                                <div class="input-group mb-3">
+                                <div class="input-group">
                                     <input type="text" class="form-control" placeholder="Remaining Fixed Term"
-                                        name="currentMortgagesRemainingFixedTerm"
-                                        id="currentMortgagesRemainingFixedTermThree" aria-label="Recipient's username"
-                                        aria-describedby="basic-addon2">
+                                        name="currentMortgagesSecondRemainingFixedTerm"
+                                        id="currentMortgagesSecondRemainingFixedTermThree"
+                                        aria-label="Recipient's username" aria-describedby="basic-addon2">
                                     <span class="input-group-text fw-semibold" id="basic-addon2">Months</span>
                                 </div>
 
                             </div>
                             <div class="col-3">
-                                <div class="input-group mb-3">
+                                <div class="input-group">
                                     <input type="text" class="form-control" placeholder="Remaining Fixed Term"
-                                        name="currentMortgagesRemainingFixedTerm"
-                                        id="currentMortgagesRemainingFixedTermFour" aria-label="Recipient's username"
-                                        aria-describedby="basic-addon2">
+                                        name="currentMortgagesSecondRemainingFixedTermFour"
+                                        id="currentMortgagesSecondRemainingFixedTermFour"
+                                        aria-label="Recipient's username" aria-describedby="basic-addon2">
                                     <span class="input-group-text fw-semibold" id="basic-addon2">Months</span>
                                 </div>
                             </div>
-                            <!-- /Remaining fixed term -->
-                            <!-- to be refinanced -->
-                            <div class="col-12">
-                                <label class="form-label fw-bold mb-0" for="currentMortgagesToRefinanced">To Be
-                                    Refinanced? <span class="text-danger"> *</span>
+                            <!-- /Remaining fixed term second -->
+                            <!-- to be refinanced second -->
+                            <div class="col-3">
+                                <label class="form-label fw-bold mb-0" for="currentMortgagesSecondToRefinanced">To Be
+                                    Refinanced <span class="text-danger"> *</span>
                                 </label>
                             </div>
                             <div class="col-3">
-                                <div class="form-check form-check-inline">
-                                    <input class="form-check-input" type="radio" name="currentMortgagesToRefinanced"
-                                        id="currentMortgagesToRefinancedYes" value="option1">
-                                    <label class="form-check-label fw-semibold"
-                                        for="currentMortgagesToRefinancedYes">Yes</label>
-                                </div>
-                                <div class="form-check form-check-inline">
-                                    <input class="form-check-input" type="radio" name="currentMortgagesToRefinanced"
-                                        id="currentMortgagesToRefinancedNo" value="option2">
-                                    <label class="form-check-label fw-semibold"
-                                        for="currentMortgagesToRefinancedNo">No</label>
-                                </div>
+                                <label class="form-label fw-bold mb-0" for="currentMortgagesSecondToRefinancedTwo">To Be
+                                    Refinanced</label>
+                            </div>
+                            <div class="col-3">
+                                <label class="form-label fw-bold mb-0" for="currentMortgagesSecondToRefinancedThree">To
+                                    Be
+                                    Refinanced</label>
+                            </div>
+                            <div class="col-3">
+                                <label class="form-label fw-bold mb-0" for="currentMortgagesSecondToRefinancedFour">To
+                                    Be
+                                    Refinanced</label>
                             </div>
                             <div class="col-3">
                                 <div class="form-check form-check-inline">
-                                    <input class="form-check-input" type="radio" name="currentMortgagesToRefinancedTwo"
-                                        id="currentMortgagesToRefinancedYesTwo" value="option1">
+                                    <input class="form-check-input" type="radio"
+                                        name="currentMortgagesSecondToRefinanced"
+                                        id="currentMortgagesSecondToRefinancedYes" value="option1">
                                     <label class="form-check-label fw-semibold"
-                                        for="currentMortgagesToRefinancedYesTwo">Yes</label>
+                                        for="currentMortgagesSecondToRefinancedYes">Yes</label>
                                 </div>
                                 <div class="form-check form-check-inline">
-                                    <input class="form-check-input" type="radio" name="currentMortgagesToRefinancedTwo"
-                                        id="currentMortgagesToRefinancedNoTwo" value="option2">
+                                    <input class="form-check-input" type="radio"
+                                        name="currentMortgagesSecondToRefinanced"
+                                        id="currentMortgagesSecondToRefinancedNo" value="option2">
                                     <label class="form-check-label fw-semibold"
-                                        for="currentMortgagesToRefinancedNoTwo">No</label>
+                                        for="currentMortgagesSecondToRefinancedNo">No</label>
                                 </div>
                             </div>
                             <div class="col-3">
                                 <div class="form-check form-check-inline">
                                     <input class="form-check-input" type="radio"
-                                        name="currentMortgagesToRefinancedThree"
-                                        id="currentMortgagesToRefinancedYesThree" value="option1">
+                                        name="currentMortgagesSecondToRefinancedTwo"
+                                        id="currentMortgagesSecondToRefinancedYesTwo" value="option1">
                                     <label class="form-check-label fw-semibold"
-                                        for="currentMortgagesToRefinancedYesThree">Yes</label>
+                                        for="currentMortgagesSecondToRefinancedYesTwo">Yes</label>
                                 </div>
                                 <div class="form-check form-check-inline">
                                     <input class="form-check-input" type="radio"
-                                        name="currentMortgagesToRefinancedThree"
-                                        id="currentMortgagesToRefinancedNoThree" value="option2">
+                                        name="currentMortgagesSecondToRefinancedTwo"
+                                        id="currentMortgagesSecondToRefinancedNoTwo" value="option2">
                                     <label class="form-check-label fw-semibold"
-                                        for="currentMortgagesToRefinancedNoThree">No</label>
+                                        for="currentMortgagesSecondToRefinancedNoTwo">No</label>
                                 </div>
                             </div>
                             <div class="col-3">
                                 <div class="form-check form-check-inline">
-                                    <input class="form-check-input" type="radio" name="currentMortgagesToRefinancedFour"
-                                        id="currentMortgagesToRefinancedYesFour" value="option1">
+                                    <input class="form-check-input" type="radio"
+                                        name="currentMortgagesSecondRefinancedThree"
+                                        id="currentMortgagesRefinancedYesThree" value="option1">
                                     <label class="form-check-label fw-semibold"
-                                        for="currentMortgagesToRefinancedYesFour">Yes</label>
+                                        for="currentMortgagesRefinancedYesThree">Yes</label>
                                 </div>
                                 <div class="form-check form-check-inline">
-                                    <input class="form-check-input" type="radio" name="currentMortgagesToRefinancedFour"
-                                        id="currentMortgagesToRefinancedNoFour" value="option2">
+                                    <input class="form-check-input" type="radio"
+                                        name="currentMortgagesSecondRefinancedThree"
+                                        id="currentMortgagesSecondToRefinancedNoThree" value="option2">
                                     <label class="form-check-label fw-semibold"
-                                        for="currentMortgagesToRefinancedNoFour">No</label>
+                                        for="currentMortgagesSecondToRefinancedNoThree">No</label>
+                                </div>
+                            </div>
+                            <div class="col-3">
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio"
+                                        name="currentMortgagesSecondToRefinancedFour"
+                                        id="currentMortgagesSecondToRefinancedYesFour" value="option1">
+                                    <label class="form-check-label fw-semibold"
+                                        for="currentMortgagesSecondToRefinancedYesFour">Yes</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio"
+                                        name="currentMortgagesSecondToRefinancedFour"
+                                        id="currentMortgagesSecondToRefinancedNoFour" value="option2">
+                                    <label class="form-check-label fw-semibold"
+                                        for="currentMortgagesSecondToRefinancedNoFour">No</label>
                                 </div>
                             </div>
                             <!-- /to be refinanced -->
-                            <!-- reverting (from fixed to variable) rate -->
-                            <div class="col-12">
-                                <label class="form-label fw-bold mb-0" for="currentMortgagesRevertingRate">Reverting
-                                    (from fixed to variable) rate 1
+                            <!-- reverting (from fixed to variable) rate second -->
+                            <div class="col-3">
+                                <label class="form-label fw-bold mb-0"
+                                    for="currentMortgagesSecondRevertingRate">Reverting
+                                    (from fixed to variable) Rate 2
                                     <span class="text-danger"> *</span>
                                 </label>
                             </div>
                             <div class="col-3">
-                                <div class="input-group mb-3">
+                                <label class="form-label fw-bold mb-0"
+                                    for="currentMortgagesSecondRevertingRateTwo">Reverting
+                                    (from fixed to variable) Rate 2</label>
+                            </div>
+                            <div class="col-3">
+                                <label class="form-label fw-bold mb-0"
+                                    for="currentMortgagesSecondRevertingRateThree">Reverting
+                                    (from fixed to variable) Rate 2</label>
+                            </div>
+                            <div class="col-3">
+                                <label class="form-label fw-bold mb-0"
+                                    for="currentMortgagesSecondRevertingRateFour">Reverting
+                                    (from fixed to variable) Rate 2</label>
+                            </div>
+                            <div class="col-3">
+                                <div class="input-group">
                                     <input type="text" class="form-control" placeholder="Remaining Fixed Term"
-                                        name="currentMortgagesRevertingRate" id="currentMortgagesRevertingRate"
-                                        aria-label="Recipient's username" aria-describedby="basic-addon2">
+                                        name="currentMortgagesSecondRevertingRate"
+                                        id="currentMortgagesSecondRevertingRate" aria-label="Recipient's username"
+                                        aria-describedby="basic-addon2">
                                     <span class="input-group-text fw-semibold" id="basic-addon2">% Variable</span>
                                 </div>
                             </div>
                             <div class="col-3">
-                                <div class="input-group mb-3">
+                                <div class="input-group">
                                     <input type="text" class="form-control" placeholder="Remaining Fixed Term"
-                                        name="currentMortgagesRevertingRate" id="currentMortgagesRevertingRateTwo"
-                                        aria-label="Recipient's username" aria-describedby="basic-addon2">
+                                        name="currentMortgagesSecondRevertingRate"
+                                        id="currentMortgagesSecondRevertingRateTwo" aria-label="Recipient's username"
+                                        aria-describedby="basic-addon2">
                                     <span class="input-group-text fw-semibold" id="basic-addon2">% Variable</span>
                                 </div>
                             </div>
                             <div class="col-3">
-                                <div class="input-group mb-3">
+                                <div class="input-group">
                                     <input type="text" class="form-control" placeholder="Remaining Fixed Term"
-                                        name="currentMortgagesRevertingRate" id="currentMortgagesRevertingRateThree"
-                                        aria-label="Recipient's username" aria-describedby="basic-addon2">
+                                        name="currentMortgagesSecondRevertingRate"
+                                        id="currentMortgagesSecondRevertingRateThree" aria-label="Recipient's username"
+                                        aria-describedby="basic-addon2">
                                     <span class="input-group-text fw-semibold" id="basic-addon2">% Variable</span>
                                 </div>
                             </div>
                             <div class="col-3">
-                                <div class="input-group mb-3">
+                                <div class="input-group">
                                     <input type="text" class="form-control" placeholder="Remaining Fixed Term"
-                                        name="currentMortgagesRevertingRate" id="currentMortgagesRevertingRateFour"
-                                        aria-label="Recipient's username" aria-describedby="basic-addon2">
+                                        name="currentMortgagesSecondRevertingRate"
+                                        id="currentMortgagesSecondRevertingRateFour" aria-label="Recipient's username"
+                                        aria-describedby="basic-addon2">
                                     <span class="input-group-text fw-semibold" id="basic-addon2">% Variable</span>
                                 </div>
                             </div>
-                            <!-- /reverting (from fixed to variable) rate -->
-                            <!-- reverting (from IO to P&I) rate -->
-                            <div class="col-12">
-                                <label class="form-label fw-bold mb-0" for="currentMortgagesRevertingIoPI">Reverting
+                            <!-- /reverting (from fixed to variable) rate second -->
+                            <!-- reverting (from IO to P&I) rate second -->
+                            <div class="col-3">
+                                <label class="form-label fw-bold mb-0"
+                                    for="currentMortgagesSecondRevertingIoPI">Reverting
                                     (From
-                                    IO to P&I) Rate 1
+                                    IO to P&I) Rate 2
                                     <span class="text-danger"> *</span>
                                 </label>
                             </div>
                             <div class="col-3">
-                                <div class="input-group mb-3">
-                                    <input type="text" name="currentMortgagesRevertingIoPI"
-                                        id="currentMortgagesRevertingIoPI" class="form-control"
+                                <label class="form-label fw-bold mb-0"
+                                    for="currentMortgagesSecondRevertingIoPITwo">Reverting
+                                    (From
+                                    IO to P&I) Rate 2</label>
+                            </div>
+                            <div class="col-3">
+                                <label class="form-label fw-bold mb-0"
+                                    for="currentMortgagesSecondRevertingIoPIThree">Reverting
+                                    (From
+                                    IO to P&I) Rate 2</label>
+                            </div>
+                            <div class="col-3">
+                                <label class="form-label fw-bold mb-0"
+                                    for="currentMortgagesSecondRevertingIoPIFour">Reverting
+                                    (From
+                                    IO to P&I) Rate 2</label>
+                            </div>
+                            <div class="col-3">
+                                <div class="input-group">
+                                    <input type="text" name="currentMortgagesSecondRevertingIoPI"
+                                        id="currentMortgagesSecondRevertingIoPI" class="form-control"
                                         placeholder="Remaining IO to P&I Rate" aria-label="Recipient's username"
                                         aria-describedby="basic-addon2">
                                     <span class="input-group-text fw-semibold" id="basic-addon2">% Variable</span>
                                 </div>
                             </div>
                             <div class="col-3">
-                                <div class="input-group mb-3">
-                                    <input type="text" name="currentMortgagesRevertingIoPITwo"
-                                        id="currentMortgagesRevertingIoPITwo" class="form-control"
+                                <div class="input-group">
+                                    <input type="text" name="currentMortgagesSecondRevertingIoPITwo"
+                                        id="currentMortgagesSecondRevertingIoPITwo" class="form-control"
                                         placeholder="Remaining IO to P&I Rate" aria-label="Recipient's username"
                                         aria-describedby="basic-addon2">
                                     <span class="input-group-text fw-semibold" id="basic-addon2">% Variable</span>
                                 </div>
                             </div>
                             <div class="col-3">
-                                <div class="input-group mb-3">
-                                    <input type="text" class="form-control" name="currentMortgagesRevertingIoPIThree"
-                                        id="currentMortgagesRevertingIoPIThree" placeholder="Remaining IO to P&I Rate"
-                                        aria-label="Recipient's username" aria-describedby="basic-addon2">
+                                <div class="input-group">
+                                    <input type="text" class="form-control"
+                                        name="currentMortgagesSecondRevertingIoPIThree"
+                                        id="currentMortgagesSecondRevertingIoPIThree"
+                                        placeholder="Remaining IO to P&I Rate" aria-label="Recipient's username"
+                                        aria-describedby="basic-addon2">
                                     <span class="input-group-text fw-semibold" id="basic-addon2">% Variable</span>
                                 </div>
                             </div>
                             <div class="col-3">
-                                <div class="input-group mb-3">
+                                <div class="input-group">
                                     <input type="text" class="form-control" placeholder="Remaining IO to P&I Rate"
-                                        name="currentMortgagesRevertingIoPIFour" id="currentMortgagesRevertingIoPIFour"
-                                        aria-label="Recipient's username" aria-describedby="basic-addon2">
+                                        name="currentMortgagesSecondRevertingIoPIFour"
+                                        id="currentMortgagesSecondRevertingIoPIFour" aria-label="Recipient's username"
+                                        aria-describedby="basic-addon2">
                                     <span class="input-group-text fw-semibold" id="basic-addon2">% Variable</span>
                                 </div>
                             </div>
-                            <!-- /reverting (from IO to P&I) rate -->
-                            <!-- repayment type one -->
-                            <div class="col-12">
-                                <label class="form-label fw-bold mb-0" for="currentMortgagesIoRepayment">Repayment type
-                                    1 <span class="text-danger"> *</span>
+                            <!-- /reverting (from IO to P&I) rate second -->
+                            <!-- repayment type one no second -->
+                            <div class="col-3">
+                                <label class="form-label fw-bold mb-0" for="currentMortgagesSecondIoRepayment">Repayment
+                                    Type
+                                    2 <span class="text-danger"> *</span>
                                 </label>
                             </div>
                             <div class="col-3">
-                                <div class="form-check form-check-inline">
-                                    <input class="form-check-input" type="radio" name="currentMortgagesIoRepayment"
-                                        id="currentMortgagesIoRepayment" value="option1">
-                                    <label class="form-check-label fw-semibold"
-                                        for="currentMortgagesIoRepayment">P&I</label>
-                                </div>
-                                <div class="form-check form-check-inline">
-                                    <input class="form-check-input" type="radio" name="currentMortgagesIoRepayment"
-                                        id="currentMortgagesIoRepaymentIO" value="option2">
-                                    <label class="form-check-label fw-semibold"
-                                        for="currentMortgagesIoRepaymentIO">IO</label>
-                                </div>
+                                <label class="form-label fw-bold mb-0"
+                                    for="currentMortgagesSecondIoRepaymentTwo">Repayment
+                                    Type 2</label>
                             </div>
                             <div class="col-3">
-                                <div class="form-check form-check-inline">
-                                    <input class="form-check-input" type="radio" name="currentMortgagesIoRepaymentPITwo"
-                                        id="currentMortgagesIoRepaymentPITwo" value="option1">
-                                    <label class="form-check-label fw-semibold"
-                                        for="currentMortgagesIoRepaymentPITwo">P&I</label>
-                                </div>
-                                <div class="form-check form-check-inline">
-                                    <input class="form-check-input" type="radio" name="currentMortgagesIoRepaymentPITwo"
-                                        id="currentMortgagesRepaymentIO" value="option2">
-                                    <label class="form-check-label fw-semibold"
-                                        for="currentMortgagesRepaymentIO">IO</label>
-                                </div>
+                                <label class="form-label fw-bold mb-0"
+                                    for="currentMortgagesSecondIoRepaymentThee">Repayment
+                                    Type 2</label>
+                            </div>
+                            <div class="col-3">
+                                <label class="form-label fw-bold mb-0"
+                                    for="currentMortgagesSecondIoRepaymentFour">Repayment
+                                    Type 2</label>
                             </div>
                             <div class="col-3">
                                 <div class="form-check form-check-inline">
                                     <input class="form-check-input" type="radio"
-                                        name="currentMortgagesToRefinancedThree" id="currentMortgagesRepaymentPIThree"
+                                        name="currentMortgagesSecondIoRepayment" id="currentMortgagesSecondIoRepayment"
                                         value="option1">
                                     <label class="form-check-label fw-semibold"
-                                        for="currentMortgagesRepaymentPIThree">P&I</label>
+                                        for="currentMortgagesSecondIoRepayment">P&I</label>
                                 </div>
                                 <div class="form-check form-check-inline">
                                     <input class="form-check-input" type="radio"
-                                        name="currentMortgagesToRefinancedThree" id="currentMortgagesRepaymentIOThree"
-                                        value="option2">
+                                        name="currentMortgagesSecondIoRepayment"
+                                        id="currentMortgagesSecondIoRepaymentIO" value="option2">
                                     <label class="form-check-label fw-semibold"
-                                        for="currentMortgagesRepaymentIOThree">IO</label>
+                                        for="currentMortgagesSecondIoRepaymentIO">IO</label>
                                 </div>
                             </div>
                             <div class="col-3">
                                 <div class="form-check form-check-inline">
-                                    <input class="form-check-input" type="radio" name="currentMortgagesToRefinancedFour"
-                                        id="currentMortgagesRepaymentPIFour" value="option1">
+                                    <input class="form-check-input" type="radio"
+                                        name="currentMortgagesSecondIoRepaymentPITwo"
+                                        id="currentMortgagesSecondIoRepaymentPITwo" value="option1">
                                     <label class="form-check-label fw-semibold"
-                                        for="currentMortgagesRepaymentPIFour">P&I</label>
+                                        for="currentMortgagesSecondIoRepaymentPITwo">P&I</label>
                                 </div>
                                 <div class="form-check form-check-inline">
-                                    <input class="form-check-input" type="radio" name="currentMortgagesToRefinancedFour"
-                                        id="currentMortgagesRepaymentIOFour" value="option2">
+                                    <input class="form-check-input" type="radio"
+                                        name="currentMortgagesSecondIoRepaymentPITwo"
+                                        id="currentMortgagesSecondRepaymentIO" value="option2">
                                     <label class="form-check-label fw-semibold"
-                                        for="currentMortgagesRepaymentIOFour">IO</label>
+                                        for="currentMortgagesSecondRepaymentIO">IO</label>
                                 </div>
                             </div>
-                            <!-- /Repayment type one -->
-                            <!-- remaining p&i period -->
-                            <div class="col-12">
-                                <label class="form-label fw-bold mb-0" for="currentMortgagesRemainingPeriod">Remaining
+                            <div class="col-3">
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio"
+                                        name="currentMortgagesSecondToRefinancedThree"
+                                        id="currentMortgagesSecondRepaymentPIThree" value="option1">
+                                    <label class="form-check-label fw-semibold"
+                                        for="currentMortgagesSecondRepaymentPIThree">P&I</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio"
+                                        name="currentMortgagesSecondToRefinancedThree"
+                                        id="currentMortgagesSecondRepaymentIOThree" value="option2">
+                                    <label class="form-check-label fw-semibold"
+                                        for="currentMortgagesSecondRepaymentIOThree">IO</label>
+                                </div>
+                            </div>
+                            <div class="col-3">
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio"
+                                        name="currentMortgagesSecondToRefinancedFour"
+                                        id="currentMortgagesSecondRepaymentPIFour" value="option1">
+                                    <label class="form-check-label fw-semibold"
+                                        for="currentMortgagesSecondRepaymentPIFour">P&I</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio"
+                                        name="currentMortgagesSecondToRefinancedFour"
+                                        id="currentMortgagesSecondRepaymentIOFour" value="option2">
+                                    <label class="form-check-label fw-semibold"
+                                        for="currentMortgagesSecondRepaymentIOFour">IO</label>
+                                </div>
+                            </div>
+                            <!-- /Repayment type one second -->
+                            <!-- remaining p&i period second -->
+                            <div class="col-3">
+                                <label class="form-label fw-bold mb-0"
+                                    for="currentMortgagesSecondRemainingPeriod">Remaining
                                     P&I
-                                    period if IO
+                                    Period If IO
                                     <span class="text-danger"> *</span>
                                 </label>
                             </div>
                             <div class="col-3">
-                                <div class="input-group mb-3">
+                                <label class="form-label fw-bold mb-0"
+                                    for="currentMortgagesSecondRemainingPeriodTwo">Remaining
+                                    P&I Period If IO</label>
+                            </div>
+                            <div class="col-3">
+                                <label class="form-label fw-bold mb-0"
+                                    for="currentMortgagesSecondRemainingPeriodThree">Remaining
+                                    P&I Period If IO</label>
+                            </div>
+                            <div class="col-3">
+                                <label class="form-label fw-bold mb-0"
+                                    for="currentMortgagesSecondRemainingPeriodFour">Remaining
+                                    P&I Period If IO</label>
+                            </div>
+                            <div class="col-3">
+                                <div class="input-group">
                                     <input type="text" class="form-control" placeholder="Remaining P&I Period"
-                                        name="currentMortgagesRemainingPeriod" id="currentMortgagesRemainingPeriod"
+                                        name="currentMortgagesSecondRemainingPeriod"
+                                        id="currentMortgagesSecondRemainingPeriod" aria-label="Recipient's username"
+                                        aria-describedby="basic-addon2">
+                                    <span class="input-group-text fw-semibold" id="basic-addon2">Years</span>
+                                </div>
+                            </div>
+                            <div class="col-3">
+                                <div class="input-group">
+                                    <input type="text" class="form-control" placeholder="Remaining P&I Period"
+                                        name="currentMortgagesSecondRemainingPeriodTwo"
+                                        id="currentMortgagesSecondRemainingPeriodTwo" aria-label="Recipient's username"
+                                        aria-describedby="basic-addon2">
+                                    <span class="input-group-text fw-semibold" id="basic-addon2">Years</span>
+                                </div>
+                            </div>
+                            <div class="col-3">
+                                <div class="input-group">
+                                    <input type="text" class="form-control" placeholder="Remaining P&I Period"
+                                        name="currentMortgagesSecondRemainingPeriodThree"
+                                        id="currentMortgagesSecondRemainingPeriodThree"
                                         aria-label="Recipient's username" aria-describedby="basic-addon2">
                                     <span class="input-group-text fw-semibold" id="basic-addon2">Years</span>
                                 </div>
                             </div>
                             <div class="col-3">
-                                <div class="input-group mb-3">
+                                <div class="input-group">
                                     <input type="text" class="form-control" placeholder="Remaining P&I Period"
-                                        name="currentMortgagesRemainingPeriodTwo"
-                                        id="currentMortgagesRemainingPeriodTwo" aria-label="Recipient's username"
+                                        name="currentMortgagesSecondRemainingPeriodFour"
+                                        id="currentMortgagesSecondRemainingPeriodFour" aria-label="Recipient's username"
                                         aria-describedby="basic-addon2">
                                     <span class="input-group-text fw-semibold" id="basic-addon2">Years</span>
                                 </div>
                             </div>
+                            <!-- /remaining p&i period second -->
+                            <!-- deductible payment second -->
                             <div class="col-3">
-                                <div class="input-group mb-3">
-                                    <input type="text" class="form-control" placeholder="Remaining P&I Period"
-                                        name="currentMortgagesRemainingPeriodThree"
-                                        id="currentMortgagesRemainingPeriodThree" aria-label="Recipient's username"
-                                        aria-describedby="basic-addon2">
-                                    <span class="input-group-text fw-semibold" id="basic-addon2">Years</span>
-                                </div>
-                            </div>
-                            <div class="col-3">
-                                <div class="input-group mb-3">
-                                    <input type="text" class="form-control" placeholder="Remaining P&I Period"
-                                        name="currentMortgagesRemainingPeriodFour"
-                                        id="currentMortgagesRemainingPeriodFour" aria-label="Recipient's username"
-                                        aria-describedby="basic-addon2">
-                                    <span class="input-group-text fw-semibold" id="basic-addon2">Years</span>
-                                </div>
-                            </div>
-                            <!-- /remaining p&i period -->
-                            <!-- deductible payment -->
-                            <div class="col-12">
-                                <label class="form-label fw-bold mb-0" for="currentMortgagesDeductible">Deductible
-                                    interest? <span class="text-danger"> *</span>
+                                <label class="form-label fw-bold mb-0" for="currentMortgagesSecondDeductible">Deductible
+                                    Interest <span class="text-danger"> *</span>
                                 </label>
                             </div>
                             <div class="col-3">
+                                <label class="form-label fw-bold mb-0"
+                                    for="currentMortgagesSecondDeductibleTwo">Deductible
+                                    Interest</label>
+                            </div>
+                            <div class="col-3">
+                                <label class="form-label fw-bold mb-0"
+                                    for="currentMortgagesSecondDeductibleThree">Deductible
+                                    Interest</label>
+                            </div>
+                            <div class="col-3">
+                                <label class="form-label fw-bold mb-0"
+                                    for="currentMortgagesSecondDeductibleFour">Deductible
+                                    Interest</label>
+                            </div>
+                            <div class="col-3">
                                 <div class="form-check form-check-inline">
-                                    <input class="form-check-input" type="radio" name="currentMortgagesDeductible"
-                                        id="currentMortgagesDeductibleYes" value="option1">
+                                    <input class="form-check-input" type="radio" name="currentMortgagesSecondDeductible"
+                                        id="currentMortgagesSecondDeductibleYes" value="option1">
                                     <label class="form-check-label fw-semibold"
-                                        for="currentMortgagesDeductibleYes">Yes</label>
+                                        for="currentMortgagesSecondDeductibleYes">Yes</label>
                                 </div>
                                 <div class="form-check form-check-inline">
-                                    <input class="form-check-input" type="radio" name="currentMortgagesDeductible"
-                                        id="currentMortgagesDeductibleNo" value="option2">
+                                    <input class="form-check-input" type="radio" name="currentMortgagesSecondDeductible"
+                                        id="currentMortgagesSecondDeductibleNo" value="option2">
                                     <label class="form-check-label fw-semibold"
-                                        for="currentMortgagesDeductibleNo">No</label>
+                                        for="currentMortgagesSecondDeductibleNo">No</label>
                                 </div>
                             </div>
                             <div class="col-3">
                                 <div class="form-check form-check-inline">
                                     <input class="form-check-input" type="radio"
-                                        name="currentMortgagesDeductibleInterestTwo"
-                                        id="currentMortgagesDeductibleYesTwo" value="option1">
+                                        name="currentMortgagesSecondDeductibleInterestTwo"
+                                        id="currentMortgagesSecondDeductibleYesTwo" value="option1">
                                     <label class="form-check-label fw-semibold"
-                                        for="currentMortgagesDeductibleYesTwo">Yes</label>
+                                        for="currentMortgagesSecondDeductibleYesTwo">Yes</label>
                                 </div>
                                 <div class="form-check form-check-inline">
                                     <input class="form-check-input" type="radio"
-                                        name="currentMortgagesDeductibleInterestTwo"
-                                        id="currentMortgagesDeductibleNoTwo" value="option2">
+                                        name="currentMortgagesSecondDeductibleInterestTwo"
+                                        id="currentMortgagesSecondDeductibleNoTwo" value="option2">
                                     <label class="form-check-label fw-semibold"
-                                        for="currentMortgagesDeductibleNoTwo">No</label>
+                                        for="currentMortgagesSecondDeductibleNoTwo">No</label>
                                 </div>
                             </div>
                             <div class="col-3">
                                 <div class="form-check form-check-inline">
-                                    <input class="form-check-input" type="radio" name="currentMortgagesDeductibleThree"
-                                        id="currentMortgagesDeductibleYesThree" value="option1">
+                                    <input class="form-check-input" type="radio"
+                                        name="currentMortgagesSecondDeductibleThree"
+                                        id="currentMortgagesSecondDeductibleYesThree" value="option1">
                                     <label class="form-check-label fw-semibold"
-                                        for="currentMortgagesDeductibleYesThree">Yes</label>
+                                        for="currentMortgagesSecondDeductibleYesThree">Yes</label>
                                 </div>
                                 <div class="form-check form-check-inline">
-                                    <input class="form-check-input" type="radio" name="currentMortgagesDeductibleThree"
-                                        id="currentMortgagesDeductibleNoThree" value="option2">
+                                    <input class="form-check-input" type="radio"
+                                        name="currentMortgagesSecondDeductibleThree"
+                                        id="currentMortgagesSecondDeductibleNoThree" value="option2">
                                     <label class="form-check-label fw-semibold"
-                                        for="currentMortgagesDeductibleNoThree">No</label>
+                                        for="currentMortgagesSecondDeductibleNoThree">No</label>
                                 </div>
                             </div>
                             <div class="col-3">
                                 <div class="form-check form-check-inline">
-                                    <input class="form-check-input" type="radio" name="currentMortgagesDeductibleFour"
-                                        id="currentMortgagesDeductibleYesFour" value="option1">
+                                    <input class="form-check-input" type="radio"
+                                        name="currentMortgagesSecondDeductibleFour"
+                                        id="currentMortgagesSecondDeductibleYesFour" value="option1">
                                     <label class="form-check-label fw-semibold"
-                                        for="currentMortgagesDeductibleYesFour">Yes</label>
+                                        for="currentMortgagesSecondDeductibleYesFour">Yes</label>
                                 </div>
                                 <div class="form-check form-check-inline">
-                                    <input class="form-check-input" type="radio" name="currentMortgagesDeductibleFour"
-                                        id="currentMortgagesDeductibleNoFour" value="option2">
+                                    <input class="form-check-input" type="radio"
+                                        name="currentMortgagesSecondDeductibleFour"
+                                        id="currentMortgagesSecondDeductibleNoFour" value="option2">
                                     <label class="form-check-label fw-semibold"
-                                        for="currentMortgagesDeductibleNoFour">No</label>
+                                        for="currentMortgagesSecondDeductibleNoFour">No</label>
                                 </div>
                             </div>
-                            <!-- /deductible interest -->
+                            <!-- /deductible interest second -->
+                            <!--  -->
+                            <div class="col-3">
+                                <label class="form-label fw-bold mb-0" for="currentMortgagesAnnual">Annual
+                                    depreciation
+                                    <span class="text-danger"> *</span></label>
+                            </div>
+                            <div class="col-3">
+                                <label class="form-label fw-bold mb-0" for="currentMortgagesAnnualTwo">Annual
+                                    depreciation
+                                </label>
+                            </div>
+                            <div class="col-3">
+                                <label class="form-label fw-bold mb-0" for="currentMortgagesAnnualThree">Annual
+                                    depreciation
+                                </label>
+                            </div>
+                            <div class="col-3">
+                                <label class="form-label fw-bold mb-0" for="currentMortgagesAnnualFour">Annual
+                                    depreciation
+                                </label>
+                            </div>
+                            <div class="col-3">
+                                <div>
+                                    <input class="form-control" name="currentMortgagesAnnual"
+                                        id="currentMortgagesAnnual" type="text" placeholder="Name Financial Institution"
+                                        aria-label="name">
+                                </div>
+                            </div>
+                            <div class="col-3">
+                                <div>
+                                    <input class="form-control" name="currentMortgagesAnnual"
+                                        id="currentMortgagesAnnualTwo" type="text"
+                                        placeholder="Name Financial Institution" aria-label="name">
+                                </div>
+                            </div>
+                            <div class="col-3">
+                                <div>
+                                    <input class="form-control" name="currentMortgagesAnnual"
+                                        id="currentMortgagesAnnualThree" type="text"
+                                        placeholder="Name Financial Institution" aria-label="name">
+                                </div>
+                            </div>
+                            <div class="col-3">
+                                <div>
+                                    <input class="form-control" name="currentMortgagesAnnual"
+                                        id="currentMortgagesAnnualFour" type="text"
+                                        placeholder="Name Financial Institution" aria-label="name">
+                                </div>
+                            </div>
+                            <!-- /Name of Financial Institution -->
+                            <!-- Number & Street Name  -->
+
+                            <div class="col-3">
+                                <label class="form-label fw-bold mb-0" for="currentMortgagesRegisteredOwner">Registered
+                                    owner(s)
+                                    <span class="text-danger"> *</span></label>
+                            </div>
+                            <div class="col-3">
+                                <label class="form-label fw-bold mb-0"
+                                    for="currentMortgagesRegisteredOwnerTwo">Registered
+                                    owner(s)
+                                </label>
+                            </div>
+                            <div class="col-3">
+                                <label class="form-label fw-bold mb-0"
+                                    for="currentMortgagesRegisteredOwnerThree">Registered
+                                    owner(s)
+                                </label>
+                            </div>
+                            <div class="col-3">
+                                <label class="form-label fw-bold mb-0"
+                                    for="currentMortgagesRegisteredOwnerFour">Registered
+                                    owner(s)
+                                </label>
+                            </div>
+                            <div class="col-3">
+                                <div>
+                                    <input class="form-control" name="currentMortgagesRegisteredOwner"
+                                        id="currentMortgagesRegisteredOwner" type="text"
+                                        placeholder="Number Street Name" aria-label="name">
+                                </div>
+                            </div>
+                            <div class="col-3">
+                                <div>
+                                    <input class="form-control" name="currentMortgagesRegisteredOwnerTwo"
+                                        id="currentMortgagesRegisteredOwnerTwo" type="text"
+                                        placeholder="Number Street Name" aria-label="name">
+                                </div>
+                            </div>
+                            <div class="col-3">
+                                <div>
+                                    <input class="form-control" name="currentMortgagesRegisteredOwnerThree"
+                                        id="currentMortgagesRegisteredOwnerThree" type="text"
+                                        placeholder="Number Street Name" aria-label="name">
+                                </div>
+                            </div>
+                            <div class="col-3">
+                                <div>
+                                    <input class="form-control" name="currentMortgagesRegisteredOwnerFour"
+                                        id="currentMortgagesRegisteredOwnerFour" type="text"
+                                        placeholder="Number Street Name" aria-label="name">
+                                </div>
+                            </div>
+                            <!-- /number & street name -->
+                            <!-- account number -->
+                            <div class="col-3">
+                                <label class="form-label fw-bold mb-0"
+                                    for="currentMortgagesPercentageOwnership">Percentage
+                                    ownership<span class="text-danger"> *</span></label>
+                            </div>
+                            <div class="col-3">
+                                <label class="form-label fw-bold mb-0"
+                                    for="currentMortgagesPercentageOwnershipTwo">Percentage
+                                    ownership
+                                </label>
+                            </div>
+                            <div class="col-3">
+                                <label class="form-label fw-bold mb-0"
+                                    for="currentMortgagesPercentageOwnershipThree">Percentage ownership
+                                </label>
+                            </div>
+                            <div class="col-3">
+                                <label class="form-label fw-bold mb-0"
+                                    for="currentMortgagesPercentageOwnershipFour">Percentage ownership
+                                </label>
+                            </div>
+                            <div class="col-3">
+                                <div>
+                                    <input class="form-control" name="currentMortgagesPercentageOwnership"
+                                        id="currentMortgagesPercentageOwnership" type="text"
+                                        placeholder="Account Number" aria-label="name">
+                                </div>
+                            </div>
+                            <div class="col-3">
+                                <div>
+                                    <input class="form-control" name="currentMortgagesPercentageOwnership"
+                                        id="currentMortgagesPercentageOwnershipTwo" type="text"
+                                        placeholder="Account Number" aria-label="name">
+                                </div>
+                            </div>
+                            <div class="col-3">
+                                <div>
+                                    <input class="form-control" name="currentMortgagesPercentageOwnership"
+                                        id="currentMortgagesPercentageOwnershipThree" type="text"
+                                        placeholder="Account Number" aria-label="name">
+                                </div>
+                            </div>
+                            <div class="col-3">
+                                <div>
+                                    <input class="form-control" name="currentMortgagesPercentageOwnership"
+                                        id="currentMortgagesPercentageOwnershipFour" type="text"
+                                        placeholder="Account Number" aria-label="name">
+                                </div>
+                            </div>
+                            <!-- /account number -->
                             <!--  -->
                         </div>
                     </form>

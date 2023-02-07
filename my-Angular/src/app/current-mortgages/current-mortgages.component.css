@@ -19,7 +19,9 @@
     margin-top: 4%;
 }
 
-
+.sectionBorder {
+    border-left:5px solid red;
+}
 
 aside {
     width: 250px;
