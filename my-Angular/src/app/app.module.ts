@@ -31,6 +31,7 @@ import { ApplicationContinuedComponent } from './application-continued/applicati
 import { CurrentMortgagesComponent } from './current-mortgages/current-mortgages.component';
 import { CurrentMortgagesSecondComponent } from './current-mortgages-second/current-mortgages-second.component';
 import { UnencumberedRealEstateAssetsComponent } from './unencumbered-real-estate-assets/unencumbered-real-estate-assets.component';
+import { HttpClientModule } from '@angular/common/http';
 
 
 
@@ -64,13 +65,15 @@ import { UnencumberedRealEstateAssetsComponent } from './unencumbered-real-estat
     ApplicationContinuedComponent,
     CurrentMortgagesComponent,
     CurrentMortgagesSecondComponent,
-    UnencumberedRealEstateAssetsComponent
+    UnencumberedRealEstateAssetsComponent,
+    
 
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FormsModule
+    FormsModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
