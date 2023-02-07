@@ -19,13 +19,12 @@
     margin-top: 4%;
 }
 
-.navbar {
-    background-color: #2C3E50;
-}
+
 
 aside {
     width: 250px;
     height: 100vh;
+    background-color: #6366F1;
 }
 
 main {
