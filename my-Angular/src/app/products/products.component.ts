@@ -15,7 +15,7 @@ export class ProductsComponent implements OnInit {
   // listFilter: string = 'cart';
   private _listFilter: string = '';
   errorMessage: string = '';
-  
+
   get listFilter(): string {
     return this._listFilter;
   }
@@ -52,10 +52,10 @@ export class ProductsComponent implements OnInit {
   }
 
   ngOnInit(): void {
-    this.productService.getProduct().subscribe({
+    this.productService.getProducts().subscribe({
       next: products => {
-        this.products = products,
-          this.filteredProducts = this.products;
+        this.products = products;
+        this.filteredProducts = this.products;
       },
       error: err => this.errorMessage = err
     });
