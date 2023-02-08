@@ -8,7 +8,7 @@
         releaseDate: 'March 10,2023',
         description: 'Laptop',
         price: 1100.0,
-        starRating: 4.5,
+        starRating: 4.5
     },
     {
         productImage:
@@ -19,7 +19,7 @@
         releaseDate: 'March 10,2023',
         description: 'Watch',
         price: 700.0,
-        starRating: 4.1,
+        starRating: 4.1
     },
     {
         productImage:
@@ -30,7 +30,7 @@
         releaseDate: 'March 10,2023',
         description: 'Watch',
         price: 700.0,
-        starRating: 4.1,
+        starRating: 4.1
     },
     {
         productImage:
@@ -41,7 +41,7 @@
         releaseDate: 'March 10,2023',
         description: 'Mobile Product',
         price: 455.0,
-        starRating: 4.7,
+        starRating: 4.7
     }
 
 ]
