@@ -52,58 +52,457 @@
                 <h1 class="fw-bold mb-3 p-2 text-success sectionBorder">Section 3 3b 3c
                 </h1>
                 <div class="card p-4 shadow-sm">
-                    <!-- Credit cards sub title  -->
-                    <h3 class="fw-bold mb-3 p-1 text-success sectionBorder">Credit cards
+                    <!-- credit cards sub title  -->
+                    <h3 class="fw-bold mb-3 p-1">Credit cards
                     </h3>
                     <form class="row">
                         <div class="row g-3">
                             <!-- name of Financial Institution -->
                             <div class="col-12">
                                 <label class="form-label fw-bold mb-0"
-                                    for="applicantcreditCardNameFinancialInstitution">Name of
+                                    for="applicantCreditCardNameFinancialInstitution">Name of
                                     Financial Institution <span class="text-danger">*</span></label>
                             </div>
                             <div class="col-3">
-                                <input class="form-control" type="text" id="applicantcreditCardNameFinancialInstitution"
+                                <input class="form-control" type="text" id="applicantCreditCardNameFinancialInstitution"
                                     placeholder="Name of Financial Institution" aria-label="name">
                             </div>
                             <div class="col-3">
                                 <input class="form-control" type="text"
-                                    id="applicantcreditCardTwoNameFinancialInstitution"
+                                    id="applicantCreditCardTwoNameFinancialInstitution"
                                     placeholder="Name of Financial Institution" aria-label="name">
                             </div>
                             <div class="col-3">
                                 <input class="form-control" type="text"
-                                    id="applicantcreditCardThreeNameFinancialInstitution"
+                                    id="applicantCreditCardThreeNameFinancialInstitution"
                                     placeholder="Name of Financial Institution" aria-label="name">
                             </div>
                             <div class="col-3">
                                 <input class="form-control" type="text"
-                                    id="applicantcreditCardFourNameFinancialInstitution"
+                                    id="applicantCreditCardFourNameFinancialInstitution"
                                     placeholder="Name of Financial Institution" aria-label="name">
                             </div>
 
                             <!-- account number -->
                             <div class="col-12">
-                                <label class="form-label fw-bold mb-0" for="applicantcreditCardAccountNumber">Account
+                                <label class="form-label fw-bold mb-0" for="applicantCreditCardAccountNumber">Account
                                     Number <span class="text-danger">*</span></label>
                             </div>
                             <div class="col-3">
-                                <input class="form-control" type="text" id="applicantcreditCardAccountNumber"
+                                <input class="form-control" type="text" id="applicantCreditCardAccountNumber"
                                     placeholder="Name of Financial Institution" aria-label="name">
                             </div>
                             <div class="col-3">
-                                <input class="form-control" type="text" id="applicantcreditCardTwoAccountNumber"
+                                <input class="form-control" type="text" id="applicantCreditCardTwoAccountNumber"
                                     placeholder="Name of Financial Institution" aria-label="name">
                             </div>
                             <div class="col-3">
-                                <input class="form-control" type="text" id="applicantcreditCardThreeAccountNumber"
+                                <input class="form-control" type="text" id="applicantCreditCardThreeAccountNumber"
                                     placeholder="Name of Financial Institution" aria-label="name">
                             </div>
                             <div class="col-3">
-                                <input class="form-control" type="text" id="applicantcreditCardFourAccountNumber"
+                                <input class="form-control" type="text" id="applicantCreditCardFourAccountNumber"
                                     placeholder="Name of Financial Institution" aria-label="name">
                             </div>
+                            <!-- credit card visa -->
+                            <div class="col-3">
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="applicantCreditCardVisa"
+                                        id="applicantCreditCardVisa" value="option1">
+                                    <label class="form-check-label fw-semibold"
+                                        for="applicantCreditCardVisa">Visa</label>
+                                </div>
+                            </div>
+                            <div class="col-3">
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="applicantCreditCardSecondVisa"
+                                        id="applicantCreditCardSecondVisa" value="option1">
+                                    <label class="form-check-label fw-semibold"
+                                        for="applicantCreditCardSecondVisa">Visa</label>
+                                </div>
+                            </div>
+                            <div class="col-3">
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="applicantCreditCardThirdVisa"
+                                        id="applicantCreditCardThirdVisa" value="option1">
+                                    <label class="form-check-label fw-semibold"
+                                        for="applicantCreditCardThirdVisa">Visa</label>
+                                </div>
+                            </div>
+                            <div class="col-3">
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="applicantCreditCardFourthVisa"
+                                        id="applicantCreditCardFourthVisa" value="option1">
+                                    <label class="form-check-label fw-semibold"
+                                        for="applicantCreditCardFourthVisa">Visa</label>
+                                </div>
+                            </div>
+                            <!-- /credit card visa -->
+                            <!-- credit card master -->
+                            <div class="col-3">
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="applicantCreditCardMaster"
+                                        id="applicantCreditCardMaster" value="option1">
+                                    <label class="form-check-label fw-semibold" for="applicantCreditCardMaster">Master
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="col-3">
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="applicantCreditCardSecondMaster"
+                                        id="applicantCreditCardSecondMaster" value="option1">
+                                    <label class="form-check-label fw-semibold"
+                                        for="applicantCreditCardSecondMaster">Master
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="col-3">
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="applicantCreditCardThirdMaster"
+                                        id="applicantCreditCardThirdMaster" value="option1">
+                                    <label class="form-check-label fw-semibold"
+                                        for="applicantCreditCardThirdMaster">Master
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="col-3">
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="applicantCreditCardFourthMaster"
+                                        id="applicantCreditCardFourthMaster" value="option1">
+                                    <label class="form-check-label fw-semibold"
+                                        for="applicantCreditCardFourthMaster">Master
+                                    </label>
+                                </div>
+                            </div>
+                            <!-- /credit card master -->
+                            <!-- credit card apex -->
+                            <div class="col-3">
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="applicantCreditCardAmex"
+                                        id="applicantCreditCardAmex" value="option1">
+                                    <label class="form-check-label fw-semibold" for="applicantCreditCardAmex">Amex
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="col-3">
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="applicantCreditCarSecondAmex"
+                                        id="applicantCreditCarSecondAmex" value="option1">
+                                    <label class="form-check-label fw-semibold" for="applicantCreditCarSecondAmex">Amex
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="col-3">
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="applicantCreditCarThirdAmex"
+                                        id="applicantCreditCarThirdAmex" value="option1">
+                                    <label class="form-check-label fw-semibold" for="applicantCreditCarThirdAmex">Amex
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="col-3">
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="applicantCreditCarFourthAmex"
+                                        id="applicantCreditCarFourthAmex" value="option1">
+                                    <label class="form-check-label fw-semibold" for="applicantCreditCarFourthAmex">Amex
+                                    </label>
+                                </div>
+                            </div>
+                            <!-- credit card apex -->
+                            <!-- credit card other -->
+                            <div class="col-3">
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="applicantCreditCardOther"
+                                        id="applicantCreditCardOther" value="option1">
+                                    <label class="form-check-label fw-semibold" for="applicantCreditCardOther">Other
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="col-3 offset-md-3">
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="applicantCreditCardSecondOther"
+                                        id="applicantCreditCardSecondOther" value="option1">
+                                    <label class="form-check-label fw-semibold"
+                                        for="applicantCreditCardSecondOther">Other
+                                    </label>
+                                </div>
+                            </div>
+                            <!-- /credit card other -->
+
+                            <!-- credit limit -->
+                            <div class="col-12">
+                                <label class="form-label fw-bold mb-0" for="applicantCreditlimit">Credit
+                                    Limit
+                                    <span class="text-danger">*</span></label>
+                            </div>
+                            <div class="col-3">
+                                <input class="form-control" type="text" id="applicantCreditlimit"
+                                    placeholder="Credit limit" aria-label="name">
+                            </div>
+                            <div class="col-3">
+                                <input class="form-control" type="text" id="applicantSecondCreditLimit"
+                                    placeholder="Credit limit" aria-label="name">
+                            </div>
+                            <div class="col-3">
+                                <input class="form-control" type="text" id="applicantThirdCreditLimit"
+                                    placeholder="Credit limit" aria-label="name">
+                            </div>
+                            <div class="col-3">
+                                <input class="form-control" type="text" id="applicantFourthCreditLimit"
+                                    placeholder="Credit limit" aria-label="name">
+                            </div>
+                            <!-- amount currently owing -->
+                            <div class="col-12">
+                                <label class="form-label fw-bold mb-0" for="applicantAmountCurrentlyOwing">Amount
+                                    Currently Owing
+                                    <span class="text-danger">*</span></label>
+                            </div>
+                            <div class="col-3">
+                                <input class="form-control" type="text" id="applicantAmountCurrentlyOwing"
+                                    placeholder="Credit limit" aria-label="name">
+                            </div>
+                            <div class="col-3">
+                                <input class="form-control" type="text" id="applicantAmountSecondCurrentlyOwing"
+                                    placeholder="Credit limit" aria-label="name">
+                            </div>
+                            <div class="col-3">
+                                <input class="form-control" type="text" id="applicantAmountThirdCurrentlyOwing"
+                                    placeholder="Credit limit" aria-label="name">
+                            </div>
+                            <div class="col-3">
+                                <input class="form-control" type="text" id="applicantAmountFourthCurrentlyOwing"
+                                    placeholder="Credit limit" aria-label="name">
+                            </div>
+                            <!-- usage -->
+                            <div class="col-3">
+                                <label class="form-label fw-bold mb-0" for="applicantCreditCardUsage">Usage
+                                    <span class="text-danger">*</span></label>
+                            </div>
+                            <div class="col-3">
+                                <label class="form-label fw-bold mb-0" for="applicantSecondCreditCardUsage">Usage
+                                </label>
+                            </div>
+                            <div class="col-3">
+                                <label class="form-label fw-bold mb-0" for="applicantThirdCreditCardUsage">Usage
+                                </label>
+                            </div>
+                            <div class="col-3">
+                                <label class="form-label fw-bold mb-0" for="applicantFourthCreditCardUsage">Usage
+                                </label>
+                            </div>
+                            <div class="col-3">
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="applicantCreditCardUsage"
+                                        id="applicantCreditCardUsageActive" value="option1">
+                                    <label class="form-check-label fw-semibold"
+                                        for="applicantCreditCardUsageActive">Active</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="applicantCreditCardUsage"
+                                        id="applicantCreditCardUsageDprmant" value="option2">
+                                    <label class="form-check-label fw-semibold"
+                                        for="applicantCreditCardUsageDprmant">Dormant</label>
+                                </div>
+                            </div>
+                            <div class="col-3">
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="applicantSecondCreditCardUsage"
+                                        id="applicantSecondCreditCardUsageActive" value="option1">
+                                    <label class="form-check-label fw-semibold"
+                                        for="applicantSecondCreditCardUsageActive">Active</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="applicantSecondCreditCardUsage"
+                                        id="applicantSecondCreditCardUsageDormant" value="option2">
+                                    <label class="form-check-label fw-semibold"
+                                        for="applicantSecondCreditCardUsageDormant">Dormant</label>
+                                </div>
+                            </div>
+                            <div class="col-3">
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="applicantThirdCreditCardUsage"
+                                        id="applicantThirdCreditCardUsageActive" value="option1">
+                                    <label class="form-check-label fw-semibold"
+                                        for="applicantThirdCreditCardUsageActive">Active</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="applicantThirdCreditCardUsage"
+                                        id="applicantThirdCreditCardUsageDormant" value="option2">
+                                    <label class="form-check-label fw-semibold"
+                                        for="applicantThirdCreditCardUsageDormant">Dormant</label>
+                                </div>
+                            </div>
+                            <div class="col-3">
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="applicantFourthCreditCardUsage"
+                                        id="applicantFourthCreditCardUsageActive" value="option1">
+                                    <label class="form-check-label fw-semibold"
+                                        for="applicantFourthCreditCardUsageActive">Active</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="applicantFourthCreditCardUsage"
+                                        id="applicantFourthCreditCardUsageDormant" value="option2">
+                                    <label class="form-check-label fw-semibold"
+                                        for="applicantFourthCreditCardUsageDormant">Dormant</label>
+                                </div>
+                            </div>
+                            <!-- cleared in full every month  -->
+                            <div class="col-3">
+                                <label class="form-label fw-bold mb-0"
+                                    for="applicantCreditCardNameFinancialInstitution">Cleared in full every month
+                                    <span class="text-danger">*</span></label>
+                            </div>
+                            <div class="col-3">
+                                <label class="form-label fw-bold mb-0"
+                                    for="applicantCreditCardNameFinancialInstitution">Cleared in full every month
+                                </label>
+                            </div>
+                            <div class="col-3">
+                                <label class="form-label fw-bold mb-0"
+                                    for="applicantCreditCardNameFinancialInstitution">Cleared in full every month
+                                </label>
+                            </div>
+                            <div class="col-3">
+                                <label class="form-label fw-bold mb-0"
+                                    for="applicantCreditCardNameFinancialInstitution">Cleared in full every month
+                                </label>
+                            </div>
+                            <div class="col-3">
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="unencumberedRealEstateApplicant"
+                                        id="unencumberedRealEstateApplicantYes" value="option1">
+                                    <label class="form-check-label fw-semibold"
+                                        for="unencumberedRealEstateApplicantYes">Yes</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="unencumberedRealEstateApplicant"
+                                        id="unencumberedRealEstateApplicantNo" value="option2">
+                                    <label class="form-check-label fw-semibold"
+                                        for="unencumberedRealEstateApplicantNo">No</label>
+                                </div>
+                            </div>
+                            <div class="col-3">
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="unencumberedRealEstateApplicant"
+                                        id="unencumberedRealEstateApplicantYes" value="option1">
+                                    <label class="form-check-label fw-semibold"
+                                        for="unencumberedRealEstateApplicantYes">Yes</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="unencumberedRealEstateApplicant"
+                                        id="unencumberedRealEstateApplicantNo" value="option2">
+                                    <label class="form-check-label fw-semibold"
+                                        for="unencumberedRealEstateApplicantNo">No</label>
+                                </div>
+                            </div>
+                            <div class="col-3">
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="unencumberedRealEstateApplicant"
+                                        id="unencumberedRealEstateApplicantYes" value="option1">
+                                    <label class="form-check-label fw-semibold"
+                                        for="unencumberedRealEstateApplicantYes">Yes</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="unencumberedRealEstateApplicant"
+                                        id="unencumberedRealEstateApplicantNo" value="option2">
+                                    <label class="form-check-label fw-semibold"
+                                        for="unencumberedRealEstateApplicantNo">No</label>
+                                </div>
+                            </div>
+                            <div class="col-3">
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="unencumberedRealEstateApplicant"
+                                        id="unencumberedRealEstateApplicantYes" value="option1">
+                                    <label class="form-check-label fw-semibold"
+                                        for="unencumberedRealEstateApplicantYes">Yes</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="unencumberedRealEstateApplicant"
+                                        id="unencumberedRealEstateApplicantNo" value="option2">
+                                    <label class="form-check-label fw-semibold"
+                                        for="unencumberedRealEstateApplicantNo">No</label>
+                                </div>
+                            </div>
+                            <!-- to be refinanced -->
+                            <div class="col-3">
+                                <label class="form-label fw-bold mb-0"
+                                    for="applicantCreditCardNameFinancialInstitution">To Be Refinanced?
+                                    <span class="text-danger">*</span></label>
+                            </div>
+                            <div class="col-3">
+                                <label class="form-label fw-bold mb-0"
+                                    for="applicantCreditCardNameFinancialInstitution">To Be Refinanced?
+                                </label>
+                            </div>
+                            <div class="col-3">
+                                <label class="form-label fw-bold mb-0"
+                                    for="applicantCreditCardNameFinancialInstitution">To Be Refinanced?
+                                </label>
+                            </div>
+                            <div class="col-3">
+                                <label class="form-label fw-bold mb-0"
+                                    for="applicantCreditCardNameFinancialInstitution">To Be Refinanced?
+                                </label>
+                            </div>
+                            <div class="col-3">
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="unencumberedRealEstateApplicant"
+                                        id="unencumberedRealEstateApplicantYes" value="option1">
+                                    <label class="form-check-label fw-semibold"
+                                        for="unencumberedRealEstateApplicantYes">Yes</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="unencumberedRealEstateApplicant"
+                                        id="unencumberedRealEstateApplicantNo" value="option2">
+                                    <label class="form-check-label fw-semibold"
+                                        for="unencumberedRealEstateApplicantNo">No</label>
+                                </div>
+                            </div>
+                            <div class="col-3">
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="unencumberedRealEstateApplicant"
+                                        id="unencumberedRealEstateApplicantYes" value="option1">
+                                    <label class="form-check-label fw-semibold"
+                                        for="unencumberedRealEstateApplicantYes">Yes</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="unencumberedRealEstateApplicant"
+                                        id="unencumberedRealEstateApplicantNo" value="option2">
+                                    <label class="form-check-label fw-semibold"
+                                        for="unencumberedRealEstateApplicantNo">No</label>
+                                </div>
+                            </div>
+                            <div class="col-3">
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="unencumberedRealEstateApplicant"
+                                        id="unencumberedRealEstateApplicantYes" value="option1">
+                                    <label class="form-check-label fw-semibold"
+                                        for="unencumberedRealEstateApplicantYes">Yes</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="unencumberedRealEstateApplicant"
+                                        id="unencumberedRealEstateApplicantNo" value="option2">
+                                    <label class="form-check-label fw-semibold"
+                                        for="unencumberedRealEstateApplicantNo">No</label>
+                                </div>
+                            </div>
+                            <div class="col-3">
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="unencumberedRealEstateApplicant"
+                                        id="unencumberedRealEstateApplicantYes" value="option1">
+                                    <label class="form-check-label fw-semibold"
+                                        for="unencumberedRealEstateApplicantYes">Yes</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="unencumberedRealEstateApplicant"
+                                        id="unencumberedRealEstateApplicantNo" value="option2">
+                                    <label class="form-check-label fw-semibold"
+                                        for="unencumberedRealEstateApplicantNo">No</label>
+                                </div>
+                            </div>
+
+
+
 
 
                         </div>
