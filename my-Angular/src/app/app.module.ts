@@ -33,6 +33,7 @@ import { CurrentMortgagesSecondComponent } from './current-mortgages-second/curr
 import { UnencumberedRealEstateAssetsComponent } from './unencumbered-real-estate-assets/unencumbered-real-estate-assets.component';
 import { HttpClientModule } from '@angular/common/http';
 import { CreditCardComponent } from './credit-card/credit-card.component';
+import { LoansMortgagesComponent } from './loans-mortgages/loans-mortgages.component';
 
 
 
@@ -68,6 +69,7 @@ import { CreditCardComponent } from './credit-card/credit-card.component';
     CurrentMortgagesSecondComponent,
     UnencumberedRealEstateAssetsComponent,
     CreditCardComponent,
+    LoansMortgagesComponent,
     
 
   ],
