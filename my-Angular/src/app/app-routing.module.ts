@@ -11,7 +11,7 @@ import { NavCardComponent } from './nav-card/nav-card.component';
 
 
 const routes: Routes = [
-  { path: 'navbar', component: NavCardComponent },
+  { path: '', component: NavCardComponent },
   { path: 'home', component: CardComponent },
   { path: 'about', component: ApplicationContinuedComponent },
   { path: 'services', component: CurrentMortgagesComponent },
