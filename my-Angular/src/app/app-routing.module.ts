@@ -4,6 +4,7 @@ import { ApplicationContinuedComponent } from './application-continued/applicati
 import { CreditCardComponent } from './credit-card/credit-card.component';
 import { CurrentMortgagesSecondComponent } from './current-mortgages-second/current-mortgages-second.component';
 import { CurrentMortgagesComponent } from './current-mortgages/current-mortgages.component';
+import { LoanMortgagesSecondComponent } from './loan-mortgages-second/loan-mortgages-second.component';
 import { LoansMortgagesComponent } from './loans-mortgages/loans-mortgages.component';
 import { CardComponent } from './nav-card/card/card.component';
 import { NavCardComponent } from './nav-card/nav-card.component';
@@ -17,7 +18,9 @@ const routes: Routes = [
   { path: 'services', component: CurrentMortgagesComponent },
   { path: 'services1', component: CurrentMortgagesSecondComponent },
   { path: 'creditCard', component: CreditCardComponent },
-  { path: 'loan', component: LoansMortgagesComponent }
+  { path: 'loan', component: LoansMortgagesComponent },
+  { path: 'hcpcc', component: LoanMortgagesSecondComponent },
+
 ];
 
 @NgModule({

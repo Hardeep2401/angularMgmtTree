@@ -34,6 +34,7 @@ import { UnencumberedRealEstateAssetsComponent } from './unencumbered-real-estat
 import { HttpClientModule } from '@angular/common/http';
 import { CreditCardComponent } from './credit-card/credit-card.component';
 import { LoansMortgagesComponent } from './loans-mortgages/loans-mortgages.component';
+import { LoanMortgagesSecondComponent } from './loan-mortgages-second/loan-mortgages-second.component';
 
 
 
@@ -70,6 +71,7 @@ import { LoansMortgagesComponent } from './loans-mortgages/loans-mortgages.compo
     UnencumberedRealEstateAssetsComponent,
     CreditCardComponent,
     LoansMortgagesComponent,
+    LoanMortgagesSecondComponent,
     
 
   ],

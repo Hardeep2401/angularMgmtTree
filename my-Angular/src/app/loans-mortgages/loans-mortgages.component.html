@@ -38,6 +38,10 @@
                             class="ms-3">Loan Mortgages</span></a>
                 </li>
                 <li class="nav-item mx-3 mb-2">
+                    <a class="nav-link text-white" routerLink="/hcpcc"><i class="fa-solid fa-grip-vertical"></i><span
+                            class="ms-3">Household EPCC</span></a>
+                </li>
+                <li class="nav-item mx-3 mb-2">
                     <a class="nav-link text-white" routerLink="Contact"><i class="fa-solid fa-headset"></i><span
                             class="ms-3">Contact</span></a>
                 </li>
@@ -48,12 +52,12 @@
 <!-- /aside navbar -->
 <!-- main -->
 <main>
-    <!-- Loans (other than mortgages) -->
+    <!-- loans (other than mortgages) -->
     <div class="container-fluid py-4">
         <div class="row">
             <div class="col-12">
                 <!--  loans mortgages title -->
-                <h1 class="fw-bold mb-3 p-2  sectionBorder">Section 4 4a 5
+                <h1 class="fw-bold mb-3 p-2  sectionBorder">Section 4 4a 5 6
                 </h1>
                 <div class="card p-4 shadow-sm">
                     <!-- loans mortgages sub title  -->
@@ -83,8 +87,8 @@
                                 <input class="form-control" type="text" id="LoanMortgagesFourFinancialInstitution"
                                     placeholder="Loans Financial Institution" aria-label="name">
                             </div>
-                            <!-- loans mortgages financial institution -->
-                            <!-- loans mortgages account number -->
+                            <!-- /loans mortgages financial institution -->
+                            <!-- loans mortgages personal loan -->
                             <div class="col-12">
                                 <label class="form-label fw-bold mb-0" for="loansMortgagesLoanType">Loan Type
                                     (personal loan, car
@@ -106,8 +110,8 @@
                                 <input class="form-control" type="text" id="loansMortgagesFourLoanType"
                                     placeholder="Loan Type" aria-label="name">
                             </div>
-                            <!-- loans mortgages account number -->
-                            <!-- Account number: -->
+                            <!-- /loans mortgages personal loan -->
+                            <!-- account number: -->
                             <div class="col-12">
                                 <label class="form-label fw-bold mb-0" for="loansMortgagesAccountNumber">Account
                                     number<span class="text-danger"> *</span></label>
@@ -128,71 +132,87 @@
                                 <input class="form-control" type="text" id="loansMortgagesFourAccountNumber"
                                     placeholder="Loan Account Number" aria-label="name">
                             </div>
-                            <!-- monthly repayment: -->
+                            <!-- /account number: -->
+                            <!-- monthly repayment -->
                             <div class="col-12">
-                                <label class="form-label fw-bold mb-0" for="loansMortgagesAccountNumber">Monthly
+                                <label class="form-label fw-bold mb-0" for="loansMortgagesMonthelyPayment">Monthly
                                     Repayment<span class="text-danger"> *</span></label>
                             </div>
                             <div class="col-3">
-                                <input class="form-control" type="text" id="loansMortgagesAccountNumber"
+                                <input class="form-control" type="text" id="loansMortgagesMonthelyPayment"
                                     placeholder="Loan Account Number" aria-label="name">
                             </div>
                             <div class="col-3">
-                                <input class="form-control" type="text" id="loansMortgagesTwoAccountNumber"
+                                <input class="form-control" type="text" id="loansMortgagesTwoMonthelyPayment"
                                     placeholder="Loan Account Number" aria-label="name">
                             </div>
                             <div class="col-3">
-                                <input class="form-control" type="text" id="loansMortgagesThreeAccountNumber"
+                                <input class="form-control" type="text" id="loansMortgagesThreeMonthelyPayment"
                                     placeholder="Loan Account Number" aria-label="name">
                             </div>
                             <div class="col-3">
-                                <input class="form-control" type="text" id="loansMortgagesFourAccountNumber"
+                                <input class="form-control" type="text" id="loansMortgagesFourMonthelyPayment"
                                     placeholder="Loan Account Number" aria-label="name">
                             </div>
                             <!-- /monthly repayment -->
-                            <!-- amount currently owing: -->
+                            <!-- amount currently owing -->
                             <div class="col-12">
-                                <label class="form-label fw-bold mb-0" for="loansMortgagesAccountNumber">Amount
+                                <label class="form-label fw-bold mb-0" for="loansMortgagesAmountCurrentlyOwing">Amount
                                     Currently Owing<span class="text-danger"> *</span></label>
                             </div>
                             <div class="col-3">
-                                <input class="form-control" type="text" id="loansMortgagesAccountNumber"
+                                <input class="form-control" type="text" id="loansMortgagesAmountCurrentlyOwing"
                                     placeholder="Loan Account Number" aria-label="name">
                             </div>
                             <div class="col-3">
-                                <input class="form-control" type="text" id="loansMortgagesTwoAccountNumber"
+                                <input class="form-control" type="text"
+                                    id="loansMortgagesTwoloansMortgagesAmountCurrentlyOwing"
                                     placeholder="Loan Account Number" aria-label="name">
                             </div>
                             <div class="col-3">
-                                <input class="form-control" type="text" id="loansMortgagesThreeAccountNumber"
+                                <input class="form-control" type="text"
+                                    id="loansMortgagesThreeloansMortgagesAmountCurrentlyOwing"
                                     placeholder="Loan Account Number" aria-label="name">
                             </div>
                             <div class="col-3">
-                                <input class="form-control" type="text" id="loansMortgagesFourAccountNumber"
+                                <input class="form-control" type="text"
+                                    id="loansMortgagesFourloansMortgagesAmountCurrentlyOwing"
                                     placeholder="Loan Account Number" aria-label="name">
                             </div>
+                            <!-- /amount currently owing -->
                             <!-- current interest rate -->
                             <div class="col-3">
-                                <label class="form-label fw-bold mb-0" for="loansMortgagesAccountNumber">Current
+                                <label class="form-label fw-bold mb-0" for="loansMortgagesCurrentInterestRate">Current
                                     Interest Rate<span class="text-danger"> *</span></label>
                             </div>
                             <div class="col-3">
-                                <label class="form-label fw-bold mb-0" for="loansMortgagesAccountNumber">Current
+                                <label class="form-label fw-bold mb-0"
+                                    for="loansMortgagesTwoCurrentInterestRate">Current
                                     Interest Rate</label>
                             </div>
                             <div class="col-3">
-                                <label class="form-label fw-bold mb-0" for="loansMortgagesAccountNumber">Current
+                                <label class="form-label fw-bold mb-0"
+                                    for="loansMortgagesThreeCurrentInterestRate">Current
                                     Interest Rate</label>
                             </div>
                             <div class="col-3">
-                                <label class="form-label fw-bold mb-0" for="loansMortgagesAccountNumber">Current
+                                <label class="form-label fw-bold mb-0"
+                                    for="loansMortgagesFourCurrentInterestRate">Current
                                     Interest Rate</label>
                             </div>
                             <div class="col-3">
                                 <div class="input-group">
                                     <input type="text" class="form-control" placeholder="Current Interest Rate"
-                                        name="currentMortgagesCurrentInterestRate"
-                                        id="currentMortgagesCurrentInterestRate" aria-label="Recipient's username"
+                                        name="loansMortgagesCurrentInterestRate" id="loansMortgagesCurrentInterestRate"
+                                        aria-label="Recipient's username" aria-describedby="basic-addon2">
+                                    <span class="input-group-text fw-semibold" id="basic-addon2">% Fixed</span>
+                                </div>
+                            </div>
+                            <div class="col-3">
+                                <div class="input-group">
+                                    <input type="text" class="form-control" placeholder="Current Interest Rate"
+                                        name="loansMortgagesTwoCurrentInterestRate"
+                                        id="loansMortgagesTwoCurrentInterestRate" aria-label="Recipient's username"
                                         aria-describedby="basic-addon2">
                                     <span class="input-group-text fw-semibold" id="basic-addon2">% Fixed</span>
                                 </div>
@@ -200,8 +220,8 @@
                             <div class="col-3">
                                 <div class="input-group">
                                     <input type="text" class="form-control" placeholder="Current Interest Rate"
-                                        name="currentMortgagesCurrentInterestRate"
-                                        id="currentMortgagesCurrentInterestRate" aria-label="Recipient's username"
+                                        name="loansMortgagesThreeCurrentInterestRate"
+                                        id="loansMortgagesThreeCurrentInterestRate" aria-label="Recipient's username"
                                         aria-describedby="basic-addon2">
                                     <span class="input-group-text fw-semibold" id="basic-addon2">% Fixed</span>
                                 </div>
@@ -209,153 +229,794 @@
                             <div class="col-3">
                                 <div class="input-group">
                                     <input type="text" class="form-control" placeholder="Current Interest Rate"
-                                        name="currentMortgagesCurrentInterestRate"
-                                        id="currentMortgagesCurrentInterestRate" aria-label="Recipient's username"
+                                        name="loansMortgagesFourCurrentInterestRate"
+                                        id="loansMortgagesFourCurrentInterestRate" aria-label="Recipient's username"
                                         aria-describedby="basic-addon2">
                                     <span class="input-group-text fw-semibold" id="basic-addon2">% Fixed</span>
                                 </div>
                             </div>
+                            <!-- /current interest rate -->
+                            <!-- Or current interest rate -->
                             <div class="col-3">
-                                <div class="input-group">
-                                    <input type="text" class="form-control" placeholder="Current Interest Rate"
-                                        name="currentMortgagesCurrentInterestRate"
-                                        id="currentMortgagesCurrentInterestRate" aria-label="Recipient's username"
-                                        aria-describedby="basic-addon2">
-                                    <span class="input-group-text fw-semibold" id="basic-addon2">% Fixed</span>
-                                </div>
-                            </div>
-
-                            <!--  -->
-                            <div class="col-3">
-                                <label class="form-label fw-bold mb-0" for="loansMortgagesAccountNumber">OR<span
+                                <label class="form-label fw-bold mb-0" for="loansMortgagesOrInterestRate">OR<span
                                         class="text-danger"> *</span></label>
                             </div>
                             <div class="col-3">
-                                <label class="form-label fw-bold mb-0" for="loansMortgagesAccountNumber">OR</label>
+                                <label class="form-label fw-bold mb-0" for="loansMortgagesTwoOrInterestRate">OR</label>
                             </div>
                             <div class="col-3">
-                                <label class="form-label fw-bold mb-0" for="loansMortgagesAccountNumber">OR</label>
+                                <label class="form-label fw-bold mb-0"
+                                    for="loansMortgagesThreeOrInterestRate">OR</label>
                             </div>
                             <div class="col-3">
-                                <label class="form-label fw-bold mb-0" for="loansMortgagesAccountNumber">OR</label>
+                                <label class="form-label fw-bold mb-0" for="loansMortgagesFourOrInterestRate">OR</label>
                             </div>
                             <div class="col-3">
                                 <div class="input-group">
                                     <input type="text" class="form-control" placeholder="Current Interest Rate"
-                                        name="currentMortgagesCurrentInterestRate"
-                                        id="currentMortgagesCurrentInterestRate" aria-label="Recipient's username"
-                                        aria-describedby="basic-addon2">
+                                        name="loansMortgagesOrInterestRate" id="loansMortgagesOrInterestRate"
+                                        aria-label="Recipient's username" aria-describedby="basic-addon2">
                                     <span class="input-group-text fw-semibold" id="basic-addon2">% Variable</span>
                                 </div>
                             </div>
                             <div class="col-3">
                                 <div class="input-group">
                                     <input type="text" class="form-control" placeholder="Current Interest Rate"
-                                        name="currentMortgagesCurrentInterestRate"
-                                        id="currentMortgagesCurrentInterestRate" aria-label="Recipient's username"
-                                        aria-describedby="basic-addon2">
+                                        name="loansMortgagesTwoOrInterestRate" id="loansMortgagesTwoOrInterestRate"
+                                        aria-label="Recipient's username" aria-describedby="basic-addon2">
                                     <span class="input-group-text fw-semibold" id="basic-addon2">% Fixed</span>
                                 </div>
                             </div>
                             <div class="col-3">
                                 <div class="input-group">
                                     <input type="text" class="form-control" placeholder="Current Interest Rate"
-                                        name="currentMortgagesCurrentInterestRate"
-                                        id="currentMortgagesCurrentInterestRate" aria-label="Recipient's username"
-                                        aria-describedby="basic-addon2">
+                                        name="loansMortgagesThreeOrInterestRate" id="loansMortgagesThreeOrInterestRate"
+                                        aria-label="Recipient's username" aria-describedby="basic-addon2">
                                     <span class="input-group-text fw-semibold" id="basic-addon2">% Fixed</span>
                                 </div>
                             </div>
                             <div class="col-3">
                                 <div class="input-group">
                                     <input type="text" class="form-control" placeholder="Current Interest Rate"
-                                        name="currentMortgagesCurrentInterestRate"
-                                        id="currentMortgagesCurrentInterestRate" aria-label="Recipient's username"
-                                        aria-describedby="basic-addon2">
+                                        name="loansMortgagesFourOrInterestRate" id="loansMortgagesFourOrInterestRate"
+                                        aria-label="Recipient's username" aria-describedby="basic-addon2">
                                     <span class="input-group-text fw-semibold" id="basic-addon2">% Fixed</span>
                                 </div>
                             </div>
-                            <!--  -->
+                            <!-- /Or current interest rate -->
+                            <!-- to be refinanced -->
                             <div class="col-3">
-                                <label class="form-label fw-bold mb-0" for="loansMortgagesAccountNumber">To Be
+                                <label class="form-label fw-bold mb-0" for="loansMortgagesToBeRefinanced">To Be
                                     Refinanced?<span class="text-danger"> *</span></label>
                             </div>
                             <div class="col-3">
-                                <label class="form-label fw-bold mb-0" for="loansMortgagesAccountNumber">To Be
+                                <label class="form-label fw-bold mb-0" for="loansMortgagesTwoToBeRefinanced">To Be
                                     Refinanced?</label>
                             </div>
                             <div class="col-3">
-                                <label class="form-label fw-bold mb-0" for="loansMortgagesAccountNumber">To Be
+                                <label class="form-label fw-bold mb-0" for="loansMortgagesThreeToBeRefinanced">To Be
                                     Refinanced?</label>
                             </div>
                             <div class="col-3">
-                                <label class="form-label fw-bold mb-0" for="loansMortgagesAccountNumber">To Be
+                                <label class="form-label fw-bold mb-0" for="loansMortgagesFourToBeRefinanced">To Be
                                     Refinanced?</label>
                             </div>
                             <div class="col-3">
                                 <div class="form-check form-check-inline">
-                                    <input class="form-check-input" type="radio"
-                                        name="currentMortgagesSecondDeductibleInterestTwo"
-                                        id="currentMortgagesSecondDeductibleYesTwo" value="option1">
+                                    <input class="form-check-input" type="radio" name="loansMortgagesToBeRefinanced"
+                                        id="loansMortgagesToBeRefinancedYes" value="option1">
                                     <label class="form-check-label fw-semibold"
-                                        for="currentMortgagesSecondDeductibleYesTwo">Yes</label>
+                                        for="loansMortgagesToBeRefinancedYes">Yes</label>
                                 </div>
                                 <div class="form-check form-check-inline">
-                                    <input class="form-check-input" type="radio"
-                                        name="currentMortgagesSecondDeductibleInterestTwo"
-                                        id="currentMortgagesSecondDeductibleNoTwo" value="option2">
+                                    <input class="form-check-input" type="radio" name="loansMortgagesToBeRefinanced"
+                                        id="loansMortgagesToBeRefinancedNo" value="option2">
                                     <label class="form-check-label fw-semibold"
-                                        for="currentMortgagesSecondDeductibleNoTwo">No</label>
+                                        for="loansMortgagesToBeRefinancedNo">No</label>
+                                </div>
+                            </div>
+                            <div class="col-3">
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="loansMortgagesTwoToBeRefinanced"
+                                        id="loansMortgagesTwoToBeRefinancedYes" value="option1">
+                                    <label class="form-check-label fw-semibold"
+                                        for="loansMortgagesTwoToBeRefinancedYes">Yes</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="loansMortgagesTwoToBeRefinanced"
+                                        id="loansMortgagesTwoToBeRefinancedNo" value="option2">
+                                    <label class="form-check-label fw-semibold"
+                                        for="loansMortgagesTwoToBeRefinancedNo">No</label>
                                 </div>
                             </div>
                             <div class="col-3">
                                 <div class="form-check form-check-inline">
                                     <input class="form-check-input" type="radio"
-                                        name="currentMortgagesSecondDeductibleInterestTwo"
-                                        id="currentMortgagesSecondDeductibleYesTwo" value="option1">
+                                        name="loansMortgagesThreeToBeRefinanced"
+                                        id="loansMortgagesThreeToBeRefinancedYes" value="option1">
                                     <label class="form-check-label fw-semibold"
-                                        for="currentMortgagesSecondDeductibleYesTwo">Yes</label>
+                                        for="loansMortgagesThreeToBeRefinancedYes">Yes</label>
                                 </div>
                                 <div class="form-check form-check-inline">
                                     <input class="form-check-input" type="radio"
-                                        name="currentMortgagesSecondDeductibleInterestTwo"
-                                        id="currentMortgagesSecondDeductibleNoTwo" value="option2">
+                                        name="loansMortgagesThreeToBeRefinanced"
+                                        id="loansMortgagesThreeToBeRefinancedNo" value="option2">
                                     <label class="form-check-label fw-semibold"
-                                        for="currentMortgagesSecondDeductibleNoTwo">No</label>
+                                        for="loansMortgagesThreeToBeRefinancedNo">No</label>
                                 </div>
                             </div>
                             <div class="col-3">
                                 <div class="form-check form-check-inline">
-                                    <input class="form-check-input" type="radio"
-                                        name="currentMortgagesSecondDeductibleInterestTwo"
-                                        id="currentMortgagesSecondDeductibleYesTwo" value="option1">
+                                    <input class="form-check-input" type="radio" name="loansMortgagesFourToBeRefinanced"
+                                        id="loansMortgagesFourToBeRefinancedYes" value="option1">
                                     <label class="form-check-label fw-semibold"
-                                        for="currentMortgagesSecondDeductibleYesTwo">Yes</label>
+                                        for="loansMortgagesFourToBeRefinancedYes">Yes</label>
                                 </div>
                                 <div class="form-check form-check-inline">
-                                    <input class="form-check-input" type="radio"
-                                        name="currentMortgagesSecondDeductibleInterestTwo"
-                                        id="currentMortgagesSecondDeductibleNoTwo" value="option2">
+                                    <input class="form-check-input" type="radio" name="loansMortgagesFourToBeRefinanced"
+                                        id="loansMortgagesFourToBeRefinancedNo" value="option2">
                                     <label class="form-check-label fw-semibold"
-                                        for="currentMortgagesSecondDeductibleNoTwo">No</label>
+                                        for="loansMortgagesFourToBeRefinancedNo">No</label>
                                 </div>
                             </div>
-                            <div class="col-3">
-                                <div class="form-check form-check-inline">
-                                    <input class="form-check-input" type="radio"
-                                        name="currentMortgagesSecondDeductibleInterestTwo"
-                                        id="currentMortgagesSecondDeductibleYesTwo" value="option1">
-                                    <label class="form-check-label fw-semibold"
-                                        for="currentMortgagesSecondDeductibleYesTwo">Yes</label>
-                                </div>
-                                <div class="form-check form-check-inline">
-                                    <input class="form-check-input" type="radio"
-                                        name="currentMortgagesSecondDeductibleInterestTwo"
-                                        id="currentMortgagesSecondDeductibleNoTwo" value="option2">
-                                    <label class="form-check-label fw-semibold"
-                                        for="currentMortgagesSecondDeductibleNoTwo">No</label>
+                            <!-- /to be refinanced -->
+                            <!-- HECS help debt -->
+                            <h3 class="fw-bold mb-0 p-1">HECS HELP DEPT</h3>
+                            <!-- application one repayment -->
+                            <div class="col-6">
+                                <label class="form-label fw-bold mb-0" for="loansMortgagesApplicantRepayment">Applicant
+                                    One
+                                    Repayment<span class="text-danger"> *</span></label>
+                            </div>
+                            <div class="col-6">
+                                <label class="form-label fw-bold mb-0"
+                                    for="loansMortgagesSecondApplicantRepayment">Applicant
+                                    Two:
+                                    Repayment<span class="text-danger"> *</span></label>
+                            </div>
+                            <div class="col-6">
+                                <input class="form-control" type="text" id="loansMortgagesApplicantRepayment"
+                                    placeholder="Loan Account Number" aria-label="name">
+                            </div>
+                            <div class="col-6">
+                                <input class="form-control" type="text" id="loansMortgagesSecondApplicantRepayment"
+                                    placeholder="Loan Account Number" aria-label="name">
+                            </div>
+                            <!-- /application one repayment -->
+                            <!-- current balance -->
+                            <div class="col-6">
+                                <label class="form-label fw-bold mb-0" for="loansMortgagesCurrentBalance">Current
+                                    Balance<span class="text-danger"> *</span></label>
+                            </div>
+                            <div class="col-6">
+                                <label class="form-label fw-bold mb-0" for="loansMortgagesSecondCurrentBalance">Current
+                                    Balance<span class="text-danger"> *</span></label>
+                            </div>
+                            <div class="col-6">
+                                <input class="form-control" type="text" id="loansMortgagesCurrentBalance"
+                                    placeholder="Loan Account Number" aria-label="name">
+                            </div>
+                            <div class="col-6">
+                                <input class="form-control" type="text" id="loansMortgagesSecondCurrentBalance"
+                                    placeholder="Loan Account Number" aria-label="name">
+                            </div>
+                            <!-- /current balance -->
+                            <!-- /HECS help debt -->
+                            <!-- household expenses & payment cycles -->
+                            <h3 class="fw-bold mb-0 p-1">Household expenses & payment cycles</h3>
+                            <!-- childcare -->
+                            <div class="col-12">
+                                <label class="form-label fw-bold mb-0" for="loansMortgagesChildcare">Childcare<span
+                                        class="text-danger"> *</span></label>
+                            </div>
+                            <div class="col-12 align-self-center">
+                                <div class="input-group">
+                                    <span class="input-group-text">$</span>
+                                    <input type="text" id="loansMortgagesChildcare"
+                                        class="form-control rounded-end borde">
+                                    <label class="form-label fw-bold mb-0 align-self-center mx-2"
+                                        for="loansMortgagesChildcare">Per</label>
+                                    <div class="align-self-center">
+                                        <div class="form-check form-check-inline mx-3">
+                                            <input class="form-check-input" type="radio"
+                                                name="loansMortgagesChildcareWeek" id="loansMortgagesChildcareWeek"
+                                                value="option1">
+                                            <label class="form-check-label fw-semibold"
+                                                for="loansMortgagesChildcareWeek">Week</label>
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio"
+                                                name="loansMortgagesChildcareWeek" id="loansMortgagesChildcareFortnight"
+                                                value="option2">
+                                            <label class="form-check-label fw-semibold"
+                                                for="loansMortgagesChildcareFortnight">Fortnight</label>
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio"
+                                                name="loansMortgagesChildcareWeek" id="loansMortgagesChildcareMonth"
+                                                value="option1">
+                                            <label class="form-check-label fw-semibold"
+                                                for="loansMortgagesChildcareMonth">Month</label>
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio"
+                                                name="loansMortgagesChildcareWeek" id="loansMortgagesChildcareQuarter"
+                                                value="option2">
+                                            <label class="form-check-label fw-semibold"
+                                                for="loansMortgagesChildcareQuarter">Quarter</label>
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio"
+                                                name="loansMortgagesChildcareWeek" id="loansMortgagesChildcareWeekYears"
+                                                value="option1">
+                                            <label class="form-check-label fw-semibold"
+                                                for="loansMortgagesChildcareWeekYears">Years</label>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
+
+                            <p class="fw-semibold">Childcare including nannies and non-compulsory pre-school.</p>
+                            <!-- clothing and personal care -->
+                            <div class="col-12">
+                                <label class="form-label fw-bold mb-0" for="loansMortgagesPersonalCare">Clothing and
+                                    Personal Care<span class="text-danger"> *</span></label>
+                            </div>
+                            <div class="col-12 align-self-center">
+                                <div class="input-group">
+                                    <span class="input-group-text">$</span>
+                                    <input type="text" id="loansMortgagesPersonalCare"
+                                        class="form-control rounded-end borde">
+                                    <label class="form-label fw-bold mb-0 align-self-center mx-2"
+                                        for="loansMortgagesPersonalCare">Per</label>
+                                    <div class="align-self-center">
+                                        <div class="form-check form-check-inline mx-3">
+                                            <input class="form-check-input" type="radio"
+                                                name="loansMortgagesPersonalCare" id="loansMortgagesPersonalCareWeek"
+                                                value="option1">
+                                            <label class="form-check-label fw-semibold"
+                                                for="loansMortgagesPersonalCareWeek">Week</label>
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio"
+                                                name="loansMortgagesPersonalCare"
+                                                id="loansMortgagesPersonalCareFortnight" value="option2">
+                                            <label class="form-check-label fw-semibold"
+                                                for="loansMortgagesPersonalCareFortnight">Fortnight</label>
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio"
+                                                name="loansMortgagesPersonalCare" id="loansMortgagesPersonalCareMonth"
+                                                value="option1">
+                                            <label class="form-check-label fw-semibold"
+                                                for="loansMortgagesPersonalCareMonth">Month</label>
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio"
+                                                name="loansMortgagesPersonalCare" id="loansMortgagesPersonalCareQuarter"
+                                                value="option2">
+                                            <label class="form-check-label fw-semibold"
+                                                for="loansMortgagesPersonalCareQuarter">Quarter</label>
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio"
+                                                name="loansMortgagesPersonalCare" id="loansMortgagesPersonalCareYears"
+                                                value="option1">
+                                            <label class="form-check-label fw-semibold"
+                                                for="loansMortgagesPersonalCareYears">Years</label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <p class="fw-semibold">Clothing, footwear, personal care products, cosmetics, hair services
+                                and accessories
+                                (including travel goods, handbags, umbrellas, wallets, and baby - goods) for men, women,
+                                children and infants, including
+                                purchases, repairs and alterations..</p>
+                            <!-- general basic insurance -->
+                            <div class="col-12">
+                                <label class="form-label fw-bold mb-0" for="loansMortgagesGBI">General Basic
+                                    Insurances<span class="text-danger"> *</span></label>
+                            </div>
+
+                            <div class="col-12 align-self-center">
+                                <div class="input-group">
+                                    <span class="input-group-text">$</span>
+                                    <input type="text" id="loansMortgagesGBI" class="form-control rounded-end borde">
+                                    <label class="form-label fw-bold mb-0 align-self-center mx-2"
+                                        for="loansMortgagesGBI">Per</label>
+                                    <div class="align-self-center">
+                                        <div class="form-check form-check-inline mx-3">
+                                            <input class="form-check-input" type="radio" name="loansMortgagesGBI"
+                                                id="loansMortgagesGBIWeek" value="option1">
+                                            <label class="form-check-label fw-semibold"
+                                                for="loansMortgagesGBIWeek">Week</label>
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="loansMortgagesGBI"
+                                                id="loansMortgagesGBIFortnight" value="option2">
+                                            <label class="form-check-label fw-semibold"
+                                                for="loansMortgagesGBIFortnight">Fortnight</label>
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="loansMortgagesGBI"
+                                                id="loansMortgagesGBIMonth" value="option1">
+                                            <label class="form-check-label fw-semibold"
+                                                for="loansMortgagesGBIMonth">Month</label>
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="loansMortgagesGBI"
+                                                id="loansMortgagesGBIQuarter" value="option2">
+                                            <label class="form-check-label fw-semibold"
+                                                for="loansMortgagesGBIQuarter">Quarter</label>
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="loansMortgagesGBI"
+                                                id="loansMortgagesGBIYears" value="option1">
+                                            <label class="form-check-label fw-semibold"
+                                                for="loansMortgagesGBIYears">Years</label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <p class="fw-semibold">General basic insurances include ambulance, car (not recreation
+                                vehicles), travel, and
+                                personal belongings insurance. Excludes property (house and contents), health, sickness
+                                and personal accident, life, income
+                                protection and pet insurance.</p>
+
+                            <div class="col-12">
+                                <label class="form-label fw-bold mb-0" for="loansMortgagesGroceries">Groceries<span
+                                        class="text-danger"> *</span></label>
+                            </div>
+                            <div class="col-12 align-self-center">
+                                <div class="input-group">
+                                    <span class="input-group-text">$</span>
+                                    <input type="text" id="loansMortgagesGroceries"
+                                        class="form-control rounded-end borde">
+                                    <label class="form-label fw-bold mb-0 align-self-center mx-2"
+                                        for="loansMortgagesGroceries">Per</label>
+                                    <div class="align-self-center">
+                                        <div class="form-check form-check-inline mx-3">
+                                            <input class="form-check-input" type="radio"
+                                                name="loansMortgagesFourToBeRefinanced"
+                                                id="loansMortgagesFourToBeRefinancedYes" value="option1">
+                                            <label class="form-check-label fw-semibold"
+                                                for="loansMortgagesFourToBeRefinancedYes">Week</label>
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio"
+                                                name="loansMortgagesFourToBeRefinanced"
+                                                id="loansMortgagesFourToBeRefinancedNo" value="option2">
+                                            <label class="form-check-label fw-semibold"
+                                                for="loansMortgagesFourToBeRefinancedNo">Fortnight</label>
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio"
+                                                name="loansMortgagesFourToBeRefinanced"
+                                                id="loansMortgagesFourToBeRefinancedYes" value="option1">
+                                            <label class="form-check-label fw-semibold"
+                                                for="loansMortgagesFourToBeRefinancedYes">Month</label>
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio"
+                                                name="loansMortgagesFourToBeRefinanced"
+                                                id="loansMortgagesFourToBeRefinancedNo" value="option2">
+                                            <label class="form-check-label fw-semibold"
+                                                for="loansMortgagesFourToBeRefinancedNo">Quarter</label>
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio"
+                                                name="loansMortgagesFourToBeRefinanced"
+                                                id="loansMortgagesFourToBeRefinancedYes" value="option1">
+                                            <label class="form-check-label fw-semibold"
+                                                for="loansMortgagesFourToBeRefinancedYes">Years</label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <p class="fw-semibold">Groceries (food and non-alcoholic beverages), toiletries and cleaning
+                                products.</p>
+                            <div class="col-12">
+                                <label class="form-label fw-bold mb-0" for="loansMortgagesCurrentBalance">Higher
+                                    Education, Vocational
+                                    Training and Professional Fees<span class="text-danger"> *</span></label>
+                            </div>
+                            <div class="col-12 align-self-center">
+                                <div class="input-group">
+                                    <span class="input-group-text">$</span>
+                                    <input type="text" class="form-control rounded-end borde">
+                                    <label class="form-label fw-bold mb-0 align-self-center mx-2"
+                                        for="loansMortgagesCurrentBalance">Per</label>
+                                    <div class="align-self-center">
+                                        <div class="form-check form-check-inline mx-3">
+                                            <input class="form-check-input" type="radio"
+                                                name="loansMortgagesFourToBeRefinanced"
+                                                id="loansMortgagesFourToBeRefinancedYes" value="option1">
+                                            <label class="form-check-label fw-semibold"
+                                                for="loansMortgagesFourToBeRefinancedYes">Week</label>
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio"
+                                                name="loansMortgagesFourToBeRefinanced"
+                                                id="loansMortgagesFourToBeRefinancedNo" value="option2">
+                                            <label class="form-check-label fw-semibold"
+                                                for="loansMortgagesFourToBeRefinancedNo">Fortnight</label>
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio"
+                                                name="loansMortgagesFourToBeRefinanced"
+                                                id="loansMortgagesFourToBeRefinancedYes" value="option1">
+                                            <label class="form-check-label fw-semibold"
+                                                for="loansMortgagesFourToBeRefinancedYes">Month</label>
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio"
+                                                name="loansMortgagesFourToBeRefinanced"
+                                                id="loansMortgagesFourToBeRefinancedNo" value="option2">
+                                            <label class="form-check-label fw-semibold"
+                                                for="loansMortgagesFourToBeRefinancedNo">Quarter</label>
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio"
+                                                name="loansMortgagesFourToBeRefinanced"
+                                                id="loansMortgagesFourToBeRefinancedYes" value="option1">
+                                            <label class="form-check-label fw-semibold"
+                                                for="loansMortgagesFourToBeRefinancedYes">Years</label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <p class="fw-semibold">Higher education and vocational training fees (including TAFE,
+                                business college, drama,
+                                music, dance) excluding HECS, and professional fees (union dues, professional
+                                association subscriptions, legal, accountant
+                                and tax agent fees).</p>
+                            <!-- medical and health -->
+                            <div class="col-12">
+                                <label class="form-label fw-bold mb-0" for="loansMortgagesCurrentBalance">Medical and
+                                    Health<span class="text-danger"> *</span></label>
+                            </div>
+                            <div class="col-12 align-self-center">
+                                <div class="input-group">
+                                    <span class="input-group-text">$</span>
+                                    <input type="text" class="form-control rounded-end borde">
+                                    <label class="form-label fw-bold mb-0 align-self-center mx-2"
+                                        for="loansMortgagesCurrentBalance">Per</label>
+                                    <div class="align-self-center">
+                                        <div class="form-check form-check-inline mx-3">
+                                            <input class="form-check-input" type="radio"
+                                                name="loansMortgagesFourToBeRefinanced"
+                                                id="loansMortgagesFourToBeRefinancedYes" value="option1">
+                                            <label class="form-check-label fw-semibold"
+                                                for="loansMortgagesFourToBeRefinancedYes">Week</label>
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio"
+                                                name="loansMortgagesFourToBeRefinanced"
+                                                id="loansMortgagesFourToBeRefinancedNo" value="option2">
+                                            <label class="form-check-label fw-semibold"
+                                                for="loansMortgagesFourToBeRefinancedNo">Fortnight</label>
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio"
+                                                name="loansMortgagesFourToBeRefinanced"
+                                                id="loansMortgagesFourToBeRefinancedYes" value="option1">
+                                            <label class="form-check-label fw-semibold"
+                                                for="loansMortgagesFourToBeRefinancedYes">Month</label>
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio"
+                                                name="loansMortgagesFourToBeRefinanced"
+                                                id="loansMortgagesFourToBeRefinancedNo" value="option2">
+                                            <label class="form-check-label fw-semibold"
+                                                for="loansMortgagesFourToBeRefinancedNo">Quarter</label>
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio"
+                                                name="loansMortgagesFourToBeRefinanced"
+                                                id="loansMortgagesFourToBeRefinancedYes" value="option1">
+                                            <label class="form-check-label fw-semibold"
+                                                for="loansMortgagesFourToBeRefinancedYes">Years</label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <p class="fw-semibold">Medical and health care services including GPs, specialists,
+                                physiotherapists,
+                                chiropractors, and opticians. Medicines, pharmaceuticals, prescriptions, glasses,
+                                purchase or hire of therapeutic appliances and
+                                equipment, hospital charges, nursing home charges. Excludes health insurance and
+                                ambulance insurance.</p>
+                            <!-- /medical and health -->
+                            <!-- pet care -->
+                            <div class="col-12">
+                                <label class="form-label fw-bold mb-0" for="loansMortgagesCurrentBalance">Pet Care<span
+                                        class="text-danger"> *</span></label>
+                            </div>
+                            <div class="col-12 align-self-center">
+                                <div class="input-group">
+                                    <span class="input-group-text">$</span>
+                                    <input type="text" class="form-control rounded-end borde">
+                                    <label class="form-label fw-bold mb-0 align-self-center mx-2"
+                                        for="loansMortgagesCurrentBalance">Per</label>
+                                    <div class="align-self-center">
+                                        <div class="form-check form-check-inline mx-3">
+                                            <input class="form-check-input" type="radio"
+                                                name="loansMortgagesFourToBeRefinanced"
+                                                id="loansMortgagesFourToBeRefinancedYes" value="option1">
+                                            <label class="form-check-label fw-semibold"
+                                                for="loansMortgagesFourToBeRefinancedYes">Week</label>
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio"
+                                                name="loansMortgagesFourToBeRefinanced"
+                                                id="loansMortgagesFourToBeRefinancedNo" value="option2">
+                                            <label class="form-check-label fw-semibold"
+                                                for="loansMortgagesFourToBeRefinancedNo">Fortnight</label>
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio"
+                                                name="loansMortgagesFourToBeRefinanced"
+                                                id="loansMortgagesFourToBeRefinancedYes" value="option1">
+                                            <label class="form-check-label fw-semibold"
+                                                for="loansMortgagesFourToBeRefinancedYes">Month</label>
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio"
+                                                name="loansMortgagesFourToBeRefinanced"
+                                                id="loansMortgagesFourToBeRefinancedNo" value="option2">
+                                            <label class="form-check-label fw-semibold"
+                                                for="loansMortgagesFourToBeRefinancedNo">Quarter</label>
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio"
+                                                name="loansMortgagesFourToBeRefinanced"
+                                                id="loansMortgagesFourToBeRefinancedYes" value="option1">
+                                            <label class="form-check-label fw-semibold"
+                                                for="loansMortgagesFourToBeRefinancedYes">Years</label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <p class="fw-semibold">Pet food, grooming, minding services, care products, health products,
+                                veterinarian fees.
+                            </p>
+                            <!-- /pet care -->
+                            <!-- primary residence running costs -->
+                            <div class="col-12">
+                                <label class="form-label fw-bold mb-0" for="loansMortgagesCurrentBalance">Primary
+                                    Residence Running
+                                    Costs<span class="text-danger"> *</span></label>
+                            </div>
+                            <div class="col-12 align-self-center">
+                                <div class="input-group">
+                                    <span class="input-group-text">$</span>
+                                    <input type="text" class="form-control rounded-end borde">
+                                    <label class="form-label fw-bold mb-0 align-self-center mx-2"
+                                        for="loansMortgagesCurrentBalance">Per</label>
+                                    <div class="align-self-center">
+                                        <div class="form-check form-check-inline mx-3">
+                                            <input class="form-check-input" type="radio"
+                                                name="loansMortgagesFourToBeRefinanced"
+                                                id="loansMortgagesFourToBeRefinancedYes" value="option1">
+                                            <label class="form-check-label fw-semibold"
+                                                for="loansMortgagesFourToBeRefinancedYes">Week</label>
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio"
+                                                name="loansMortgagesFourToBeRefinanced"
+                                                id="loansMortgagesFourToBeRefinancedNo" value="option2">
+                                            <label class="form-check-label fw-semibold"
+                                                for="loansMortgagesFourToBeRefinancedNo">Fortnight</label>
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio"
+                                                name="loansMortgagesFourToBeRefinanced"
+                                                id="loansMortgagesFourToBeRefinancedYes" value="option1">
+                                            <label class="form-check-label fw-semibold"
+                                                for="loansMortgagesFourToBeRefinancedYes">Month</label>
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio"
+                                                name="loansMortgagesFourToBeRefinanced"
+                                                id="loansMortgagesFourToBeRefinancedNo" value="option2">
+                                            <label class="form-check-label fw-semibold"
+                                                for="loansMortgagesFourToBeRefinancedNo">Quarter</label>
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio"
+                                                name="loansMortgagesFourToBeRefinanced"
+                                                id="loansMortgagesFourToBeRefinancedYes" value="option1">
+                                            <label class="form-check-label fw-semibold"
+                                                for="loansMortgagesFourToBeRefinancedYes">Years</label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <p class="fw-semibold">Costs associated with the primary residence, either owned or rented.
+                                Includes rates,
+                                water, sewage, repairs and maintenance, electricity, gas, heating oil and wood for fuel,
+                                purchase, hire and repair of household and
+                                outdoor furnishings and equipment, furnishings, floor coverings, linen, tableware,
+                                gardening tools, power tools, electrical, lights, trees, shrubs, plants, pool chemicals,
+                                home insurance, contents insurance and
+                                appliance insurance. Excludes body corporate fees, strata fees and land tax.
+                            </p>
+                            <!-- public or government primary and secondary education -->
+                            <div class="col-12">
+                                <label class="form-label fw-bold mb-0" for="loansMortgagesCurrentBalance">Public or
+                                    Government Primary
+                                    and Secondary Education<span class="text-danger"> *</span></label>
+                            </div>
+                            <div class="col-12 align-self-center">
+                                <div class="input-group">
+                                    <span class="input-group-text">$</span>
+                                    <input type="text" class="form-control rounded-end borde">
+                                    <label class="form-label fw-bold mb-0 align-self-center mx-2"
+                                        for="loansMortgagesCurrentBalance">Per</label>
+                                    <div class="align-self-center">
+                                        <div class="form-check form-check-inline mx-3">
+                                            <input class="form-check-input" type="radio"
+                                                name="loansMortgagesFourToBeRefinanced"
+                                                id="loansMortgagesFourToBeRefinancedYes" value="option1">
+                                            <label class="form-check-label fw-semibold"
+                                                for="loansMortgagesFourToBeRefinancedYes">Week</label>
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio"
+                                                name="loansMortgagesFourToBeRefinanced"
+                                                id="loansMortgagesFourToBeRefinancedNo" value="option2">
+                                            <label class="form-check-label fw-semibold"
+                                                for="loansMortgagesFourToBeRefinancedNo">Fortnight</label>
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio"
+                                                name="loansMortgagesFourToBeRefinanced"
+                                                id="loansMortgagesFourToBeRefinancedYes" value="option1">
+                                            <label class="form-check-label fw-semibold"
+                                                for="loansMortgagesFourToBeRefinancedYes">Month</label>
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio"
+                                                name="loansMortgagesFourToBeRefinanced"
+                                                id="loansMortgagesFourToBeRefinancedNo" value="option2">
+                                            <label class="form-check-label fw-semibold"
+                                                for="loansMortgagesFourToBeRefinancedNo">Quarter</label>
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio"
+                                                name="loansMortgagesFourToBeRefinanced"
+                                                id="loansMortgagesFourToBeRefinancedYes" value="option1">
+                                            <label class="form-check-label fw-semibold"
+                                                for="loansMortgagesFourToBeRefinancedYes">Years</label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <p class="fw-semibold">Public or government, primary and secondary school tuition, school
+                                and sports fees
+                                including compulsory kindergarten/reception/pre-primary/prep.</p>
+                            <!-- recreation and entertainment -->
+                            <div class="col-12">
+                                <label class="form-label fw-bold mb-0" for="loansMortgagesCurrentBalance">Recreation and
+                                    Entertainment<span class="text-danger"> *</span></label>
+                            </div>
+                            <div class="col-12 align-self-center">
+                                <div class="input-group">
+                                    <span class="input-group-text">$</span>
+                                    <input type="text" class="form-control rounded-end borde">
+                                    <label class="form-label fw-bold mb-0 align-self-center mx-2"
+                                        for="loansMortgagesCurrentBalance">Per</label>
+                                    <div class="align-self-center">
+                                        <div class="form-check form-check-inline mx-3">
+                                            <input class="form-check-input" type="radio"
+                                                name="loansMortgagesFourToBeRefinanced"
+                                                id="loansMortgagesFourToBeRefinancedYes" value="option1">
+                                            <label class="form-check-label fw-semibold"
+                                                for="loansMortgagesFourToBeRefinancedYes">Week</label>
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio"
+                                                name="loansMortgagesFourToBeRefinanced"
+                                                id="loansMortgagesFourToBeRefinancedNo" value="option2">
+                                            <label class="form-check-label fw-semibold"
+                                                for="loansMortgagesFourToBeRefinancedNo">Fortnight</label>
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio"
+                                                name="loansMortgagesFourToBeRefinanced"
+                                                id="loansMortgagesFourToBeRefinancedYes" value="option1">
+                                            <label class="form-check-label fw-semibold"
+                                                for="loansMortgagesFourToBeRefinancedYes">Month</label>
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio"
+                                                name="loansMortgagesFourToBeRefinanced"
+                                                id="loansMortgagesFourToBeRefinancedNo" value="option2">
+                                            <label class="form-check-label fw-semibold"
+                                                for="loansMortgagesFourToBeRefinancedNo">Quarter</label>
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio"
+                                                name="loansMortgagesFourToBeRefinanced"
+                                                id="loansMortgagesFourToBeRefinancedYes" value="option1">
+                                            <label class="form-check-label fw-semibold"
+                                                for="loansMortgagesFourToBeRefinancedYes">Years</label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <p class="fw-semibold">Meals in restaurants, hotels and clubs, fast food and takeaway
+                                including coffee.
+                                Alcoholic beverages and tobacco products. Purchase, hire, repair of recreational
+                                personal belongings including electronics, computers,
+                                games consoles, AV equipment, cameras. Toys, hobbies, stationery, arts, crafts, sports,
+                                camping, fishing and recreation equipment including musical instruments, accessories and
+                                lessons. Non-subscription TV, video,
+                                games, and audio content, books, newspapers, magazines (including physical material and
+                                digital content). Recreation, gym, and health and fitness studios fees, court hire,
+                                sports lessons, admission fees and tickets
+                                (sports, theatre, gallery, museum, music events). Domestic holidays (fares, fuel,
+                                accommodation, theme parks, zoos tours). Recreational gambling, including lottery-type
+                                games, scratch cards, poker machines, club
+                                and casino gaming, and sports betting. Excludes travel insurance.</p>
+                            <!-- telephone, internet, pay TV and media streaming subscriptions -->
+                            <div class="col-12">
+                                <label class="form-label fw-bold mb-0" for="loansMortgagesCurrentBalance">Telephone,
+                                    Internet, Pay TV and
+                                    Media Streaming Subscriptions<span class="text-danger"> *</span></label>
+                            </div>
+                            <div class="col-12 align-self-center">
+                                <div class="input-group">
+                                    <span class="input-group-text">$</span>
+                                    <input type="text" class="form-control rounded-end borde">
+                                    <label class="form-label fw-bold mb-0 align-self-center mx-2"
+                                        for="loansMortgagesCurrentBalance">Per</label>
+                                    <div class="align-self-center">
+                                        <div class="form-check form-check-inline mx-3">
+                                            <input class="form-check-input" type="radio"
+                                                name="loansMortgagesFourToBeRefinanced"
+                                                id="loansMortgagesFourToBeRefinancedYes" value="option1">
+                                            <label class="form-check-label fw-semibold"
+                                                for="loansMortgagesFourToBeRefinancedYes">Week</label>
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio"
+                                                name="loansMortgagesFourToBeRefinanced"
+                                                id="loansMortgagesFourToBeRefinancedNo" value="option2">
+                                            <label class="form-check-label fw-semibold"
+                                                for="loansMortgagesFourToBeRefinancedNo">Fortnight</label>
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio"
+                                                name="loansMortgagesFourToBeRefinanced"
+                                                id="loansMortgagesFourToBeRefinancedYes" value="option1">
+                                            <label class="form-check-label fw-semibold"
+                                                for="loansMortgagesFourToBeRefinancedYes">Month</label>
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio"
+                                                name="loansMortgagesFourToBeRefinanced"
+                                                id="loansMortgagesFourToBeRefinancedNo" value="option2">
+                                            <label class="form-check-label fw-semibold"
+                                                for="loansMortgagesFourToBeRefinancedNo">Quarter</label>
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio"
+                                                name="loansMortgagesFourToBeRefinanced"
+                                                id="loansMortgagesFourToBeRefinancedYes" value="option1">
+                                            <label class="form-check-label fw-semibold"
+                                                for="loansMortgagesFourToBeRefinancedYes">Years</label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <p class="fw-semibold">Telephone accounts (home and mobile), internet, pay TV and media
+                                streaming subscriptions
+                                (such as Netflix and Spotify)</p>
+                            <!-- /household expenses & payment cycles -->
+                            <!-- household expenses & payment cycles continued -->
 
 
 
@@ -365,6 +1026,6 @@
             </div>
         </div>
     </div>
-    <!-- /section 3 3b 3c -->
+    <!-- /loans (other than mortgages) -->
 </main>
 <!-- /main -->
