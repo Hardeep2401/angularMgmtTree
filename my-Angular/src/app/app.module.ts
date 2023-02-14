@@ -35,6 +35,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { CreditCardComponent } from './credit-card/credit-card.component';
 import { LoansMortgagesComponent } from './loans-mortgages/loans-mortgages.component';
 import { LoanMortgagesSecondComponent } from './loan-mortgages-second/loan-mortgages-second.component';
+import { CustomerDeclarationsComponent } from './customer-declarations/customer-declarations.component';
 
 
 
@@ -72,6 +73,7 @@ import { LoanMortgagesSecondComponent } from './loan-mortgages-second/loan-mortg
     CreditCardComponent,
     LoansMortgagesComponent,
     LoanMortgagesSecondComponent,
+    CustomerDeclarationsComponent,
     
 
   ],

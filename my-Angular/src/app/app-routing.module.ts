@@ -4,6 +4,7 @@ import { ApplicationContinuedComponent } from './application-continued/applicati
 import { CreditCardComponent } from './credit-card/credit-card.component';
 import { CurrentMortgagesSecondComponent } from './current-mortgages-second/current-mortgages-second.component';
 import { CurrentMortgagesComponent } from './current-mortgages/current-mortgages.component';
+import { CustomerDeclarationsComponent } from './customer-declarations/customer-declarations.component';
 import { LoanMortgagesSecondComponent } from './loan-mortgages-second/loan-mortgages-second.component';
 import { LoansMortgagesComponent } from './loans-mortgages/loans-mortgages.component';
 import { CardComponent } from './nav-card/card/card.component';
@@ -20,6 +21,7 @@ const routes: Routes = [
   { path: 'creditCard', component: CreditCardComponent },
   { path: 'loan', component: LoansMortgagesComponent },
   { path: 'hcpcc', component: LoanMortgagesSecondComponent },
+  { path: 'customer', component: CustomerDeclarationsComponent },
 
 ];
 
