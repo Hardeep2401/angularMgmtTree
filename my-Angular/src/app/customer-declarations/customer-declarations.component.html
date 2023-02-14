@@ -1,67 +1,37 @@
 <!-- aside navbar -->
-<aside class="shadow-sm fixed-top" id="aside">
-    <div class="row p-4">
-        <div class="col-12 d-flex justify-content-center flex-column align-items-center border-bottom pb-3">
-            <img src="https://play-lh.googleusercontent.com/ahJtMe0vfOlAu1XJVQ6rcaGrQBgtrEZQefHy7SXB7jpijKhu1Kkox90XDuH8RmcBOXNn=w480-h960-rw"
-                alt="Logo" width="60" height="60" class="rounded-circle shadow-sm">
-            <div class="text-white mt-2 fw-bold">Application Form</div>
-            <small class="text-center text-white">Current Mortgages</small>
+<!-- navbar -->
+<nav class="navbar navbar-expand-lg shadow-sm fixed-top">
+    <div class="container-fluid">
+        <a class="navbar-brand fw-bold text-uppercase text-dark" href="#">Submission Pack</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end fw-semibold" id="navbarNavAltMarkup">
+            <div class="navbar-nav ">
+                <a class="nav-link active text-dark" aria-current="/home" routerLink="/home">Home</a>
+                <a class="nav-link" routerLink="/about">About</a>
+                <a class="nav-link" routerLink="/services">Services</a>
+                <a class="nav-link" routerLink="/services1">Services</a>
+                <a class="nav-link" routerLink="/creditCard">Credit Card</a>
+                <a class="nav-link" routerLink="/loan">Loan Mortgages</a>
+                <a class="nav-link" routerLink="/hcpcc">Household EPCC</a>
+                <a class="nav-link" routerLink="/customer">Customer Declarations</a>
+                <a class="nav-link" routerLink="contact">Contact</a>
+            </div>
         </div>
     </div>
-    <div class="row">
-        <div class="col-12">
-            <ul class="nav flex-column">
-                <li class="nav-item mx-3 mb-2">
-                    <a class="nav-link text-white" routerLink="/home"><i class="fa-solid fa-house-user"></i><span
-                            class="ms-3">Home</span></a>
-                </li>
-                <li class="nav-item mx-3 mb-2">
-                    <a class="nav-link text-white" routerLink="/about"><i class="fa-solid fa-address-card"></i><span
-                            class="ms-3">About</span></a>
-                </li>
-                <li class="nav-item mx-3 mb-2">
-                    <a class="nav-link text-white" routerLink="/services"><i class="fa-solid fa-grip-vertical"></i><span
-                            class="ms-3">
-                            Services</span></a>
-                </li>
-                <li class="nav-item mx-3 mb-2">
-                    <a class="nav-link text-white" routerLink="/services1"><i
-                            class="fa-solid fa-grip-vertical"></i><span class="ms-3">Services
-                            1</span></a>
-                </li>
-                <li class="nav-item mx-3 mb-2">
-                    <a class="nav-link text-white" routerLink="/creditCard"><i
-                            class="fa-solid fa-grip-vertical"></i><span class="ms-3">Credit Card</span></a>
-                </li>
-                <li class="nav-item mx-3 mb-2">
-                    <a class="nav-link text-white" routerLink="/loan"><i class="fa-solid fa-grip-vertical"></i><span
-                            class="ms-3">Loan Mortgages</span></a>
-                </li>
-                <li class="nav-item mx-3 mb-2">
-                    <a class="nav-link text-white" routerLink="/hcpcc"><i class="fa-solid fa-grip-vertical"></i><span
-                            class="ms-3">Household EPCC</span></a>
-                </li>
-                <li class="nav-item mx-3 mb-2">
-                    <a class="nav-link text-white" routerLink="/customer"><i class="fa-solid fa-grip-vertical"></i><span
-                            class="ms-3">Customer Declarations </span></a>
-                </li>
-                <li class="nav-item mx-3 mb-2">
-                    <a class="nav-link text-white" routerLink="Contact"><i class="fa-solid fa-headset"></i><span
-                            class="ms-3">Contact</span></a>
-                </li>
-            </ul>
-        </div>
-    </div>
-</aside>
+</nav>
+<!-- /navbar -->
 <!-- /aside navbar -->
 <!-- main -->
 <main>
     <!-- Customer declarations regarding financial circumstances -->
-    <div class="container-fluid py-4">
+    <div class="container-fluid py-4 mt-5">
         <div class="row">
             <div class="col-12">
                 <!--  Customer declarations regarding financial circumstances title -->
-                <h1 class="fw-bold mb-3 p-2  sectionBorder">Section 7
+                <h1 class="fw-bold mb-3 p-2 sectionBorder">Section 7
                 </h1>
                 <div class="card p-4 shadow-sm">
                     <!-- Customer declarations regarding financial circumstances sub title  -->
@@ -179,7 +149,7 @@
                             </div>
                             <div class="col-12">
                                 <input class="form-control" type="text" id="applicantOneFirstAndMiddleName"
-                                    placeholder="First and middle names" aria-label="name">
+                                    placeholder=" Foreseeable Change To Circumstances Be Mitigated" aria-label="name">
                             </div>
                             <!-- exceed your retirement age of 70 -->
                             <div class="col-12">
@@ -241,6 +211,500 @@
                                     <label class="form-check-label fw-semibold text-capitalize"
                                         for="loansMortgagesFourToBeRefinancedYes">Reduction of the loan balance &/or
                                         amortise loan to serviceable levels on post-retirement income</label>
+                                </div>
+                            </div>
+                            <!-- statements and/or audited SMSF financials -->
+                            <div class="col-12">
+                                <label class="form-label fw-bold mb-0 text-capitalize"
+                                    for="loansMortgagesCurrentBalance">Recent super statements and/or audited SMSF
+                                    financials with calculations depicting ability to do so (demonstrable; residual
+                                    repayments serviceable on post retirement income)
+                                    <span class="text-danger"> *</span></label>
+                            </div>
+                            <div class="col-12">
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="loansMortgagesFourToBeRefinanced"
+                                        id="loansMortgagesFourToBeRefinancedYes" value="option1">
+                                    <label class="form-check-label fw-semibold text-capitalize"
+                                        for="loansMortgagesFourToBeRefinancedYes">Downsizing owner occupied
+                                        property</label>
+                                </div>
+                            </div>
+                            <!-- Proposed relocation suburb/region with calculations depicting -->
+                            <div class="col-12">
+                                <label class="form-label fw-bold mb-0 text-capitalize"
+                                    for="loansMortgagesCurrentBalance">Proposed relocation suburb/region with
+                                    calculations depicting ability to do so (e.g. relocate to a suitable gold coast
+                                    dwelling with
+                                    sufficient equity to render any residual repayments serviceable on post retirement
+                                    income)
+                                    <span class="text-danger"> *</span></label>
+                            </div>
+                            <div class="col-12">
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="loansMortgagesFourToBeRefinanced"
+                                        id="loansMortgagesFourToBeRefinancedYes" value="option1">
+                                    <label class="form-check-label fw-semibold"
+                                        for="loansMortgagesFourToBeRefinancedYes">Accelerated Repayments</label>
+                                </div>
+                            </div>
+                            <!-- Show working by generating an e-mms borrowing capacity -->
+                            <div class="col-12">
+                                <label class="form-label fw-bold mb-0 text-capitalize"
+                                    for="loansMortgagesCurrentBalance">Show working by generating an e-mms borrowing
+                                    capacity (in the same)
+                                    <span class="text-danger"> *</span></label>
+                            </div>
+                            <!-- Retirement strategy stress test -->
+                            <h3 class="fw-semibold mb-0 p-1 border-top py-3">Retirement Strategy Stress Test</h3>
+                            <div class="col-12">
+                                <label class="form-label fw-bold mb-0 text-capitalize"
+                                    for="loansMortgagesCurrentBalance">Retirement strategy stress test
+                                    <span class="text-danger"> *</span></label>
+                            </div>
+                            <div class="col-12">
+                                <div class="input-group">
+                                    <input type="text" id="loansMortgagesChildcare"
+                                        placeholder="Retirement Strategy Stress Test" class="form-control">
+                                </div>
+                            </div>
+                            <!-- amount -->
+                            <div class="col-12">
+                                <label class="form-label fw-bold mb-0 text-capitalize"
+                                    for="loansMortgagesCurrentBalance">Amount
+                                    <span class="text-danger"> *</span></label>
+                            </div>
+                            <div class="col-12">
+                                <div class="input-group">
+                                    <input type="text" id="loansMortgagesChildcare"
+                                        placeholder="Retirement Strategy Stress Test Amount" class="form-control">
+                                </div>
+                            </div>
+                            <!-- anticipated retirement in number of years -->
+                            <div class="col-12">
+                                <div class="input-group text-capitalize">
+                                    <label class="align-self-center me-2 fw-bold ">Anticipated retirement in number of
+                                        years into the loan contract <span class="text-danger"> *</span></label>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="input-group">
+                                    <input type="text" id="loansMortgagesChildcare"
+                                        placeholder="Anticipated Retirement In Number Of Years" class="form-control">
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="input-group text-capitalize">
+                                    <label class="align-self-center me-2 fw-bold ">& corresponding scheduled balance
+                                        of<span class="text-danger"> *</span></label>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="input-group">
+                                    <input type="text" id="loansMortgagesChildcare"
+                                        placeholder="Corresponding Scheduled Balance" class="form-control">
+                                </div>
+                            </div>
+                            <!-- quantum of monthly lift -->
+                            <div class="col-12">
+                                <label class="form-label fw-bold mb-0 text-capitalize"
+                                    for="loansMortgagesCurrentBalance">Quantum of monthly lift (repayment acceleration)
+                                    <span class="text-danger"> *</span></label>
+                            </div>
+                            <div class="col-12">
+                                <div class="input-group">
+                                    <input type="text" id="loansMortgagesChildcare"
+                                        placeholder="Quantum Of Monthly Lift" class="form-control">
+                                </div>
+                            </div>
+                            <!-- Current balance of super -->
+                            <div class="col-12 col-lg-4">
+                                <div class="">
+                                    <label for="" class="align-self-center fw-bold text-capitalize mb-3">Current
+                                        balance of super <span class="text-danger"> *</span></label>
+                                    <input type="text" class="form-control rounded-start"
+                                        placeholder="Current Balance Of Super" aria-label="Username"
+                                        aria-describedby="basic-addon1">
+                                    <span class="input-group" id="basic-addon1"></span>
+                                </div>
+                            </div>
+                            <div class="col-12 col-lg-4">
+                                <label for="" class="align-self-center fw-bold text-capitalize mb-3">Projected
+                                    value
+                                    on anticipated
+                                    (assuming)</label>
+                                <div class="input-group">
+                                    <input type="text" class="form-control" placeholder="Projected Value On Anticipated"
+                                        aria-label="Recipient's username" aria-describedby="basic-addon2">
+                                    <span class="input-group-text fw-bold" id="basic-addon2">%</span>
+                                </div>
+                            </div>
+                            <div class="col-12 col-lg-4">
+                                <label for="" class="align-self-center fw-bold text-capitalize mb-3">(annual
+                                    growth)
+                                    retirement</label>
+                                <input type="text" class="form-control rounded-start" placeholder="Retirement"
+                                    aria-label="Username" aria-describedby="basic-addon1">
+                                <span class="input-group" id="basic-addon1"></span>
+                            </div>
+
+                            <!-- Current balance of SMSF super -->
+                            <div class="col-12 col-lg-4">
+                                <div class="">
+                                    <label for="" class="align-self-center fw-bold text-capitalize mb-3">Current
+                                        balance of SMSF super <span class="text-danger"> *</span> </label>
+                                    <input type="text" class="form-control rounded-start"
+                                        placeholder="Current balance of SMSF super" aria-label="Username"
+                                        aria-describedby="basic-addon1">
+                                    <span class="input-group" id="basic-addon1"></span>
+                                </div>
+                            </div>
+                            <div class="col-12 col-lg-4">
+                                <label for="" class="align-self-center fw-bold text-capitalize mb-3">Projected
+                                    value
+                                    on anticipated
+                                    (assuming)</label>
+                                <div class="input-group">
+                                    <input type="text" class="form-control" placeholder="Projected Value On Anticipated"
+                                        aria-label="Recipient's username">
+                                    <span class="input-group-text fw-bold" id=" ">%</span>
+                                </div>
+                            </div>
+                            <div class="col-12 col-lg-4">
+                                <label for="" class="align-self-center fw-bold text-capitalize mb-3">(annual
+                                    growth)
+                                    retirement</label>
+                                <input type="text" class="form-control rounded-start" placeholder="Retirement"
+                                    aria-label="Username" aria-describedby="basic-addon1">
+                                <span class="input-group" id="basic-addon1"></span>
+                            </div>
+                            <!-- current net value of shares -->
+                            <div class="col-12 col-lg-4">
+                                <div class="">
+                                    <label for="" class="align-self-center fw-bold text-capitalize mb-3">current
+                                        net value of shares<span class="text-danger"> *</span> </label>
+                                    <input type="text" class="form-control rounded-start"
+                                        placeholder="current Net Value Of Shares" aria-label="Username"
+                                        aria-describedby="basic-addon1">
+                                    <span class="input-group" id="basic-addon1"></span>
+                                </div>
+                            </div>
+                            <div class="col-12 col-lg-4">
+                                <label for="" class="align-self-center fw-bold text-capitalize mb-3">Projected
+                                    value
+                                    on anticipated
+                                    (assuming)</label>
+                                <div class="input-group">
+                                    <input type="text" class="form-control" placeholder="Projected Value On Anticipated"
+                                        aria-label="Recipient's username" aria-describedby="basic-addon2">
+                                    <span class="input-group-text fw-bold" id="basic-addon2">%</span>
+                                </div>
+                            </div>
+                            <div class="col-12 col-lg-4">
+                                <label for="" class="align-self-center fw-bold text-capitalize mb-3">(annual
+                                    growth)
+                                    retirement</label>
+                                <input type="text" class="form-control rounded-start" placeholder="Retirement"
+                                    aria-label="Username" aria-describedby="basic-addon1">
+                                <span class="input-group" id="basic-addon1"></span>
+                            </div>
+                            <!-- current net value in real estate (1) -->
+                            <div class="col-12 col-lg-4">
+                                <div class="">
+                                    <label for="" class="align-self-center fw-bold text-capitalize mb-3">Current
+                                        net value in real estate (1)<span class="text-danger"> *</span> </label>
+                                    <input type="text" class="form-control rounded-start"
+                                        placeholder="Current Net Value In Real Estate (1)" aria-label="Username"
+                                        aria-describedby="basic-addon1">
+                                    <span class="input-group" id="basic-addon1"></span>
+                                </div>
+                            </div>
+                            <div class="col-12 col-lg-4">
+                                <label for="" class="align-self-center fw-bold text-capitalize mb-3">Projected
+                                    value
+                                    on anticipated
+                                    (assuming)</label>
+                                <div class="input-group">
+                                    <input type="text" class="form-control" placeholder="Projected Value On Anticipated"
+                                        aria-label="Recipient's username" aria-describedby="basic-addon2">
+                                    <span class="input-group-text fw-bold" id="basic-addon2">%</span>
+                                </div>
+                            </div>
+                            <div class="col-12 col-lg-4">
+                                <label for="" class="align-self-center fw-bold text-capitalize mb-3">(annual
+                                    growth)
+                                    retirement</label>
+                                <input type="text" class="form-control rounded-start" placeholder="Retirement"
+                                    aria-label="Username" aria-describedby="basic-addon1">
+                                <span class="input-group" id="basic-addon1"></span>
+                            </div>
+                            <!-- current net value in real estate (2) -->
+                            <div class="col-12 col-lg-4">
+                                <div class="">
+                                    <label for="" class="align-self-center fw-bold text-capitalize mb-3">Current
+                                        net value in real estate (2)<span class="text-danger"> *</span> </label>
+                                    <input type="text" class="form-control rounded-start"
+                                        placeholder="Current Net Value In Real Estate (2)" aria-label="Username"
+                                        aria-describedby="basic-addon1">
+                                    <span class="input-group" id="basic-addon1"></span>
+                                </div>
+                            </div>
+                            <div class="col-12 col-lg-4">
+                                <label for="" class="align-self-center fw-bold text-capitalize mb-3">Projected
+                                    value
+                                    on anticipated
+                                    (assuming)</label>
+                                <div class="input-group">
+                                    <input type="text" class="form-control" placeholder="Projected Value On Anticipated"
+                                        aria-label="Recipient's username" aria-describedby="basic-addon2">
+                                    <span class="input-group-text fw-bold" id="basic-addon2">%</span>
+                                </div>
+                            </div>
+                            <div class="col-12 col-lg-4">
+                                <label for="" class="align-self-center fw-bold text-capitalize mb-3">(annual
+                                    growth)
+                                    retirement</label>
+                                <input type="text" class="form-control rounded-start" placeholder="Retirement"
+                                    aria-label="Username" aria-describedby="basic-addon1">
+                                <span class="input-group" id="basic-addon1"></span>
+                            </div>
+                            <!-- Current net value in real estate (3) -->
+                            <div class="col-12 col-lg-4">
+                                <div class="">
+                                    <label for="" class="align-self-center fw-bold text-capitalize mb-3">Current
+                                        net value in real estate (3)<span class="text-danger"> *</span> </label>
+                                    <input type="text" class="form-control rounded-start"
+                                        placeholder="Current Net Value In Real Estate (3)" aria-label="Username"
+                                        aria-describedby="basic-addon1">
+                                    <span class="input-group" id="basic-addon1"></span>
+                                </div>
+                            </div>
+                            <div class="col-12 col-lg-4">
+                                <label for="" class="align-self-center fw-bold text-capitalize mb-3">Projected
+                                    value
+                                    on anticipated
+                                    (assuming)</label>
+                                <div class="input-group">
+                                    <input type="text" class="form-control" placeholder="Projected Value On Anticipated"
+                                        aria-label="Recipient's username" aria-describedby="basic-addon2">
+                                    <span class="input-group-text fw-bold" id="basic-addon2">%</span>
+                                </div>
+                            </div>
+                            <div class="col-12 col-lg-4">
+                                <label for="" class="align-self-center fw-bold text-capitalize mb-3">(annual
+                                    growth)
+                                    retirement</label>
+                                <input type="text" class="form-control rounded-start" placeholder="Retirement"
+                                    aria-label="Username" aria-describedby="basic-addon1">
+                                <span class="input-group" id="basic-addon1"></span>
+                            </div>
+                            <!-- Current Net Value In Real Estate (4) -->
+                            <div class="col-12 col-lg-4">
+                                <div class="">
+                                    <label for="" class="align-self-center fw-bold text-capitalize mb-3">Current
+                                        net value in real estate (4)<span class="text-danger"> *</span> </label>
+                                    <input type="text" class="form-control rounded-start"
+                                        placeholder="Current Net Value In Real Estate (4)" aria-label="Username"
+                                        aria-describedby="basic-addon1">
+                                    <span class="input-group" id="basic-addon1"></span>
+                                </div>
+                            </div>
+                            <div class="col-12 col-lg-4">
+                                <label for="" class="align-self-center fw-bold text-capitalize mb-3">Projected
+                                    value
+                                    on anticipated
+                                    (assuming)</label>
+                                <div class="input-group">
+                                    <input type="text" class="form-control" placeholder="Projected Value On Anticipated"
+                                        aria-label="Recipient's username" aria-describedby="basic-addon2">
+                                    <span class="input-group-text fw-bold" id="basic-addon2">%</span>
+                                </div>
+                            </div>
+                            <div class="col-12 col-lg-4">
+                                <label for="" class="align-self-center fw-bold text-capitalize mb-3">(annual
+                                    growth)
+                                    retirement</label>
+                                <input type="text" class="form-control rounded-start" placeholder="Retirement"
+                                    aria-label="Username" aria-describedby="basic-addon1">
+                                <span class="input-group" id="basic-addon1"></span>
+                            </div>
+                            <!-- downsizing from anticipated loan balance -->
+                            <div class="col-12 col-lg-4">
+                                <label for="" class="align-self-center fw-bold text-capitalize mb-3">Downsizing
+                                    from anticipated loan balance of </label>
+                                <input type="text" class="form-control rounded-start"
+                                    placeholder="Downsizing From Anticipated Loan Balance" aria-label="Username"
+                                    aria-describedby="basic-addon1">
+                                <span class="input-group" id="basic-addon1"></span>
+                            </div>
+
+                            <div class="col-12 col-lg-4">
+                                <label for="" class="align-self-center fw-bold text-capitalize mb-3">Down
+                                    To </label>
+                                <input type="text" class="form-control rounded-start" placeholder="Down To"
+                                    aria-label="Username" aria-describedby="basic-addon1">
+                                <span class="input-group" id="basic-addon1"></span>
+                            </div>
+                            <!-- current net value in business -->
+                            <div class="col-12 col-lg-4">
+                                <label for="" class="align-self-center fw-bold text-capitalize mb-3">current net
+                                    value in business</label>
+                                <input type="text" class="form-control rounded-start"
+                                    placeholder="Current Net Value In Business" aria-label="Username"
+                                    aria-describedby="basic-addon1">
+                                <span class="input-group" id="basic-addon1"></span>
+                            </div>
+
+                            <div class="col-12 col-lg-4">
+                                <label for="" class="align-self-center fw-bold text-capitalize mb-3">Projected
+                                    value on anticipated (assuming “text” % annual growth) retirement</label>
+                                <input type="text" class="form-control rounded-start"
+                                    placeholder="Projected Value On Anticipated Retirement" aria-label="Username"
+                                    aria-describedby="basic-addon1">
+                                <span class="input-group" id="basic-addon1"></span>
+                            </div>
+                            <!-- projected surplus/deficit at anticipated time of retirement -->
+                            <div class="col-12 col-lg-4">
+                                <label for="" class="align-self-center fw-bold text-capitalize mb-3">projected
+                                    surplus-deficit at anticipated time of retirement</label>
+                                <input type="text" class="form-control rounded-start"
+                                    placeholder="Projected Surplus-Deficit At Anticipated Time Of Retirement"
+                                    aria-label="Username" aria-describedby="basic-addon1">
+                                <span class="input-group" id="basic-addon1"></span>
+                            </div>
+
+                            <div class="col-12 col-lg-4">
+                                <label for="" class="align-self-center fw-bold text-capitalize mb-3">Pass if
+                                    surplus is evident</label>
+                                <input type="text" class="form-control rounded-start"
+                                    placeholder="Projected Pass Surplus Evident" aria-label="Username"
+                                    aria-describedby="basic-addon1">
+                                <span class="input-group" id="basic-addon1"></span>
+                            </div>
+                            <!-- test for servicing on aged (post retirement income) pension if deficit of -->
+                            <div class="col-12 col-lg-4">
+                                <label for="" class="align-self-center fw-bold text-capitalize mb-3">Test for
+                                    servicing on aged (post retirement income) pension if deficit of</label>
+                                <input type="text" class="form-control rounded-start"
+                                    placeholder="Projected Surplus-Deficit At Anticipated Time Of Retirement"
+                                    aria-label="Username" aria-describedby="basic-addon1">
+                                <span class="input-group" id="basic-addon1"></span>
+                            </div>
+
+                            <div class="col-12 col-lg-4">
+                                <label for="" class="align-self-center fw-bold text-capitalize mb-3">Pass if
+                                    surplus is evident</label>
+                                <input type="text" class="form-control rounded-start"
+                                    placeholder="Projected Pass Surplus Evident" aria-label="Username"
+                                    aria-describedby="basic-addon1">
+                                <span class="input-group" id="basic-addon1"></span>
+                            </div>
+                            <div class="col-12 col-lg-4">
+                                <label for="" class="align-self-center fw-bold text-capitalize mb-3">Test for servicing
+                                    on aged (post retirement income) pension if deficit of</label>
+                                <input type="text" class="form-control rounded-start"
+                                    placeholder="Projected Pass Surplus Evident" aria-label="Username"
+                                    aria-describedby="basic-addon1">
+                                <span class="input-group" id="basic-addon1"></span>
+                            </div>
+                            <div class="col-12 col-lg-4">
+                                <label for="" class="align-self-center fw-bold text-capitalize mb-3">assuming an
+                                    approved</label>
+                                <input type="text" class="form-control rounded-start"
+                                    placeholder="Projected Pass Surplus Evident" aria-label="Username"
+                                    aria-describedby="basic-addon1">
+                                <span class="input-group" id="basic-addon1"></span>
+                            </div>
+                            <div class="col-12 col-lg-4">
+                                <label for="" class="align-self-center fw-bold text-capitalize mb-3">year loan
+                                    of</label>
+                                <input type="text" class="form-control rounded-start"
+                                    placeholder="Projected Pass Surplus Evident" aria-label="Username"
+                                    aria-describedby="basic-addon1">
+                                <span class="input-group" id="basic-addon1"></span>
+                            </div>
+                            <div class="col-12 col-lg-4">
+                                <label for="" class="align-self-center fw-bold text-capitalize mb-3">retiring</label>
+                                <input type="text" class="form-control rounded-start"
+                                    placeholder="Projected Pass Surplus Evident" aria-label="Username"
+                                    aria-describedby="basic-addon1">
+                                <span class="input-group" id="basic-addon1"></span>
+                            </div>
+                            <div class="col-12 col-lg-4">
+                                <label for="" class="align-self-center fw-bold text-capitalize mb-3">into the loan
+                                    contract with an anticipated loan balance of</label>
+                                <input type="text" class="form-control rounded-start"
+                                    placeholder="Projected Pass Surplus Evident" aria-label="Username"
+                                    aria-describedby="basic-addon1">
+                                <span class="input-group" id="basic-addon1"></span>
+                            </div>
+                            <div class="col-12 col-lg-8">
+                                <label for="" class="align-self-center fw-bold text-capitalize mb-3">and current super
+                                    value (projected increase of plus anticipated increase in super value</label>
+                                <div class="input-group">
+                                    <input type="text" class="form-control" placeholder="Projected Value On Anticipated"
+                                        aria-label="Recipient's username" aria-describedby="basic-addon2">
+                                    <span class="input-group-text fw-bold" id="basic-addon2">%</span>
+                                </div>
+                            </div>
+                            <!--  -->
+                            <div class="col-12">
+                                <label for="" class="align-self-center fw-bold text-capitalize">Is there anything
+                                    else that may reasonably be expected to have a
+                                    bearing
+                                    on your application for credit, knowing that if you leave such
+                                    information out it may cause problems in making your loan repayments?</label>
+                            </div>
+                            <div class="col-12">
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="loansMortgagesFourToBeRefinanced"
+                                        id="loansMortgagesFourToBeRefinancedYes" value="option1">
+                                    <label class="form-check-label fw-semibold"
+                                        for="loansMortgagesFourToBeRefinancedYes">Yes</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="loansMortgagesFourToBeRefinanced"
+                                        id="loansMortgagesFourToBeRefinancedNo" value="option2">
+                                    <label class="form-check-label fw-semibold"
+                                        for="loansMortgagesFourToBeRefinancedNo">No</label>
+                                </div>
+                            </div>
+                            <!--  -->
+                            <div class="col-12">
+                                <label for="" class="align-self-center fw-bold text-capitalize mb-3">Explanation<span
+                                        class="text-danger"> *</span></label>
+                                <div class="input-group">
+                                    <input type="text" class="form-control" placeholder="Explanation"
+                                        aria-label="Recipient's username" aria-describedby="basic-addon2">
+                                </div>
+                            </div>
+                            <!--  -->
+                            <div class="col-12">
+                                <label for="" class="align-self-center fw-bold text-capitalize">Are you comfortable
+                                    with your ability to make repayments under the proposed loan without difficulty?
+                                    <span class="fw-semibold"> *</span></label>
+                            </div>
+                            <div class="col-12">
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="loansMortgagesFourToBeRefinanced"
+                                        id="loansMortgagesFourToBeRefinancedYes" value="option1">
+                                    <label class="form-check-label fw-semibold"
+                                        for="loansMortgagesFourToBeRefinancedYes">Yes</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="loansMortgagesFourToBeRefinanced"
+                                        id="loansMortgagesFourToBeRefinancedNo" value="option2">
+                                    <label class="form-check-label fw-semibold"
+                                        for="loansMortgagesFourToBeRefinancedNo">No</label>
+                                </div>
+                            </div>
+                            <!--  -->
+                            <div class="col-12">
+                                <label for="" class="align-self-center fw-bold text-capitalize mb-3">Explanation<span
+                                        class="text-danger"> *</span></label>
+                                <div class="input-group">
+                                    <input type="text" class="form-control" placeholder="Explanation"
+                                        aria-label="Recipient's username" aria-describedby="basic-addon2">
                                 </div>
                             </div>
 

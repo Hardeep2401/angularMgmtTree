@@ -18,17 +18,7 @@
 .SkilledInput {
     margin-top: 4%;
 }
-
+ 
 .sectionBorder {
     border-left:5px solid red;
-}
-
-aside {
-    width: 250px;
-    height: 100vh;
-    background-color: #6366F1;
-}
-
-main {
-    margin-left: 250px;
 }

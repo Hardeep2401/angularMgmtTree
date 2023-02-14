@@ -1,63 +1,31 @@
 <!-- aside navbar -->
-<aside class="shadow-sm fixed-top" id="aside">
-    <div class="row p-4">
-        <div class="col-12 d-flex justify-content-center flex-column align-items-center border-bottom pb-3">
-            <img src="https://play-lh.googleusercontent.com/ahJtMe0vfOlAu1XJVQ6rcaGrQBgtrEZQefHy7SXB7jpijKhu1Kkox90XDuH8RmcBOXNn=w480-h960-rw"
-                alt="Logo" width="60" height="60" class="rounded-circle shadow-sm">
-            <div class="text-white mt-2 fw-bold">Application Form</div>
-            <small class="text-center text-white">Current Mortgages</small>
+<nav class="navbar navbar-expand-lg shadow-sm fixed-top">
+    <div class="container-fluid">
+        <a class="navbar-brand fw-bold text-uppercase text-dark" href="#">Submission Pack</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end fw-semibold" id="navbarNavAltMarkup">
+            <div class="navbar-nav ">
+                <a class="nav-link active text-dark" aria-current="/home" routerLink="/home">Home</a>
+                <a class="nav-link" routerLink="/about">About</a>
+                <a class="nav-link" routerLink="/services">Services</a>
+                <a class="nav-link" routerLink="/services1">Services</a>
+                <a class="nav-link" routerLink="/creditCard">Credit Card</a>
+                <a class="nav-link" routerLink="/loan">Loan Mortgages</a>
+                <a class="nav-link" routerLink="/hcpcc">Household EPCC</a>
+                <a class="nav-link" routerLink="/customer">Customer Declarations</a>
+                <a class="nav-link" routerLink="contact">Contact</a>
+            </div>
         </div>
     </div>
-    <div class="row">
-        <div class="col-12">
-            <ul class="nav flex-column">
-                <li class="nav-item mx-3 mb-2">
-                    <a class="nav-link text-white" routerLink="/home"><i class="fa-solid fa-house-user"></i><span
-                            class="ms-3">Home</span></a>
-                </li>
-                <li class="nav-item mx-3 mb-2">
-                    <a class="nav-link text-white" routerLink="/about"><i class="fa-solid fa-address-card"></i><span
-                            class="ms-3">About</span></a>
-                </li>
-                <li class="nav-item mx-3 mb-2">
-                    <a class="nav-link text-white" routerLink="/services"><i class="fa-solid fa-grip-vertical"></i><span
-                            class="ms-3">
-                            Services</span></a>
-                </li>
-                <li class="nav-item mx-3 mb-2">
-                    <a class="nav-link text-white" routerLink="/services1"><i
-                            class="fa-solid fa-grip-vertical"></i><span class="ms-3">Services
-                            1</span></a>
-                </li>
-                <li class="nav-item mx-3 mb-2">
-                    <a class="nav-link text-white" routerLink="/creditCard"><i
-                            class="fa-solid fa-grip-vertical"></i><span class="ms-3">Credit Card</span></a>
-                </li>
-                <li class="nav-item mx-3 mb-2">
-                    <a class="nav-link text-white" routerLink="/loan"><i class="fa-solid fa-grip-vertical"></i><span
-                            class="ms-3">Loan Mortgages</span></a>
-                </li>
-                <li class="nav-item mx-3 mb-2">
-                    <a class="nav-link text-white" routerLink="/hcpcc"><i class="fa-solid fa-grip-vertical"></i><span
-                            class="ms-3">Household EPCC</span></a>
-                </li>
-                <li class="nav-item mx-3 mb-2">
-                    <a class="nav-link text-white" routerLink="/customer"><i class="fa-solid fa-grip-vertical"></i><span
-                            class="ms-3">Customer Declarations </span></a>
-                </li>
-                <li class="nav-item mx-3 mb-2">
-                    <a class="nav-link text-white" routerLink="Contact"><i class="fa-solid fa-headset"></i><span
-                            class="ms-3">Contact</span></a>
-                </li>
-            </ul>
-        </div>
-    </div>
-</aside>
+</nav>
 <!-- /aside navbar -->
 <!-- main -->
 <main>
     <!-- loans (other than mortgages) -->
-    <div class="container-fluid py-4">
+    <div class="container-fluid py-4 mt-5">
         <div class="row">
             <div class="col-12">
                 <!--  Household expenses & payment cycles continued title -->
