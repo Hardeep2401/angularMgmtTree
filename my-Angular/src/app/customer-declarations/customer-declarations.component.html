@@ -1,6 +1,6 @@
 <!-- aside navbar -->
 <!-- navbar -->
-<nav class="navbar navbar-expand-lg shadow-sm fixed-top">
+<nav class="navbar navbar-expand-lg shadow-sm">
     <div class="container-fluid">
         <a class="navbar-brand fw-bold text-uppercase text-dark" href="#">Submission Pack</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
@@ -17,6 +17,7 @@
                 <a class="nav-link" routerLink="/loan">Loan Mortgages</a>
                 <a class="nav-link" routerLink="/hcpcc">Household EPCC</a>
                 <a class="nav-link" routerLink="/customer">Customer Declarations</a>
+                <a class="nav-link" routerLink="/feedback">Feedback</a>
                 <a class="nav-link" routerLink="contact">Contact</a>
             </div>
         </div>
@@ -27,7 +28,7 @@
 <!-- main -->
 <main>
     <!-- Customer declarations regarding financial circumstances -->
-    <div class="container-fluid py-4 mt-5">
+    <div class="container-fluid py-4">
         <div class="row">
             <div class="col-12">
                 <!--  Customer declarations regarding financial circumstances title -->
@@ -35,7 +36,7 @@
                 </h1>
                 <div class="card p-4 shadow-sm">
                     <!-- Customer declarations regarding financial circumstances sub title  -->
-                    <h5 class="fw-bold mb-0 p-1 text-capitalize display-6">Customer declarations regarding financial
+                    <h5 class="fw-bold mb-0 p-1 text-capitalize">Customer declarations regarding financial
                         circumstances
                     </h5>
                     <form class="row">
@@ -151,7 +152,7 @@
                                 </div>
                             </div>
                             <!-- foreseeable change to circumstances be mitigated? -->
-                            <div class="col-12 col-lg-6">
+                            <div class="col-12 col-md-6 col-lg-6 col-xl-4">
                                 <label class="form-label fw-bold mb-0 text-capitalize"
                                     for="customerDeclarationsCircumstancesBeMitigated">How will the
                                     foreseeable change to
@@ -236,8 +237,7 @@
                             <div class="col-12">
                                 <label class="form-label fw-bold mb-0 text-capitalize"
                                     for="customerDeclarationStatementFinancials">Recent super statements and/or audited
-                                    SMSF
-                                    financials with calculations depicting ability to do so (demonstrable; residual
+                                    SMSF financials with calculations depicting ability to do so (demonstrable; residual
                                     repayments serviceable on post retirement income
                                     <span class="text-danger"> *</span></label>
                             </div>
@@ -279,10 +279,11 @@
                                     <span class="text-danger"> *</span></label>
                             </div>
                             <!-- Retirement strategy stress test -->
-                            <h3 class="fw-semibold mb-0 p-1 border-top py-3">Retirement Strategy Stress Test</h3>
+                            <h3 class="fw-semibold mb-0 border-top py-3">Retirement Strategy Stress Test</h3>
                             <div class="col-12">
                                 <label class="form-label fw-bold mb-0 text-capitalize"
-                                    for="customerDeclarationRetirementStrategy">Retirement strategy stress test
+                                    for="customerDeclarationRetirementStrategy">Retirement strategy stress
+                                    test
                                     <span class="text-danger"> *</span></label>
                             </div>
                             <div class="col-12">
@@ -345,7 +346,7 @@
                                 </div>
                             </div>
                             <!-- Current balance of super -->
-                            <div class="col-12 col-lg-4">
+                            <div class="col-12 col-md-6 col-lg-6 col-xl-4">
                                 <div class="">
                                     <label for="" class="align-self-center fw-bold text-capitalize mb-3"
                                         for="customerDeclarationCurrentBalance">Current
@@ -356,7 +357,7 @@
                                     <span class="input-group" id="customerDeclarationCurrentBalancetext"></span>
                                 </div>
                             </div>
-                            <div class="col-12 col-lg-4">
+                            <div class="col-12 col-md-6 col-lg-6 col-xl-4">
                                 <label for="customerDeclarationProjectValue"
                                     class="align-self-center fw-bold text-capitalize mb-3">Projected
                                     value
@@ -369,7 +370,7 @@
                                     <span class="input-group-text fw-bold" id="customerDeclarationProject">%</span>
                                 </div>
                             </div>
-                            <div class="col-12 col-lg-4">
+                            <div class="col-12 col-md-6 col-lg-6 col-xl-4">
                                 <label for="customerDeclarationAnnualGrowth"
                                     class="align-self-center fw-bold text-capitalize mb-3">(annual
                                     growth)
@@ -381,11 +382,11 @@
                             </div>
 
                             <!-- Current balance of SMSF super -->
-                            <div class="col-12 col-lg-4">
+                            <div class="col-12 col-md-6 col-lg-6 col-xl-4">
                                 <div class="">
                                     <label for="customerDeclarationCurrentBalanceSuper"
                                         class="align-self-center fw-bold text-capitalize mb-3">Current
-                                        balance of SMSF super <span class="text-danger"> *</span> </label>
+                                        balance of SMSF super<span class="text-danger">*</span> </label>
                                     <input type="text" class="form-control rounded-start"
                                         id="customerDeclarationCurrentBalanceSuper"
                                         placeholder="Current balance of SMSF super" aria-label="Username"
@@ -393,7 +394,7 @@
                                     <span class="input-group" id=""></span>
                                 </div>
                             </div>
-                            <div class="col-12 col-lg-4">
+                            <div class="col-12 col-md-6 col-lg-6 col-xl-4">
                                 <label for="customerDeclarationProjectedValue"
                                     class="align-self-center fw-bold text-capitalize mb-3">Projected
                                     value
@@ -405,7 +406,7 @@
                                     <span class="input-group-text fw-bold" id="">%</span>
                                 </div>
                             </div>
-                            <div class="col-12 col-lg-4">
+                            <div class="col-12 col-md-6 col-lg-6 col-xl-4">
                                 <label for="annualGrowthRetirement"
                                     class="align-self-center fw-bold text-capitalize mb-3">(annual
                                     growth)
@@ -415,7 +416,7 @@
                                 <span class="input-group" id=""></span>
                             </div>
                             <!-- current net value of shares -->
-                            <div class="col-12 col-lg-4">
+                            <div class="col-12 col-md-6 col-lg-6 col-xl-4">
                                 <div class="">
                                     <label for="currentNetValueShare"
                                         class="align-self-center fw-bold text-capitalize mb-3">current
@@ -426,7 +427,7 @@
                                     <span class="input-group" id=""></span>
                                 </div>
                             </div>
-                            <div class="col-12 col-lg-4">
+                            <div class="col-12 col-md-6 col-lg-6 col-xl-4">
                                 <label for="projectedValue"
                                     class="align-self-center fw-bold text-capitalize mb-3">Projected
                                     value
@@ -439,7 +440,7 @@
                                     <span class="input-group-text fw-bold" id="projectedValuePercentage">%</span>
                                 </div>
                             </div>
-                            <div class="col-12 col-lg-4">
+                            <div class="col-12 col-md-6 col-lg-6 col-xl-4">
                                 <label for="customerDeclarationYearsGrowth"
                                     class="align-self-center fw-bold text-capitalize mb-3">(annual
                                     growth)
@@ -450,7 +451,7 @@
                                 <span class="input-group" id=""></span>
                             </div>
                             <!-- current net value in real estate (1) -->
-                            <div class="col-12 col-lg-4">
+                            <div class="col-12 col-md-6 col-lg-6 col-xl-4">
                                 <div>
                                     <label for="customerDeclarationCurrentRealEstate"
                                         class="align-self-center fw-bold text-capitalize mb-3">Current
@@ -462,7 +463,7 @@
                                     <span class="input-group" id=""></span>
                                 </div>
                             </div>
-                            <div class="col-12 col-lg-4">
+                            <div class="col-12 col-md-6 col-lg-6 col-xl-4">
                                 <label for="customerDeclarationProjectAnticioated"
                                     class="align-self-center fw-bold text-capitalize mb-3">Projected
                                     value
@@ -476,7 +477,7 @@
                                         id="customerDeclarationProjectAnticioatedPercentage">%</span>
                                 </div>
                             </div>
-                            <div class="col-12 col-lg-4">
+                            <div class="col-12 col-md-6 col-lg-6 col-xl-4">
                                 <label for="customerDeclarationAnnualRetirement"
                                     class="align-self-center fw-bold text-capitalize mb-3">(annual
                                     growth)
@@ -487,7 +488,7 @@
                                 <span class="input-group" id=""></span>
                             </div>
                             <!-- current net value in real estate (2) -->
-                            <div class="col-12 col-lg-4">
+                            <div class="col-12 col-md-6 col-lg-6 col-xl-4">
                                 <div>
                                     <label for="customerDeclarationCurrentNetValue"
                                         class="align-self-center fw-bold text-capitalize mb-3">Current
@@ -499,7 +500,7 @@
                                     <span class="input-group" id=""></span>
                                 </div>
                             </div>
-                            <div class="col-12 col-lg-4">
+                            <div class="col-12 col-md-6 col-lg-6 col-xl-4">
                                 <label for="customerDeclarationProjectValueAssuming"
                                     class="align-self-center fw-bold text-capitalize mb-3">Projected
                                     value
@@ -513,7 +514,7 @@
                                         id="customerDeclarationProjectValueAssumingPercentage">%</span>
                                 </div>
                             </div>
-                            <div class="col-12 col-lg-4">
+                            <div class="col-12 col-md-6 col-lg-6 col-xl-4">
                                 <label for="customerDeclarationOneYearGrowth"
                                     class="align-self-center fw-bold text-capitalize mb-3">(annual
                                     growth)
@@ -524,7 +525,7 @@
                                 <span class="input-group" id=""></span>
                             </div>
                             <!-- Current net value in real estate (3) -->
-                            <div class="col-12 col-lg-4">
+                            <div class="col-12 col-md-6 col-lg-6 col-xl-4">
                                 <div>
                                     <label for="customerDeclarationLatestNetValue"
                                         class="align-self-center fw-bold text-capitalize mb-3">Current
@@ -536,7 +537,7 @@
                                     <span class="input-group" id=""></span>
                                 </div>
                             </div>
-                            <div class="col-12 col-lg-4">
+                            <div class="col-12 col-md-6 col-lg-6 col-xl-4">
                                 <label for="customerDeclarationProjectOnValue"
                                     class="align-self-center fw-bold text-capitalize mb-3">Projected
                                     value
@@ -550,7 +551,7 @@
                                         id="customerDeclarationProjectOnValuePercentage">%</span>
                                 </div>
                             </div>
-                            <div class="col-12 col-lg-4">
+                            <div class="col-12 col-md-6 col-lg-6 col-xl-4">
                                 <label for="customerDeclarationFirstYearGrowth"
                                     class="align-self-center fw-bold text-capitalize mb-3">(annual
                                     growth)
@@ -561,7 +562,7 @@
                                 <span class="input-group" id=""></span>
                             </div>
                             <!-- Current Net Value In Real Estate (4) -->
-                            <div class="col-12 col-lg-4">
+                            <div class="col-12 col-md-6 col-lg-6 col-xl-4">
                                 <div class="">
                                     <label for="customerDeclarationAnnualNetValueFour"
                                         class="align-self-center fw-bold text-capitalize mb-3">Current
@@ -573,7 +574,7 @@
                                     <span class="input-group" id=""></span>
                                 </div>
                             </div>
-                            <div class="col-12 col-lg-4">
+                            <div class="col-12 col-md-6 col-lg-6 col-xl-4">
                                 <label for="customerDeclarationProjectedValueFour"
                                     class="align-self-center fw-bold text-capitalize mb-3">Projected
                                     value
@@ -587,7 +588,7 @@
                                         id="customerDeclarationProjectedValueFourPercentage">%</span>
                                 </div>
                             </div>
-                            <div class="col-12 col-lg-4">
+                            <div class="col-12 col-md-6 col-lg-6 col-xl-4">
                                 <label for="customerDeclarationAnnualGrowthFour"
                                     class="align-self-center fw-bold text-capitalize mb-3">(annual
                                     growth)
@@ -598,7 +599,7 @@
                                 <span class="input-group" id=""></span>
                             </div>
                             <!-- downsizing from anticipated loan balance -->
-                            <div class="col-12 col-lg-4">
+                            <div class="col-12 col-lg-6">
                                 <label for="customerDeclarationDownsizing"
                                     class="align-self-center fw-bold text-capitalize mb-3">Downsizing
                                     from anticipated loan balance of </label>
@@ -608,7 +609,7 @@
                                 <span class="input-group" id=""></span>
                             </div>
 
-                            <div class="col-12 col-lg-4">
+                            <div class="col-12 col-lg-6">
                                 <label for="customerDeclarationDownTo"
                                     class="align-self-center fw-bold text-capitalize mb-3">Down
                                     To </label>
@@ -618,7 +619,7 @@
                                 <span class="input-group" id="basic-addon1"></span>
                             </div>
                             <!-- current net value in business -->
-                            <div class="col-12 col-lg-4">
+                            <div class="col-12 col-lg-6">
                                 <label for="customerDeclarationCurrentNetBusiness"
                                     class="align-self-center fw-bold text-capitalize mb-3">current net
                                     value in business</label>
@@ -629,7 +630,7 @@
                                 <span class="input-group" id=""></span>
                             </div>
 
-                            <div class="col-12 col-lg-4">
+                            <div class="col-12 col-lg-6">
                                 <label for="customerDeclarationProjectValueOnAnticipated"
                                     class="align-self-center fw-bold text-capitalize mb-3">Projected
                                     value on anticipated (assuming “text” % annual growth) retirement</label>
@@ -640,7 +641,7 @@
                                 <span class="input-group" id=""></span>
                             </div>
                             <!-- projected surplus/deficit at anticipated time of retirement -->
-                            <div class="col-12 col-lg-4">
+                            <div class="col-12 col-lg-6">
                                 <label for="customerDeclarationAnticipatedTimeRetirement"
                                     class="align-self-center fw-bold text-capitalize mb-3">projected
                                     surplus-deficit at anticipated time of retirement</label>
@@ -652,7 +653,7 @@
                                 <span class="input-group" id=""></span>
                             </div>
 
-                            <div class="col-12 col-lg-4">
+                            <div class="col-12 col-lg-6">
                                 <label for="customerDeclarationPassSurplus"
                                     class="align-self-center fw-bold text-capitalize mb-3">Pass if
                                     surplus is evident</label>
@@ -662,7 +663,7 @@
                                 <span class="input-group" id=""></span>
                             </div>
                             <!-- test for servicing on aged (post retirement income) pension if deficit of -->
-                            <div class="col-12 col-lg-4">
+                            <div class="col-12 col-lg-6">
                                 <label for="customerDeclarationTestServicing"
                                     class="align-self-center fw-bold text-capitalize mb-3">Test for
                                     servicing on aged (post retirement income) pension if deficit of</label>
@@ -673,7 +674,7 @@
                                 <span class="input-group" id=""></span>
                             </div>
 
-                            <div class="col-12 col-lg-4">
+                            <div class="col-12 col-lg-6">
                                 <label for="customerDeclarationPassSurplusEvident"
                                     class="align-self-center fw-bold text-capitalize mb-3">Pass if
                                     surplus is evident</label>
@@ -683,7 +684,7 @@
                                     aria-describedby="basic-addon1">
                                 <span class="input-group" id=""></span>
                             </div>
-                            <div class="col-12 col-lg-4">
+                            <div class="col-12 col-lg-6">
                                 <label for="customerDeclarationTestServicinfAged"
                                     class="align-self-center fw-bold text-capitalize mb-3">Test for servicing
                                     on aged (post retirement income) pension if deficit of</label>
@@ -693,7 +694,7 @@
                                     aria-describedby="basic-addon1">
                                 <span class="input-group" id="basic-addon1"></span>
                             </div>
-                            <div class="col-12 col-lg-4">
+                            <div class="col-12 col-lg-6">
                                 <label for="customerDeclarationAssumingApproved"
                                     class="align-self-center fw-bold text-capitalize mb-3">assuming an
                                     approved</label>
@@ -703,7 +704,7 @@
                                     aria-describedby="basic-addon1">
                                 <span class="input-group" id=""></span>
                             </div>
-                            <div class="col-12 col-lg-4">
+                            <div class="col-12 col-lg-6">
                                 <label for="customerDeclarationYearsLoan"
                                     class="align-self-center fw-bold text-capitalize mb-3">year loan
                                     of</label>
@@ -712,7 +713,7 @@
                                     aria-describedby="basic-addon1">
                                 <span class="input-group" id=""></span>
                             </div>
-                            <div class="col-12 col-lg-4">
+                            <div class="col-12 col-lg-6">
                                 <label for="customerDeclarationRetiring"
                                     class="align-self-center fw-bold text-capitalize mb-3">retiring</label>
                                 <input type="text" class="form-control rounded-start" id="customerDeclarationRetiring"
@@ -720,7 +721,7 @@
                                     aria-describedby="basic-addon1">
                                 <span class="input-group" id=""></span>
                             </div>
-                            <div class="col-12 col-lg-4">
+                            <div class="col-12 col-lg-6">
                                 <label for="customerDeclarationIntoLoan"
                                     class="align-self-center fw-bold text-capitalize mb-3">into the loan
                                     contract with an anticipated loan balance of</label>
@@ -729,7 +730,7 @@
                                     aria-describedby="basic-addon1">
                                 <span class="input-group" id="basic-addon1"></span>
                             </div>
-                            <div class="col-12 col-lg-8">
+                            <div class="col-12 col-lg-6">
                                 <label for="customerDeclarationCurrentSuperValue"
                                     class="align-self-center fw-bold text-capitalize mb-3">and current super
                                     value (projected increase of plus anticipated increase in super value</label>
@@ -741,7 +742,7 @@
                                         id="customerDeclarationCurrentSuperValuePercentage">%</span>
                                 </div>
                             </div>
-                            <!--  -->
+                            <!-- Is there anything else that may reasonably be expected -->
                             <div class="col-12">
                                 <label for="customerDeclarationApplicationCredit"
                                     class="align-self-center fw-bold text-capitalize">Is there anything
@@ -766,7 +767,7 @@
                                         for="customerDeclarationApplicationCreditNo">No</label>
                                 </div>
                             </div>
-                            <!--  -->
+                            <!-- explanation -->
                             <div class="col-12">
                                 <label for="customerDeclarationExplanation"
                                     class="align-self-center fw-bold text-capitalize mb-3">Explanation<span
@@ -777,7 +778,7 @@
                                         aria-describedby="basic-addon2">
                                 </div>
                             </div>
-                            <!--  -->
+                            <!-- Are you comfortable with your ability to make repayments -->
                             <div class="col-12">
                                 <label for="customerDeclarationRepaymentProposed"
                                     class="align-self-center fw-bold text-capitalize">Are you comfortable
@@ -800,7 +801,7 @@
                                         for="customerDeclarationRepaymentProposedNo">No</label>
                                 </div>
                             </div>
-                            <!--  -->
+                            <!-- explanation second -->
                             <div class="col-12">
                                 <label for="customerDeclarationExplanationSecond"
                                     class="align-self-center fw-bold text-capitalize mb-3">Explanation<span
@@ -811,10 +812,596 @@
                                         aria-describedby="basic-addon2">
                                 </div>
                             </div>
+                            <!-- please provide details of the resulting benefit to you -->
+                            <p class="fw-bold mb-0 py-3 text-capitalize">If refinancing or consolidating
+                                debts, please provide details of the resulting benefit to you ? </p>
+                            <!-- Benefits of refinance -->
+                            <div class="col-12">
+                                <label for="customerDeclarationBenefitsRefinance"
+                                    class="align-self-center fw-bold text-capitalize mb-3">Benefits of refinance<span
+                                        class="text-danger"> *</span></label>
+                                <div class="input-group">
+                                    <input type="text" class="form-control" placeholder="Benefits Of Refinance"
+                                        id="customerDeclarationBenefitsRefinance" aria-label="Recipient's username"
+                                        aria-describedby="basic-addon2">
+                                </div>
+                            </div>
+                            <!-- Refinance reasons -->
+                            <div class="col-12">
+                                <label class="form-label fw-bold mb-0 text-capitalize"
+                                    for="customerDeclarationRefinanceReasons">Refinance reasons<span
+                                        class="text-danger">
+                                        *</span></label>
+                            </div>
+                            <div class="col-12">
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio"
+                                        name="customerDeclarationRefinanceReasons"
+                                        id="customerDeclarationRefinanceReasonsConsolidate" value="option1">
+                                    <label class="form-check-label fw-semibold"
+                                        for="customerDeclarationRefinanceReasonsConsolidate">Consolidate
+                                        financials</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio"
+                                        name="customerDeclarationRefinanceReasons"
+                                        id="customerDeclarationRefinanceReasonsCost" value="option2">
+                                    <label class="form-check-label fw-semibold"
+                                        for="customerDeclarationRefinanceReasonsCost">Cost reduction</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio"
+                                        name="customerDeclarationRefinanceReasons"
+                                        id="customerDeclarationRefinanceReasonsSpecific" value="option1">
+                                    <label class="form-check-label fw-semibold"
+                                        for="customerDeclarationRefinanceReasonsSpecific">Specific features</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio"
+                                        name="customerDeclarationRefinanceReasons"
+                                        id="customerDeclarationRefinanceReasonsConvenience" value="option2">
+                                    <label class="form-check-label fw-semibold"
+                                        for="customerDeclarationRefinanceReasonsConvenience">Convenience-Flexibility</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio"
+                                        name="customerDeclarationRefinanceReasons"
+                                        id="customerDeclarationRefinanceReasonsQuality" value="option2">
+                                    <label class="form-check-label fw-semibold"
+                                        for="customerDeclarationRefinanceReasonsQuality">Quality of service</label>
+                                </div>
+                            </div>
+                            <!-- features or comments  -->
+                            <h4 class="fw-semibold mb-0 py-3">FEATURES</h4>
+                            <!-- variable interest rate -->
+                            <div class="col-12 col-lg-6">
+                                <label for="customerDeclarationYearsLoan"
+                                    class="align-self-center fw-bold text-capitalize mb-3">Variable interest rate <span
+                                        class="text-danger">*</span></label>
+                                <div>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="radio"
+                                            name="customerDeclarationRefinanceReasons"
+                                            id="customerDeclarationRefinanceReasonsConsolidate" value="option1">
+                                        <label class="form-check-label fw-semibold"
+                                            for="customerDeclarationRefinanceReasonsConsolidate">MUST HAVE</label>
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="radio"
+                                            name="customerDeclarationRefinanceReasons"
+                                            id="customerDeclarationRefinanceReasonsCost" value="option2">
+                                        <label class="form-check-label fw-semibold"
+                                            for="customerDeclarationRefinanceReasonsCost">NICE TO HAVE</label>
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="radio"
+                                            name="customerDeclarationRefinanceReasons"
+                                            id="customerDeclarationRefinanceReasonsSpecific" value="option1">
+                                        <label class="form-check-label fw-semibold"
+                                            for="customerDeclarationRefinanceReasonsSpecific">DON’T MIND</label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-lg-6">
+                                <label for="customerDeclarationBenefitsRefinance"
+                                    class="align-self-center fw-bold text-capitalize mb-3">Comments</label>
+                                <div class="input-group">
+                                    <input type="text" class="form-control" placeholder="Comments"
+                                        id="customerDeclarationBenefitsRefinance" aria-label="Recipient's username"
+                                        aria-describedby="basic-addon2">
+                                </div>
+                            </div>
+                            <!-- fixed interest rate -->
+                            <div class="col-12 col-lg-6">
+                                <label for="customerDeclarationYearsLoan"
+                                    class="align-self-center fw-bold text-capitalize mb-3">Fixed interest rate <span
+                                        class="text-danger">*</span></label>
+                                <div>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="radio"
+                                            name="customerDeclarationRefinanceReasons"
+                                            id="customerDeclarationRefinanceReasonsConsolidate" value="option1">
+                                        <label class="form-check-label fw-semibold"
+                                            for="customerDeclarationRefinanceReasonsConsolidate">MUST HAVE</label>
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="radio"
+                                            name="customerDeclarationRefinanceReasons"
+                                            id="customerDeclarationRefinanceReasonsCost" value="option2">
+                                        <label class="form-check-label fw-semibold"
+                                            for="customerDeclarationRefinanceReasonsCost">NICE TO HAVE</label>
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="radio"
+                                            name="customerDeclarationRefinanceReasons"
+                                            id="customerDeclarationRefinanceReasonsSpecific" value="option1">
+                                        <label class="form-check-label fw-semibold"
+                                            for="customerDeclarationRefinanceReasonsSpecific">DON’T MIND</label>
+                                    </div>
+                                </div>
+                            </div>
 
-
-
-
+                            <div class="col-12 col-lg-6">
+                                <label for="customerDeclarationBenefitsRefinance"
+                                    class="align-self-center fw-bold text-capitalize mb-3">Comments</label>
+                                <div class="input-group">
+                                    <input type="text" class="form-control" placeholder="Comments"
+                                        id="customerDeclarationBenefitsRefinance" aria-label="Recipient's username"
+                                        aria-describedby="basic-addon2">
+                                </div>
+                            </div>
+                            <!-- split account -->
+                            <div class="col-12 col-lg-6">
+                                <label for="customerDeclarationYearsLoan" class="align-self-center fw-bold mb-3">Split
+                                    Account <span class="text-danger">*</span></label>
+                                <div>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="radio"
+                                            name="customerDeclarationRefinanceReasons"
+                                            id="customerDeclarationRefinanceReasonsConsolidate" value="option1">
+                                        <label class="form-check-label fw-semibold"
+                                            for="customerDeclarationRefinanceReasonsConsolidate">MUST HAVE</label>
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="radio"
+                                            name="customerDeclarationRefinanceReasons"
+                                            id="customerDeclarationRefinanceReasonsCost" value="option2">
+                                        <label class="form-check-label fw-semibold"
+                                            for="customerDeclarationRefinanceReasonsCost">NICE TO HAVE</label>
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="radio"
+                                            name="customerDeclarationRefinanceReasons"
+                                            id="customerDeclarationRefinanceReasonsSpecific" value="option1">
+                                        <label class="form-check-label fw-semibold"
+                                            for="customerDeclarationRefinanceReasonsSpecific">DON’T MIND</label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-lg-6">
+                                <label for="customerDeclarationBenefitsRefinance"
+                                    class="align-self-center fw-bold text-capitalize mb-3">Comments</label>
+                                <div class="input-group">
+                                    <input type="text" class="form-control" placeholder="Comments"
+                                        id="customerDeclarationBenefitsRefinance" aria-label="Recipient's username"
+                                        aria-describedby="basic-addon2">
+                                </div>
+                            </div>
+                            <!-- 100% Interest offset feature -->
+                            <div class="col-12 col-lg-6">
+                                <label for="customerDeclarationYearsLoan" class="align-self-center fw-bold mb-3">100%
+                                    Interest offset feature <span class="text-danger">*</span></label>
+                                <div>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="radio"
+                                            name="customerDeclarationRefinanceReasons"
+                                            id="customerDeclarationRefinanceReasonsConsolidate" value="option1">
+                                        <label class="form-check-label fw-semibold"
+                                            for="customerDeclarationRefinanceReasonsConsolidate">MUST HAVE</label>
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="radio"
+                                            name="customerDeclarationRefinanceReasons"
+                                            id="customerDeclarationRefinanceReasonsCost" value="option2">
+                                        <label class="form-check-label fw-semibold"
+                                            for="customerDeclarationRefinanceReasonsCost">NICE TO HAVE</label>
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="radio"
+                                            name="customerDeclarationRefinanceReasons"
+                                            id="customerDeclarationRefinanceReasonsSpecific" value="option1">
+                                        <label class="form-check-label fw-semibold"
+                                            for="customerDeclarationRefinanceReasonsSpecific">DON’T MIND</label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-lg-6">
+                                <label for="customerDeclarationBenefitsRefinance"
+                                    class="align-self-center fw-bold text-capitalize mb-3">Comments</label>
+                                <div class="input-group">
+                                    <input type="text" class="form-control" placeholder="Comments"
+                                        id="customerDeclarationBenefitsRefinance" aria-label="Recipient's username"
+                                        aria-describedby="basic-addon2">
+                                </div>
+                            </div>
+                            <!-- redraw -->
+                            <div class="col-12 col-lg-6">
+                                <label for="customerDeclarationYearsLoan" class="align-self-center fw-bold mb-3">Redraw
+                                    <span class="text-danger">*</span></label>
+                                <div>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="radio"
+                                            name="customerDeclarationRefinanceReasons"
+                                            id="customerDeclarationRefinanceReasonsConsolidate" value="option1">
+                                        <label class="form-check-label fw-semibold"
+                                            for="customerDeclarationRefinanceReasonsConsolidate">MUST HAVE</label>
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="radio"
+                                            name="customerDeclarationRefinanceReasons"
+                                            id="customerDeclarationRefinanceReasonsCost" value="option2">
+                                        <label class="form-check-label fw-semibold"
+                                            for="customerDeclarationRefinanceReasonsCost">NICE TO HAVE</label>
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="radio"
+                                            name="customerDeclarationRefinanceReasons"
+                                            id="customerDeclarationRefinanceReasonsSpecific" value="option1">
+                                        <label class="form-check-label fw-semibold"
+                                            for="customerDeclarationRefinanceReasonsSpecific">DON’T MIND</label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-lg-6">
+                                <label for="customerDeclarationBenefitsRefinance"
+                                    class="align-self-center fw-bold text-capitalize mb-3">Comments</label>
+                                <div class="input-group">
+                                    <input type="text" class="form-control" placeholder="Comments"
+                                        id="customerDeclarationBenefitsRefinance" aria-label="Recipient's username"
+                                        aria-describedby="basic-addon2">
+                                </div>
+                            </div>
+                            <!-- Ability to make additional payment -->
+                            <div class="col-12 col-lg-6">
+                                <label for="customerDeclarationYearsLoan" class="align-self-center fw-bold mb-3">Ability
+                                    to make additional payment <span class="text-danger">*</span></label>
+                                <div>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="radio"
+                                            name="customerDeclarationRefinanceReasons"
+                                            id="customerDeclarationRefinanceReasonsConsolidate" value="option1">
+                                        <label class="form-check-label fw-semibold"
+                                            for="customerDeclarationRefinanceReasonsConsolidate">MUST HAVE</label>
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="radio"
+                                            name="customerDeclarationRefinanceReasons"
+                                            id="customerDeclarationRefinanceReasonsCost" value="option2">
+                                        <label class="form-check-label fw-semibold"
+                                            for="customerDeclarationRefinanceReasonsCost">NICE TO HAVE</label>
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="radio"
+                                            name="customerDeclarationRefinanceReasons"
+                                            id="customerDeclarationRefinanceReasonsSpecific" value="option1">
+                                        <label class="form-check-label fw-semibold"
+                                            for="customerDeclarationRefinanceReasonsSpecific">DON’T MIND</label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-lg-6">
+                                <label for="customerDeclarationBenefitsRefinance"
+                                    class="align-self-center fw-bold text-capitalize mb-3">Comments</label>
+                                <div class="input-group">
+                                    <input type="text" class="form-control" placeholder="Comments"
+                                        id="customerDeclarationBenefitsRefinance" aria-label="Recipient's username"
+                                        aria-describedby="basic-addon2">
+                                </div>
+                            </div>
+                            <!-- Construction – progressive drawdown -->
+                            <div class="col-12 col-lg-6">
+                                <label for="customerDeclarationYearsLoan"
+                                    class="align-self-center fw-bold mb-3">Construction - progressive drawdown <span
+                                        class="text-danger">*</span></label>
+                                <div>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="radio"
+                                            name="customerDeclarationRefinanceReasons"
+                                            id="customerDeclarationRefinanceReasonsConsolidate" value="option1">
+                                        <label class="form-check-label fw-semibold"
+                                            for="customerDeclarationRefinanceReasonsConsolidate">MUST HAVE</label>
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="radio"
+                                            name="customerDeclarationRefinanceReasons"
+                                            id="customerDeclarationRefinanceReasonsCost" value="option2">
+                                        <label class="form-check-label fw-semibold"
+                                            for="customerDeclarationRefinanceReasonsCost">NICE TO HAVE</label>
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="radio"
+                                            name="customerDeclarationRefinanceReasons"
+                                            id="customerDeclarationRefinanceReasonsSpecific" value="option1">
+                                        <label class="form-check-label fw-semibold"
+                                            for="customerDeclarationRefinanceReasonsSpecific">DON’T MIND</label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-lg-6">
+                                <label for="customerDeclarationBenefitsRefinance"
+                                    class="align-self-center fw-bold text-capitalize mb-3">Comments</label>
+                                <div class="input-group">
+                                    <input type="text" class="form-control" placeholder="Comments"
+                                        id="customerDeclarationBenefitsRefinance" aria-label="Recipient's username"
+                                        aria-describedby="basic-addon2">
+                                </div>
+                            </div>
+                            <!-- Internet-online access -->
+                            <div class="col-12 col-lg-6">
+                                <label for="customerDeclarationYearsLoan"
+                                    class="align-self-center fw-bold mb-3">Internet-online access <span
+                                        class="text-danger">*</span></label>
+                                <div>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="radio"
+                                            name="customerDeclarationRefinanceReasons"
+                                            id="customerDeclarationRefinanceReasonsConsolidate" value="option1">
+                                        <label class="form-check-label fw-semibold"
+                                            for="customerDeclarationRefinanceReasonsConsolidate">MUST HAVE</label>
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="radio"
+                                            name="customerDeclarationRefinanceReasons"
+                                            id="customerDeclarationRefinanceReasonsCost" value="option2">
+                                        <label class="form-check-label fw-semibold"
+                                            for="customerDeclarationRefinanceReasonsCost">NICE TO HAVE</label>
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="radio"
+                                            name="customerDeclarationRefinanceReasons"
+                                            id="customerDeclarationRefinanceReasonsSpecific" value="option1">
+                                        <label class="form-check-label fw-semibold"
+                                            for="customerDeclarationRefinanceReasonsSpecific">DON’T MIND</label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-lg-6">
+                                <label for="customerDeclarationBenefitsRefinance"
+                                    class="align-self-center fw-bold text-capitalize mb-3">Comments</label>
+                                <div class="input-group">
+                                    <input type="text" class="form-control" placeholder="Comments"
+                                        id="customerDeclarationBenefitsRefinance" aria-label="Recipient's username"
+                                        aria-describedby="basic-addon2">
+                                </div>
+                            </div>
+                            <!-- Visa debit card -->
+                            <div class="col-12 col-lg-6">
+                                <label for="customerDeclarationYearsLoan" class="align-self-center fw-bold mb-3">Visa
+                                    debit card <span class="text-danger">*</span></label>
+                                <div>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="radio"
+                                            name="customerDeclarationRefinanceReasons"
+                                            id="customerDeclarationRefinanceReasonsConsolidate" value="option1">
+                                        <label class="form-check-label fw-semibold"
+                                            for="customerDeclarationRefinanceReasonsConsolidate">MUST HAVE</label>
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="radio"
+                                            name="customerDeclarationRefinanceReasons"
+                                            id="customerDeclarationRefinanceReasonsCost" value="option2">
+                                        <label class="form-check-label fw-semibold"
+                                            for="customerDeclarationRefinanceReasonsCost">NICE TO HAVE</label>
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="radio"
+                                            name="customerDeclarationRefinanceReasons"
+                                            id="customerDeclarationRefinanceReasonsSpecific" value="option1">
+                                        <label class="form-check-label fw-semibold"
+                                            for="customerDeclarationRefinanceReasonsSpecific">DON’T MIND</label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-lg-6">
+                                <label for="customerDeclarationBenefitsRefinance"
+                                    class="align-self-center fw-bold text-capitalize mb-3">Comments</label>
+                                <div class="input-group">
+                                    <input type="text" class="form-control" placeholder="Comments"
+                                        id="customerDeclarationBenefitsRefinance" aria-label="Recipient's username"
+                                        aria-describedby="basic-addon2">
+                                </div>
+                            </div>
+                            <!-- Other features sought (Please specify) -->
+                            <div class="col-12 col-lg-6">
+                                <label for="customerDeclarationYearsLoan" class="align-self-center fw-bold mb-3">Other
+                                    features sought (Please specify) <span class="text-danger">*</span></label>
+                                <div>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="radio"
+                                            name="customerDeclarationRefinanceReasons"
+                                            id="customerDeclarationRefinanceReasonsConsolidate" value="option1">
+                                        <label class="form-check-label fw-semibold"
+                                            for="customerDeclarationRefinanceReasonsConsolidate">MUST HAVE</label>
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="radio"
+                                            name="customerDeclarationRefinanceReasons"
+                                            id="customerDeclarationRefinanceReasonsCost" value="option2">
+                                        <label class="form-check-label fw-semibold"
+                                            for="customerDeclarationRefinanceReasonsCost">NICE TO HAVE</label>
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="radio"
+                                            name="customerDeclarationRefinanceReasons"
+                                            id="customerDeclarationRefinanceReasonsSpecific" value="option1">
+                                        <label class="form-check-label fw-semibold"
+                                            for="customerDeclarationRefinanceReasonsSpecific">DON’T MIND</label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-lg-6">
+                                <label for="customerDeclarationBenefitsRefinance"
+                                    class="align-self-center fw-bold text-capitalize mb-3">Comments</label>
+                                <div class="input-group">
+                                    <input type="text" class="form-control" placeholder="Comments"
+                                        id="customerDeclarationBenefitsRefinance" aria-label="Recipient's username"
+                                        aria-describedby="basic-addon2">
+                                </div>
+                            </div>
+                            <!-- seeking an interest only loan, please indicate by ticking -->
+                            <div class="col-12">
+                                <label for="customerDeclarationBenefitsRefinance"
+                                    class="align-self-center fw-bold text-capitalize mb-3">If seeking an interest only
+                                    loan, please indicate by ticking one or more of the following reasons and provide a
+                                    brief explanation</label>
+                            </div>
+                            <!-- Temporary reduction in income -->
+                            <div class="col-12 col-lg-6">
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio"
+                                        name="customerDeclarationRefinanceReasons"
+                                        id="customerDeclarationRefinanceReasonsConsolidate" value="option1">
+                                    <label class="form-check-label fw-bold"
+                                        for="customerDeclarationRefinanceReasonsConsolidate">Temporary Reduction In
+                                        Income</label>
+                                </div>
+                            </div>
+                            <div class="col-12 col-lg-6">
+                                <input type="text" class="form-control" placeholder="Temporary Reduction In Income"
+                                    id="customerDeclarationBenefitsRefinance" aria-label="Recipient's username"
+                                    aria-describedby="basic-addon2">
+                            </div>
+                            <!-- Large non recurring expenses -->
+                            <div class="col-12 col-lg-6">
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio"
+                                        name="customerDeclarationRefinanceReasons"
+                                        id="customerDeclarationRefinanceReasonsConsolidate" value="option1">
+                                    <label class="form-check-label fw-bold text-capitalize"
+                                        for="customerDeclarationRefinanceReasonsConsolidate">Large non recurring
+                                        expenses</label>
+                                </div>
+                            </div>
+                            <div class="col-12 col-lg-6">
+                                <input type="text" class="form-control" placeholder="Large Non Recurring Expenses"
+                                    id="customerDeclarationBenefitsRefinance" aria-label="Recipient's username"
+                                    aria-describedby="basic-addon2">
+                            </div>
+                            <!-- Variable income -->
+                            <div class="col-12 col-lg-6">
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio"
+                                        name="customerDeclarationRefinanceReasons"
+                                        id="customerDeclarationRefinanceReasonsConsolidate" value="option1">
+                                    <label class="form-check-label fw-bold text-capitalize"
+                                        for="customerDeclarationRefinanceReasonsConsolidate">Variable income</label>
+                                </div>
+                            </div>
+                            <div class="col-12 col-lg-6">
+                                <input type="text" class="form-control" placeholder="Variable Income"
+                                    id="customerDeclarationBenefitsRefinance" aria-label="Recipient's username"
+                                    aria-describedby="basic-addon2">
+                            </div>
+                            <!-- Maximise cash flow -->
+                            <div class="col-12 col-lg-6">
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio"
+                                        name="customerDeclarationRefinanceReasons"
+                                        id="customerDeclarationRefinanceReasonsConsolidate" value="option1">
+                                    <label class="form-check-label fw-bold text-capitalize"
+                                        for="customerDeclarationRefinanceReasonsConsolidate">Maximise cash flow</label>
+                                </div>
+                            </div>
+                            <div class="col-12 col-lg-6">
+                                <input type="text" class="form-control" placeholder="Maximise Cash Flow"
+                                    id="customerDeclarationBenefitsRefinance" aria-label="Recipient's username"
+                                    aria-describedby="basic-addon2">
+                            </div>
+                            <!-- Create funds for investment purposes -->
+                            <div class="col-12 col-lg-6">
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio"
+                                        name="customerDeclarationRefinanceReasons"
+                                        id="customerDeclarationRefinanceReasonsConsolidate" value="option1">
+                                    <label class="form-check-label fw-bold text-capitalize"
+                                        for="customerDeclarationRefinanceReasonsConsolidate">Create funds for investment
+                                        purposes </label>
+                                </div>
+                            </div>
+                            <div class="col-12 col-lg-6">
+                                <input type="text" class="form-control"
+                                    placeholder="Create Funds For Investment Purposes"
+                                    id="customerDeclarationBenefitsRefinance" aria-label="Recipient's username"
+                                    aria-describedby="basic-addon2">
+                            </div>
+                            <!-- Principle reductions in an offset facility -->
+                            <div class="col-12 col-lg-6">
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio"
+                                        name="customerDeclarationRefinanceReasons"
+                                        id="customerDeclarationRefinanceReasonsConsolidate" value="option1">
+                                    <label class="form-check-label fw-bold text-capitalize"
+                                        for="customerDeclarationRefinanceReasonsConsolidate">Principle reductions in an
+                                        offset facility</label>
+                                </div>
+                            </div>
+                            <div class="col-12 col-lg-6">
+                                <input type="text" class="form-control"
+                                    placeholder="Principle Reductions In An Offset Facility"
+                                    id="customerDeclarationBenefitsRefinance" aria-label="Recipient's username"
+                                    aria-describedby="basic-addon2">
+                            </div>
+                            <!-- Taxation, financial or accounting reasons -->
+                            <div class="col-12 col-lg-6">
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio"
+                                        name="customerDeclarationRefinanceReasons"
+                                        id="customerDeclarationRefinanceReasonsConsolidate" value="option1">
+                                    <label class="form-check-label fw-bold text-capitalize"
+                                        for="customerDeclarationRefinanceReasonsConsolidate">Taxation, financial or
+                                        accounting reasons</label>
+                                </div>
+                            </div>
+                            <div class="col-12 col-lg-6">
+                                <input type="text" class="form-control"
+                                    placeholder="Taxation, Financial Or Accounting Reasons"
+                                    id="customerDeclarationBenefitsRefinance" aria-label="Recipient's username"
+                                    aria-describedby="basic-addon2">
+                            </div>
+                            <!-- Plan to convert to investment property -->
+                            <div class="col-12 col-lg-6">
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio"
+                                        name="customerDeclarationRefinanceReasons"
+                                        id="customerDeclarationRefinanceReasonsConsolidate" value="option1">
+                                    <label class="form-check-label fw-bold text-capitalize"
+                                        for="customerDeclarationRefinanceReasonsConsolidate">Plan to convert to
+                                        investment property</label>
+                                </div>
+                            </div>
+                            <div class="col-12 col-lg-6">
+                                <input type="text" class="form-control"
+                                    placeholder="Plan To Convert To Investment Property"
+                                    id="customerDeclarationBenefitsRefinance" aria-label="Recipient's username"
+                                    aria-describedby="basic-addon2">
+                            </div>
+                            <!-- Other reason (requires specific comment) -->
+                            <div class="col-12 col-lg-6">
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio"
+                                        name="customerDeclarationRefinanceReasons"
+                                        id="customerDeclarationRefinanceReasonsConsolidate" value="option1">
+                                    <label class="form-check-label fw-bold text-capitalize"
+                                        for="customerDeclarationRefinanceReasonsConsolidate">Other reason (requires
+                                        specific comment) </label>
+                                </div>
+                            </div>
+                            <div class="col-12 col-lg-6">
+                                <input type="text" class="form-control"
+                                    placeholder="Other Reason (Requires Specific Comment)"
+                                    id="customerDeclarationBenefitsRefinance" aria-label="Recipient's username"
+                                    aria-describedby="basic-addon2">
+                            </div>
                         </div>
                     </form>
                 </div>

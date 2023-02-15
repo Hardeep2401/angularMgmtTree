@@ -36,6 +36,7 @@ import { CreditCardComponent } from './credit-card/credit-card.component';
 import { LoansMortgagesComponent } from './loans-mortgages/loans-mortgages.component';
 import { LoanMortgagesSecondComponent } from './loan-mortgages-second/loan-mortgages-second.component';
 import { CustomerDeclarationsComponent } from './customer-declarations/customer-declarations.component';
+import { FeedbackIndicationComponent } from './feedback-indication/feedback-indication.component';
 
 
 
@@ -74,6 +75,7 @@ import { CustomerDeclarationsComponent } from './customer-declarations/customer-
     LoansMortgagesComponent,
     LoanMortgagesSecondComponent,
     CustomerDeclarationsComponent,
+    FeedbackIndicationComponent,
     
 
   ],
