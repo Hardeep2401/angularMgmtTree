@@ -378,50 +378,55 @@
                             <!-- household expenses & payment cycles -->
                             <h3 class="fw-bold mb-0 p-1">Household expenses & payment cycles</h3>
                             <!-- childcare -->
-                            <div class="col-6">
-                                <label class="form-label fw-bold mb-0" for="loansMortgagesChildcare">Childcare<span
-                                        class="text-danger"> *</span></label>
-                            </div>
-                            <div class="col-6">
-                                <label class="form-label fw-bold mb-0" for="loansMortgagesCurrentBalance">Per
-                                    <span class="text-danger"> *</span></label>
-                            </div>
-                            <div class="col-6">
+                            <div class="col-12 col-lg-6">
+                                <label for="customerDeclarationBenefitsRefinance"
+                                    class="align-self-center fw-bold text-capitalize mb-3">Childcare</label>
                                 <div class="input-group">
-                                    <span class="input-group-text">$</span>
-                                    <input type="text" id="loansMortgagesChildcare" class="form-control">
+                                    <input type="text" class="form-control" placeholder="Childcare"
+                                        id="customerDeclarationBenefitsRefinance" aria-label="Recipient's username"
+                                        aria-describedby="basic-addon2">
                                 </div>
                             </div>
-                            <div class="col-6 align-self-center">
-                                <div class="form-check form-check-inline">
-                                    <input class="form-check-input" type="radio" name="loansMortgagesChildcareWeek"
-                                        id="loansMortgagesChildcareWeek" value="option1">
-                                    <label class="form-check-label fw-semibold"
-                                        for="loansMortgagesChildcareWeek">Week</label>
-                                </div>
-                                <div class="form-check form-check-inline mx-2">
-                                    <input class="form-check-input" type="radio" name="loansMortgagesChildcareWeek"
-                                        id="loansMortgagesChildcareFortnight" value="option2">
-                                    <label class="form-check-label fw-semibold"
-                                        for="loansMortgagesChildcareFortnight">Fortnight</label>
-                                </div>
-                                <div class="form-check form-check-inline mx-2">
-                                    <input class="form-check-input" type="radio" name="loansMortgagesChildcareWeek"
-                                        id="loansMortgagesChildcareMonth" value="option1">
-                                    <label class="form-check-label fw-semibold"
-                                        for="loansMortgagesChildcareMonth">Month</label>
-                                </div>
-                                <div class="form-check form-check-inline mx-2">
-                                    <input class="form-check-input" type="radio" name="loansMortgagesChildcareWeek"
-                                        id="loansMortgagesChildcareQuarter" value="option2">
-                                    <label class="form-check-label fw-semibold"
-                                        for="loansMortgagesChildcareQuarter">Quarter</label>
-                                </div>
-                                <div class="form-check form-check-inline mx-2">
-                                    <input class="form-check-input" type="radio" name="loansMortgagesChildcareWeek"
-                                        id="loansMortgagesChildcareWeekYears" value="option1">
-                                    <label class="form-check-label fw-semibold"
-                                        for="loansMortgagesChildcareWeekYears">Years</label>
+                            <div class="col-12 col-lg-6 align-self-center">
+                                <label for="customerDeclarationYearsLoan"
+                                    class="align-self-center fw-bold text-capitalize mb-3">Per<span
+                                        class="text-danger">*</span></label>
+                                <div>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="radio"
+                                            name="customerDeclarationRefinanceReasons"
+                                            id="customerDeclarationRefinanceReasonsConsolidate" value="option1">
+                                        <label class="form-check-label fw-semibold"
+                                            for="customerDeclarationRefinanceReasonsConsolidate">Week</label>
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="radio"
+                                            name="customerDeclarationRefinanceReasons"
+                                            id="customerDeclarationRefinanceReasonsCost" value="option2">
+                                        <label class="form-check-label fw-semibold"
+                                            for="customerDeclarationRefinanceReasonsCost">Fortnight</label>
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="radio"
+                                            name="customerDeclarationRefinanceReasons"
+                                            id="customerDeclarationRefinanceReasonsSpecific" value="option1">
+                                        <label class="form-check-label fw-semibold"
+                                            for="customerDeclarationRefinanceReasonsSpecific">Month</label>
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="radio"
+                                            name="customerDeclarationRefinanceReasons"
+                                            id="customerDeclarationRefinanceReasonsSpecific" value="option1">
+                                        <label class="form-check-label fw-semibold"
+                                            for="customerDeclarationRefinanceReasonsSpecific">Quarter</label>
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="radio"
+                                            name="customerDeclarationRefinanceReasons"
+                                            id="customerDeclarationRefinanceReasonsSpecific" value="option1">
+                                        <label class="form-check-label fw-semibold"
+                                            for="customerDeclarationRefinanceReasonsSpecific">Years</label>
+                                    </div>
                                 </div>
                             </div>
                             <p class="fw-semibold">Childcare including nannies and non-compulsory pre-school.</p>
