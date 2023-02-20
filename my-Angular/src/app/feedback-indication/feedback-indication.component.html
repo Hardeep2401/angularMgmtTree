@@ -18,6 +18,7 @@
                 <a class="nav-link" routerLink="/hcpcc">Household EPCC</a>
                 <a class="nav-link" routerLink="/customer">Customer Declarations</a>
                 <a class="nav-link" routerLink="/feedback">Feedback</a>
+                <a class="nav-link" routerLink="/infoCustomer">Info Customer</a>
                 <a class="nav-link" routerLink="contact">Contact</a>
             </div>
         </div>
@@ -1359,8 +1360,9 @@
                                             for="feedbackIndicationSecondIncludingRBARecent">Including RBA's
                                             Recent</label>
                                     </div>
-                                    <input type="text" class="form-control" id="feedbackIndicationSecondIncludingRBA"
-                                        aria-label="Recipient's username" aria-describedby="basic-addon2">
+                                    <input type="text" class="form-control rounded-start"
+                                        id="feedbackIndicationSecondIncludingRBA" aria-label="Recipient's username"
+                                        aria-describedby="basic-addon2">
                                     <span class="input-group-text fw-bold" id="customerDeclarationProject">%</span>
                                 </div>
                             </div>
@@ -1376,8 +1378,9 @@
                                             id="feedbackIndicationThirdRateRiseIncludingReprise">Including Recent
                                             Reprice-Reset</label>
                                     </div>
-                                    <input type="text" class="form-control" id="feedbackIndicationThirdRateRise"
-                                        aria-label="Recipient's username" aria-describedby="basic-addon2">
+                                    <input type="text" class="form-control rounded-start"
+                                        id="feedbackIndicationThirdRateRise" aria-label="Recipient's username"
+                                        aria-describedby="basic-addon2">
                                     <span class="input-group-text fw-bold" id="customerDeclarationProject">%</span>
                                 </div>
                             </div>
@@ -1392,8 +1395,9 @@
                                             for="feedbackIndicationThirdRateDropIncludingRBARecent">Including RBA's
                                             Recent</label>
                                     </div>
-                                    <input type="text" class="form-control" id="feedbackIndicationThirdRateDrop"
-                                        aria-label="Recipient's username" aria-describedby="basic-addon2">
+                                    <input type="text" class="form-control rounded-start"
+                                        id="feedbackIndicationThirdRateDrop" aria-label="Recipient's username"
+                                        aria-describedby="basic-addon2">
                                     <span class="input-group-text fw-bold"
                                         id="feedbackIndicationThirdRateDropPercentage">%</span>
                                 </div>
@@ -1409,8 +1413,9 @@
                                             for="rateDropIncludingRBARecentReset">Including Recent
                                             Reprice-Reset</label>
                                     </div>
-                                    <input type="text" class="form-control" id="rateDropIncludingRBARecent"
-                                        aria-label="Recipient's username" aria-describedby="basic-addon2">
+                                    <input type="text" class="form-control rounded-start"
+                                        id="rateDropIncludingRBARecent" aria-label="Recipient's username"
+                                        aria-describedby="basic-addon2">
                                     <span class="input-group-text fw-bold"
                                         id="rateDropIncludingRBARecentPercentage">%</span>
                                 </div>
@@ -1458,26 +1463,605 @@
                                     </div>
                                 </div>
                             </div>
+                            <!-- post settlement event -->
+                            <div class="col-12 col-md-6 col-lg-4">
+                                <label for="" class="align-self-center fw-bold mb-3">Post Settlement Event</label>
+                                <div class="input-group">
+                                    <div class="form-check form-check-inline align-self-center">
+                                        <input class="form-check-input" type="radio"
+                                            name="rateDropIncludingRBARecentReset" id="rateDropIncludingRBARecentReset"
+                                            value="option2">
+                                        <label class="form-check-label fw-semibold text-capitalize mb-3"
+                                            for="rateDropIncludingRBARecentReset">Repayments by direct credit (including
+                                            rent, pensions, workers comp, dividends, wages, commissions etc.)</label>
+                                    </div>
+                                    <input type="text" class="form-control rounded-start"
+                                        id="rateDropIncludingRBARecent" aria-label="Recipient's username"
+                                        aria-describedby="basic-addon2">
+                                    <span class="input-group-text fw-bold"
+                                        id="rateDropIncludingRBARecentPercentage">%</span>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6 col-lg-4 align-self-end">
+                                <div class="input-group ">
+                                    <div class="form-check form-check-inline align-self-center">
+                                        <input class="form-check-input" type="radio"
+                                            name="rateDropIncludingRBARecentReset" id="rateDropIncludingRBARecentReset"
+                                            value="option2">
+                                        <label class="form-check-label fw-semibold text-capitalize"
+                                            for="rateDropIncludingRBARecentReset">Increase prevailing rate by</label>
+                                    </div>
+                                    <input type="text" class="form-control rounded-start"
+                                        id="rateDropIncludingRBARecent" aria-label="Recipient's username"
+                                        aria-describedby="basic-addon2">
+                                    <span class="input-group-text fw-bold"
+                                        id="rateDropIncludingRBARecentPercentage">%</span>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6 col-lg-4 align-self-end">
+                                <div class="input-group ">
+                                    <span class="input-group-text fw-semibold"
+                                        id="rateDropIncludingRBARecentPercentage">In</span>
+                                    <input type="text" class="form-control" id="rateDropIncludingRBARecent"
+                                        aria-label="Recipient's username" aria-describedby="basic-addon2">
+                                    <span class="input-group-text fw-semibold"
+                                        id="rateDropIncludingRBARecentPercentage">Months Time</span>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6 col-lg-4 align-self-end">
+                                <div class="input-group ">
+                                    <div class="form-check form-check-inline align-self-center">
+                                        <input class="form-check-input" type="radio"
+                                            name="rateDropIncludingRBARecentReset" id="rateDropIncludingRBARecentReset"
+                                            value="option2">
+                                        <label class="form-check-label fw-semibold text-capitalize"
+                                            for="rateDropIncludingRBARecentReset">Decrease prevailing rate by</label>
+                                    </div>
+                                    <input type="text" class="form-control rounded-start"
+                                        id="rateDropIncludingRBARecent" aria-label="Recipient's username"
+                                        aria-describedby="basic-addon2">
+                                    <span class="input-group-text fw-bold"
+                                        id="rateDropIncludingRBARecentPercentage">%</span>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6 col-lg-4 align-self-end">
+                                <div class="input-group ">
+                                    <span class="input-group-text fw-semibold"
+                                        id="rateDropIncludingRBARecentPercentage">In</span>
+                                    <input type="text" class="form-control" id="rateDropIncludingRBARecent"
+                                        aria-label="Recipient's username" aria-describedby="basic-addon2">
+                                    <span class="input-group-text fw-semibold"
+                                        id="rateDropIncludingRBARecentPercentage">Months Time</span>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6 col-lg-4 align-self-center">
+                                <div class="input-group ">
+                                    <label class="form-check-label fw-semibold text-capitalize"
+                                        for="rateDropIncludingRBARecentReset">assuming good conduct, no other changes
+                                        and</label>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6 col-lg-4">
+                                <div>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="radio"
+                                            name="repaymentTypePrincipalInterest"
+                                            id="repaymentTypePrincipalInterestFullDoc" value="option1">
+                                        <label class="form-check-label fw-semibold"
+                                            for="repaymentTypePrincipalInterestFullDoc">Return to Work</label>
+                                    </div>
+                                    <div class="form-check form-check-inline ">
+                                        <input class="form-check-input" type="radio"
+                                            name="repaymentTypePrincipalInterest"
+                                            id="repaymentTypePrincipalInterestAllDoc" value="option1">
+                                        <label class="form-check-label fw-semibold"
+                                            for="repaymentTypePrincipalInterestAllDoc">Occupation Certificate</label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6 col-lg-4">
+                                <div>
+                                    <div class="form-check form-check-inline ">
+                                        <input class="form-check-input" type="radio"
+                                            name="repaymentTypePrincipalInterest"
+                                            id="repaymentTypePrincipalInterestNoDoc" value="option1">
+                                        <label class="form-check-label fw-semibold"
+                                            for="repaymentTypePrincipalInterestNoDoc">Attaining a Permanent
+                                            Position</label>
+                                    </div>
+                                    <div class="form-check form-check-inline ">
+                                        <input class="form-check-input" type="radio"
+                                            name="repaymentTypePrincipalInterest"
+                                            id="repaymentTypePrincipalInterestAllDoc" value="option1">
+                                        <label class="form-check-label fw-semibold"
+                                            for="repaymentTypePrincipalInterestAllDoc">Post Relocation & Sale</label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6 col-lg-4">
+                                <div>
+                                    <div class="form-check form-check-inline ">
+                                        <input class="form-check-input" type="radio"
+                                            name="repaymentTypePrincipalInterest"
+                                            id="repaymentTypePrincipalInterestNoDoc" value="option1">
+                                        <label class="form-check-label fw-semibold"
+                                            for="repaymentTypePrincipalInterestNoDoc">Defaults Are Removed</label>
+                                    </div>
+                                    <div class="form-check form-check-inline ">
+                                        <input class="form-check-input" type="radio"
+                                            name="repaymentTypePrincipalInterest"
+                                            id="repaymentTypePrincipalInterestAllDoc" value="option1">
+                                        <label class="form-check-label fw-semibold"
+                                            for="repaymentTypePrincipalInterestAllDoc">Acceptable Financials Are
+                                            Presented</label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6 col-lg-4">
+                                <div>
+                                    <div class="form-check form-check-inline ">
+                                        <input class="form-check-input" type="radio"
+                                            name="repaymentTypePrincipalInterest"
+                                            id="repaymentTypePrincipalInterestNoDoc" value="option1">
+                                        <label class="form-check-label fw-semibold text-capitalize"
+                                            for="repaymentTypePrincipalInterestNoDoc">2 years full (satisfactory)
+                                            financials</label>
+                                    </div>
+                                    <div class="form-check form-check-inline ">
+                                        <input class="form-check-input" type="radio"
+                                            name="repaymentTypePrincipalInterest"
+                                            id="repaymentTypePrincipalInterestAllDoc" value="option1">
+                                        <label class="form-check-label fw-semibold text-capitalize"
+                                            for="repaymentTypePrincipalInterestAllDoc">Renovations are complete</label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6 col-lg-4">
+                                <div>
+                                    <div class="form-check form-check-inline ">
+                                        <input class="form-check-input" type="radio"
+                                            name="repaymentTypePrincipalInterest"
+                                            id="repaymentTypePrincipalInterestNoDoc" value="option1">
+                                        <label class="form-check-label fw-semibold text-capitalize"
+                                            for="repaymentTypePrincipalInterestNoDoc">Acceptable debt levels are
+                                            realised</label>
+                                    </div>
+                                    <div class="form-check form-check-inline ">
+                                        <input class="form-check-input" type="radio"
+                                            name="repaymentTypePrincipalInterest"
+                                            id="repaymentTypePrincipalInterestAllDoc" value="option1">
+                                        <label class="form-check-label fw-semibold text-capitalize"
+                                            for="repaymentTypePrincipalInterestAllDoc">Completed remediation</label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6 col-lg-4">
+                                <div class="d-md-inline-flex d-lg-inline-flex">
+                                    <div class="form-check form-check-inline ">
+                                        <input class="form-check-input" type="radio"
+                                            name="repaymentTypePrincipalInterest"
+                                            id="repaymentTypePrincipalInterestNoDoc" value="option1">
+                                        <label class="form-check-label fw-semibold text-capitalize"
+                                            for="repaymentTypePrincipalInterestNoDoc">Pay down the 2nd mortgage and/or
+                                            refinanced back into the primary
+                                            loan above
+                                        </label>
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="radio"
+                                            name="repaymentTypePrincipalInterest"
+                                            id="repaymentTypePrincipalInterestAllDoc" value="option1">
+                                        <label class="form-check-label fw-semibold text-capitalize"
+                                            for="repaymentTypePrincipalInterestAllDoc">Risk fee rebate of (assuming good
+                                            conduct)</label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6 col-lg-4 align-self-end d-md-inline-flex d-lg-inline-flex">
+                                <div class="input-group mb-3 mb-md-0">
+                                    <input type="text" class="form-control rounded-start"
+                                        id="rateDropIncludingRBARecent" aria-label="Recipient's username"
+                                        aria-describedby="basic-addon2">
+                                    <span class="input-group-text fw-bold me-2"
+                                        id="rateDropIncludingRBARecentPercentage">%</span>
+                                </div>
+                                <div class="input-group">
+                                    <span class="input-group-text fw-semibold"
+                                        id="rateDropIncludingRBARecentPercentage">Or</span>
+                                    <input type="text" class="form-control" id="rateDropIncludingRBARecent"
+                                        aria-label="Recipient's username" aria-describedby="basic-addon2">
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6 col-lg-4 align-self-end d-lg-inline-flex">
+                                <div class="input-group">
+                                    <span class="input-group-text fw-semibold"
+                                        id="rateDropIncludingRBARecentPercentage">In</span>
+                                    <input type="text" class="form-control" id="rateDropIncludingRBARecent"
+                                        aria-label="Recipient's username" aria-describedby="basic-addon2">
+                                    <span class="input-group-text fw-semibold me-2"
+                                        id="rateDropIncludingRBARecentPercentage">Months Time</span>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6 col-lg-4 align-self-end">
+                                <div class="input-group ">
+                                    <div class="form-check form-check-inline align-self-center">
+                                        <input class="form-check-input" type="radio"
+                                            name="rateDropIncludingRBARecentReset" id="rateDropIncludingRBARecentReset"
+                                            value="option2">
+                                        <label
+                                            class="form-check-label fw-semibold text-capitalize mb-3 mb-md-3 mb-lg-0 "
+                                            for="rateDropIncludingRBARecentReset">Establishment fee rebate of (assuming
+                                            good conduct)</label>
+                                    </div>
+                                    <input type="text" class="form-control rounded-start"
+                                        id="rateDropIncludingRBARecent" aria-label="Recipient's username"
+                                        aria-describedby="basic-addon2">
+                                    <span class="input-group-text fw-bold"
+                                        id="rateDropIncludingRBARecentPercentage">%</span>
+                                </div>
+                            </div>
+
+                            <div class="col-12 col-md-6 col-lg-4 align-self-end d-md-inline-flex d-lg-inline-flex">
+                                <div class="input-group mb-3 mb-md-0">
+                                    <span class="input-group-text fw-bold"
+                                        id="rateDropIncludingRBARecentPercentage">Or</span>
+                                    <input type="text" class="form-control me-2" id="rateDropIncludingRBARecent"
+                                        aria-label="Recipient's username" aria-describedby="basic-addon2">
+                                </div>
+                                <div class="input-group">
+                                    <span class="input-group-text fw-semibold"
+                                        id="rateDropIncludingRBARecentPercentage">In</span>
+                                    <input type="text" class="form-control" id="rateDropIncludingRBARecent"
+                                        aria-label="Recipient's username" aria-describedby="basic-addon2">
+                                    <span class="input-group-text fw-semibold"
+                                        id="rateDropIncludingRBARecentPercentage">Months Time</span>
+                                </div>
+                            </div>
+
+                            <div class="col-12 col-md-6 col-lg-4 align-self-end">
+                                <div class="input-group ">
+                                    <div class="form-check form-check-inline align-self-center">
+                                        <input class="form-check-input" type="radio"
+                                            name="rateDropIncludingRBARecentReset" id="rateDropIncludingRBARecentReset"
+                                            value="option2">
+                                        <label
+                                            class="form-check-label fw-semibold text-capitalize mb-3 mb-md-3 mb-lg-0 "
+                                            for="rateDropIncludingRBARecentReset">Cash rebate of (assuming good
+                                            conduct)</label>
+                                    </div>
+                                    <input type="text" class="form-control rounded-start"
+                                        id="rateDropIncludingRBARecent" aria-label="Recipient's username"
+                                        aria-describedby="basic-addon2">
+                                </div>
+                            </div>
+
+                            <div class="col-12 col-md-6 col-lg-4 align-self-end ">
+                                <div class="input-group ">
+                                    <span class="input-group-text fw-semibold"
+                                        id="rateDropIncludingRBARecentPercentage">In</span>
+                                    <input type="text" class="form-control" id="rateDropIncludingRBARecent"
+                                        aria-label="Recipient's username" aria-describedby="basic-addon2">
+                                    <span class="input-group-text fw-semibold rounded-end"
+                                        id="rateDropIncludingRBARecentPercentage">Months Time</span>
+                                    <div class="form-check form-check-inline align-self-center mx-2">
+                                        <input class="form-check-input" type="radio"
+                                            name="rateDropIncludingRBARecentReset" id="rateDropIncludingRBARecentReset"
+                                            value="option2">
+                                        <label class="form-check-label fw-semibold text-capitalize "
+                                            for="rateDropIncludingRBARecentReset">Cash rebate of (assuming good
+                                            conduct)</label>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-12 align-self-end">
+                                <div class="form-check form-check-inline align-self-center">
+                                    <input class="form-check-input" type="radio" name="rateDropIncludingRBARecentReset"
+                                        id="rateDropIncludingRBARecentReset" value="option2">
+                                    <label class="form-check-label fw-semibold text-capitalize"
+                                        for="rateDropIncludingRBARecentReset">$500.00 cash construction rebate (assuming
+                                        satisfactory & timely completion) post acceptable occupation certificate</label>
+                                </div>
+                            </div>
+                            <div class="col-12 align-self-end">
+                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                            </div>
+
+                            <div class="col-12 col-md-6 col-lg-4 align-self-center offset-md-6 offset-lg-8 ">
+                                <div class="input-group ">
+                                    <span class="input-group-text fw-semibold"
+                                        id="rateDropIncludingRBARecentPercentage">Date</span>
+                                    <input type="text" class="form-control" id="rateDropIncludingRBARecent"
+                                        aria-label="Recipient's username" aria-describedby="basic-addon2">
+                                </div>
+                            </div>
+                            <!-- 2nd registered mortgage -->
+                            <div class="col-12 border-2 border-top border-danger py-3">
+                                <label for="feedbackIndicationConstructionAdministration"
+                                    class="fw-bold text-capitalize">2nd registered mortgage</label>
+                            </div>
+
+                            <div class="col-12 col-md-6 col-lg-4 align-self-center">
+                                <label for="feedbackIndicationConstructionAdministration"
+                                    class="fw-bold text-capitalize mb-3">Maximum loan amount & LVR (whichever is the
+                                    lesser)</label>
+                                <div class="input-group">
+                                    <input type="text" class="form-control"
+                                        id="feedbackIndicationConstructionAdministration"
+                                        aria-label="Recipient's username" aria-describedby="basic-addon2">
+                                    <span class="input-group-text fw-semibold"
+                                        id="rateDropIncludingRBARecentPercentage">%</span>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6 col-lg-4 align-self-center">
+                                <label for="feedbackIndicationConstructionAdministration"
+                                    class="fw-bold text-capitalize mb-3">Or</label>
+                                <div class="input-group">
+                                    <input type="text" class="form-control"
+                                        id="feedbackIndicationConstructionAdministration"
+                                        aria-label="Recipient's username" aria-describedby="basic-addon2">
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6 col-lg-4 align-self-center">
+                                <label for="feedbackIndicationConstructionAdministration"
+                                    class="fw-bold text-capitalize mb-3">Loan term in years</label>
+                                <div class="input-group">
+                                    <input type="text" class="form-control"
+                                        id="feedbackIndicationConstructionAdministration"
+                                        aria-label="Recipient's username" aria-describedby="basic-addon2">
+                                </div>
+                            </div>
+
+                            <div class="col-12 col-md-6 col-lg-4 align-self-center">
+                                <label for="feedbackIndicationConstructionAdministration"
+                                    class="fw-bold text-capitalize mb-3">Risk fee</label>
+                                <div class="input-group">
+                                    <input type="text" class="form-control"
+                                        id="feedbackIndicationConstructionAdministration"
+                                        aria-label="Recipient's username" aria-describedby="basic-addon2">
+                                    <span class="input-group-text fw-semibold"
+                                        id="rateDropIncludingRBARecentPercentage">%</span>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6 col-lg-4 align-self-center">
+                                <label for="feedbackIndicationConstructionAdministration"
+                                    class="fw-bold text-capitalize mb-3">Or</label>
+                                <div class="input-group">
+                                    <input type="text" class="form-control"
+                                        id="feedbackIndicationConstructionAdministration"
+                                        aria-label="Recipient's username" aria-describedby="basic-addon2">
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6 col-lg-4 align-self-center">
+                                <label for="feedbackIndicationConstructionAdministration"
+                                    class="fw-bold mb-3">Application Fee</label>
+                                <div class="input-group">
+                                    <input type="text" class="form-control"
+                                        id="feedbackIndicationConstructionAdministration"
+                                        aria-label="Recipient's username" aria-describedby="basic-addon2">
+                                </div>
+                            </div>
 
 
+                            <div class="col-12 col-md-6 col-lg-4 align-self-center">
+                                <label for="feedbackIndicationConstructionAdministration"
+                                    class="fw-bold mb-3">Establishment Fee</label>
+                                <div class="input-group">
+                                    <input type="text" class="form-control"
+                                        id="feedbackIndicationConstructionAdministration"
+                                        aria-label="Recipient's username" aria-describedby="basic-addon2">
+                                    <span class="input-group-text fw-semibold"
+                                        id="rateDropIncludingRBARecentPercentage">%</span>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6 col-lg-4 align-self-center">
+                                <label for="feedbackIndicationConstructionAdministration"
+                                    class="fw-bold text-capitalize mb-3">Or</label>
+                                <div class="input-group">
+                                    <input type="text" class="form-control"
+                                        id="feedbackIndicationConstructionAdministration"
+                                        aria-label="Recipient's username" aria-describedby="basic-addon2">
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6 col-lg-4 align-self-center">
+                                <label for="feedbackIndicationConstructionAdministration" class="fw-bold mb-3">Annual
+                                    Facility Fee</label>
+                                <div class="input-group">
+                                    <input type="text" class="form-control"
+                                        id="feedbackIndicationConstructionAdministration"
+                                        aria-label="Recipient's username" aria-describedby="basic-addon2">
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6 col-lg-4 align-self-center">
+                                <label for="feedbackIndicationConstructionAdministration"
+                                    class="fw-bold mb-3 text-capitalize">Monthly facility management fee</label>
+                                <div class="input-group">
+                                    <input type="text" class="form-control"
+                                        id="feedbackIndicationConstructionAdministration"
+                                        aria-label="Recipient's username" aria-describedby="basic-addon2">
+                                    <span class="input-group-text fw-semibold"
+                                        id="rateDropIncludingRBARecentPercentage">%</span>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6 col-lg-4 align-self-center">
+                                <label for="feedbackIndicationConstructionAdministration"
+                                    class="fw-bold text-capitalize mb-3">Or</label>
+                                <div class="input-group">
+                                    <input type="text" class="form-control"
+                                        id="feedbackIndicationConstructionAdministration"
+                                        aria-label="Recipient's username" aria-describedby="basic-addon2">
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6 col-lg-4 align-self-center">
+                                <label for="feedbackIndicationConstructionAdministration"
+                                    class="fw-bold mb-3">Settlement Fee</label>
+                                <div class="input-group">
+                                    <input type="text" class="form-control"
+                                        id="feedbackIndicationConstructionAdministration"
+                                        aria-label="Recipient's username" aria-describedby="basic-addon2">
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6 col-lg-4 align-self-center">
+                                <label for="feedbackIndicationConstructionAdministration"
+                                    class="fw-bold mb-3">Construction Administration Fee</label>
+                                <div class="input-group">
+                                    <input type="text" class="form-control"
+                                        id="feedbackIndicationConstructionAdministration"
+                                        aria-label="Recipient's username" aria-describedby="basic-addon2">
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6 col-lg-4 align-self-center">
+                                <label for="feedbackIndicationConstructionAdministration" class="fw-bold mb-3">Discharge
+                                    Fee</label>
+                                <div class="input-group">
+                                    <input type="text" class="form-control"
+                                        id="feedbackIndicationConstructionAdministration"
+                                        aria-label="Recipient's username" aria-describedby="basic-addon2">
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6 col-lg-4 align-self-center">
+                                <label for="feedbackIndicationConstructionAdministration"
+                                    class="fw-bold mb-3 text-capitalize">Rate lock
+                                    (prepaid & non-refundable) fee (whichever is the higher)</label>
+                                <div class="input-group">
+                                    <input type="text" class="form-control"
+                                        id="feedbackIndicationConstructionAdministration"
+                                        aria-label="Recipient's username" aria-describedby="basic-addon2">
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6 col-lg-4 align-self-center">
+                                <label for="feedbackIndicationConstructionAdministration"
+                                    class="fw-bold mb-3">Or</label>
+                                <div class="input-group">
+                                    <input type="text" class="form-control"
+                                        id="feedbackIndicationConstructionAdministration"
+                                        aria-label="Recipient's username" aria-describedby="basic-addon2">
+                                </div>
+                            </div>
 
+                            <div class="col-12 col-md-6 col-lg-4 align-self-center">
+                                <label for="feedbackIndicationConstructionAdministration" class="fw-bold mb-3">Repayment
+                                    Type</label>
+                                <div class="input-group">
+                                    <div class="form-check form-check-inline ">
+                                        <input class="form-check-input" type="radio"
+                                            name="repaymentTypePrincipalInterest"
+                                            id="repaymentTypePrincipalInterestNoDoc" value="option1">
+                                        <label class="form-check-label fw-semibold"
+                                            for="repaymentTypePrincipalInterestNoDoc">Principal & Interest
+                                        </label>
+                                    </div>
+                                    <div class="form-check form-check-inline ">
+                                        <input class="form-check-input" type="radio"
+                                            name="repaymentTypePrincipalInterest"
+                                            id="repaymentTypePrincipalInterestAllDoc" value="option1">
+                                        <label class="form-check-label fw-semibold"
+                                            for="repaymentTypePrincipalInterestAllDoc">Interest Only
+                                        </label>
+                                    </div>
+                                    <div class="form-check form-check-inline ">
+                                        <input class="form-check-input" type="radio"
+                                            name="repaymentTypePrincipalInterest"
+                                            id="repaymentTypePrincipalInterestAllDoc" value="option1">
+                                        <label class="form-check-label fw-semibold"
+                                            for="repaymentTypePrincipalInterestAllDoc">LoC
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6 col-lg-4 align-self-center">
+                                <label for="feedbackIndicationConstructionAdministration"
+                                    class="fw-bold mb-3">For</label>
+                                <div class="input-group">
+                                    <input type="text" class="form-control"
+                                        id="feedbackIndicationConstructionAdministration"
+                                        aria-label="Recipient's username" aria-describedby="basic-addon2">
+                                    <span class="input-group-text fw-semibold"
+                                        id="rateDropIncludingRBARecentPercentage">Years</span>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6 col-lg-4 align-self-center">
+                                <label for="feedbackIndicationConstructionAdministration" class="fw-bold mb-3">Doc
+                                    Type</label>
+                                <div class="input-group">
+                                    <div class="form-check form-check-inline ">
+                                        <input class="form-check-input" type="radio"
+                                            name="repaymentTypePrincipalInterest"
+                                            id="repaymentTypePrincipalInterestNoDoc" value="option1">
+                                        <label class="form-check-label fw-semibold"
+                                            for="repaymentTypePrincipalInterestNoDoc">Full Doc
+                                        </label>
+                                    </div>
+                                    <div class="form-check form-check-inline ">
+                                        <input class="form-check-input" type="radio"
+                                            name="repaymentTypePrincipalInterest"
+                                            id="repaymentTypePrincipalInterestAllDoc" value="option1">
+                                        <label class="form-check-label fw-semibold"
+                                            for="repaymentTypePrincipalInterestAllDoc">Alt Doc
+                                        </label>
+                                    </div>
+                                    <div class="form-check form-check-inline ">
+                                        <input class="form-check-input" type="radio"
+                                            name="repaymentTypePrincipalInterest"
+                                            id="repaymentTypePrincipalInterestAllDoc" value="option1">
+                                        <label class="form-check-label fw-semibold"
+                                            for="repaymentTypePrincipalInterestAllDoc">No Doc
+                                        </label>
+                                    </div>
+                                    <div class="form-check form-check-inline ">
+                                        <input class="form-check-input" type="radio"
+                                            name="repaymentTypePrincipalInterest"
+                                            id="repaymentTypePrincipalInterestAllDoc" value="option1">
+                                        <label class="form-check-label fw-semibold"
+                                            for="repaymentTypePrincipalInterestAllDoc">Portfolio Loan
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
 
+                            <div class="col-12 col-md-6 col-lg-4 align-self-center">
+                                <label for="feedbackIndicationConstructionAdministration"
+                                    class="fw-bold text-capitalize mb-3">Variable interest rate</label>
+                                <div class="input-group">
+                                    <input type="text" class="form-control"
+                                        id="feedbackIndicationConstructionAdministration"
+                                        aria-label="Recipient's username" aria-describedby="basic-addon2">
+                                    <span class="input-group-text fw-semibold"
+                                        id="rateDropIncludingRBARecentPercentage">%</span>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6 col-lg-4 align-self-center">
+                                <label for="feedbackIndicationConstructionAdministration"
+                                    class="fw-bold text-capitalize mb-3">Or</label>
+                                <div class="input-group">
+                                    <input type="text" class="form-control"
+                                        id="feedbackIndicationConstructionAdministration"
+                                        aria-label="Recipient's username" aria-describedby="basic-addon2">
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6 col-lg-4 align-self-center">
+                                <label for="feedbackIndicationConstructionAdministration" class="fw-bold mb-3">fixed
+                                    For</label>
+                                <div class="input-group">
+                                    <input type="text" class="form-control"
+                                        id="feedbackIndicationConstructionAdministration"
+                                        aria-label="Recipient's username" aria-describedby="basic-addon2">
+                                    <span class="input-group-text fw-semibold"
+                                        id="rateDropIncludingRBARecentPercentage">years (1-5)</span>
+                                </div>
+                            </div>
+                            <div class="col-12 align-self-end">
+                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                            </div>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+                            <div class="col-12 col-md-6 col-lg-4 align-self-center offset-md-6 offset-lg-8 ">
+                                <div class="input-group ">
+                                    <span class="input-group-text fw-semibold"
+                                        id="rateDropIncludingRBARecentPercentage">Date</span>
+                                    <input type="text" class="form-control" id="rateDropIncludingRBARecent"
+                                        aria-label="Recipient's username" aria-describedby="basic-addon2">
+                                </div>
+                            </div>
                         </div>
                     </form>
                 </div>
