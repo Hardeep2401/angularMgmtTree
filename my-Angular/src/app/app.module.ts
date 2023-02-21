@@ -37,6 +37,8 @@ import { LoanMortgagesSecondComponent } from './loan-mortgages-second/loan-mortg
 import { CustomerDeclarationsComponent } from './customer-declarations/customer-declarations.component';
 import { FeedbackIndicationComponent } from './feedback-indication/feedback-indication.component';
 import { InfoCustomerComponent } from './info-customer/info-customer.component';
+import { FundsComponent } from './funds/funds.component';
+import { SecurityComponent } from './security/security.component';
 
 
 
@@ -75,7 +77,9 @@ import { InfoCustomerComponent } from './info-customer/info-customer.component';
     LoanMortgagesSecondComponent,
     CustomerDeclarationsComponent,
     FeedbackIndicationComponent,
-    InfoCustomerComponent
+    InfoCustomerComponent,
+    FundsComponent,
+    SecurityComponent
     
 
   ],

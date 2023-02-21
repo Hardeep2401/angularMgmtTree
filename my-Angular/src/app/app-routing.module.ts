@@ -6,11 +6,13 @@ import { CurrentMortgagesSecondComponent } from './current-mortgages-second/curr
 import { CurrentMortgagesComponent } from './current-mortgages/current-mortgages.component';
 import { CustomerDeclarationsComponent } from './customer-declarations/customer-declarations.component';
 import { FeedbackIndicationComponent } from './feedback-indication/feedback-indication.component';
+import { FundsComponent } from './funds/funds.component';
 import { InfoCustomerComponent } from './info-customer/info-customer.component';
 import { LoanMortgagesSecondComponent } from './loan-mortgages-second/loan-mortgages-second.component';
 import { LoansMortgagesComponent } from './loans-mortgages/loans-mortgages.component';
 import { CardComponent } from './nav-card/card/card.component';
 import { NavCardComponent } from './nav-card/nav-card.component';
+import { SecurityComponent } from './security/security.component';
 
 const routes: Routes = [
   { path: '', component: NavCardComponent },
@@ -24,6 +26,8 @@ const routes: Routes = [
   { path: 'customer', component: CustomerDeclarationsComponent },
   { path: 'feedback', component: FeedbackIndicationComponent },
   { path: 'infoCustomer', component: InfoCustomerComponent },
+  { path: 'funds', component: FundsComponent },
+  { path: 'security', component: SecurityComponent },
 ];
 
 @NgModule({
