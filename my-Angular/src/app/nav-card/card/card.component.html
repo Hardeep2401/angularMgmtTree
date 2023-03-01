@@ -65,7 +65,7 @@
                             <div class="col-12">
                                 <label class="form-label fw-bold mb-0" for="applicantOneFirstAndMiddleName">First And
                                     Middle Names <span class="text-danger">*</span></label>
-                                <input class="mt-3 form-control" type="text" id="applicantOneFirstAndMiddleName"
+                                <input class="mt-3 form-control" type="text" id="applicantOneFirstAndMiddleName" name="applicantOneFirstAndMiddleName"
                                     placeholder="First and middle names" aria-label="name">
                             </div>
                             <!--/first name-->
@@ -73,7 +73,7 @@
                             <div class="col-12">
                                 <label class="form-label fw-bold mb-0" for="applicantOneSurname">Surname <span
                                         class="text-danger">*</span></label>
-                                <input class="mt-3 form-control" type="text" id="applicantOneSurname"
+                                <input class="mt-3 form-control" type="text" id="applicantOneSurname" name="applicantOneSurname"
                                     placeholder="Surname" aria-label="name">
                             </div>
                             <!--/surname name-->
@@ -81,7 +81,7 @@
                             <div class="col-12">
                                 <label class="form-label fw-bold mb-0" for="applicantOneLastName">Last Name <span
                                         class="text-danger">*</span></label>
-                                <input class="mt-3 form-control" type="text" id="applicantOneLastName"
+                                <input class="mt-3 form-control" type="text" id="applicantOneLastName" name="applicantOneLastName"
                                     placeholder="Last Name" aria-label="name">
                             </div>
                             <!--/lastName-->
@@ -89,7 +89,7 @@
                             <div class="col-12">
                                 <label class="form-label fw-bold mb-0" for="applicantOnePreviousName">Previous Name (if
                                     any) <span class="text-danger">*</span></label>
-                                <input class="mt-3 form-control" type="text" id="applicantOnePreviousName"
+                                <input class="mt-3 form-control" type="text" id="applicantOnePreviousName" name="applicantOnePreviousName"
                                     placeholder="Previous Name" aria-label="name">
                             </div>
                             <!--/previousName-->
@@ -100,13 +100,13 @@
                                         <label class="form-label fw-bold mb-0"
                                             for="applicantOneOccupation">Occupation<span class="text-danger"> *</span>
                                         </label>
-                                        <input class="mt-3 form-control" type="text" id="applicantOneOccupation"
+                                        <input class="mt-3 form-control" type="text" id="applicantOneOccupation" name="applicantOneOccupation"
                                             placeholder="Occupation" aria-label="name">
                                     </div>
                                     <div class="col-md-6">
                                         <label class="form-label fw-bold mb-0" for="applicantOneIndustry">&nbsp;Industry
                                             <span class="text-danger"> *</span></label>
-                                        <input class="mt-3 form-control" type="text" id="applicantOneIndustry"
+                                        <input class="mt-3 form-control" type="text" id="applicantOneIndustry" name="applicantOneIndustry"
                                             placeholder="Industry" aria-label="name">
                                     </div>
                                 </div>
@@ -116,7 +116,7 @@
                             <div class="col-12">
                                 <label class="form-label fw-bold mb-0" for="applicantOneAustralianAddress">Australian
                                     Address <span class="text-danger"> *</span></label>
-                                <input class="mt-3 form-control" type="text" id="applicantOneAustralianAddress"
+                                <input class="mt-3 form-control" type="text" id="applicantOneAustralianAddress" name="applicantOneAustralianAddress"
                                     placeholder="Australian Address" aria-label="name">
                             </div>
                             <!--/address-->
@@ -126,7 +126,7 @@
                                     Address Detail (if
                                     less than 3
                                     years) <span class="text-danger">*</span></label>
-                                <input class="mt-3 form-control" type="text" id="applicantOnePreviousAddress"
+                                <input class="mt-3 form-control" type="text" id="applicantOnePreviousAddress" name="applicantOnePreviousAddress"
                                     placeholder="Previous Address" aria-label="name">
                             </div>
                             <!--/previous address-->
@@ -134,13 +134,13 @@
                             <div class="col-12">
                                 <label class="form-label fw-bold mb-0" for="applicantOneOffshoreAddress">Offshore
                                     Address <span class="text-danger">*</span></label>
-                                <input class="mt-3 form-control" type="text" id="applicantOneOffshoreAddress"
+                                <input class="mt-3 form-control" type="text" id="applicantOneOffshoreAddress" name="applicantOneOffshoreAddress"
                                     placeholder="Offshore Address" aria-label="name">
                             </div>
                             <!--/offshore address-->
-                            <!--martial status-->
+                            <!--marital status-->
                             <div class="col-12">
-                                <label class="form-label fw-bold mb-0" for="applicantOneMartialStatus">Martial Status
+                                <label class="form-label fw-bold mb-0" for="applicantOneMaritalStatus">Marital Status
                                     <span class="text-danger">*</span>
                                 </label>
                             </div>
@@ -149,7 +149,7 @@
                                     <div class="col-md-6">
                                         <div class="form-check">
                                             <input class="form-check-input" type="radio"
-                                                name="applicantOneMarriedStatus" id="applicantOneMarriedTo">
+                                                name="applicantOneMaritalStatus" id="applicantOneMarriedTo">
                                             <label class="form-check-label mb-0 fw-semibold"
                                                 for="applicantOneMarriedTo">
                                                 Married To
@@ -159,7 +159,7 @@
                                     <div class="col-md-6">
                                         <div class="form-check">
                                             <input class="form-check-input" type="radio"
-                                                name="applicantOneMarriedStatus" id="applicantOneDivorcedTo">
+                                                name="applicantOneMaritalStatus" id="applicantOneDivorcedTo">
                                             <label class="form-check-label mb-0 fw-semibold"
                                                 for="applicantOneDivorcedTo">
                                                 Divorced & Remarried To
@@ -173,18 +173,18 @@
                                     <div class="col-md-6">
                                         <div class="form-check">
                                             <input class="form-check-input" type="radio"
-                                                name="applicantOneMaritalNotApplicant"
+                                                name="applicantOneMaritalStatus"
                                                 id="applicantOneMaritalNotApplicant">
                                             <label class="form-check-label mb-0 fw-semibold"
                                                 for="applicantOneMaritalNotApplicant">
-                                                Non Applicant a
+                                                Non Applicant
                                             </label>
                                         </div>
                                     </div>
                                     <div class="col-md-6">
                                         <div class="form-check">
                                             <input class="form-check-input" type="radio"
-                                                name="applicantOneMaritalNotApplicant"
+                                                name="applicantOneMaritalStatus"
                                                 id="applicantOneDivorceStatusNotApplicant">
                                             <label class="form-check-label mb-0 fw-semibold"
                                                 for="applicantOneDivorceStatusNotApplicant">
@@ -200,7 +200,7 @@
 
                                         <div class="form-check flex-shrink-0">
                                             <input class="form-check-input" type="radio"
-                                                name="applicantOneFirstApplicant" id="applicantOneIsApplicant">
+                                                name="applicantOneMaritalStatus" id="applicantOneIsApplicant">
                                             <label class="form-check-label mb-0 fw-semibold"
                                                 for="applicantOneIsApplicant">
                                                 Applicant #
@@ -212,7 +212,7 @@
                                     <div class="col-md-6">
                                         <div class="form-check flex-shrink-0 ">
                                             <input class="form-check-input" type="radio"
-                                                name="applicantOneFirstApplicant" id="applicantOneIsFirstApplicant">
+                                                name="applicantOneMaritalStatus" id="applicantOneIsFirstApplicant">
                                             <label class="form-check-label mb-0 fw-semibold"
                                                 for="applicantOneIsFirstApplicant">
                                                 Applicant #
@@ -227,7 +227,7 @@
                                 <div class="row g-3">
                                     <div class="col-md-6">
                                         <div class="form-check">
-                                            <input class="form-check-input" type="radio" name="applicantOneOnceSelected"
+                                            <input class="form-check-input" type="radio" name="applicantOneMaritalStatus"
                                                 id="applicantOneOnceSelected">
                                             <label class="form-check-label mb-0 fw-semibold"
                                                 for="applicantOneOnceSelected">
@@ -238,7 +238,7 @@
                                     </div>
                                     <div class="col-md-6">
                                         <div class="form-check">
-                                            <input class="form-check-input" type="radio" name="applicantOneOnceSelected"
+                                            <input class="form-check-input" type="radio" name="applicantOneMaritalStatus"
                                                 id="applicantOneApplicantSelected">
                                             <label class="form-check-label mb-0 fw-semibold"
                                                 for="applicantOneApplicantSelected">
@@ -253,7 +253,7 @@
                                 <div class="row g-3">
                                     <div class="col-md-6">
                                         <div class="form-check">
-                                            <input class="form-check-input" type="radio" name="applicantOneEngaged"
+                                            <input class="form-check-input" type="radio" name="applicantOneMaritalStatus"
                                                 id="applicantOneEngagedTo">
                                             <label class="form-check-label mb-0 fw-semibold"
                                                 for="applicantOneEngagedTo">
@@ -263,7 +263,7 @@
                                     </div>
                                     <div class="col-md-6">
                                         <div class="form-check">
-                                            <input class="form-check-input" type="radio" name="applicantOneEngaged"
+                                            <input class="form-check-input" type="radio" name="applicantOneMaritalStatus"
                                                 id="applicantOneDeFacto">
                                             <label class="form-check-label mb-0 fw-semibold" for="applicantOneDeFacto">
                                                 De facto to
@@ -277,7 +277,7 @@
                                     <div class="col-md-6">
                                         <div class="form-check">
                                             <input class="form-check-input" type="radio"
-                                                name="applicantOneMaritalNotApplicantOnce"
+                                                name="applicantOneMaritalStatus"
                                                 id="applicantOneMaritalNotApplicantOnce">
                                             <label class="form-check-label mb-0 fw-semibold"
                                                 for="applicantOneMaritalNotApplicantOnce">
@@ -288,7 +288,7 @@
                                     <div class="col-md-6">
                                         <div class="form-check">
                                             <input class="form-check-input" type="radio"
-                                                name="applicantOneMaritalNotApplicantOnce"
+                                                name="applicantOneMaritalStatus"
                                                 id="applicantOneDivorceStatusNotApplicantOnce">
                                             <label class="form-check-label mb-0 fw-semibold"
                                                 for="applicantOneDivorceStatusNotApplicantOnce">
@@ -303,7 +303,7 @@
                                     <div class="col-md-6">
                                         <div class="form-check flex-shrink-0">
                                             <input class="form-check-input" type="radio"
-                                                name="applicantTwoOnceApplicantInput" id="applicantOneOnceApplicantTag">
+                                                name="applicantOneMaritalStatus" id="applicantOneOnceApplicantTag">
                                             <label class="form-check-label mb-0 fw-semibold"
                                                 for="applicantOneOnceApplicantTag">
                                                 Applicant #
@@ -315,7 +315,7 @@
                                     <div class="col-md-6">
                                         <div class="form-check flex-shrink-0 ">
                                             <input class="form-check-input" type="radio"
-                                                name="applicantTwoOnceApplicantInput" id="applicantTwoIsApplicants">
+                                                name="applicantOneMaritalStatus" id="applicantTwoIsApplicants">
                                             <label class="form-check-label mb-0 fw-semibold"
                                                 for="applicantTwoIsApplicants">
                                                 Applicant #
@@ -331,7 +331,7 @@
                                     <div class="col-md-6">
                                         <div class="form-check">
                                             <input class="form-check-input" type="radio"
-                                                name="applicantOneOnceSelectedInput" id="applicantOneOnceSelectedInput">
+                                                name="applicantOneMaritalStatus" id="applicantOneOnceSelectedInput">
                                             <label class="form-check-label mb-0 fw-semibold"
                                                 for="applicantOneOnceSelectedInput">
                                                 Applicant to be input
@@ -342,7 +342,7 @@
                                     <div class="col-md-6">
                                         <div class="form-check">
                                             <input class="form-check-input" type="radio"
-                                                name="applicantOneOnceSelectedInput" id="applicantOneOnceSelectedToBe">
+                                                name="applicantOneMaritalStatus" id="applicantOneOnceSelectedToBe">
                                             <label class="form-check-label mb-0 fw-semibold"
                                                 for="applicantOneOnceSelectedToBe">
                                                 Applicant to be input
@@ -364,7 +364,7 @@
                                     <div class="col-md-6">
                                         <div class="form-check">
                                             <input class="form-check-input" type="radio"
-                                                name="applicantOneAustralianCitizen" id="applicantOneAustralianCitizen">
+                                                name="applicantOneResidentialStatus" id="applicantOneAustralianCitizen">
                                             <label class="form-check-label mb-0 fw-semibold"
                                                 for="applicantOneAustralianCitizen">
                                                 Australian citizen
@@ -374,7 +374,7 @@
                                     <div class="col-md-6">
                                         <div class="form-check">
                                             <input class="form-check-input" type="radio"
-                                                name="applicantOneAustralianCitizen" id="applicantOnePermanentResident">
+                                                name="applicantOneResidentialStatus" id="applicantOnePermanentResident">
                                             <label class="form-check-label mb-0 fw-semibold"
                                                 for="applicantOnePermanentResident">
                                                 Permanent resident
@@ -388,7 +388,7 @@
                                     <div class="col-md-6">
                                         <div class="form-check">
                                             <input class="form-check-input" type="radio"
-                                                name="applicantOneTemporaryResident" id="applicantOneTemporaryResident">
+                                                name="applicantOneResidentialStatus" id="applicantOneTemporaryResident">
                                             <label class="form-check-label mb-0 fw-semibold"
                                                 for="applicantOneTemporaryResident">
                                                 Temporary resident
@@ -398,7 +398,7 @@
                                     <div class="col-md-6">
                                         <div class="form-check">
                                             <input class="form-check-input" type="radio"
-                                                name="applicantOneTemporaryResident" id="applicantOneNonResident">
+                                                name="applicantOneResidentialStatus" id="applicantOneNonResident">
                                             <label class="form-check-label mb-0 fw-semibold"
                                                 for="applicantOneNonResident">
                                                 Non Resident
@@ -409,7 +409,7 @@
                             </div>
                             <div class="col-12">
                                 <div class="form-check">
-                                    <input class="form-check-input" type="radio" name="applicantOneExpatriate"
+                                    <input class="form-check-input" type="radio" name="applicantOneResidentialStatus"
                                         id="applicantOneExpatriate">
                                     <label class="form-check-label mb-0 fw-semibold" for="applicantOneExpatriate">
                                         Expatriate
@@ -418,15 +418,16 @@
                             </div>
                             <div class="col-12">
                                 <div class="form-check">
-                                    <input class="form-check-input" type="radio" name="applicantOneSkilledMigrantVisa"
+                                    <input class="form-check-input" type="radio" name="applicantOneResidentialStatus"
                                         id="applicantOneSkilledMigrantVisa">
                                     <label class="form-check-label mb-0 fw-semibold"
                                         for="applicantOneSkilledMigrantVisa">
                                         Skilled migrant visa subclass reference number:
                                     </label>
-                                </div>
-                                <input class="mt-3 form-control" id="applicantOneSkilledMigrantVisa" type="text"
+                                    <input class="mt-3 form-control" id="applicantOneSkilledMigrantVisa" name="applicantOneResidentialStatus" type="text"
                                     placeholder="Skilled Migrant Visa" aria-label="name">
+                                </div>
+                               
                             </div>
                             <!-- /resident-->
                             <!-- firb approved -->
@@ -536,7 +537,7 @@
                                     </div>
                                     <div class="col-md-6">
                                         <label class="form-label fw-bold mb-0"
-                                            for="applicantOneLicenceVerificationNumber">DDL
+                                            for="applicantOneLicenceVerificationDdl">DDL
                                         </label>
                                         <div class="row g-3">
                                             <div class="col-6">
@@ -552,7 +553,7 @@
                                             <div class="col-6">
                                                 <div class="form-check mt-3">
                                                     <input class=" form-check-input" type="radio"
-                                                        name="applicantOneLicenceDdlYes" id="applicantOneLicenceDdlNo">
+                                                        name="applicantOneLicenceDdlNo" id="applicantOneLicenceDdlNo">
                                                     <label class="form-check-label fw-semibold mb-0"
                                                         for="applicantOneLicenceDdlNo">
                                                         No
@@ -708,7 +709,7 @@
                                             <div class="col-6">
                                                 <div class="form-check mt-3">
                                                     <input class=" form-check-input" type="radio"
-                                                        name="applicantOneSecondNameKidsYes"
+                                                        name="applicantOneSecondNameKids"
                                                         id="applicantOneSecondNameKidsYes">
                                                     <label class="form-check-label fw-semibold mb-0"
                                                         for="applicantOneSecondNameKidsYes">
@@ -719,7 +720,7 @@
                                             <div class="col-6">
                                                 <div class="form-check mt-3">
                                                     <input class=" form-check-input" type="radio"
-                                                        name="applicantOneSecondNameKidsYes"
+                                                        name="applicantOneSecondNameKids"
                                                         id="applicantOneSecondNameKidsNo">
                                                     <label class="form-check-label fw-semibold mb-0"
                                                         for="applicantOneSecondNameKidsNo">
@@ -864,7 +865,7 @@
                                     aria-label="name">
                             </div>
                             <div class="col-12">
-                                <label class="form-label fw-bold mb-0" for="applicantOneMobileNumber">Mobile
+                                <label class="form-label fw-bold mb-0" for="applicantOneMobileNo">Mobile
                                     Number
                                     <span class="text-danger">*</span></label>
                                 <input class="mt-3 form-control" name="applicantOneMobileNumber"
@@ -1080,7 +1081,7 @@
                                     <div class="col-md-6">
                                         <div class="form-check">
                                             <input class="form-check-input" type="radio"
-                                                name="applicantTwoMaritalNotApplicant"
+                                                name="applicantTwoMarriedStatus"
                                                 id="applicantTwoMaritalNotApplicant">
                                             <label class="form-check-label mb-0 fw-semibold"
                                                 for="applicantTwoMaritalNotApplicant">
@@ -1091,7 +1092,7 @@
                                     <div class="col-md-6">
                                         <div class="form-check">
                                             <input class="form-check-input" type="radio"
-                                                name="applicantTwoMaritalNotApplicant"
+                                                name="applicantTwoMarriedStatus"
                                                 id="applicantTwoDivorceStatusNotApplicant">
                                             <label class="form-check-label mb-0 fw-semibold"
                                                 for="applicantTwoDivorceStatusNotApplicant">
@@ -1106,7 +1107,7 @@
                                     <div class="col-md-6">
                                         <div class="form-check flex-shrink-0">
                                             <input class="form-check-input" type="radio"
-                                                name="applicantTwoFirstApplicant" id="applicantTwoIsApplicant">
+                                                name="applicantTwoMarriedStatus" id="applicantTwoIsApplicant">
                                             <label class="form-check-label mb-0 fw-semibold"
                                                 for="applicantTwoIsApplicant">
                                                 Applicant #
@@ -1118,7 +1119,7 @@
                                     <div class="col-md-6">
                                         <div class="form-check flex-shrink-0 ">
                                             <input class="form-check-input" type="radio"
-                                                name="applicantTwoFirstApplicant" id="applicantTwoIsFirstApplicant">
+                                                name="applicantTwoMarriedStatus" id="applicantTwoIsFirstApplicant">
                                             <label class="form-check-label mb-0 fw-semibold"
                                                 for="applicantTwoIsFirstApplicant">
                                                 Applicant #
@@ -1133,7 +1134,7 @@
                                 <div class="row g-3">
                                     <div class="col-md-6">
                                         <div class="form-check">
-                                            <input class="form-check-input" type="radio" name="applicantTwoOnceSelected"
+                                            <input class="form-check-input" type="radio" name="applicantTwoMarriedStatus"
                                                 id="applicantTwoOnceSelected">
                                             <label class="form-check-label mb-0 fw-semibold"
                                                 for="applicantTwoOnceSelected">
@@ -1144,7 +1145,7 @@
                                     </div>
                                     <div class="col-md-6">
                                         <div class="form-check">
-                                            <input class="form-check-input" type="radio" name="applicantTwoOnceSelected"
+                                            <input class="form-check-input" type="radio" name="applicantTwoMarriedStatus"
                                                 id="applicantTwoApplicantSelected">
                                             <label class="form-check-label mb-0 fw-semibold"
                                                 for="applicantTwoApplicantSelected">
@@ -1159,7 +1160,7 @@
                                 <div class="row g-3">
                                     <div class="col-md-6">
                                         <div class="form-check">
-                                            <input class="form-check-input" type="radio" name="applicantTwoEngaged"
+                                            <input class="form-check-input" type="radio" name="applicantTwoMarriedStatus"
                                                 id="applicantTwoEngagedTo">
                                             <label class="form-check-label mb-0 fw-semibold"
                                                 for="applicantTwoEngagedTo">
@@ -1169,7 +1170,7 @@
                                     </div>
                                     <div class="col-md-6">
                                         <div class="form-check">
-                                            <input class="form-check-input" type="radio" name="applicantTwoEngaged"
+                                            <input class="form-check-input" type="radio" name="applicantTwoMarriedStatus"
                                                 id="applicantTwoDeFacto">
                                             <label class="form-check-label mb-0 fw-semibold" for="applicantTwoDeFacto">
                                                 De facto to
@@ -1183,7 +1184,7 @@
                                     <div class="col-md-6">
                                         <div class="form-check">
                                             <input class="form-check-input" type="radio"
-                                                name="applicantTwoMaritalNotApplicantOnce"
+                                                name="applicantTwoMarriedStatus"
                                                 id="applicantTwoMaritalNotApplicantOnce">
                                             <label class="form-check-label mb-0 fw-semibold"
                                                 for="applicantTwoMaritalNotApplicantOnce">
@@ -1194,7 +1195,7 @@
                                     <div class="col-md-6">
                                         <div class="form-check">
                                             <input class="form-check-input" type="radio"
-                                                name="applicantTwoMaritalNotApplicantOnce"
+                                                name="applicantTwoMarriedStatus"
                                                 id="applicantTwoDivorceStatusNotApplicantOnce">
                                             <label class="form-check-label mb-0 fw-semibold"
                                                 for="applicantTwoDivorceStatusNotApplicantOnce">
@@ -1209,7 +1210,7 @@
                                     <div class="col-md-6">
                                         <div class="form-check flex-shrink-0">
                                             <input class="form-check-input" type="radio"
-                                                name="applicantTwoOnceApplicantInput" id="applicantTwoOnceApplicantTag">
+                                                name="applicantTwoMarriedStatus" id="applicantTwoOnceApplicantTag">
                                             <label class="form-check-label mb-0 fw-semibold"
                                                 for="applicantTwoOnceApplicantTag">
                                                 Applicant #
@@ -1221,7 +1222,7 @@
                                     <div class="col-md-6">
                                         <div class="form-check flex-shrink-0 ">
                                             <input class="form-check-input" type="radio"
-                                                name="applicantTwoOnceApplicantInput" id="applicantTwoIsApplicants">
+                                                name="applicantTwoMarriedStatus" id="applicantTwoIsApplicants">
                                             <label class="form-check-label mb-0 fw-semibold"
                                                 for="applicantTwoIsApplicants">
                                                 Applicant #
@@ -1237,7 +1238,7 @@
                                     <div class="col-md-6">
                                         <div class="form-check">
                                             <input class="form-check-input" type="radio"
-                                                name="applicantTwoOnceSelectedInput" id="applicantTwoOnceSelectedInput">
+                                                name="applicantTwoMarriedStatus" id="applicantTwoOnceSelectedInput">
                                             <label class="form-check-label mb-0 fw-semibold"
                                                 for="applicantTwoOnceSelectedInput">
                                                 Applicant to be input
@@ -1248,7 +1249,7 @@
                                     <div class="col-md-6">
                                         <div class="form-check">
                                             <input class="form-check-input" type="radio"
-                                                name="applicantTwoOnceSelectedInput" id="applicantTwoOnceSelectedToBe">
+                                                name="applicantTwoMarriedStatus" id="applicantTwoOnceSelectedToBe">
                                             <label class="form-check-label mb-0 fw-semibold"
                                                 for="applicantTwoOnceSelectedToBe">
                                                 Applicant to be input
@@ -1270,7 +1271,7 @@
                                     <div class="col-md-6">
                                         <div class="form-check">
                                             <input class="form-check-input" type="radio"
-                                                name="applicantTwoAustralianCitizen" id="applicantTwoAustralianCitizen">
+                                                name="applicantTwoResidentialStatus" id="applicantTwoAustralianCitizen">
                                             <label class="form-check-label mb-0 fw-semibold"
                                                 for="applicantTwoAustralianCitizen">
                                                 Australian citizen
@@ -1280,7 +1281,7 @@
                                     <div class="col-md-6">
                                         <div class="form-check">
                                             <input class="form-check-input" type="radio"
-                                                name="applicantTwoAustralianCitizen" id="applicantTwoPermanentResident">
+                                                name="applicantTwoResidentialStatus" id="applicantTwoPermanentResident">
                                             <label class="form-check-label mb-0 fw-semibold"
                                                 for="applicantTwoPermanentResident">
                                                 Permanent resident
@@ -1294,7 +1295,7 @@
                                     <div class="col-md-6">
                                         <div class="form-check">
                                             <input class="form-check-input" type="radio"
-                                                name="applicantTwoTemporaryResident" id="applicantTwoTemporaryResident">
+                                                name="applicantTwoResidentialStatus" id="applicantTwoTemporaryResident">
                                             <label class="form-check-label mb-0 fw-semibold"
                                                 for="applicantTwoTemporaryResident">
                                                 Temporary resident
@@ -1304,7 +1305,7 @@
                                     <div class="col-md-6">
                                         <div class="form-check">
                                             <input class="form-check-input" type="radio"
-                                                name="applicantTwoTemporaryResident" id="applicantTwoNonResident">
+                                                name="applicantTwoResidentialStatus" id="applicantTwoNonResident">
                                             <label class="form-check-label mb-0 fw-semibold"
                                                 for="applicantTwoNonResident">
                                                 Non Resident
@@ -1315,7 +1316,7 @@
                             </div>
                             <div class="col-12">
                                 <div class="form-check">
-                                    <input class="form-check-input" type="radio" name="applicantTwoExpatriate"
+                                    <input class="form-check-input" type="radio" name="applicantTwoResidentialStatus"
                                         id="applicantTwoExpatriate">
                                     <label class="form-check-label mb-0 fw-semibold" for="applicantTwoExpatriate">
                                         Expatriate
@@ -1324,14 +1325,14 @@
                             </div>
                             <div class="col-12">
                                 <div class="form-check">
-                                    <input class="form-check-input" type="radio" name="applicantTwoSkilledMigrantVisa"
+                                    <input class="form-check-input" type="radio" name="applicantTwoResidentialStatus"
                                         id="applicantTwoSkilledMigrantVisa">
                                     <label class="form-check-label mb-0 fw-semibold"
                                         for="applicantTwoSkilledMigrantVisa">
                                         Skilled migrant visa subclass reference number:
                                     </label>
                                 </div>
-                                <input class="mt-3 form-control" id="applicantTwoSkilledMigrantVisa" type="text"
+                                <input class="mt-3 form-control" id="applicantTwoSkilledMigrantVisa" type="text" name="applicantTwoResidentialStatus"
                                     placeholder="Skilled Migrant Visa" aria-label="name">
                             </div>
                             <!-- /resident-->
@@ -1450,13 +1451,13 @@
                                     </div>
                                     <div class="col-md-6">
                                         <label class="form-label fw-bold mb-0"
-                                            for="applicantTwoLicenceVerificationNumber">DDL
+                                            for="applicantTwoLicenceVerificationDdl">DDL
                                         </label>
                                         <div class="row g-3">
                                             <div class="col-6">
                                                 <div class="form-check mt-3">
                                                     <input class=" form-check-input" type="radio"
-                                                        name="applicantTwoLicenceDdlYes" id="applicantTwoLicenceDdlYes">
+                                                        name="applicantTwoLicenceDdl" id="applicantTwoLicenceDdlYes">
                                                     <label class="form-check-label fw-semibold mb-0"
                                                         for="applicantTwoLicenceDdlYes">
                                                         Yes
@@ -1466,7 +1467,7 @@
                                             <div class="col-6">
                                                 <div class="form-check mt-3">
                                                     <input class=" form-check-input" type="radio"
-                                                        name="applicantTwoLicenceDdlYes" id="applicantTwoLicenceDdlNo">
+                                                        name="applicantTwoLicenceDdl" id="applicantTwoLicenceDdlNo">
                                                     <label class="form-check-label fw-semibold mb-0"
                                                         for="applicantTwoLicenceDdlNo">
                                                         No
@@ -1777,7 +1778,7 @@
                                     aria-label="name">
                             </div>
                             <div class="col-12">
-                                <label class="form-label fw-bold mb-0" for="applicantTwoMobileNumber">Mobile
+                                <label class="form-label fw-bold mb-0" for="applicantTwoMobileNo">Mobile
                                     Number
                                     <span class="text-danger">*</span></label>
                                 <input class="mt-3 form-control" name="applicantTwoMobileNumber"
