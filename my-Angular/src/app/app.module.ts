@@ -39,6 +39,7 @@ import { FeedbackIndicationComponent } from './feedback-indication/feedback-indi
 import { InfoCustomerComponent } from './info-customer/info-customer.component';
 import { FundsComponent } from './funds/funds.component';
 import { SecurityComponent } from './security/security.component';
+import { BuyersComponent } from './buyers/buyers.component';
 
 
 
@@ -79,7 +80,8 @@ import { SecurityComponent } from './security/security.component';
     FeedbackIndicationComponent,
     InfoCustomerComponent,
     FundsComponent,
-    SecurityComponent
+    SecurityComponent,
+    BuyersComponent
     
 
   ],
