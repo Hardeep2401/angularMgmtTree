@@ -14,312 +14,310 @@
                     <form class="row">
                         <div class="row g-3">
                             <!-- transport -->
-                            <div class="col-6">
+                            <div class="col-12 col-lg-6">
                                 <label class="form-label fw-bold mb-0 text-capitalize"
                                     for="loansMortgagesChildcare">Transport
                                     <span class="text-danger"> *</span></label>
+                                    <div class="input-group mt-3">
+                                        <span class="input-group-text">$</span>
+                                        <input type="text" id="loansMortgagesChildcare" class="form-control">
+                                    </div>
                             </div>
-                            <div class="col-6">
+                            <div class="col-12 col-lg-6 align-self-center">
                                 <label class="form-label fw-bold mb-0" for="loansMortgagesCurrentBalance">Per
                                     <span class="text-danger"> *</span></label>
+                                    <div class="mt-3">
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="loansMortgagesChildcareWeek"
+                                                id="loansMortgagesChildcareWeek" value="option1">
+                                            <label class="form-check-label fw-semibold"
+                                                for="loansMortgagesChildcareWeek">Week</label>
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="loansMortgagesChildcareWeek"
+                                                id="loansMortgagesChildcareFortnight" value="option2">
+                                            <label class="form-check-label fw-semibold"
+                                                for="loansMortgagesChildcareFortnight">Fortnight</label>
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="loansMortgagesChildcareWeek"
+                                                id="loansMortgagesChildcareMonth" value="option1">
+                                            <label class="form-check-label fw-semibold"
+                                                for="loansMortgagesChildcareMonth">Month</label>
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="loansMortgagesChildcareWeek"
+                                                id="loansMortgagesChildcareQuarter" value="option2">
+                                            <label class="form-check-label fw-semibold"
+                                                for="loansMortgagesChildcareQuarter">Quarter</label>
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="loansMortgagesChildcareWeek"
+                                                id="loansMortgagesChildcareWeekYears" value="option1">
+                                            <label class="form-check-label fw-semibold"
+                                                for="loansMortgagesChildcareWeekYears">Years</label>
+                                        </div>
+                                    </div>
                             </div>
-                            <div class="col-6">
-                                <div class="input-group">
-                                    <span class="input-group-text">$</span>
-                                    <input type="text" id="loansMortgagesChildcare" class="form-control">
-                                </div>
+                            <div class="col-12">
+                                <p class="mb-0 fw-semibold">Public transport, taxis, ride-sharing and non-holiday domestic
+                                    airfares (excludes overseas airfares). Running costs for essential vehicles including
+                                    fuel, servicing, repairs, parking, tolls (excludes insurance) and
+                                    registration of motor vehicles (excludes recreational vehicles such as caravans,
+                                    trailers, motorcycles, boats and aircraft).</p>
                             </div>
-                            <div class="col-6 align-self-center">
-                                <div class="form-check form-check-inline">
-                                    <input class="form-check-input" type="radio" name="loansMortgagesChildcareWeek"
-                                        id="loansMortgagesChildcareWeek" value="option1">
-                                    <label class="form-check-label fw-semibold"
-                                        for="loansMortgagesChildcareWeek">Week</label>
-                                </div>
-                                <div class="form-check form-check-inline mx-2">
-                                    <input class="form-check-input" type="radio" name="loansMortgagesChildcareWeek"
-                                        id="loansMortgagesChildcareFortnight" value="option2">
-                                    <label class="form-check-label fw-semibold"
-                                        for="loansMortgagesChildcareFortnight">Fortnight</label>
-                                </div>
-                                <div class="form-check form-check-inline mx-2">
-                                    <input class="form-check-input" type="radio" name="loansMortgagesChildcareWeek"
-                                        id="loansMortgagesChildcareMonth" value="option1">
-                                    <label class="form-check-label fw-semibold"
-                                        for="loansMortgagesChildcareMonth">Month</label>
-                                </div>
-                                <div class="form-check form-check-inline mx-2">
-                                    <input class="form-check-input" type="radio" name="loansMortgagesChildcareWeek"
-                                        id="loansMortgagesChildcareQuarter" value="option2">
-                                    <label class="form-check-label fw-semibold"
-                                        for="loansMortgagesChildcareQuarter">Quarter</label>
-                                </div>
-                                <div class="form-check form-check-inline mx-2">
-                                    <input class="form-check-input" type="radio" name="loansMortgagesChildcareWeek"
-                                        id="loansMortgagesChildcareWeekYears" value="option1">
-                                    <label class="form-check-label fw-semibold"
-                                        for="loansMortgagesChildcareWeekYears">Years</label>
-                                </div>
-                            </div>
-                            <p class="fw-semibold">Public transport, taxis, ride-sharing and non-holiday domestic
-                                airfares (excludes overseas airfares). Running costs for essential vehicles including
-                                fuel, servicing, repairs, parking, tolls (excludes insurance) and
-                                registration of motor vehicles (excludes recreational vehicles such as caravans,
-                                trailers, motorcycles, boats and aircraft).</p>
                             <!-- corporate fees -->
-                            <div class="col-6">
+                            <div class="col-12 col-lg-6">
                                 <label class="form-label fw-bold mb-0" for="loansMortgagesCurrentBalance">Body Corporate
                                     Fees, Strata
                                     Fees and Land Tax On Owner
                                     Occupied Principal Place Of
                                     Residence<span class="text-danger"> *</span></label>
+                                    <div class="input-group mt-3">
+                                        <span class="input-group-text">$</span>
+                                        <input type="text" id="loansMortgagesChildcare" class="form-control">
+                                    </div>
                             </div>
-                            <div class="col-6">
+                            <div class="col-12 col-lg-6 align-self-center">
                                 <label class="form-label fw-bold mb-0" for="loansMortgagesCurrentBalance">Per
                                     <span class="text-danger"> *</span></label>
+                                    <div class="mt-3">
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="loansMortgagesChildcareWeek"
+                                                id="loansMortgagesChildcareWeek" value="option1">
+                                            <label class="form-check-label fw-semibold"
+                                                for="loansMortgagesChildcareWeek">Week</label>
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="loansMortgagesChildcareWeek"
+                                                id="loansMortgagesChildcareFortnight" value="option2">
+                                            <label class="form-check-label fw-semibold"
+                                                for="loansMortgagesChildcareFortnight">Fortnight</label>
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="loansMortgagesChildcareWeek"
+                                                id="loansMortgagesChildcareMonth" value="option1">
+                                            <label class="form-check-label fw-semibold"
+                                                for="loansMortgagesChildcareMonth">Month</label>
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="loansMortgagesChildcareWeek"
+                                                id="loansMortgagesChildcareQuarter" value="option2">
+                                            <label class="form-check-label fw-semibold"
+                                                for="loansMortgagesChildcareQuarter">Quarter</label>
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="loansMortgagesChildcareWeek"
+                                                id="loansMortgagesChildcareWeekYears" value="option1">
+                                            <label class="form-check-label fw-semibold"
+                                                for="loansMortgagesChildcareWeekYears">Years</label>
+                                        </div>
+                                    </div>
                             </div>
-                            <div class="col-6">
-                                <div class="input-group">
-                                    <span class="input-group-text">$</span>
-                                    <input type="text" id="loansMortgagesChildcare" class="form-control">
-                                </div>
+                            <div class="col-12">
+                                <p class="mb-0 fw-semibold">Body corporate fees, strata fees and land tax on owner occupied
+                                    principal place of residence. Excludes investment properties, secondary residences, and
+                                    properties maintained for other purposes such as holiday
+                                    properties or residences maintained for parents or children.</p>
                             </div>
-                            <div class="col-6 align-self-center">
-                                <div class="form-check form-check-inline">
-                                    <input class="form-check-input" type="radio" name="loansMortgagesChildcareWeek"
-                                        id="loansMortgagesChildcareWeek" value="option1">
-                                    <label class="form-check-label fw-semibold"
-                                        for="loansMortgagesChildcareWeek">Week</label>
-                                </div>
-                                <div class="form-check form-check-inline mx-2">
-                                    <input class="form-check-input" type="radio" name="loansMortgagesChildcareWeek"
-                                        id="loansMortgagesChildcareFortnight" value="option2">
-                                    <label class="form-check-label fw-semibold"
-                                        for="loansMortgagesChildcareFortnight">Fortnight</label>
-                                </div>
-                                <div class="form-check form-check-inline mx-2">
-                                    <input class="form-check-input" type="radio" name="loansMortgagesChildcareWeek"
-                                        id="loansMortgagesChildcareMonth" value="option1">
-                                    <label class="form-check-label fw-semibold"
-                                        for="loansMortgagesChildcareMonth">Month</label>
-                                </div>
-                                <div class="form-check form-check-inline mx-2">
-                                    <input class="form-check-input" type="radio" name="loansMortgagesChildcareWeek"
-                                        id="loansMortgagesChildcareQuarter" value="option2">
-                                    <label class="form-check-label fw-semibold"
-                                        for="loansMortgagesChildcareQuarter">Quarter</label>
-                                </div>
-                                <div class="form-check form-check-inline mx-2">
-                                    <input class="form-check-input" type="radio" name="loansMortgagesChildcareWeek"
-                                        id="loansMortgagesChildcareWeekYears" value="option1">
-                                    <label class="form-check-label fw-semibold"
-                                        for="loansMortgagesChildcareWeekYears">Years</label>
-                                </div>
-                            </div>
-                            <p class="fw-semibold">Body corporate fees, strata fees and land tax on owner occupied
-                                principal place of residence. Excludes investment properties, secondary residences, and
-                                properties maintained for other purposes such as holiday
-                                properties or residences maintained for parents or children.</p>
                             <!-- Private schooling and tuition -->
-                            <div class="col-6">
+                            <div class="col-12 col-lg-6">
                                 <label class="form-label fw-bold mb-0" for="loansMortgagesCurrentBalance">Private
                                     Schooling And Tuition<span class="text-danger"> *</span></label>
+                                    <div class="input-group mt-3">
+                                        <span class="input-group-text">$</span>
+                                        <input type="text" id="loansMortgagesChildcare" class="form-control">
+                                    </div>
                             </div>
-                            <div class="col-6">
+                            <div class="col-12 col-lg-6 align-self-center">
                                 <label class="form-label fw-bold mb-0" for="loansMortgagesCurrentBalance">Per
                                     <span class="text-danger"> *</span></label>
+                                    <div class="mt-3">
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="loansMortgagesChildcareWeek"
+                                                id="loansMortgagesChildcareWeek" value="option1">
+                                            <label class="form-check-label fw-semibold"
+                                                for="loansMortgagesChildcareWeek">Week</label>
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="loansMortgagesChildcareWeek"
+                                                id="loansMortgagesChildcareFortnight" value="option2">
+                                            <label class="form-check-label fw-semibold"
+                                                for="loansMortgagesChildcareFortnight">Fortnight</label>
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="loansMortgagesChildcareWeek"
+                                                id="loansMortgagesChildcareMonth" value="option1">
+                                            <label class="form-check-label fw-semibold"
+                                                for="loansMortgagesChildcareMonth">Month</label>
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="loansMortgagesChildcareWeek"
+                                                id="loansMortgagesChildcareQuarter" value="option2">
+                                            <label class="form-check-label fw-semibold"
+                                                for="loansMortgagesChildcareQuarter">Quarter</label>
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="loansMortgagesChildcareWeek"
+                                                id="loansMortgagesChildcareWeekYears" value="option1">
+                                            <label class="form-check-label fw-semibold"
+                                                for="loansMortgagesChildcareWeekYears">Years</label>
+                                        </div>
+                                    </div>
                             </div>
-                            <div class="col-6">
-                                <div class="input-group">
-                                    <span class="input-group-text">$</span>
-                                    <input type="text" id="loansMortgagesChildcare" class="form-control">
-                                </div>
+                            <div class="col-12">
+                                <p class="mb-0 fw-semibold">Tuition fees, school fees and sports fees for private
+                                    schooling,
+                                    including independent schools (Catholic or non-Catholic) and private tuition including
+                                    compulsory age kindergarten/reception/pre-primary/prep.</p>
                             </div>
-                            <div class="col-6 align-self-center">
-                                <div class="form-check form-check-inline">
-                                    <input class="form-check-input" type="radio" name="loansMortgagesChildcareWeek"
-                                        id="loansMortgagesChildcareWeek" value="option1">
-                                    <label class="form-check-label fw-semibold"
-                                        for="loansMortgagesChildcareWeek">Week</label>
-                                </div>
-                                <div class="form-check form-check-inline mx-2">
-                                    <input class="form-check-input" type="radio" name="loansMortgagesChildcareWeek"
-                                        id="loansMortgagesChildcareFortnight" value="option2">
-                                    <label class="form-check-label fw-semibold"
-                                        for="loansMortgagesChildcareFortnight">Fortnight</label>
-                                </div>
-                                <div class="form-check form-check-inline mx-2">
-                                    <input class="form-check-input" type="radio" name="loansMortgagesChildcareWeek"
-                                        id="loansMortgagesChildcareMonth" value="option1">
-                                    <label class="form-check-label fw-semibold"
-                                        for="loansMortgagesChildcareMonth">Month</label>
-                                </div>
-                                <div class="form-check form-check-inline mx-2">
-                                    <input class="form-check-input" type="radio" name="loansMortgagesChildcareWeek"
-                                        id="loansMortgagesChildcareQuarter" value="option2">
-                                    <label class="form-check-label fw-semibold"
-                                        for="loansMortgagesChildcareQuarter">Quarter</label>
-                                </div>
-                                <div class="form-check form-check-inline mx-2">
-                                    <input class="form-check-input" type="radio" name="loansMortgagesChildcareWeek"
-                                        id="loansMortgagesChildcareWeekYears" value="option1">
-                                    <label class="form-check-label fw-semibold"
-                                        for="loansMortgagesChildcareWeekYears">Years</label>
-                                </div>
-                            </div>
-                            <p class="fw-semibold">Tuition fees, school fees and sports fees for private
-                                schooling,
-                                including independent schools (Catholic or non-Catholic) and private tuition including
-                                compulsory age kindergarten/reception/pre-primary/prep.</p>
-
-                            <div class="col-6">
+                            <div class="col-12 col-lg-6">
                                 <label class="form-label fw-bold mb-0 text-capitalize"
                                     for="loansMortgagesCurrentBalance">Sickness and
                                     personal Accident
                                     Insurance, Life Insurance<span class="text-danger"> *</span></label>
+                                    <div class="input-group mt-3">
+                                        <span class="input-group-text">$</span>
+                                        <input type="text" id="loansMortgagesChildcare" class="form-control">
+                                    </div>
                             </div>
-                            <div class="col-6">
+                            <div class="col-12 col-lg-6 align-self-center">
                                 <label class="form-label fw-bold mb-0" for="loansMortgagesCurrentBalance">Per
                                     <span class="text-danger"> *</span></label>
+                                    <div class="mt-3">
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="loansMortgagesChildcareWeek"
+                                                id="loansMortgagesChildcareWeek" value="option1">
+                                            <label class="form-check-label fw-semibold"
+                                                for="loansMortgagesChildcareWeek">Week</label>
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="loansMortgagesChildcareWeek"
+                                                id="loansMortgagesChildcareFortnight" value="option2">
+                                            <label class="form-check-label fw-semibold"
+                                                for="loansMortgagesChildcareFortnight">Fortnight</label>
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="loansMortgagesChildcareWeek"
+                                                id="loansMortgagesChildcareMonth" value="option1">
+                                            <label class="form-check-label fw-semibold"
+                                                for="loansMortgagesChildcareMonth">Month</label>
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="loansMortgagesChildcareWeek"
+                                                id="loansMortgagesChildcareQuarter" value="option2">
+                                            <label class="form-check-label fw-semibold"
+                                                for="loansMortgagesChildcareQuarter">Quarter</label>
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="loansMortgagesChildcareWeek"
+                                                id="loansMortgagesChildcareWeekYears" value="option1">
+                                            <label class="form-check-label fw-semibold"
+                                                for="loansMortgagesChildcareWeekYears">Years</label>
+                                        </div>
+                                    </div>
                             </div>
-                            <div class="col-6">
-                                <div class="input-group">
-                                    <span class="input-group-text">$</span>
-                                    <input type="text" id="loansMortgagesChildcare" class="form-control">
-                                </div>
+                            <div class="col-12">
+                                <p class="mb-0 fw-semibold">Sickness and personal accident insurance, life insurance.</p>
                             </div>
-                            <div class="col-6 align-self-center">
-                                <div class="form-check form-check-inline">
-                                    <input class="form-check-input" type="radio" name="loansMortgagesChildcareWeek"
-                                        id="loansMortgagesChildcareWeek" value="option1">
-                                    <label class="form-check-label fw-semibold"
-                                        for="loansMortgagesChildcareWeek">Week</label>
-                                </div>
-                                <div class="form-check form-check-inline mx-2">
-                                    <input class="form-check-input" type="radio" name="loansMortgagesChildcareWeek"
-                                        id="loansMortgagesChildcareFortnight" value="option2">
-                                    <label class="form-check-label fw-semibold"
-                                        for="loansMortgagesChildcareFortnight">Fortnight</label>
-                                </div>
-                                <div class="form-check form-check-inline mx-2">
-                                    <input class="form-check-input" type="radio" name="loansMortgagesChildcareWeek"
-                                        id="loansMortgagesChildcareMonth" value="option1">
-                                    <label class="form-check-label fw-semibold"
-                                        for="loansMortgagesChildcareMonth">Month</label>
-                                </div>
-                                <div class="form-check form-check-inline mx-2">
-                                    <input class="form-check-input" type="radio" name="loansMortgagesChildcareWeek"
-                                        id="loansMortgagesChildcareQuarter" value="option2">
-                                    <label class="form-check-label fw-semibold"
-                                        for="loansMortgagesChildcareQuarter">Quarter</label>
-                                </div>
-                                <div class="form-check form-check-inline mx-2">
-                                    <input class="form-check-input" type="radio" name="loansMortgagesChildcareWeek"
-                                        id="loansMortgagesChildcareWeekYears" value="option1">
-                                    <label class="form-check-label fw-semibold"
-                                        for="loansMortgagesChildcareWeekYears">Years</label>
-                                </div>
-                            </div>
-                            <p class="fw-semibold">Sickness and personal accident insurance, life insurance.</p>
-                            <div class="col-6">
+                            <div class="col-12 col-lg-6">
                                 <label class="form-label fw-bold mb-0 text-capitalize"
                                     for="loansMortgagesCurrentBalance">Health insurance:<span class="text-danger">
                                         *</span></label>
+                                        <div class="input-group mt-3">
+                                            <span class="input-group-text">$</span>
+                                            <input type="text" id="loansMortgagesChildcare" class="form-control">
+                                        </div>
                             </div>
-                            <div class="col-6">
+                            <div class="col-12 col-lg-6 align-self-center">
                                 <label class="form-label fw-bold mb-0" for="loansMortgagesCurrentBalance">Per
                                     <span class="text-danger"> *</span></label>
+                                    <div class="mt-3">
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="loansMortgagesChildcareWeek"
+                                                id="loansMortgagesChildcareWeek" value="option1">
+                                            <label class="form-check-label fw-semibold"
+                                                for="loansMortgagesChildcareWeek">Week</label>
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="loansMortgagesChildcareWeek"
+                                                id="loansMortgagesChildcareFortnight" value="option2">
+                                            <label class="form-check-label fw-semibold"
+                                                for="loansMortgagesChildcareFortnight">Fortnight</label>
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="loansMortgagesChildcareWeek"
+                                                id="loansMortgagesChildcareMonth" value="option1">
+                                            <label class="form-check-label fw-semibold"
+                                                for="loansMortgagesChildcareMonth">Month</label>
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="loansMortgagesChildcareWeek"
+                                                id="loansMortgagesChildcareQuarter" value="option2">
+                                            <label class="form-check-label fw-semibold"
+                                                for="loansMortgagesChildcareQuarter">Quarter</label>
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="loansMortgagesChildcareWeek"
+                                                id="loansMortgagesChildcareWeekYears" value="option1">
+                                            <label class="form-check-label fw-semibold"
+                                                for="loansMortgagesChildcareWeekYears">Years</label>
+                                        </div>
+                                    </div>
                             </div>
-                            <div class="col-6">
-                                <div class="input-group">
-                                    <span class="input-group-text">$</span>
-                                    <input type="text" id="loansMortgagesChildcare" class="form-control">
-                                </div>
+                            <div class="col-12">
+                                <p class="mb-0 fw-semibold">Health insurance including hospital, medical and dental insurance
+                                    (excludes separate ambulance insurance)</p>
                             </div>
-                            <div class="col-6 align-self-center">
-                                <div class="form-check form-check-inline">
-                                    <input class="form-check-input" type="radio" name="loansMortgagesChildcareWeek"
-                                        id="loansMortgagesChildcareWeek" value="option1">
-                                    <label class="form-check-label fw-semibold"
-                                        for="loansMortgagesChildcareWeek">Week</label>
-                                </div>
-                                <div class="form-check form-check-inline mx-2">
-                                    <input class="form-check-input" type="radio" name="loansMortgagesChildcareWeek"
-                                        id="loansMortgagesChildcareFortnight" value="option2">
-                                    <label class="form-check-label fw-semibold"
-                                        for="loansMortgagesChildcareFortnight">Fortnight</label>
-                                </div>
-                                <div class="form-check form-check-inline mx-2">
-                                    <input class="form-check-input" type="radio" name="loansMortgagesChildcareWeek"
-                                        id="loansMortgagesChildcareMonth" value="option1">
-                                    <label class="form-check-label fw-semibold"
-                                        for="loansMortgagesChildcareMonth">Month</label>
-                                </div>
-                                <div class="form-check form-check-inline mx-2">
-                                    <input class="form-check-input" type="radio" name="loansMortgagesChildcareWeek"
-                                        id="loansMortgagesChildcareQuarter" value="option2">
-                                    <label class="form-check-label fw-semibold"
-                                        for="loansMortgagesChildcareQuarter">Quarter</label>
-                                </div>
-                                <div class="form-check form-check-inline mx-2">
-                                    <input class="form-check-input" type="radio" name="loansMortgagesChildcareWeek"
-                                        id="loansMortgagesChildcareWeekYears" value="option1">
-                                    <label class="form-check-label fw-semibold"
-                                        for="loansMortgagesChildcareWeekYears">Years</label>
-                                </div>
-                            </div>
-                            <p class="fw-semibold">Health insurance including hospital, medical and dental insurance
-                                (excludes separate ambulance insurance)</p>
                             <!-- medical and health -->
-                            <div class="col-6">
+                            <div class="col-12 col-lg-6">
                                 <label class="form-label fw-bold mb-0 text-capitalize"
                                     for="loansMortgagesCurrentBalance">Investment
                                     property running
                                     costs<span class="text-danger"> *</span></label>
+                                    <div class="input-group mt-3">
+                                        <span class="input-group-text">$</span>
+                                        <input type="text" id="loansMortgagesChildcare" class="form-control">
+                                    </div>
                             </div>
-                            <div class="col-6">
+                            <div class="col-12 col-lg-6 align-self-center">
                                 <label class="form-label fw-bold mb-0" for="loansMortgagesCurrentBalance">Per
                                     <span class="text-danger"> *</span></label>
+                                    <div class="mt-3">
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="loansMortgagesChildcareWeek"
+                                                id="loansMortgagesChildcareWeek" value="option1">
+                                            <label class="form-check-label fw-semibold"
+                                                for="loansMortgagesChildcareWeek">Week</label>
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="loansMortgagesChildcareWeek"
+                                                id="loansMortgagesChildcareFortnight" value="option2">
+                                            <label class="form-check-label fw-semibold"
+                                                for="loansMortgagesChildcareFortnight">Fortnight</label>
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="loansMortgagesChildcareWeek"
+                                                id="loansMortgagesChildcareMonth" value="option1">
+                                            <label class="form-check-label fw-semibold"
+                                                for="loansMortgagesChildcareMonth">Month</label>
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="loansMortgagesChildcareWeek"
+                                                id="loansMortgagesChildcareQuarter" value="option2">
+                                            <label class="form-check-label fw-semibold"
+                                                for="loansMortgagesChildcareQuarter">Quarter</label>
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="loansMortgagesChildcareWeek"
+                                                id="loansMortgagesChildcareWeekYears" value="option1">
+                                            <label class="form-check-label fw-semibold"
+                                                for="loansMortgagesChildcareWeekYears">Years</label>
+                                        </div>
+                                    </div>
                             </div>
-                            <div class="col-6">
-                                <div class="input-group">
-                                    <span class="input-group-text">$</span>
-                                    <input type="text" id="loansMortgagesChildcare" class="form-control">
-                                </div>
-                            </div>
-                            <div class="col-6 align-self-center">
-                                <div class="form-check form-check-inline">
-                                    <input class="form-check-input" type="radio" name="loansMortgagesChildcareWeek"
-                                        id="loansMortgagesChildcareWeek" value="option1">
-                                    <label class="form-check-label fw-semibold"
-                                        for="loansMortgagesChildcareWeek">Week</label>
-                                </div>
-                                <div class="form-check form-check-inline mx-2">
-                                    <input class="form-check-input" type="radio" name="loansMortgagesChildcareWeek"
-                                        id="loansMortgagesChildcareFortnight" value="option2">
-                                    <label class="form-check-label fw-semibold"
-                                        for="loansMortgagesChildcareFortnight">Fortnight</label>
-                                </div>
-                                <div class="form-check form-check-inline mx-2">
-                                    <input class="form-check-input" type="radio" name="loansMortgagesChildcareWeek"
-                                        id="loansMortgagesChildcareMonth" value="option1">
-                                    <label class="form-check-label fw-semibold"
-                                        for="loansMortgagesChildcareMonth">Month</label>
-                                </div>
-                                <div class="form-check form-check-inline mx-2">
-                                    <input class="form-check-input" type="radio" name="loansMortgagesChildcareWeek"
-                                        id="loansMortgagesChildcareQuarter" value="option2">
-                                    <label class="form-check-label fw-semibold"
-                                        for="loansMortgagesChildcareQuarter">Quarter</label>
-                                </div>
-                                <div class="form-check form-check-inline mx-2">
-                                    <input class="form-check-input" type="radio" name="loansMortgagesChildcareWeek"
-                                        id="loansMortgagesChildcareWeekYears" value="option1">
-                                    <label class="form-check-label fw-semibold"
-                                        for="loansMortgagesChildcareWeekYears">Years</label>
-                                </div>
-                            </div>
-                            <p class="fw-semibold">Costs associated with any property owned for investment purposes.
+                            <div class="col-12">
+                                <p class="mb-0 fw-semibold">Costs associated with any property owned for investment purposes.
                                 Includes body corporate fees, strata fees, land tax, property management fees, rates,
                                 water, sewage, repairs and maintenance, electricity, gas,
                                 heating oil and wood for fuel, purchase, hire and repair of household and outdoor
@@ -327,143 +325,140 @@
                                 tools, power tools, electrical, lights, trees, shrubs,
                                 plants, pool chemicals, landlords insurance, home insurance, contents insurance and
                                 appliance insurance.</p>
+                            </div>
                             <!-- /medical and health -->
                             <!-- pet care -->
-                            <div class="col-6">
+                            <div class="col-12 col-lg-6">
                                 <label class="form-label fw-bold mb-0 text-capitalize"
                                     for="loansMortgagesCurrentBalance">Secondary
                                     residence running
                                     costs<span class="text-danger"> *</span></label>
+                                    <div class="input-group mt-3">
+                                        <span class="input-group-text">$</span>
+                                        <input type="text" id="loansMortgagesChildcare" class="form-control">
+                                    </div>
                             </div>
-                            <div class="col-6">
+                            <div class="col-12 col-lg-6 align-self-center">
                                 <label class="form-label fw-bold mb-0" for="loansMortgagesCurrentBalance">Per
                                     <span class="text-danger"> *</span></label>
+                                    <div class="mt-3">
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="loansMortgagesChildcareWeek"
+                                                id="loansMortgagesChildcareWeek" value="option1">
+                                            <label class="form-check-label fw-semibold"
+                                                for="loansMortgagesChildcareWeek">Week</label>
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="loansMortgagesChildcareWeek"
+                                                id="loansMortgagesChildcareFortnight" value="option2">
+                                            <label class="form-check-label fw-semibold"
+                                                for="loansMortgagesChildcareFortnight">Fortnight</label>
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="loansMortgagesChildcareWeek"
+                                                id="loansMortgagesChildcareMonth" value="option1">
+                                            <label class="form-check-label fw-semibold"
+                                                for="loansMortgagesChildcareMonth">Month</label>
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="loansMortgagesChildcareWeek"
+                                                id="loansMortgagesChildcareQuarter" value="option2">
+                                            <label class="form-check-label fw-semibold"
+                                                for="loansMortgagesChildcareQuarter">Quarter</label>
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="loansMortgagesChildcareWeek"
+                                                id="loansMortgagesChildcareWeekYears" value="option1">
+                                            <label class="form-check-label fw-semibold"
+                                                for="loansMortgagesChildcareWeekYears">Years</label>
+                                        </div>
+                                    </div>
                             </div>
-                            <div class="col-6">
-                                <div class="input-group">
-                                    <span class="input-group-text">$</span>
-                                    <input type="text" id="loansMortgagesChildcare" class="form-control">
-                                </div>
+                            <div class="col-12">
+                                <p class="mb-0 fw-semibold">Costs associated with any secondary residence, either rented or owned
+                                    for non-investment purposes, such as a holiday property that is not rented to generate
+                                    income, or a property that family members (parents or
+                                    children) are allowed to live in rent-free. Includes body corporate fees, strata fees,
+                                    land tax, property management fees, rates, water, sewage, repairs and maintenance,
+                                    electricity, gas, heating oil and wood for fuel,
+                                    purchase, hire and repair of household and outdoor furnishings and equipment,
+                                    furnishings, floor coverings, linen, tableware, gardening tools, power tools,
+                                    electrical, lights, trees, shrubs, plants, pool chemicals,
+                                    landlords insurance, home insurance, contents insurance and appliance insurance.</p>
                             </div>
-                            <div class="col-6 align-self-center">
-                                <div class="form-check form-check-inline">
-                                    <input class="form-check-input" type="radio" name="loansMortgagesChildcareWeek"
-                                        id="loansMortgagesChildcareWeek" value="option1">
-                                    <label class="form-check-label fw-semibold"
-                                        for="loansMortgagesChildcareWeek">Week</label>
-                                </div>
-                                <div class="form-check form-check-inline mx-2">
-                                    <input class="form-check-input" type="radio" name="loansMortgagesChildcareWeek"
-                                        id="loansMortgagesChildcareFortnight" value="option2">
-                                    <label class="form-check-label fw-semibold"
-                                        for="loansMortgagesChildcareFortnight">Fortnight</label>
-                                </div>
-                                <div class="form-check form-check-inline mx-2">
-                                    <input class="form-check-input" type="radio" name="loansMortgagesChildcareWeek"
-                                        id="loansMortgagesChildcareMonth" value="option1">
-                                    <label class="form-check-label fw-semibold"
-                                        for="loansMortgagesChildcareMonth">Month</label>
-                                </div>
-                                <div class="form-check form-check-inline mx-2">
-                                    <input class="form-check-input" type="radio" name="loansMortgagesChildcareWeek"
-                                        id="loansMortgagesChildcareQuarter" value="option2">
-                                    <label class="form-check-label fw-semibold"
-                                        for="loansMortgagesChildcareQuarter">Quarter</label>
-                                </div>
-                                <div class="form-check form-check-inline mx-2">
-                                    <input class="form-check-input" type="radio" name="loansMortgagesChildcareWeek"
-                                        id="loansMortgagesChildcareWeekYears" value="option1">
-                                    <label class="form-check-label fw-semibold"
-                                        for="loansMortgagesChildcareWeekYears">Years</label>
-                                </div>
-                            </div>
-                            <p class="fw-semibold">Costs associated with any secondary residence, either rented or owned
-                                for non-investment purposes, such as a holiday property that is not rented to generate
-                                income, or a property that family members (parents or
-                                children) are allowed to live in rent-free. Includes body corporate fees, strata fees,
-                                land tax, property management fees, rates, water, sewage, repairs and maintenance,
-                                electricity, gas, heating oil and wood for fuel,
-                                purchase, hire and repair of household and outdoor furnishings and equipment,
-                                furnishings, floor coverings, linen, tableware, gardening tools, power tools,
-                                electrical, lights, trees, shrubs, plants, pool chemicals,
-                                landlords insurance, home insurance, contents insurance and appliance insurance.</p>
                             <!-- /pet care -->
                             <!-- primary residence running costs -->
-                            <div class="col-6">
+                            <div class="col-12 col-lg-6">
                                 <label class="form-label fw-bold mb-0" for="loansMortgagesCurrentBalance">Other<span
                                         class="text-danger"> *</span></label>
+                                        <div class="input-group mt-3">
+                                            <span class="input-group-text">$</span>
+                                            <input type="text" id="loansMortgagesChildcare" class="form-control">
+                                        </div>
                             </div>
-                            <div class="col-6">
+                            <div class="col-12 col-lg-6 align-self-center">
                                 <label class="form-label fw-bold mb-0" for="loansMortgagesCurrentBalance">Per
                                     <span class="text-danger"> *</span></label>
+                                    <div class="mt-3">
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="loansMortgagesChildcareWeek"
+                                                id="loansMortgagesChildcareWeek" value="option1">
+                                            <label class="form-check-label fw-semibold"
+                                                for="loansMortgagesChildcareWeek">Week</label>
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="loansMortgagesChildcareWeek"
+                                                id="loansMortgagesChildcareFortnight" value="option2">
+                                            <label class="form-check-label fw-semibold"
+                                                for="loansMortgagesChildcareFortnight">Fortnight</label>
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="loansMortgagesChildcareWeek"
+                                                id="loansMortgagesChildcareMonth" value="option1">
+                                            <label class="form-check-label fw-semibold"
+                                                for="loansMortgagesChildcareMonth">Month</label>
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="loansMortgagesChildcareWeek"
+                                                id="loansMortgagesChildcareQuarter" value="option2">
+                                            <label class="form-check-label fw-semibold"
+                                                for="loansMortgagesChildcareQuarter">Quarter</label>
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="loansMortgagesChildcareWeek"
+                                                id="loansMortgagesChildcareWeekYears" value="option1">
+                                            <label class="form-check-label fw-semibold"
+                                                for="loansMortgagesChildcareWeekYears">Years</label>
+                                        </div>
+                                    </div>
                             </div>
-                            <div class="col-6">
-                                <div class="input-group">
-                                    <span class="input-group-text">$</span>
-                                    <input type="text" id="loansMortgagesChildcare" class="form-control">
-                                </div>
+                            <div class="col-12">
+                                <p class="mb-0 fw-semibold">Other ongoing or recurring items not included within the other
+                                    categories including, but not limited to pet insurance, insurance not elsewhere
+                                    classified, registration, insurance and operation of recreational vehicles
+                                    (such as caravans, trailers, motorcycles, boats and aircraft), overseas holidays, gifts,
+                                    jewellers, household services including cleaning, gardening, housekeeping, security and
+                                    pest control services.
+                                </p>
                             </div>
-                            <div class="col-6 align-self-center">
-                                <div class="form-check form-check-inline">
-                                    <input class="form-check-input" type="radio" name="loansMortgagesChildcareWeek"
-                                        id="loansMortgagesChildcareWeek" value="option1">
-                                    <label class="form-check-label fw-semibold"
-                                        for="loansMortgagesChildcareWeek">Week</label>
-                                </div>
-                                <div class="form-check form-check-inline mx-2">
-                                    <input class="form-check-input" type="radio" name="loansMortgagesChildcareWeek"
-                                        id="loansMortgagesChildcareFortnight" value="option2">
-                                    <label class="form-check-label fw-semibold"
-                                        for="loansMortgagesChildcareFortnight">Fortnight</label>
-                                </div>
-                                <div class="form-check form-check-inline mx-2">
-                                    <input class="form-check-input" type="radio" name="loansMortgagesChildcareWeek"
-                                        id="loansMortgagesChildcareMonth" value="option1">
-                                    <label class="form-check-label fw-semibold"
-                                        for="loansMortgagesChildcareMonth">Month</label>
-                                </div>
-                                <div class="form-check form-check-inline mx-2">
-                                    <input class="form-check-input" type="radio" name="loansMortgagesChildcareWeek"
-                                        id="loansMortgagesChildcareQuarter" value="option2">
-                                    <label class="form-check-label fw-semibold"
-                                        for="loansMortgagesChildcareQuarter">Quarter</label>
-                                </div>
-                                <div class="form-check form-check-inline mx-2">
-                                    <input class="form-check-input" type="radio" name="loansMortgagesChildcareWeek"
-                                        id="loansMortgagesChildcareWeekYears" value="option1">
-                                    <label class="form-check-label fw-semibold"
-                                        for="loansMortgagesChildcareWeekYears">Years</label>
-                                </div>
-                            </div>
-                            <p class="fw-semibold">Other ongoing or recurring items not included within the other
-                                categories including, but not limited to pet insurance, insurance not elsewhere
-                                classified, registration, insurance and operation of recreational vehicles
-                                (such as caravans, trailers, motorcycles, boats and aircraft), overseas holidays, gifts,
-                                jewellers, household services including cleaning, gardening, housekeeping, security and
-                                pest control services.
-                            </p>
                             <!-- public or government primary and secondary education -->
-                            <div class="col-6">
+                            <div class="col-12 col-lg-6">
                                 <label class="form-label fw-bold mb-0 text-capitalize"
                                     for="loansMortgagesCurrentBalance text-capitalize">Total monthly
                                     expenditure<span class="text-danger"> *</span></label>
+                                    <div class="input-group mt-3">
+                                        <span class="input-group-text fw-semibold">$</span>
+                                        <input type="text" class="form-control rounded-end borde">
+                                    </div>
                             </div>
-                            <div class="col-6">
+                            <div class="col-12 col-lg-6">
                                 <label class="form-label fw-bold mb-0 text-capitalize"
                                     for="loansMortgagesCurrentBalance text-capitalize">Total Annual
                                     expenditure<span class="text-danger"> *</span></label>
-                            </div>
-                            <div class="col-6 align-self-center">
-                                <div class="input-group">
-                                    <span class="input-group-text fw-semibold">$</span>
-                                    <input type="text" class="form-control rounded-end borde">
-                                </div>
-                            </div>
-                            <div class="col-6 align-self-center">
-                                <div class="input-group">
-                                    <span class="input-group-text fw-semibold">$</span>
-                                    <input type="text" class="form-control rounded-end borde">
-                                </div>
+                                    <div class="input-group mt-3">
+                                        <span class="input-group-text fw-semibold">$</span>
+                                        <input type="text" class="form-control rounded-end borde">
+                                    </div>
                             </div>
                             <!-- household expenses & payment cycles continued -->
 
