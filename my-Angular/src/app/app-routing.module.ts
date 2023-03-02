@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { ApplicationContinuedComponent } from './application-continued/application-continued.component';
+import { BuyersComponent } from './buyers/buyers.component';
 import { CreditCardComponent } from './credit-card/credit-card.component';
 import { CurrentMortgagesSecondComponent } from './current-mortgages-second/current-mortgages-second.component';
 import { CurrentMortgagesComponent } from './current-mortgages/current-mortgages.component';
@@ -28,6 +29,7 @@ const routes: Routes = [
   { path: 'infoCustomer', component: InfoCustomerComponent },
   { path: 'funds', component: FundsComponent },
   { path: 'security', component: SecurityComponent },
+  { path: 'buyers', component: BuyersComponent },
 ];
 
 @NgModule({
