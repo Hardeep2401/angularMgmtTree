@@ -15,7 +15,7 @@ import { NavCardComponent } from './nav-card/nav-card.component';
 import { SecurityComponent } from './security/security.component';
 
 const routes: Routes = [
-  { path: '', component: NavCardComponent },
+  { path: '', component: CardComponent },
   { path: 'home', component: CardComponent },
   { path: 'about', component: ApplicationContinuedComponent },
   { path: 'services', component: CurrentMortgagesComponent },
