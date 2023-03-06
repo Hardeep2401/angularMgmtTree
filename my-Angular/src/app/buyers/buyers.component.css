@@ -22,4 +22,8 @@
 .sectionBorder {
     border-left:5px solid red;
 }
+.peraFontSize {
+    font-size: 14px;
+    margin-bottom:0px;
+}
 
