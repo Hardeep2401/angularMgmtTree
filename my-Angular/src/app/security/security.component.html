@@ -133,7 +133,7 @@
                                     <div class="form-check form-check-inline">
                                         <input class="form-check-input" type="checkbox"
                                             name="securityValuationCheckedIncluded"
-                                            id="securityValuationCheckedIncludedCopyCMA" value="option2">
+                                            id="securityValuationCheckedIncludedCopyCMA" />
                                         <label class="form-check-label fw-semibold"
                                             for="securityValuationCheckedIncludedCopyCMA">Copy of CoreLogic CMA
                                             (residential only)</label>
@@ -141,7 +141,7 @@
                                     <div class="form-check form-check-inline">
                                         <input class="form-check-input" type="checkbox"
                                             name="securityValuationCheckedIncluded"
-                                            id="securityValuationCheckedIncludedCopyValuation" value="option2">
+                                            id="securityValuationCheckedIncludedCopyValuation" />
                                         <label class="form-check-label fw-semibold text-capitalize"
                                             for="securityValuationCheckedIncludedCopyValuation">Copy of valuation
                                             on hand</label>
@@ -1410,7 +1410,7 @@
                                 </div>
                             </div>
 
-                            <div class="col-12 col-md-6 col-lg-4  ">
+                            <div class="col-12 col-md-6">
                                 <div class="form-check form-check-inline">
                                     <input class="form-check-input" type="radio" name="customerAMLResultSecond"
                                         id="customerAMLResultSecondPass" value="option2">
@@ -1426,21 +1426,25 @@
                             </div>
                             <!-- units & apartments -->
                             <div class="col-12 col-md-6 col-lg-4">
-                                <label class="form-check-label fw-semibold text-capitalize mb-3"
+                                <label class="form-check-label fw-bold text-capitalize mb-3"
                                     for="customerAMLResultSecondPass">Units & apartments</label>
                                 <div class="input-group">
-                                    <input type="text" class="form-control" aria-label="Recipient's username"
-                                        aria-describedby="basic-addon2">
-                                    <span class="input-group-text fw-semibold">m <sup>2</sup></span>
+                                    <div class="mx-1 align-self-center">
+                                        <input class="form-check-input" type="radio" name="customerAMLResultSecond"
+                                            id="customerAMLResultSecondPass" value="option2">
+                                    </div>
+                                    <input type="text" class="form-control rounded-start"
+                                        aria-label="Recipient's username" aria-describedby="basic-addon2">
+                                    <span class="input-group-text fw-semibold rounded-end">m <sup>2</sup></span>
+                                    <div>
+                                    </div>
                                 </div>
-                            </div>
-                            <div class="col-12 col-md-6 col-lg-4 align-self-end mb-lg-2 mb-md-2 mb-0">
-                                <label class="form-check-label fw-semibold text-capitalize"
-                                    for="customerAMLResultSecondPass">Living area excluding garages & balconies (min
-                                    30)</label>
+                                <p class="mx-4 mt-2 peraFontSize">
+                                    Living area excluding garages & balconies (min 30)
+                                </p>
                             </div>
                             <div class="col-12 col-md-6 col-lg-4">
-                                <label class="form-check-label fw-semibold text-capitalize mb-3"
+                                <label class="form-check-label fw-bold text-capitalize mb-3"
                                     for="customerAMLResultSecondPass">Number of dwellings per title</label>
                                 <div class="input-group">
                                     <input type="text" class="form-control" aria-label="Recipient's username"
@@ -1543,7 +1547,7 @@
                                         for="customerAMLResultSecondPass">Serviced-Managed</label>
                                 </div>
                             </div>
-                            <div class="col-12 col-md-6 col-lg-4">
+                            <div class="col-12 col-md-6 col-lg-4 align-self-end">
                                 <div class="form-check form-check-inline">
                                     <input class="form-check-input" type="radio" name="customerAMLResultSecond"
                                         id="customerAMLResultSecondPass" value="option2">
