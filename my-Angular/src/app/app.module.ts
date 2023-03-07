@@ -40,9 +40,7 @@ import { InfoCustomerComponent } from './info-customer/info-customer.component';
 import { FundsComponent } from './funds/funds.component';
 import { SecurityComponent } from './security/security.component';
 import { BuyersComponent } from './buyers/buyers.component';
-import { PertinentcontactsComponent } from './pertinentcontacts/pertinentcontacts.component';
-
-
+import { PertinentContactsComponent } from './pertinent-contacts/pertinent-contacts.component';
 
 @NgModule({
   declarations: [
@@ -83,17 +81,10 @@ import { PertinentcontactsComponent } from './pertinentcontacts/pertinentcontact
     FundsComponent,
     SecurityComponent,
     BuyersComponent,
-    PertinentcontactsComponent
-    
-
+    PertinentContactsComponent,
   ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule,
-    FormsModule,
-    HttpClientModule
-  ],
+  imports: [BrowserModule, AppRoutingModule, FormsModule, HttpClientModule],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}

@@ -12,7 +12,7 @@ import { InfoCustomerComponent } from './info-customer/info-customer.component';
 import { LoanMortgagesSecondComponent } from './loan-mortgages-second/loan-mortgages-second.component';
 import { LoansMortgagesComponent } from './loans-mortgages/loans-mortgages.component';
 import { CardComponent } from './nav-card/card/card.component';
-import { NavCardComponent } from './nav-card/nav-card.component';
+import { PertinentContactsComponent } from './pertinent-contacts/pertinent-contacts.component';
 import { SecurityComponent } from './security/security.component';
 
 const routes: Routes = [
@@ -30,6 +30,7 @@ const routes: Routes = [
   { path: 'funds', component: FundsComponent },
   { path: 'security', component: SecurityComponent },
   { path: 'buyers', component: BuyersComponent },
+  { path: 'pertinent', component: PertinentContactsComponent },
 ];
 
 @NgModule({
