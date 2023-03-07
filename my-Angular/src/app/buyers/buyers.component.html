@@ -35,7 +35,7 @@
                                         id="securityValuationCheckedIncludedCopyValuation" />
                                     <label class="form-check-label fw-semibold"
                                         for="securityValuationCheckedIncludedCopyValuation">No
-                                        <a href="https://www.firsthome.gov.au/" target="_blank"
+                                        <a target="_blank"
                                             class="text-dark text-decoration-none">https://www.firsthome.gov.au/</a>
                                         <p class="peraFontSize">(reply after careful review)</p>
                                     </label>
@@ -215,58 +215,56 @@
                             <div class="col-12">
                                 <div class="form-check form-check-inline mb-3">
                                     <label class="form-check-label fw-bold text-capitalize"
-                                        for="customerAMLResultSecondPass">Nature of transaction<span
-                                            class="text-danger"> *</span></label>
+                                        for="buyersNatureTransaction">Nature of transaction<span class="text-danger">
+                                            *</span></label>
                                 </div>
                                 <div>
                                     <div class="form-check form-check-inline">
                                         <input class="form-check-input" type="radio"
-                                            name="securityValuationCheckedIncluded"
-                                            id="securityValuationCheckedIncludedCopyCMA" />
+                                            name="buyersNatureTransactionNonArmsLenght"
+                                            id="buyersNatureTransactionNonArmsLenght" />
                                         <label class="form-check-label fw-semibold"
-                                            for="securityValuationCheckedIncludedCopyCMA">Non arm’s length</label>
+                                            for="buyersNatureTransactionNonArmsLenght">Non arm’s length</label>
                                     </div>
                                     <div class="form-check form-check-inline">
                                         <input class="form-check-input" type="radio"
-                                            name="securityValuationCheckedIncluded"
-                                            id="securityValuationCheckedIncludedCopyCMA" />
+                                            name="buyersNatureTransactionNomineePurchaser"
+                                            id="buyersNatureTransactionNomineePurchaser" />
                                         <label class="form-check-label fw-semibold"
-                                            for="securityValuationCheckedIncludedCopyCMA">Nominee/purchaser different to
-                                            borrower</label>
+                                            for="buyersNatureTransactionNomineePurchaser">Nominee/Purchaser Different To
+                                            Borrower</label>
                                     </div>
                                     <div class="form-check form-check-inline">
                                         <input class="form-check-input" type="radio"
-                                            name="securityValuationCheckedIncluded"
-                                            id="securityValuationCheckedIncludedCopyCMA" />
+                                            name="buyersNatureTransactionLicensedAgent"
+                                            id="buyersNatureTransactionLicensedAgent" />
                                         <label class="form-check-label fw-semibold"
-                                            for="securityValuationCheckedIncludedCopyCMA">Licensed agent</label>
+                                            for="buyersNatureTransactionLicensedAgent">Licensed agent</label>
                                     </div>
                                     <div class="form-check form-check-inline">
-                                        <input class="form-check-input" type="radio"
-                                            name="securityValuationCheckedIncluded"
-                                            id="securityValuationCheckedIncludedCopyCMA" />
+                                        <input class="form-check-input" type="radio" name="buyersNatureTransaction"
+                                            id="buyersNatureTransactionNo" />
                                         <label class="form-check-label fw-semibold"
-                                            for="securityValuationCheckedIncludedCopyCMA">Yes</label>
+                                            for="buyersNatureTransactionNo">No</label>
                                     </div>
                                     <div class="form-check form-check-inline">
-                                        <input class="form-check-input" type="radio"
-                                            name="securityValuationCheckedIncluded"
-                                            id="securityValuationCheckedIncludedCopyCMA" />
+                                        <input class="form-check-input" type="radio" name="buyersNatureTransaction"
+                                            id="buyersNatureTransactionYes" />
                                         <label class="form-check-label fw-semibold"
-                                            for="securityValuationCheckedIncludedCopyCMA">No</label>
+                                            for="buyersNatureTransactionYes">Yes</label>
                                     </div>
+
                                 </div>
                             </div>
                             <!-- real-estate agency -->
                             <div class="col-12">
                                 <div class="form-check-inline mb-3">
-                                    <label class="form-check-label fw-bold"
-                                        for="securityValuationCheckedIncludedCopyCMA">Real-estate agency<span
-                                            class="text-danger"> *</span></label>
+                                    <label class="form-check-label fw-bold" for="buyersRealEstateAgency">Real-estate
+                                        agency<span class="text-danger"> *</span></label>
                                 </div>
                                 <div class="input-group">
-                                    <input class="form-control" type="text" name="customerAMLResultSecond"
-                                        id="customerAMLResultSecondPass">
+                                    <input class="form-control" type="text" name="buyersRealEstateAgency"
+                                        id="buyersRealEstateAgency">
                                 </div>
                             </div>
                             <!-- /real-estate agency -->
@@ -278,85 +276,79 @@
                             <!-- builder’s name -->
                             <div class="col-12 col-md-6 col-lg-4">
                                 <div class="form-check-inline mb-3">
-                                    <label class="form-check-label fw-bold"
-                                        for="securityValuationCheckedIncludedCopyCMA">Builder’s Name<span
+                                    <label class="form-check-label fw-bold" for="buyersBuilderName">Builder’s Name<span
                                             class="text-danger"> *</span></label>
                                 </div>
                                 <div class="input-group">
-                                    <input class="form-control" type="text" name="customerAMLResultSecond"
-                                        id="customerAMLResultSecondPass">
+                                    <input class="form-control" type="text" name="buyersBuilderName"
+                                        id="buyersBuilderName">
                                 </div>
                             </div>
                             <!-- /builder’s name -->
                             <!-- license -->
                             <div class="col-12 col-md-6 col-lg-4">
                                 <div class="form-check-inline mb-3">
-                                    <label class="form-check-label fw-bold"
-                                        for="securityValuationCheckedIncludedCopyCMA">License #<span
+                                    <label class="form-check-label fw-bold" for="buyersLicense">License #<span
                                             class="text-danger"> *</span></label>
                                 </div>
                                 <div class="input-group">
-                                    <input class="form-control" type="text" name="customerAMLResultSecond"
-                                        id="customerAMLResultSecondPass">
+                                    <input class="form-control" type="text" name="buyersLicense" id="buyersLicense">
                                 </div>
                             </div>
                             <!-- /license -->
                             <!-- State held -->
                             <div class="col-12 col-md-6 col-lg-4">
                                 <div class="form-check-inline mb-3">
-                                    <label class="form-check-label fw-bold" for=" ">State Held<span class="text-danger">
+                                    <label class="form-check-label fw-bold" for="buyersStateHeld">State Held<span
+                                            class="text-danger">
                                             *</span></label>
                                 </div>
                                 <div class="input-group">
-                                    <input class="form-control" type="text" name="customerAMLResultSecond"
-                                        id="customerAMLResultSecondPass">
+                                    <input class="form-control" type="text" name="buyersStateHeld" id="buyersStateHeld">
                                 </div>
                             </div>
                             <!-- /state held -->
                             <!-- abn -->
                             <div class="col-12 col-md-6 col-lg-4">
                                 <div class="form-check-inline mb-3">
-                                    <label class="form-check-label fw-bold" for=" ">ABN<span class="text-danger">
+                                    <label class="form-check-label fw-bold" for="buyersAbn">ABN<span
+                                            class="text-danger">
                                             *</span></label>
                                 </div>
                                 <div class="input-group">
-                                    <input class="form-control" type="text" name="customerAMLResultSecond"
-                                        id="customerAMLResultSecondPass">
+                                    <input class="form-control" type="text" name="buyersAbn" id="buyersAbn">
                                 </div>
                             </div>
                             <!-- /abn -->
                             <!-- acn -->
                             <div class="col-12 col-md-6 col-lg-4">
                                 <div class="form-check-inline mb-3">
-                                    <label class="form-check-label fw-bold" for=" ">ACN<span class="text-danger">
+                                    <label class="form-check-label fw-bold" for="buyersAcn">ACN<span
+                                            class="text-danger">
                                             *</span></label>
                                 </div>
                                 <div class="input-group">
-                                    <input class="form-control" type="text" name="customerAMLResultSecond"
-                                        id="customerAMLResultSecondPass">
+                                    <input class="form-control" type="text" name="buyersAcn" id="buyersAcn">
                                 </div>
                             </div>
                             <!-- mst apposed -->
                             <div class="col-12 col-md-6 col-lg-4 align-self-center">
                                 <div class="form-check-inline mb-3 mb-md-4 mb-lg-4">
-                                    <label class="form-check-label fw-bold" for=" ">MSt Apposed<span
+                                    <label class="form-check-label fw-bold" for="buyersMstApposed">MSt Apposed<span
                                             class="text-danger">
                                             *</span></label>
                                 </div>
                                 <div>
                                     <div class="form-check form-check-inline">
-                                        <input class="form-check-input" type="radio"
-                                            name="securityValuationCheckedIncluded"
-                                            id="securityValuationCheckedIncludedCopyCMA" />
+                                        <input class="form-check-input" type="radio" name="buyersMstApposed"
+                                            id="buyersMstApposedYes" />
                                         <label class="form-check-label fw-semibold"
-                                            for="securityValuationCheckedIncludedCopyCMA">Yes</label>
+                                            for="buyersMstApposedYes">Yes</label>
                                     </div>
                                     <div class="form-check form-check-inline">
-                                        <input class="form-check-input" type="radio"
-                                            name="securityValuationCheckedIncluded"
-                                            id="securityValuationCheckedIncludedCopyCMA" />
-                                        <label class="form-check-label fw-semibold"
-                                            for="securityValuationCheckedIncludedCopyCMA">No</label>
+                                        <input class="form-check-input" type="radio" name="buyersMstApposed"
+                                            id="buyersMstApposedNo" />
+                                        <label class="form-check-label fw-semibold" for="buyersMstApposedNo">No</label>
                                     </div>
                                     <p class="peraFontSize mx-4">(If no, seek formal approval prior to submission)</p>
                                 </div>
@@ -365,73 +357,612 @@
                             <!-- owners name -->
                             <div class="col-12 col-md-6 col-lg-4">
                                 <div class="form-check-inline mb-3">
-                                    <label class="form-check-label fw-bold" for=" ">Owners Name<span
+                                    <label class="form-check-label fw-bold" for="buyersOwnersName">Owners Name<span
                                             class="text-danger">
                                             *</span></label>
                                 </div>
                                 <div class="input-group">
-                                    <input class="form-control" type="text" name="customerAMLResultSecond"
-                                        id="customerAMLResultSecondPass">
+                                    <input class="form-control" type="text" name="buyersOwnersName"
+                                        id="buyersOwnersName">
                                 </div>
                             </div>
                             <!-- /owners name -->
                             <!-- mobile -->
                             <div class="col-12 col-md-6 col-lg-4">
                                 <div class="form-check-inline mb-3">
-                                    <label class="form-check-label fw-bold" for=" ">Mobile<span class="text-danger">
+                                    <label class="form-check-label fw-bold" for="buyersOwnersMobile">Mobile<span
+                                            class="text-danger">
                                             *</span></label>
                                 </div>
                                 <div class="input-group">
-                                    <input class="form-control" type="text" name="customerAMLResultSecond"
-                                        id="customerAMLResultSecondPass">
+                                    <input class="form-control" type="text" name="buyersOwnersMobile"
+                                        id="buyersOwnersMobile">
                                 </div>
                             </div>
                             <!-- /mobile -->
                             <!-- & e-mail -->
                             <div class="col-12 col-md-6 col-lg-4">
                                 <div class="form-check-inline mb-3">
-                                    <label class="form-check-label fw-bold" for=" ">& E-Mail<span class="text-danger">
+                                    <label class="form-check-label fw-bold" for="buyersOwnersEmail">& E-Mail<span
+                                            class="text-danger">
                                             *</span></label>
                                 </div>
                                 <div class="input-group">
-                                    <input class="form-control" type="text" name="customerAMLResultSecond"
-                                        id="customerAMLResultSecondPass">
+                                    <input class="form-control" type="text" name="buyersOwnersEmail"
+                                        id="buyersOwnersEmail">
                                 </div>
                             </div>
                             <!-- & e-mail -->
                             <!-- director’s ID -->
                             <div class="col-12">
-                                <label class="form-label fw-bold mb-0"
-                                    for="applicantCreditCardNameFinancialInstitution">Director’s ID
+                                <label class="form-label fw-bold mb-0" for="buyersDirectorId">Director’s ID
                                     <span class="text-danger">*</span></label>
                             </div>
                             <div class="col-12">
                                 <div class="row g-3">
                                     <div class="col-md-6 col-lg-3 col-12">
-                                        <input class="form-control" type="text"
-                                            id="applicantCreditCardNameFinancialInstitution" placeholder="Director’s ID"
-                                            aria-label="name" />
-                                    </div>
-                                    <div class="col-md-6 col-lg-3 col-12">
-                                        <input class="form-control" type="text"
-                                            id="applicantCreditCardTwoNameFinancialInstitution"
+                                        <input class="form-control" type="text" id="buyersDirectorId"
                                             placeholder="Director’s ID" aria-label="name" />
                                     </div>
                                     <div class="col-md-6 col-lg-3 col-12">
-                                        <input class="form-control" type="text"
-                                            id="applicantCreditCardThreeNameFinancialInstitution"
+                                        <input class="form-control" type="text" id="buyersDirectorIdSecond"
                                             placeholder="Director’s ID" aria-label="name" />
                                     </div>
                                     <div class="col-md-6 col-lg-3 col-12">
-                                        <input class="form-control" type="text"
-                                            id="applicantCreditCardFourNameFinancialInstitution"
+                                        <input class="form-control" type="text" id="buyersDirectorIdSecond"
+                                            placeholder="Director’s ID" aria-label="name" />
+                                    </div>
+                                    <div class="col-md-6 col-lg-3 col-12">
+                                        <input class="form-control" type="text" id="buyersDirectorIdSecond"
                                             placeholder="Director’s ID" aria-label="name" />
                                     </div>
                                 </div>
                             </div>
-
-
+                            <!-- bank account signatory -->
+                            <div class="col-12 col-md-6 col-lg-4">
+                                <div class="form-check-inline mb-3">
+                                    <label class="form-check-label fw-bold" for="buyersOrBankAccountSignatory">Bank
+                                        Account Signatory<span class="text-danger">
+                                            *</span></label>
+                                </div>
+                                <div class="input-group">
+                                    <input class="form-control" type="text" name="buyersOrBankAccountSignatory"
+                                        id="buyersOrBankAccountSignatory">
+                                </div>
+                            </div>
+                            <!-- /bank account signatory -->
+                            <!-- mobile -->
+                            <div class="col-12 col-md-6 col-lg-4">
+                                <div class="form-check-inline mb-3">
+                                    <label class="form-check-label fw-bold" for="buyersOrMobile">Mobile<span
+                                            class="text-danger">
+                                            *</span></label>
+                                </div>
+                                <div class="input-group">
+                                    <input class="form-control" type="text" name="buyersOrMobile" id="buyersOrMobile">
+                                </div>
+                            </div>
+                            <!-- /mobile -->
+                            <!-- & e-mail -->
+                            <div class="col-12 col-md-6 col-lg-4">
+                                <div class="form-check-inline mb-3">
+                                    <label class="form-check-label fw-bold" for="buyersOrEmail">& E-Mail<span
+                                            class="text-danger">
+                                            *</span></label>
+                                </div>
+                                <div class="input-group">
+                                    <input class="form-control" type="text" name="buyersOrEmail" id="buyersOrEmail">
+                                </div>
+                            </div>
+                            <!-- /& e-mail -->
+                            <!-- bank account signatory -->
+                            <div class="col-12 col-md-6 col-lg-4">
+                                <div class="form-check-inline mb-3">
+                                    <label class="form-check-label fw-bold" for="buyersBankAccountSignatoryFirst">Bank
+                                        Account Signatory</label>
+                                </div>
+                                <div class="input-group">
+                                    <input class="form-control" type="text" name="buyersBankAccountSignatoryFirst"
+                                        id="buyersBankAccountSignatoryFirst">
+                                </div>
+                            </div>
+                            <!-- /bank account signatory -->
+                            <!-- mobile -->
+                            <div class="col-12 col-md-6 col-lg-4">
+                                <div class="form-check-inline mb-3">
+                                    <label class="form-check-label fw-bold" for="buyersMobileFirst">Mobile</label>
+                                </div>
+                                <div class="input-group">
+                                    <input class="form-control" type="text" name="buyersMobileFirst"
+                                        id="buyersMobileFirst">
+                                </div>
+                            </div>
+                            <!-- /mobile -->
+                            <!-- & e-mail -->
+                            <div class="col-12 col-md-6 col-lg-4">
+                                <div class="form-check-inline mb-3">
+                                    <label class="form-check-label fw-bold" for="buyersEmailFirst">& E-Mail</label>
+                                </div>
+                                <div class="input-group">
+                                    <input class="form-control" type="text" name="buyersEmailFirst"
+                                        id="buyersEmailFirst">
+                                </div>
+                            </div>
+                            <!-- /& e-mail -->
+                            <!-- bank account signatory -->
+                            <div class="col-12 col-md-6 col-lg-4">
+                                <div class="form-check-inline mb-3">
+                                    <label class="form-check-label fw-bold" for="buyersBankAccountSignatory">Bank
+                                        Account Signatory</label>
+                                </div>
+                                <div class="input-group">
+                                    <input class="form-control" type="text" name="buyersBankAccountSignatory"
+                                        id="buyersBankAccountSignatory">
+                                </div>
+                            </div>
+                            <!-- /bank account signatory -->
+                            <!-- mobile -->
+                            <div class="col-12 col-md-6 col-lg-4">
+                                <div class="form-check-inline mb-3">
+                                    <label class="form-check-label fw-bold" for="buyersMobileSecond">Mobile</label>
+                                </div>
+                                <div class="input-group">
+                                    <input class="form-control" type="text" name=" buyersMobileSecond"
+                                        id="buyersMobileSecond">
+                                </div>
+                            </div>
+                            <!-- /mobile -->
+                            <!-- & e-mail -->
+                            <div class="col-12 col-md-6 col-lg-4">
+                                <div class="form-check-inline mb-3">
+                                    <label class="form-check-label fw-bold" for="buyersEMailSecond">& E-Mail</label>
+                                </div>
+                                <div class="input-group">
+                                    <input class="form-control" type="text" name="buyersEMailSecond"
+                                        id="buyersEMailSecond">
+                                </div>
+                            </div>
+                            <!-- /& e-mail -->
+                            <!-- bank account signatory -->
+                            <div class="col-12 col-md-6 col-lg-4">
+                                <div class="form-check-inline mb-3">
+                                    <label class="form-check-label fw-bold" for="buyersDrawdownAdminThird">Drawdown
+                                        Admin<span class="text-danger">
+                                            *</span></label>
+                                </div>
+                                <div class="input-group">
+                                    <input class="form-control" type="text" name="buyersDrawdownAdminThird"
+                                        id="buyersDrawdownAdminThird">
+                                </div>
+                            </div>
+                            <!-- /bank account signatory -->
+                            <!-- mobile -->
+                            <div class="col-12 col-md-6 col-lg-4">
+                                <div class="form-check-inline mb-3">
+                                    <label class="form-check-label fw-bold" for="buyersMobileThird">Mobile</label>
+                                </div>
+                                <div class="input-group">
+                                    <input class="form-control" type="text" name="buyersMobileThird"
+                                        id="buyersMobileThird">
+                                </div>
+                            </div>
+                            <!-- /mobile -->
+                            <!-- & e-mail -->
+                            <div class="col-12 col-md-6 col-lg-4">
+                                <div class="form-check-inline mb-3">
+                                    <label class="form-check-label fw-bold" for="buyersEmailThird">& E-Mail</label>
+                                </div>
+                                <div class="input-group">
+                                    <input class="form-control" type="text" name="buyersEmailThird"
+                                        id="buyersEmailThird">
+                                </div>
+                            </div>
+                            <!-- /& e-mail -->
+                            <!-- Seeking a front end loaded progress draw down schedule -->
+                            <div class="col-12 border-2 border-bottom border-danger pb-3">
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="buyersSeekingFrontLoadedProgress"
+                                        id="buyersSeekingFrontLoadedProgress" />
+                                    <label class="form-check-label fw-semibold text-capitalize"
+                                        for="buyersSeekingFrontLoadedProgress">Seeking a front
+                                        end loaded progress draw down schedule</label>
+                                </div>
+                            </div>
+                            <!-- /seeking a front end loaded progress draw down schedule -->
+                            <!-- green licensed builders name -->
+                            <div class="col-12 col-md-6 col-lg-4">
+                                <div class="form-check-inline mb-3">
+                                    <label class="form-check-label fw-bold" for="buyersMobileThird">Green licensed
+                                        builders name<span class="text-danger">
+                                            *</span></label>
+                                </div>
+                                <div class="input-group">
+                                    <input class="form-control" type="text" name="buyersMobileThird"
+                                        id="buyersMobileThird">
+                                </div>
+                            </div>
+                            <!-- /green licensed builders name -->
+                            <!-- tag # -->
+                            <div class="col-12 col-md-6 col-lg-4">
+                                <div class="form-check-inline mb-3">
+                                    <label class="form-check-label fw-bold" for="buyersMobileThird">#</label>
+                                </div>
+                                <div class="input-group">
+                                    <input class="form-control" type="text" name="buyersMobileThird"
+                                        id="buyersMobileThird">
+                                </div>
+                            </div>
+                            <!-- /tag # -->
+                            <!-- state held -->
+                            <div class="col-12 col-md-6 col-lg-4">
+                                <div class="form-check-inline mb-3">
+                                    <label class="form-check-label fw-bold" for="buyersMobileThird">& State Held</label>
+                                </div>
+                                <div class="input-group">
+                                    <input class="form-control" type="text" name="buyersMobileThird"
+                                        id="buyersMobileThird">
+                                </div>
+                            </div>
+                            <!-- /state held -->
+                            <!-- natHERS 7-star certification number -->
+                            <div class="col-12">
+                                <div class="form-check-inline mb-3">
+                                    <label class="form-check-label fw-bold text-capitalize"
+                                        for="buyersMobileThird">NatHERS 7-star certification number</label>
+                                </div>
+                                <div class="input-group">
+                                    <input class="form-control" type="text" name="buyersMobileThird"
+                                        id="buyersMobileThird">
+                                </div>
+                            </div>
+                            <!-- /natHERS 7-star certification number -->
+                            <!-- owners name -->
+                            <div class="col-12 col-md-6 col-lg-4">
+                                <div class="form-check-inline mb-3">
+                                    <label class="form-check-label fw-bold" for="buyersGreenLicensedOwnersName">Owners
+                                        Name<span class="text-danger">
+                                            *</span></label>
+                                </div>
+                                <div class="input-group">
+                                    <input class="form-control" type="text" name="buyersGreenLicensedOwnersName"
+                                        id="buyersGreenLicensedOwnersName">
+                                </div>
+                            </div>
+                            <!-- /owners name -->
+                            <!-- mobile -->
+                            <div class="col-12 col-md-6 col-lg-4">
+                                <div class="form-check-inline mb-3">
+                                    <label class="form-check-label fw-bold" for="buyersGreenLicensedMobile">Mobile<span
+                                            class="text-danger">
+                                            *</span></label>
+                                </div>
+                                <div class="input-group">
+                                    <input class="form-control" type="text" name="buyersGreenLicensedMobile"
+                                        id="buyersGreenLicensedMobile">
+                                </div>
+                            </div>
+                            <!-- /mobile -->
+                            <!-- & e-mail -->
+                            <div class="col-12 col-md-6 col-lg-4">
+                                <div class="form-check-inline mb-3">
+                                    <label class="form-check-label fw-bold" for="buyersGreenLicensedEmail">&
+                                        E-Mail<span class="text-danger">
+                                            *</span></label>
+                                </div>
+                                <div class="input-group">
+                                    <input class="form-control" type="text" name="buyersGreenLicensedEmail"
+                                        id="buyersGreenLicensedEmail">
+                                </div>
+                            </div>
+                            <!-- & e-mail -->
+                            <!-- director’s ID -->
+                            <div class="col-12">
+                                <label class="form-label fw-bold mb-0" for="buyersGreenLicensedDirectorId">Director’s ID
+                                    <span class="text-danger">*</span></label>
+                            </div>
+                            <div class="col-12">
+                                <div class="row g-3">
+                                    <div class="col-md-6 col-lg-3 col-12">
+                                        <input class="form-control" type="text" id="buyersGreenLicensedDirectorId"
+                                            placeholder="Director’s ID" aria-label="name" />
+                                    </div>
+                                    <div class="col-md-6 col-lg-3 col-12">
+                                        <input class="form-control" type="text" id="buyersGreenLicensedDirectorIdSecond"
+                                            placeholder="Director’s ID" aria-label="name" />
+                                    </div>
+                                    <div class="col-md-6 col-lg-3 col-12">
+                                        <input class="form-control" type="text" id="buyersGreenLicensedDirectorIdSecond"
+                                            placeholder="Director’s ID" aria-label="name" />
+                                    </div>
+                                    <div class="col-md-6 col-lg-3 col-12">
+                                        <input class="form-control" type="text" id="buyersGreenLicensedDirectorIdSecond"
+                                            placeholder="Director’s ID" aria-label="name" />
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- bank account signatory -->
+                            <div class="col-12 col-md-6 col-lg-4">
+                                <div class="form-check-inline mb-3">
+                                    <label class="form-check-label fw-bold"
+                                        for="buyersGreenLicensedBankAccountSignatory">Bank
+                                        Account Signatory<span class="text-danger">
+                                            *</span></label>
+                                </div>
+                                <div class="input-group">
+                                    <input class="form-control" type="text"
+                                        name="buyersGreenLicensedBankAccountSignatory"
+                                        id="buyersGreenLicensedBankAccountSignatory">
+                                </div>
+                            </div>
+                            <!-- /bank account signatory -->
+                            <!-- mobile -->
+                            <div class="col-12 col-md-6 col-lg-4">
+                                <div class="form-check-inline mb-3">
+                                    <label class="form-check-label fw-bold"
+                                        for="buyersGreenLicensedBankAccountMobile">Mobile<span class="text-danger">
+                                            *</span></label>
+                                </div>
+                                <div class="input-group">
+                                    <input class="form-control" type="text" name="buyersGreenLicensedBankAccountMobile"
+                                        id="buyersGreenLicensedBankAccountMobile">
+                                </div>
+                            </div>
+                            <!-- /mobile -->
+                            <!-- & e-mail -->
+                            <div class="col-12 col-md-6 col-lg-4">
+                                <div class="form-check-inline mb-3">
+                                    <label class="form-check-label fw-bold" for="buyersGreenLicensedBankAccountEmail">&
+                                        E-Mail<span class="text-danger">
+                                            *</span></label>
+                                </div>
+                                <div class="input-group">
+                                    <input class="form-control" type="text" name="buyersGreenLicensedBankAccountEmail"
+                                        id="buyersGreenLicensedBankAccountEmail">
+                                </div>
+                            </div>
+                            <!-- /& e-mail -->
+                            <!-- bank account signatory -->
+                            <div class="col-12 col-md-6 col-lg-4">
+                                <div class="form-check-inline mb-3">
+                                    <label class="form-check-label fw-bold"
+                                        for="buyersGreenLicensedBankAccountSignatoryFirst">Bank
+                                        Account Signatory</label>
+                                </div>
+                                <div class="input-group">
+                                    <input class="form-control" type="text"
+                                        name="buyersGreenLicensedBankAccountSignatoryFirst"
+                                        id="buyersGreenLicensedBankAccountSignatoryFirst">
+                                </div>
+                            </div>
+                            <!-- /bank account signatory -->
+                            <!-- mobile -->
+                            <div class="col-12 col-md-6 col-lg-4">
+                                <div class="form-check-inline mb-3">
+                                    <label class="form-check-label fw-bold"
+                                        for="buyersGreenLicensedMobileFirst">Mobile</label>
+                                </div>
+                                <div class="input-group">
+                                    <input class="form-control" type="text" name="buyersGreenLicensedMobileFirst"
+                                        id="buyersGreenLicensedMobileFirst">
+                                </div>
+                            </div>
+                            <!-- /mobile -->
+                            <!-- & e-mail -->
+                            <div class="col-12 col-md-6 col-lg-4">
+                                <div class="form-check-inline mb-3">
+                                    <label class="form-check-label fw-bold" for="buyersGreenLicensedEmailFirst">&
+                                        E-Mail</label>
+                                </div>
+                                <div class="input-group">
+                                    <input class="form-control" type="text" name="buyersGreenLicensedEmailFirst"
+                                        id="buyersGreenLicensedEmailFirst">
+                                </div>
+                            </div>
+                            <!-- /& e-mail -->
+                            <!-- bank account signatory -->
+                            <div class="col-12 col-md-6 col-lg-4">
+                                <div class="form-check-inline mb-3">
+                                    <label class="form-check-label fw-bold"
+                                        for="buyersGreenLicensedBankAccountSignatorySecond">Bank
+                                        Account Signatory</label>
+                                </div>
+                                <div class="input-group">
+                                    <input class="form-control" type="text"
+                                        name="buyersGreenLicensedBankAccountSignatorySecond"
+                                        id="buyersGreenLicensedBankAccountSignatorySecond">
+                                </div>
+                            </div>
+                            <!-- /bank account signatory -->
+                            <!-- mobile -->
+                            <div class="col-12 col-md-6 col-lg-4">
+                                <div class="form-check-inline mb-3">
+                                    <label class="form-check-label fw-bold"
+                                        for="buyersGreenLicensedMobileSecond">Mobile</label>
+                                </div>
+                                <div class="input-group">
+                                    <input class="form-control" type="text" name=" buyersGreenLicensedMobileSecond"
+                                        id="buyersGreenLicensedMobileSecond">
+                                </div>
+                            </div>
+                            <!-- /mobile -->
+                            <!-- & e-mail -->
+                            <div class="col-12 col-md-6 col-lg-4">
+                                <div class="form-check-inline mb-3">
+                                    <label class="form-check-label fw-bold" for="buyersGreenLicensedEMailSecond">&
+                                        E-Mail</label>
+                                </div>
+                                <div class="input-group">
+                                    <input class="form-control" type="text" name="buyersGreenLicensedEMailSecond"
+                                        id="buyersGreenLicensedEMailSecond">
+                                </div>
+                            </div>
+                            <!-- /& e-mail -->
+                            <!-- bank account signatory -->
+                            <div class="col-12 col-md-6 col-lg-4">
+                                <div class="form-check-inline mb-3">
+                                    <label class="form-check-label fw-bold"
+                                        for="buyersGreenLicensedDrawdownAdminThird">Drawdown
+                                        Admin<span class="text-danger">
+                                            *</span></label>
+                                </div>
+                                <div class="input-group">
+                                    <input class="form-control" type="text" name="buyersGreenLicensedDrawdownAdminThird"
+                                        id="buyersGreenLicensedDrawdownAdminThird">
+                                </div>
+                            </div>
+                            <!-- /bank account signatory -->
+                            <!-- mobile -->
+                            <div class="col-12 col-md-6 col-lg-4">
+                                <div class="form-check-inline mb-3">
+                                    <label class="form-check-label fw-bold"
+                                        for="buyersGreenLicensedMobileThird">Mobile</label>
+                                </div>
+                                <div class="input-group">
+                                    <input class="form-control" type="text" name="buyersGreenLicensedMobileThird"
+                                        id="buyersGreenLicensedMobileThird">
+                                </div>
+                            </div>
+                            <!-- /mobile -->
+                            <!-- & e-mail -->
+                            <div class="col-12 col-md-6 col-lg-4">
+                                <div class="form-check-inline mb-3">
+                                    <label class="form-check-label fw-bold" for="buyersGreenLicensedEmailThird">&
+                                        E-Mail</label>
+                                </div>
+                                <div class="input-group">
+                                    <input class="form-control" type="text" name="buyersGreenLicensedEmailThird"
+                                        id="buyersGreenLicensedEmailThird">
+                                </div>
+                            </div>
+                            <!-- /& e-mail -->
+                            <!-- Seeking a front end loaded progress draw down schedule -->
+                            <div class="col-12 border-2 border-bottom border-danger pb-3">
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio"
+                                        name="buyersGreenLicensedSeekingFrontLoadedProgress"
+                                        id="buyersGreenLicensedSeekingFrontLoadedProgress" />
+                                    <label class="form-check-label fw-semibold text-capitalize"
+                                        for="buyersGreenLicensedSeekingFrontLoadedProgress">Seeking a front
+                                        end loaded progress draw down schedule</label>
+                                </div>
+                            </div>
+                            <!-- /seeking a front end loaded progress draw down schedule -->
+                            <!-- owner builders name -->
+                            <div class="col-12 col-md-6 col-lg-4">
+                                <div class="form-check-inline mb-3">
+                                    <label class="form-check-label fw-bold" for="buyersOwnerBuildersName">Owner Builders
+                                        Name</label>
+                                </div>
+                                <div class="input-group">
+                                    <input class="form-control" type="text" name="buyersOwnerBuildersName"
+                                        id="buyersOwnerBuildersName">
+                                </div>
+                            </div>
+                            <!-- /owner builders name -->
+                            <!-- permit # -->
+                            <div class="col-12 col-md-6 col-lg-4">
+                                <div class="form-check-inline mb-3">
+                                    <label class="form-check-label fw-bold" for="buyersOwnerBuildersPermit">Permit
+                                        #</label>
+                                </div>
+                                <div class="input-group">
+                                    <input class="form-control" type="text" name="buyersOwnerBuildersPermit"
+                                        id="buyersOwnerBuildersPermit">
+                                </div>
+                            </div>
+                            <!-- /permit # -->
+                            <!-- & state held -->
+                            <div class="col-12 col-md-6 col-lg-4">
+                                <div class="form-check-inline mb-3">
+                                    <label class="form-check-label fw-bold" for="buyersOwnerBuildersStateHeld">& State
+                                        Held</label>
+                                </div>
+                                <div class="input-group">
+                                    <input class="form-control" type="text" name="buyersOwnerBuildersStateHeld"
+                                        id="buyersOwnerBuildersStateHeld">
+                                </div>
+                            </div>
+                            <!-- & state held -->
+                            <!-- Seeking a front end loaded progress draw down schedule -->
+                            <div class="col-12 border-2 border-bottom border-danger pb-3">
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="buyersOwnerBuildersSeeking"
+                                        id="buyersOwnerBuildersSeeking" />
+                                    <label class="form-check-label fw-semibold text-capitalize"
+                                        for="buyersOwnerBuildersSeeking">Seeking a front
+                                        end loaded progress draw down schedule</label>
+                                </div>
+                            </div>
+                            <!-- Seeking a front end loaded progress draw down schedule -->
                             <!-- /section 11b -->
+                            <!-- SECTION 11c -->
+                            <h5 class="border-2 border-top pt-3"><span>SECTION 11c </span>
+                                <span class="text-danger">|</span><span class="mx-1">Bridging And/Or Relocation</span>
+                            </h5>
+                            <!-- Servicing at peak debt -->
+                            <div class="col-12 col-md-6 col-lg-6">
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="buyersServicing"
+                                        id="buyersServicing" />
+                                    <label class="form-check-label fw-semibold text-capitalize"
+                                        for="buyersServicing">Servicing At Peak Debt</label>
+                                </div>
+                            </div>
+                            <!-- /servicing at peak debt -->
+                            <!-- Servicing at end debt only -->
+                            <div class="col-12 col-md-6 col-lg-6">
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="buyersServicing"
+                                        id="buyersServicingEndDebt" />
+                                    <label class="form-check-label fw-semibold text-capitalize"
+                                        for="buyersServicingEndDebt">Servicing at end debt only</label>
+                                </div>
+                            </div>
+                            <!-- Servicing at end debt only -->
+                            <!-- required for -->
+                            <div class="col-12">
+                                <div class="form-check-inline mb-3">
+                                    <label class="form-check-label fw-bold" for="buyersRequired">Required
+                                        For<span class="text-danger"> *</span></label>
+                                </div>
+                                <div>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="radio" name="buyersRequired"
+                                            id="buyersRequiredSixMonth" />
+                                        <label class="form-check-label fw-semibold" for="buyersRequiredSixMonth">6
+                                            months</label>
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="radio" name="buyersRequired"
+                                            id="buyerRequiredTwelveMonth" />
+                                        <label class="form-check-label fw-semibold" for="buyerRequiredTwelveMonth">12
+                                            months</label>
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="radio" name="buyersRequired"
+                                            id="buyerRequiredEighteenMonth" />
+                                        <label class="form-check-label fw-semibold" for="buyerRequiredEighteenMonth">18
+                                            months</label>
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="radio" name="buyersRequired"
+                                            id="buyerRequiredTwentyFourMonth" />
+                                        <label class="form-check-label fw-semibold"
+                                            for="buyerRequiredTwentyFourMonth">24
+                                            months</label>
+                                    </div>
+                                </div>
+
+                            </div>
+
+
+
+
+
+
+
+
+                            <!-- SECTION 11c -->
 
                         </div>
                     </form>

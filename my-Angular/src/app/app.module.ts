@@ -40,6 +40,7 @@ import { InfoCustomerComponent } from './info-customer/info-customer.component';
 import { FundsComponent } from './funds/funds.component';
 import { SecurityComponent } from './security/security.component';
 import { BuyersComponent } from './buyers/buyers.component';
+import { PertinentcontactsComponent } from './pertinentcontacts/pertinentcontacts.component';
 
 
 
@@ -81,7 +82,8 @@ import { BuyersComponent } from './buyers/buyers.component';
     InfoCustomerComponent,
     FundsComponent,
     SecurityComponent,
-    BuyersComponent
+    BuyersComponent,
+    PertinentcontactsComponent
     
 
   ],
