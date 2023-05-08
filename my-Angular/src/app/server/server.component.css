@@ -1,7 +1,51 @@
-.crop {
+/* .crop {
     overflow: hidden;
 }
 
 div{
     cursor: pointer;
+} */
+
+/* slider images */
+
+.slider-wrap { 
+    overflow: hidden !important;
+    height: 150px;
+}
+
+.slider-main {
+    position: absolute !important;
+    width: 200%;
+}
+
+.item {
+    background-color: red !important;
+    width: 250px;
+    height: 150px;
+    display: inline-block !important;
+    position:  relative !important;
+    margin: 0 12px;
+}
+
+.text {
+    top:50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+}
+
+.prev {
+    top:50% !important;
+    left:33px;
+    position: absolute !important;
+    transform: translate(-50%, -50%);
+}
+
+.next {
+    position: absolute;
+    right: -28px;
+    top: 50%;
+    transform: translate(-50%, -50%);
+
+
 }
