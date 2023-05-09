@@ -6,7 +6,7 @@ import { Component, ElementRef, HostListener } from '@angular/core';
   styleUrls: ['./server.component.css'],
 })
 export class ServerComponent  {
-  item: any;
+  // item: any;
   constructor(private el : ElementRef){
   }
 @HostListener('click')

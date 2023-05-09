@@ -11,11 +11,13 @@ div{
 .slider-wrap { 
     overflow: hidden !important;
     height: 150px;
+    position:  relative !important;
 }
 
 .slider-main {
-    position: absolute !important;
+    /* position: absolute !important; */
     width: 200%;
+    height: 100%;
 }
 
 .item {
